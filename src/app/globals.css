@@ -800,7 +800,8 @@ input, textarea {
   padding: 8px 20px;
   font-family: var(--font-heading);
   font-size: 12px;
-  letter-spacing: 0.15em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   cursor: pointer;
   color: var(--text);
