@@ -336,7 +336,7 @@ blockquote {
     animation-timing-function: cubic-bezier(0.4, 0, 0.35, 1);
   }
   9.5%, 100% {
-    bottom: calc(-0.79 * var(--sun));
+    bottom: calc(-0.85 * var(--sun));
     filter: saturate(1) brightness(1);
     opacity: 1;
   }
@@ -345,7 +345,7 @@ blockquote {
 .scene-1 .moon {
   position: absolute;
   left: 50%;
-  bottom: calc(0.21 * var(--sun) + clamp(56px, 6.5vw, 92px) * 0.5);
+  bottom: calc(0.19 * var(--sun) + clamp(56px, 6.5vw, 92px) * 0.5);
   width: clamp(56px, 6.5vw, 92px);
   height: clamp(56px, 6.5vw, 92px);
   border-radius: 50%;
@@ -802,7 +802,6 @@ input, textarea {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   cursor: pointer;
   color: var(--text);
 }
