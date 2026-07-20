@@ -1,0 +1,6 @@
+#!/bin/bash
+source_path="app/static-pages/$1"
+target_path="app/static-pages/$2"
+cp -r $source_path $target_path
+cat $target_path/index.html | sed "s/$1/$2/g" > $target_path/index.html.tmp
+mv $target_path/index.html.tmp $target_path/index.html

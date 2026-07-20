@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="Toggl, , Smoke break time tracker, online stopwatch, Full screen online timer">
+    <meta name="description" content="Best full screen smoke break tracker. Best for quick time tracking. Features start, pause and reset buttons. Track how much time your smoke break takes!">
+    <meta name="author" content="toggl.com">
+
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" id="viewport-meta" name="viewport">
+
+    <title>Full Screen Smoke Break Timer</title>
+
+    <meta property="og:site_name" content="Toggl" />
+    <meta property="og:title" content="Full Screen Smoke Break Timer" />
+    <meta property="og:description" content="Smoke break timer that covers the whole screen. Best for quick time tracking. Features start, pause and reset buttons. Find out how much time your smoke breaks take!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://toggl.com/smoke-break-timer" />
+    <meta property="og:image" content="http://blog.toggl.com/wp-content/uploads/sites/5/2014/08/toggl-online-timer-stopwatch.png" />
+
+    <link href="./includes/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/sweetalert.css" media="all">
+
+    <script src="./includes/modernizr.min.js"></script>
+    <script src="/javascripts/sweetalert.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="video-container"></div>
+    <div id="wrap">
+        <a href="#" id="bookmarkme"><img src="./images/bm.png"></a>
+        <div id="main">
+            <div class="wrap">
+                <a href="/" id="logo" target="_blank"></a>
+
+                <div class="top">
+                    <h1>Smoke Break <span class="colored">Timer</span></h1>
+                </div><!-- //top -->
+
+                <div id="timesheet">
+                    <p id="time">00:00:00</p>
+
+                    <div class="cfx cfx" id="controlwrap">
+                        <button class="tcontrol prim" id="start">START</button>
+
+                        <div class="vsep">
+                            <br>
+                        </div><button class="tcontrol sec" id="reset">RESET</button>
+                    </div>
+                </div>
+
+                <div id="bottom">
+                    <h2><a target="_blank" href="/"><span>Get Toggl</span></a> for more timer features!</h2>
+
+                    <div class="cfx" id="linkswrap">
+                        <ul class="cfx" id="links">
+                            <li>
+                              <a target="_blank" href="/time-reports">
+                                <span> ■ </span>
+                                Overview of Toggl reports
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="https://www.slideshare.net/Toggl/how-much-money-does-time-tracking-save">
+                                <span> ■ </span>
+                                Survey: how much money does time tracking save?
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="https://www.entrepreneur.com/article/249589">
+                                <span> ■ </span>
+                                Use These 24 Tools to Run Your Business From Anywhere in the World
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/business">
+                                <span> ■ </span>
+                                Toggl for Business
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/web-development-companies">
+                                <span> ■ </span>
+                                Time tracking for Kanban teams
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/salesforce-time-tracking">
+                                <span> ■ </span>
+                                Salesforce timesheets add-on
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/trello-time-tracking">
+                                <span> ■ </span>
+                                Trello timesheets add-on
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/best-free-time-tracking-app-for-iphone">
+                                <span> ■ </span>
+                                iPhone Timer App
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/project-collaboration-with-timesheets">
+                                <span> ■ </span>
+                                How to improve project collaboration with timesheets?
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/google-calendar-timer-integration">
+                                <span> ■ </span>
+                                Google Calendar timesheets add-on
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/tools">
+                                <span> ■ </span>
+                                Timer button extension in Chrome
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/how-to-calculate-billable-hours">
+                                <span> ■ </span>
+                                How to calculate billable hours?
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/pomodoro-timer-toggl">
+                                <span> ■ </span>
+                                Online timesheets with Pomodoro add-on
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/how-to-create-simple-excel-timesheet">
+                                <span> ■ </span>
+                                How to create simple Excel timesheet?
+                              </a>
+                            </li>
+                              <a target="_blank" href="/best-free-time-tracking-app-for-android">
+                                <span> ■ </span>
+                                Android Timer App
+                              </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="share">
+                        <div class="h-sep"></div>
+                            <a class="twitter" href="https://twitter.com/intent/tweet?text=How%20much%20time%20do%20you%20waste%20on%20smoke%20breaks%3F%20https%3A%2F%2Ftoggl.com%2Fsmoke-break-timer%2F%20%40Toggl%20%23SmokeTracker&source=webclient" target="_blank">
+                                <span></span>
+                            </a>
+                            <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://toggl.com/smoke-break-timer/"  target="_blank" class="facebook">
+                                <span></span>
+                            </a>
+                            <a class="google" href="https://plus.google.com/share?url=http://toggl.com/smoke-break-timer" target="_blank"><span></span></a>
+                            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://toggl.com/smoke-break-timer&title=Online%20timer&summary=Online%20timer%20that%20covers%20the%20whole%20screen.%20Best%20for%20quick%20time%20tracking.%20Features%20start,%20pause%20and%20reset%20buttons.&source=" target="_blank">
+                                <span></span>
+                            </a>
+                    </div><!-- //share -->
+                </div><!-- //bottom -->
+            </div><!-- //wrap -->
+        </div><!-- //main -->
+    </div><!-- //wrap -->
+    <script src="./includes/jquery.min.js"></script>
+    <script src="./includes/scripts.js"></script>
+    <script type="text/javascript">
+      var clicky_site_ids = clicky_site_ids || [];
+      clicky_site_ids.push(100857897);
+      (function() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//static.getclicky.com/js';
+        ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+
+      })();
+    </script>
+
+    <!-- processhtml:include custom-analytics.html -->
+    <!-- /processhtml -->
+
+    <!-- processhtml:include google-remarketing.html -->
+    <!-- /processhtml -->
+
+    <script type="text/javascript">
+$(function() {
+    $("#bookmarkme").click(function() {
+        // Mozilla Firefox Bookmark
+        if ('sidebar' in window && 'addPanel' in window.sidebar) {
+        window.sidebar.addPanel(location.href,document.title,"");
+        } else if( /*@cc_on!@*/false) { // IE Favorite
+        window.external.AddFavorite(location.href,document.title);
+        } else { // webkit - safari/chrome
+          sweetAlert('Bookmark this page!', 'Press CTRL + D');
+        }
+    });
+});
+    </script>
+</body>
+</html>

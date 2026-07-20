@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="237px" height="230px" viewBox="0 0 237 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4 (381) - http://www.bohemiancoding.com/sketch -->
+    <title>img-pieChart</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landing-page-reports" sketch:type="MSArtboardGroup" transform="translate(-919.000000, -2378.000000)">
+            <g id="Section-#4" sketch:type="MSLayerGroup" transform="translate(160.000000, 2322.000000)">
+                <g id="img-pieChart" transform="translate(759.000000, 56.000000)" sketch:type="MSShapeGroup">
+                    <path d="M11.8706326,82 C8.65223377,92.6641202 7,103.796531 7,115.120109 C7,178.356713 58.2633961,229.620109 121.5,229.620109 C151.628274,229.620109 179.978684,217.896513 201.182686,197.345014 L163.600197,158.569293 C152.371724,169.452236 137.456358,175.620109 121.5,175.620109 C88.0867726,175.620109 61,148.533336 61,115.120109 C61,109.096302 61.8721638,103.219842 63.567614,97.6019908 L11.8706326,82 L11.8706326,82 Z" id="Shape" opacity="0.25" fill="#8B8B8B"></path>
+                    <path d="M120.774481,0 C97.3525969,0 74.9185706,7.07661522 56,20.073315 L86.5768705,64.582359 C96.5671276,57.7192415 108.357731,54 120.774481,54 L120.774481,0 L120.774481,0 Z" id="Shape" opacity="0.25" fill="#565656"></path>
+                    <path d="M201.682686,196.724905 C223.773815,175.313578 236.5,145.886107 236.5,114.5 C236.5,51.2633961 185.236604,0 122,0 L122,54 C155.413227,54 182.5,81.0867726 182.5,114.5 C182.5,131.119888 175.802427,146.607063 164.100197,157.949184 L201.682686,196.724905 L201.682686,196.724905 Z" id="Shape" opacity="0.25" fill="#C0C0C0"></path>
+                    <path d="M0,72.3065759 L51.6969814,87.9085667 C55.6683623,74.7494509 64.0884092,63.3017088 75.4317566,55.5090439 L44.8548861,11 C23.4388607,25.7124039 7.53727992,47.3319029 0,72.3065759 Z" id="Shape" fill="#E01B22"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

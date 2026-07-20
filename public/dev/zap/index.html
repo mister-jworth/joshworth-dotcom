@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>This Place We Remember. That Place We Forgot.</title>
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style> 
+
+#octoPic1 image{
+  clip-path: url(#clipper1);
+}
+
+#octoPic2 image{
+  clip-path: url(#clipper2);
+}
+
+#octoPic3 image{
+  clip-path: url(#clipper3);
+} </style>
+</head>
+
+<body>
+
+<!--<button onclick="zapper()" id="restart">zap</button>-->
+<div id="wrapper">
+<svg x="0px" y="0px" class="texturePic"
+	 viewBox="0 0 1060 778" enable-background="new 0 0 1060 778" xml:space="preserve" id="bgPic" preserveAspectRatio="xMidYMax slice"> 
+<image overflow="visible" width="1060" height="778" top:"0px" left:"0px" xlink:href="img/doggie.jpg"></image>
+<image id="bgimage" overflow="visible" width="1060" height="778" top:"0px" left:"0px" xlink:href="img/mousie.jpg">
+</image>
+</svg>
+
+<svg x="0px" y="0px" class="texturePic"
+	 viewBox="0 0 1060 778" enable-background="new 0 0 1060 778" xml:space="preserve" id="octoPic1" preserveAspectRatio="xMidYMid slice"> 
+<image id="octoImg1b" overflow="visible" width="1060" height="778" top:"0px" left:"0px" xlink:href="img/02.jpg"></image>
+<image id="octoImg1" class="octoBgImg" overflow="visible" width="1060" height="778" xlink:href="img/09.jpg">
+</image>
+</svg>
+
+<svg x="0px" y="0px" class="texturePic"
+	 viewBox="0 0 1060 778" enable-background="new 0 0 1060 778" xml:space="preserve" id="octoPic2" preserveAspectRatio="xMidYMid slice">
+<image id="octoImg2b" overflow="visible" width="1060" height="778" top:"0px" left:"0px" xlink:href="img/03.jpg"></image>
+<image id="octoImg2" class="octoBgImg" overflow="visible" width="1060" height="778" xlink:href="img/08.jpg">
+</image>
+</svg>
+</svg>
+
+<svg x="0px" y="0px" class="texturePic"
+	 viewBox="0 0 1060 778" enable-background="new 0 0 1060 778" xml:space="preserve" id="octoPic3" preserveAspectRatio="xMidYMid slice"> 
+<image id="octoImg3b" overflow="visible" width="1060" height="778" top:"0px" left:"0px" xlink:href="img/04.jpg">
+</image>
+<image id="octoImg3" class="octoBgImg" overflow="visible" width="1060" height="778" xlink:href="img/01.jpg">
+</image>
+</svg>
+
+
+<svg x="0px" y="0px" viewBox="0 0 1060 778" preserveAspectRatio="xMidYMid slice" class="texturePic" id="clip1">
+  <defs>
+ 	 <clipPath id="clipper1">
+  		<polygon id="octagon1" points="70,27 130,27 172,70 172,130 130,172 70,172 27,130 27,70"/>
+ 	 </clipPath>
+  </defs>
+</svg>
+
+<svg x="0px" y="0px" viewBox="0 0 1060 778" preserveAspectRatio="xMidYMid slice" class="texturePic" id="clip2">
+  <defs>
+ 	 <clipPath id="clipper2">
+  		<polygon id="octagon2" points="70,27 130,27 172,70 172,130 130,172 70,172 27,130 27,70"/>
+ 	 </clipPath>
+  </defs>
+</svg>
+
+<svg x="0px" y="0px" viewBox="0 0 1060 778" preserveAspectRatio="xMidYMid slice" class="texturePic" id="clip3">
+  <defs>
+ 	 <clipPath id="clipper3">
+  		<polygon id="octagon3" points="70,27 130,27 172,70 172,130 130,172 70,172 27,130 27,70"/>
+ 	 </clipPath>
+  </defs>
+</svg>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/touche-min.js"></script>
+<!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src="js/zap.js"></script>
+
+
+</body>
+</html>

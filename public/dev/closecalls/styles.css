@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #333333;
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+#chartdiv {
+  width: 100vw;
+  height: 3000px; 
+  margin: 0 auto;
+}
+
+#title-zone { 
+    margin: 0 0 100px 0;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.text-m {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+    color: #AAAAAA;
+}
+
+#earth {
+    background-color: #00A3FF;
+    color: #ffffff;
+    height: 250px;
+    width: 250px;
+    border-radius: 2000px;
+    display: block;
+    margin: 30px auto;
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 250px;
+    letter-spacing: 2px;
+}
+
+#moon {
+    background-color: #ffffff;
+    height: 75px;
+    width: 75px;
+    border-radius: 2000px;
+    display: block;
+    margin: -30px auto 75px auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 75px;
+    letter-spacing: 1.5px;
+    z-index: 1001;
+}
+
+.dataRow{
+    text-align: left;
+    display: block;
+    margin: 4px 2px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fieldLabel {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+#columnLabelRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: static;
+    margin-bottom: -100px;
+}
+
+.columnLabel {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .75;
+    font-size: 18px;
+    color:#ffffff;
+    opacity: 0.8;
+    display: inline-block;  
+}
+
+#columnA, #columnC {
+    flex-basis: 25%;
+}
+
+#columnB {
+    flex-basis: 50%;
+}
+
+@media (max-height:400px), (max-width:600px){
+	.fieldLabel {
+		font-size: 11px;
+	}
+    .columnLabel {
+		font-size: 16px;
+        letter-spacing: 0;
+	}
+    .dataRow {
+		font-size: 14px;
+	}
+    .title {
+        font-size: 24px;
+    }
+}
+

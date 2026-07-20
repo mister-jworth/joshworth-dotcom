@@ -1,0 +1,19 @@
+// JSON Document
+{nodes:[{
+	"id":"n0",
+	"label":"Hello",
+	"x":0,
+	"y":0,
+	"size":1,
+	"color": "#f00"
+	},
+	{
+	"id":"n1",
+	"label":"World",
+	"x":1,
+	"y":1,
+	"size":1,
+	"color": "#f00"
+	},
+	
+]}

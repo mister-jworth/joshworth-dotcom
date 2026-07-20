@@ -1,0 +1,114 @@
+[
+ {
+  "id": "299",
+  "parent": "0",
+  "author": "ben from happywatch",
+  "date": "2014-09-13 17:34:03",
+  "content": "<p>I think display sizes usually quoted as the diagonal rather than the height. Here is a comparison of the phones: https://www.evernote.com/l/AIC6Ti4ahCZPN5hdbShl_cbS1b92_5fvlQQA</p>\n<p>Might need to refiddle the numbers just a bit :)</p>"
+ },
+ {
+  "id": "300",
+  "parent": "299",
+  "author": "jWorth",
+  "date": "2014-09-13 21:16:54",
+  "content": "<p>The graphic says \"38mm (height) and \"42mm (height)\" - plus they're using metric for measurements! I guess watches are special.</p>"
+ },
+ {
+  "id": "301",
+  "parent": "300",
+  "author": "ben from happywatch",
+  "date": "2014-09-13 21:58:22",
+  "content": "<p>Indeed, you're correct. Watches must be special. Maybe it is a bit of the horological deference Jony Ive was talking about. I found a related post which is fun reading: http://www.paulsprangers.com/2014/09/apple-watch-dimensions/</p>"
+ },
+ {
+  "id": "302",
+  "parent": "0",
+  "author": "Jay Riley",
+  "date": "2014-09-14 21:36:35",
+  "content": "<p>As a programmer I'd be surprised if the width were not a power of two so a width of 512 pixels wide (which would also be the number of pixels in the width of the original Macintosh screen) would make a certain amount of sense.</p>\n<p>It may actually be something like 480, since there seems to be quite a bit of space between the screen and the edge of the device based on the \"Photo\" face shown on http://www.apple.com/watch/design/ (which presumably uses as much real estate as it can muster.</p>\n<p>Looking at the introduction video on http://www.apple.com/watch/films/ (the 2nd one with Sir Jonny) at 1:22 we see photos and it appears that the width and height of the visible area of the screen are as wide and tall as the straight edges of the case (in other words deduct the curved part of each of the corners).</p>\n<p>Looking at that video the margin between case and visible area seems to be greater horizontally, so a metric of 480x600 would make sense.</p>\n<p>I will venture a prediction that the 38mm display is 480x584, and the 42mm display is 512x600.</p>"
+ },
+ {
+  "id": "303",
+  "parent": "302",
+  "author": "jWorth",
+  "date": "2014-09-14 21:51:22",
+  "content": "<p>Seems like a pretty good guess. Maybe there should be a prize for the winner. <br />\nYou're right about the watch not using the full screen real estate. Need to take a closer look. I still don't think the 2 sizes will have different pixel dimensions though.</p>"
+ },
+ {
+  "id": "304",
+  "parent": "303",
+  "author": "Jay Riley",
+  "date": "2014-09-15 07:35:04",
+  "content": "<p>I agree, there is enough complexity in the Apple Watch offering that it makes more sense to pick one resolution and have both sizes use it for consistency. Looking at the introduction video again I found that the image painting all pixels (the photo display) seemed to be 240x300 as displayed in the video.</p>\n<p>I amend my earlier prediction: the Apple Watch displays will be 480x600 pixels for both sizes with the margin on each side of the display (between the edge of the display area and the edge of the faceplate) being 1/12 of face place width and height on each edge.</p>\n<p>480x600 display offers a good balance allowing stunningly crisp display on the larger screen, while allowing an achievable target for pixel density on the smaller one. Still higher pixel count than the 512x384 found in the original Macintosh. One could theoretically write a Macintosh emulator for the Apple Watch which could display the full Macintosh screen in miniature and run classic Mac software orders of magnitude faster than the original Macintosh.</p>"
+ },
+ {
+  "id": "305",
+  "parent": "304",
+  "author": "ben from happywatch",
+  "date": "2014-09-15 15:40:54",
+  "content": "<p>Hey Jay, this image of the Photos app might be something that could help you: http://images.apple.com/watch/features/images/face_photos_large_2x.png (pro tip: you can append '_2x' on any URL on the Watch site to get big versions)</p>"
+ },
+ {
+  "id": "306",
+  "parent": "304",
+  "author": "Jay Riley",
+  "date": "2014-09-15 15:43:29",
+  "content": "<p>Almost immediately after posting the reply with my \"final answer\" (480x600) I was staring at your measurements on the face of the 38mm model and it made even more sense, jibbing perfectly with what I saw on the stills and in the promotional film on Apple's site.</p>\n<p>With a height of 38mm, allowing 4mm margin top and bottom that leaves 30mm, divided by 600 pixels gives a nice even spacing of 1/20th of a mm (50 microns) per pixel. Multiplying 0.05mm by 480 we get 24mm wide viewing area and this jibes perfectly with the observation from images on the Apple site that there is slightly more margin between case edge and screen edge horizontally than vertically.</p>"
+ },
+ {
+  "id": "307",
+  "parent": "305",
+  "author": "Jay Riley",
+  "date": "2014-09-15 15:54:24",
+  "content": "<p>That's a useful tip! That image seems to have a 280x350 image, but agree with JWorth that they will likely make both devices the same size.</p>\n<p>Interesting that the image Ben found does not show the rounding that was evident in the /watch/films/ on the Apple site. Either Ben's image was a mockup or capture from an emulator during development, or perhaps the display rounding was added later via software or hardware to better aesthetically match the rounding of the case itself.</p>"
+ },
+ {
+  "id": "308",
+  "parent": "304",
+  "author": "jWorth",
+  "date": "2014-09-15 17:57:24",
+  "content": "<p>I'd love to see the early mac emulator as a watch app. Please get to work on that.</p>"
+ },
+ {
+  "id": "309",
+  "parent": "0",
+  "author": "jWorth",
+  "date": "2014-09-15 17:58:36",
+  "content": "<p>Thanks Ben and Jay for your helpful input. My new guess is 386x480 (see above)</p>"
+ },
+ {
+  "id": "310",
+  "parent": "0",
+  "author": "Paul Sprangers",
+  "date": "2014-09-16 08:11:19",
+  "content": "<p>I took a stab at guessing myself a few days ago. I used some macro shots of the Watch to determine the resolution. You might enjoy the read: http://www.paulsprangers.com/2014/09/apple-watch-screen-resolution-estimate/</p>"
+ },
+ {
+  "id": "311",
+  "parent": "0",
+  "author": "edward",
+  "date": "2014-09-23 02:54:56",
+  "content": "<p>unfortunately your resolution estimates are likely very high. The resolution may just be about the same as sony and samsung. After all, battery life is a huge problem for these devices, and the more pixels, the more battery drain. Given that it can't even hold a day, i am sure the power people put their foot down and forced a compromise on this issue. until we see better battery densities, wearable computers are going to be a serious compromise, so my estimate is 320 in the larger dimension. 600 is completely out of the question.</p>"
+ },
+ {
+  "id": "312",
+  "parent": "311",
+  "author": "Jay Riley",
+  "date": "2014-09-24 20:01:32",
+  "content": "<p>Your reasoning about battery life is good, and a dot pitch of 400ppi may be overkill for a watch. If your prediction of a 320 pixel height is correct, based on a 1.25 to 1 height to width ratio observed in all the artwork on Apple's site, that would give a screen resolution of 256 x 320 (the appearance of higher resolution may be based on a combination of anti-aliasing during image enlargement coupled with a fair about of wishful thinking on our parts). I'm hoping for a 480x600 or better, but 256x320 is nothing to sneeze at.</p>\n<p>At 256x320 the 9x9 grid of photo thumbnails would make them about 28x35 pixels each, which is almost the size of the original Macintosh icons (which were 32x32). If Apple wants me to write that Classic Macintosh emulator for the Apple Watch they will have to give me at least 384x512 to work with however (and I used to spend so much time in Macsbug on my Mac Plus that I could look at a hex dump and read the actual machine language instructions and some of the system calls in the compiled code, so it isn't out of the question..hope Tim Cook is following this thread! :D)</p>"
+ },
+ {
+  "id": "313",
+  "parent": "0",
+  "author": "Scenario",
+  "date": "2014-09-27 19:48:38",
+  "content": "<p>I would expect 240x320 in both sizes.</p>"
+ },
+ {
+  "id": "314",
+  "parent": "0",
+  "author": "Gary Morris",
+  "date": "2014-12-02 19:14:19",
+  "content": "<p>Based on the screen sizes from Paul Sprangers and the pixel dimensions from WatchKit, the display density calculates out to 326 ppi, same as the retina iPhone 4 or 5 displays.</p>"
+ }
+]

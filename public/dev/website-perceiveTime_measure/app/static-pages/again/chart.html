@@ -1,0 +1,228 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <!--        jQueryUI-->
+  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="sliders.js"></script>
+  <script src="./bower_components/d3/d3.min.js"></script>
+  <style type="text/css">
+  .topShow {
+    display: block;
+  }
+  
+  #slider-range-min {
+    display: block;
+  }
+  
+  #downsvg {
+    display: none;
+  }
+  
+  p.ques {
+    text-align: center;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  </style>
+</head>
+
+<body>
+  <div id="slider-range-min"></div>
+  <p class="ques">On average, people felt like that
+    <br/>minute lasted 62 seconds.</p>
+  <svg class="staticSvg topShow" version="1.1" id="menusvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <g>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="5.5" x2="23" y2="5.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="11.5" x2="23" y2="11.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="17.5" x2="23" y2="17.5" />
+    </g>
+  </svg>
+  <svg class="staticSvg topShow" version="1.1" id="sharesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="12.5" y1="2" x2="12.5" y2="17" />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="7.7,6.2 12.5,1.5 17.3,6.2 " />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="10,9.5 5.5,9.5 5.5,22.5 19.5,22.5 19.5,9.5 15,9.5 " />
+  </svg>
+  <script type="text/javascript">
+  var you;
+
+  function drawChart() {
+    var dataArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 1, 0, 1,
+      0, 0, 0, 1, 0, 0, 1, 0, 1, 0,
+      1, 0, 2, 1, 0, 0, 0, 0, 1, 2,
+      1, 0, 3, 2, 3, 4, 4, 3, 2, 5,
+      4, 6, 5, 4, 6, 4, 3, 2, 1, 3,
+      1, 2, 4, 2, 0, 1, 2, 1, 0, 2,
+      2, 1, 0, 1, 1, 0, 1, 2, 1, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+    ];
+    var width = window.innerWidth / 1.5;
+    var height = 200;
+    you = $.cookie('togglSec') % 120;
+    console.log(you);
+    if (dataArray[you] == 0) {
+      dataArray[you] = 1;
+    }
+    // you = 62;
+
+    var myheightScale = d3.scale.linear()
+      .domain([0, 6])
+      .range([0, height]);
+
+    var canvas = d3.select('body')
+      .append('div')
+      .style('background', 'blue')
+      .style('padding-bottom', 2)
+      .style('display', 'none')
+      .style('margin', 'auto')
+      .style('width', width)
+      .style('position', 'absolute')
+      .style('top', '30%')
+      .style('left', '50%')
+      .style('transform', 'translateX(-50%)')
+      .attr('id', 'barchart')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .style('background', 'black')
+      .append('g');
+
+    $("#barchart").append("<div><span>0<br/>SEC</span><span>30<br/>SEC</span><span>1<br/>MIN</span><span>1.5<br/>MIN</span><span>2<br/>MIN</span><span style='color:red'>You</span></div>");
+    $('#barchart span').css({
+      'display': 'inline-block',
+      'text-align': 'center',
+      'position': 'absolute',
+      'transform': 'translateX(-50%)'
+    });
+    $('#barchart span').each(function(index) {
+      $(this).css("left", function() {
+        if (index == 5) {
+          return width / 120 * you;
+        };
+        return index * 25 + '%';
+      });
+    });
+
+
+    var bars = canvas.selectAll('rect')
+      .data(dataArray)
+      .enter()
+      .append('rect')
+      .style('fill', 'gray')
+      .attr('width', width / 240)
+      .attr('height', function(d) {
+        return myheightScale(d);
+      })
+      .attr('x', function(d, i) {
+        return i * width / 120;
+      })
+      .attr('y', function(d, i) {
+        return height - myheightScale(d);
+      });
+
+    d3.select('rect:nth-child(60)').style('fill', 'white');
+    $('rect').each(function(index) {
+      if (index == (you)) {
+        $(this).css('fill', 'red');
+      };
+    });
+  }
+  $(document).ready(function() {
+    console.log("ready!");
+    console.log($.cookie('togglWhere'));
+    drawChart();
+    $.getJSON("SvgJsons/next-button.json", function(json) {
+      comp_speedrings = new SVGAnim(json, 79, 39, 100);
+      $('svg:last-child').css({
+        'display': 'none',
+        'position': 'absolute',
+        'top': '80%',
+        'left': '50%',
+        'transform': 'translate(-50%,-50%)'
+      });
+      switch ($.cookie('togglWhere')) {
+        case 'clock':
+          gonext = "cata.html";
+          $('.ques').html("On average, people felt like that<br/>minute lasted 62 seconds.");
+          $("#slider-range-min ").slider({
+            value: 1
+          });
+          break;
+        case 'cat':
+          gonext = "fusegame1.html";
+          $('.ques').html("On average, people were off by<br/>+3 seconds");
+          $("#slider-range-min ").slider({
+            value: 2
+          });
+          break;
+        case 'fuse':
+          gonext = "circlegame.html";
+          $('.ques').html("On average, people felt like that<br/>minute lasted 62 seconds.");
+          $("#slider-range-min ").slider({
+            value: 3
+          });
+          break;
+        case 'future':
+          gonext = "surprise.html";
+          $('.ques').html("On average, people were off by<br/>+3 seconds");
+          $("#slider-range-min ").slider({
+            value: 4
+          });
+          break;
+        case 'surprise':
+          gonext = "speeding.html";
+          $('.ques').html("On average, people were off by<br/>+12 seconds");
+          $("#slider-range-min ").slider({
+            value: 5
+          });
+          break;
+        case 'speed':
+          gonext = "meditation.html";
+          $('.ques').html("On average, people felt like that<br/>minute lasted 62 seconds.");
+          $("#slider-range-min ").slider({
+            value: 6
+          });
+          break;
+        case 'meditation':
+          gonext = "total.html";
+          $('.ques').html("On average, people felt like that<br/>minute lasted 62 seconds.");
+          $("#slider-range-min ").slider({
+            value: 7
+          });
+          break;
+        case 'total':
+          gonext = "concluding.html";
+          $('.ques').html("On average, people were off by");
+          $("#slider-range-min ").slider({
+            value: 8
+          });
+          break;
+      }
+      $('svg:last-child, #barchart, .ques').fadeIn('slow').click(function() {
+        console.log($.cookie('togglWhere'));
+        window.location.pathname = pathPrefix + gonext;
+      });
+    });
+  });
+
+  </script>
+  <script src="after.js"></script>
+</body>
+
+</html>

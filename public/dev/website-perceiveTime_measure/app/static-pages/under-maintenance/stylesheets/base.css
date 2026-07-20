@@ -1,0 +1,155 @@
+/* stepanBolotnikov @ fraktal */
+
+body {
+  margin: 0;
+  background: #ededed no-repeat center top;
+  font: 300 16px/1.8 'Open Sans', sans-serif;
+  color: #494949;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html, body, .page {
+  height: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    background-size: auto 100vh;
+  }
+}
+
+.page {
+  transform: translate3d(0,0,0);
+  position: relative;
+  transition: transform 500ms ease;
+}
+.page:after {
+  content: '';
+  background: rgba(0,0,0,.7);
+  height: 0;
+  width: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 500ms ease, width 100ms ease 0.5s, height 100ms ease 0.5s;
+  z-index: 1;
+}
+.wrapper {
+  width: 970px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: auto;
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'DIN Next', sans-serif;
+  color: #f30c16;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'DIN Next', sans-serif;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f30c16;
+  margin: 12px 0;
+  padding: 0 16px;
+}
+@media screen and (max-width: 580px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: #f30c16;
+  text-decoration: none;
+}
+
+/**
+ * #HEADER
+ **/
+
+.page > header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.page > header:before { /* TODO: fallback for android 4.4.4 */
+  content: '';
+  background: url('../images/header-logo-background.gif') repeat right top;
+  height: 97px;
+  width: calc(100%/2 - 485px + 114px);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media screen and (max-width: 1024px) {
+  .page > header:before {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .page > header:before {
+    height: 60px;
+    width: 144px;
+  }
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 24px;
+  font-size: 0;
+  background: url('../images/white-logo.svg');
+  margin-top: 38px;
+  position: relative;
+}
+@media screen and (max-width: 580px) {
+  .logo {
+    margin-top: 18px;
+    margin-left: 16px;
+  }
+}
+
+
+/**
+ * #HERO
+ **/
+
+.hero {
+  position: relative;
+}
+.hero--front {
+  height: 100%;
+}
+@media screen and (max-width: 580px) {
+  .hero {
+    height: 100%;
+  }
+}
+
+.hero--front h1 {
+  margin: 0;
+}

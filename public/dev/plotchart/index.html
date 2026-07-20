@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Story Device Tolerance</title>
+	
+<link rel="stylesheet" href="https://use.typekit.net/ofv2eqe.css">
+	
+<style>	
+	
+	body {
+		background-color: #30303d;
+		color: #ffffff;
+		font-family: sofia-pro, sans-serif;	
+		font-weight: 700;
+		font-style: normal;
+		font-size: 16px;
+		margin: 20px;
+	}
+	#pagetop {
+		text-align: left;
+		
+		margin: 18px 18px 0px 18px;
+	}
+	#pagetop h1 {
+		font-size: 36px;
+		line-height:38px;
+	}
+	#pagetop p {
+		font-size: 14px;
+		font-weight: 400;
+		opacity: 0.8;
+	}
+
+	#chartdiv {
+		height:90vh;
+		width: 96vw;
+	}
+
+@media (max-height:400px){
+	body {
+		font-size: 13px;
+	}
+}
+@media (max-width:600px){
+	body {
+		font-size: 13px;
+	}
+}
+</style>
+	
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+</head>
+
+<body>
+	<div id="pagetop"><h1>My tolerance for certain plot devices</h1>
+	<!--<p>As a movie lover, I'll gladly suspend a certain amount of disbelief for the sake of a good story, but as a somewhat scientifically-minded person, there's only so much I can take.</p>--></div>
+	<div id="chartdiv"></div>
+		
+</body>
+	
+<script>
+// load themes
+	am4core.useTheme(am4themes_dark);
+	am4core.useTheme(am4themes_animated);
+	
+// create chart	
+var chart = am4core.create("chartdiv", am4charts.XYChart);
+chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+	
+
+// Add data
+chart.data = [ { 
+"device": "Time travel",
+  "tolerance": 2,
+  "example": "\"Gotta go back in time to warn \nmyself about the dangers of time travel.\""
+}, {
+	"device": "Aliens",
+	"tolerance": 6,
+	"example": "\"They look and act just like us, \nexcept they're blue.\""
+}, {
+  "device": "Multiverses",
+  "tolerance": 3,
+  "example": "\"There are infinite universes - each one almost \nidentical but different in some stupid way.\""
+}, {
+  "device": "Planet with breathable air",
+  "tolerance": 2,
+  "example": "\"You smell that? We don't even \nneed our helmets.\""
+}, {
+  "device": "Hyperspace",
+  "tolerance": 4,
+  "example": "\"Oh look. There's a wormhole that'll conveniently \ntransport us across the galaxy in six minutes.\""
+}, 	{
+  "device": "Robot with feelings",
+  "tolerance": 9,
+  "example": "\"They're called... tears.\""
+}, {			  
+  "device": "Body switch",
+  "tolerance": 10,
+  "example": "\"So this is what it's like to be my cat.\""
+}, {
+  "device": "Ghosts",
+  "tolerance": 5,
+  "example": "\"But... that photo was taken \nover 100 years ago!\""
+}, 	{
+  "device": "Psychic connection",
+  "tolerance": 4,
+  "example": "\"It's like we share the same feelings.\""
+}, 	{
+  "device": "Perfect mask",
+  "tolerance": 2,
+  "example": "\"Put this on so that you look \nexactly like another character.\""
+}, 	{
+  "device": "Instant hacking",
+  "tolerance": 6,
+  "example": "\"Let me hit four keys and bring \nup a detailed 3D schematic of the \nbuilding's security system.\""
+},  {
+  "device": "Talking animal",
+  "tolerance": 11,
+  "example": "\"A talking monkey? That's bananas!\""
+}  ];
+
+// Create axes
+let categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+categoryAxis.dataFields.category = "device";
+categoryAxis.renderer.inside = true;
+categoryAxis.renderer.labels.template.dy = 1;
+categoryAxis.renderer.cellStartLocation = 0.1;
+categoryAxis.renderer.cellEndLocation = 1.0;
+categoryAxis.renderer.minGridDistance = 8;
+categoryAxis.renderer.inversed = true;
+
+let valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+valueAxis.fontSize = 11;
+
+// value labels
+var labelContainer = chart.chartContainer.createChild(am4core.Container);
+labelContainer.paddingBottom = 15;
+labelContainer.width = am4core.percent(100);
+labelContainer.fontWeight = 400;
+labelContainer.fontSize = 12;
+
+var leftLabel = labelContainer.createChild(am4core.Label);
+leftLabel.text = "I'm outta here.";
+leftLabel.align = "left";
+	
+var midLabel = labelContainer.createChild(am4core.Label);
+midLabel.text = "Fine. Whatever.";
+midLabel.align = "center";	
+
+var rightLabel = labelContainer.createChild(am4core.Label);
+rightLabel.text = "Pass the popcorn!";
+rightLabel.align = "right";	
+	
+// Create series
+var series = chart.series.push(new am4charts.ColumnSeries());
+series.dataFields.valueX = "tolerance";
+series.dataFields.categoryY = "device";
+series.name = "Tolerance";
+series.columns.template.tooltipText = "{example}";	
+series.columns.template.strokeOpacity = 0;
+series.tooltip.fontSize = "12px";
+series.tooltip.fontWeight = "400";
+series.tooltip.getFillFromObject = false;
+series.tooltip.background.fill = am4core.color("#30303d");
+	
+	
+// as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
+series.columns.template.adapter.add("fill", function(fill, target) {
+return chart.colors.getIndex(target.dataItem.index);	
+});
+
+</script>
+</html>

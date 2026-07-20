@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="./app.css" rel="stylesheet" type="text/css">
+  <!--        jQueryUI-->
+  <link href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css" rel="stylesheet">
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js">
+  </script>
+  <script src="./bower_components/jquery/dist/jquery.min.js">
+  </script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js">
+  </script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js">
+  </script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js">
+  </script>
+  <script src="sliders.js">
+  </script>
+  <title></title>
+</head>
+
+<body>
+  <style type="text/css">
+  .topShow {
+    display: none;
+  }
+  
+  #slider-range-min {
+    display: none;
+  }
+  
+  #downsvg {
+    display: none;
+  }
+  
+  p.ques {
+    text-align: center;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+  }
+  
+  p.descbut {
+    text-align: right;
+    font-size: 30px;
+    white-space: nowrap;
+    position: absolute;
+    left: 30%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .mcircle {
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .myopa {
+    opacity: 1;
+  }
+  
+  .bggreen {
+    background: green;
+  }
+  
+  .bgorange {
+    background: DarkOrange;
+  }
+  </style>
+  <p class="ques">Can you figure out the combo that will
+    <br> stop the fuse?</p>
+  <p class="descbut">Press the button
+    <br> when you're ready to
+    <br> start the timer</p>
+  <svg version="1.1" id="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 88 91" style="enable-background:new 0 0 88 91;width:5%;position:absolute;left:50%;top:15%;transform:translate(-50%,-50%);display:none;" xml:space="preserve">
+    <style type="text/css">
+    .star {
+      fill: #FFFFFF;
+    }
+    </style>
+    <polygon class="star" points="44,4.9 54,35.7 86.4,35.7 60.2,54.7 70.2,85.5 44,66.5 17.8,85.5 27.8,54.7 1.6,35.7 34,35.7 " />
+  </svg>
+  <svg class="staticSvg topShow" id="menusvg" version="1.1" viewbox="0 0 24 24" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <g>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" x2="23" y1="5.5" y2="5.5"></line>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" x2="23" y1="11.5" y2="11.5"></line>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" x2="23" y1="17.5" y2="17.5"></line>
+    </g>
+  </svg>
+  <svg class="staticSvg topShow" id="sharesvg" version="1.1" viewbox="0 0 24 24" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="12.5" x2="12.5" y1="2" y2="17"></line>
+    <polyline fill="none" points="7.7,6.2 12.5,1.5 17.3,6.2" stroke="#FFFFFF" stroke-miterlimit="10"></polyline>
+    <polyline fill="none" points="10,9.5 5.5,9.5 5.5,22.5 19.5,22.5 19.5,9.5 15,9.5" stroke="#FFFFFF" stroke-miterlimit="10"></polyline>
+  </svg>
+  <svg class="staticSvg" height="200mm" id="downsvg" version="1.1" viewbox="0 0 177.16535 708.66142" width="50mm" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs4"></defs>
+    <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="-491.94137" inkscape:cy="397.83644" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="837" inkscape:window-maximized="1" inkscape:window-width="1600" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="0.70710678" pagecolor="#ffffff" showgrid="false" units="mm" width="50mm"></sodipodi:namedview>
+    <metadata id="metadata7">
+      <rdf:rdf>
+        <cc:work rdf:about>
+          <dc:format>
+            image/svg+xml
+          </dc:format>
+          <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+          <dc:title></dc:title>
+        </cc:work>
+      </rdf:rdf>
+    </metadata>
+    <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1" transform="translate(0,-343.70091)">
+      <g id="layer1-7" inkscape:label="Layer 1" style="fill:none;fill-opacity:1" transform="matrix(1.0838362,0,0,1.3230916,-300.55966,89.444025)">
+        <g id="g5218" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1" transform="matrix(0.00963079,1.075106,-1.075106,0.00963079,611.80691,201.96801)">
+          <polygon id="polygon5180" points="384.394,287.5 405.606,308.713 476.213,238.106 405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></polygon>
+          <g id="g5182" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5184" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5186" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5188" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5190" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5192" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5194" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5196" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5198" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5200" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5202" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5204" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5206" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5208" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5210" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+        </g>
+      </g>
+      <g id="g5218-4" style="stroke:none;stroke-opacity:1" transform="matrix(0.00997404,1.4398213,-1.1134239,0.01289791,350.1634,355.08817)">
+        <polygon id="polygon5180-4" points="418.787,253.106 384.394,287.5 405.606,308.713 476.213,238.106 405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106" style="fill:#ffffff;stroke:none;stroke-opacity:1"></polygon>
+        <g id="g5182-7" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5184-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5186-7" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5188-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5190-4" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5192-1" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5194-8" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5196-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5198-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5200-6" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5202-2" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5204-5" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5206-4" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5208-3" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5210-0" style="stroke:none;stroke-opacity:1"></g>
+      </g>
+    </g>
+  </svg>
+  <svg id="iconCheck" style="enable-background:new 0 0 88 91; width:10%;height:10%;position:absolute;top:55%;transform:translate(-50%,-50%);left:70%;opacity:0.2;" version="1.1" viewbox="0 0 88 91" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <style>
+    .st0 {
+      fill: none;
+      stroke: #54C60A;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    
+    .stm {
+      fill: "black";
+      stroke: #ffffff;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    
+    .st1 {
+      fill: none;
+      stroke: #54C60A;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    
+    .st2 {
+      fill: none;
+      stroke: #54C60A;
+      stroke-width: 2;
+      stroke-miterlimit: 10;
+    }
+    </style>
+    <g>
+      <circle class="st0" cx="45" cy="46" r="39"></circle>
+      <circle class="st1" cx="45" cy="46" r="33.8"></circle>
+      <polyline class="st2" points="28,47.7 43,60.7 65,31.3"></polyline>
+    </g>
+  </svg>
+  <svg id="iconWrong" style="enable-background:new 0 0 88 91; width:10%;height:10%;position:absolute;top:55%;transform:translate(-50%,-50%);left:70%;display:none;" version="1.1" viewbox="0 0 88 91" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <style>
+    .stwrong {
+      fill: none;
+      stroke: #FF1C24;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    </style>
+    <line class="stwrong" x1="15.1" x2="73" y1="17" y2="74.9"></line>
+    <line class="stwrong" x1="73" x2="15.1" y1="17" y2="74.9"></line>
+  </svg>
+  <svg class="mcircle" style="enable-background:new 0 0 88 91; width:10%;height:10%;left:30%;" version="1.1" viewbox="0 0 88 91" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <g>
+      <circle class="stm" cx="45" cy="46" id="orange-circle1" r="39"></circle>
+      <animate attributename="fill" begin="mouseover" dur="1s" fill="freeze" from="black" id="going1" to="white" xlink:href="#orange-circle1"></animate>
+      <animate attributename="fill" begin="going1.end" dur="1s" fill="freeze" from="white" id="regoing1" to="black" xlink:href="#orange-circle1"></animate>
+    </g>
+  </svg>
+  <svg class="mcircle" style="enable-background:new 0 0 88 91; width:10%;height:10%;left:40%;" version="1.1" viewbox="0 0 88 91" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <g>
+      <circle class="stm" cx="45" cy="46" id="orange-circle2" r="39"></circle>
+      <animate attributename="fill" begin="mouseover" dur="1s" fill="freeze" from="black" id="going2" to="white" xlink:href="#orange-circle2"></animate>
+      <animate attributename="fill" begin="going2.end" dur="1s" fill="freeze" from="white" id="regoing2" to="black" xlink:href="#orange-circle2"></animate>
+    </g>
+  </svg>
+  <svg class="mcircle" style="enable-background:new 0 0 88 91; width:10%;height:10%;left:50%;" version="1.1" viewbox="0 0 88 91" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <g>
+      <circle class="stm" cx="45" cy="46" id="orange-circle3" r="39"></circle>
+      <animate attributename="fill" begin="mouseover" dur="1s" fill="freeze" from="black" id="going3" to="white" xlink:href="#orange-circle3"></animate>
+      <animate attributename="fill" begin="going3.end" dur="1s" fill="freeze" from="white" id="regoing3" to="black" xlink:href="#orange-circle3"></animate>
+    </g>
+  </svg>
+  <svg class="mcircle" style="enable-background:new 0 0 88 91; width:10%;height:10%;left:60%;" version="1.1" viewbox="0 0 88 91" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <g>
+      <circle class="stm" cx="45" cy="46" id="orange-circle4" r="39"></circle>
+      <animate attributename="fill" begin="mouseover" dur="1s" fill="freeze" from="black" id="going4" to="white" xlink:href="#orange-circle4"></animate>
+      <animate attributename="fill" begin="going4.end" dur="1s" fill="freeze" from="white" id="regoing4" to="black" xlink:href="#orange-circle4"></animate>
+    </g>
+  </svg>
+  <div id="slider-range-min"></div>
+  <script type="text/javascript">
+  var clickCount = 0,
+    ran, originc, starCount = 0;
+  $(document).ready(function() {
+    console.log("ready!");
+    $('.descbut').html("Press the button<br>when you're ready to<br> start the timer");
+    var past, now, delaySec, dmin, dsec;
+    $.getJSON("SvgJsons/fuse.json", function(json) {
+      comp_speedrings1 = new SVGAnim(json, 577, 74, 24);
+      $('svg:last-child').css({
+        'width': '90%',
+        'height': '30%',
+        'position': 'absolute',
+        'top': '0',
+        'right': '-30',
+        'z-index': '-100'
+      });
+      $.getJSON("SvgJsons/go-button.json", function(json) {
+        comp_speedrings2 = new SVGAnim(json, 87, 87, 100);
+        $('svg:last-child').css({
+          'position': 'absolute',
+          'left': '50%',
+          'top': '80%',
+          'transform': 'translate(-50%,-50%)'
+        });
+        $.getJSON("SvgJsons/stop-button.json", function(json) {
+          comp_speedrings3 = new SVGAnim(json, 87, 87, 100);
+          $('svg:last-child').css({
+            'position': 'absolute',
+            'left': '50%',
+            'top': '80%',
+            'transform': 'translate(-50%,-50%)',
+            'display': 'none'
+          });
+          $('svg:last-child').prev().click(function() {
+            var d = new Date();
+            console.log(d.getTime());
+            $.cookie("togglMeasureStart", d.getTime());
+            $(this).fadeOut('slow');
+            $('svg:last-child').fadeIn('slow');
+            $('#iconCheck').fadeOut('fast', function() {
+              $(this).css('opacity', '1');
+              $(this).fadeIn('fast');
+            });
+            $('.ques').fadeOut('slow');
+            $('.descbut').fadeOut('slow', function() {
+              $('.descbut').html("Press the button<br/>when you think a<br/>minute is up.");
+              $('.descbut').fadeIn('slow').delay(7000).fadeOut('slow');
+            });
+            $('#iconCheck').click(function() {
+              clickCount++;
+              console.log(clickCount);
+              $('#iconCheck').fadeOut('fast').delay(3000).fadeIn('slow');
+              $('#iconWrong').fadeIn('fast').delay(3000).fadeOut('slow');
+
+              if (clickCount > 0) {
+                ran = Math.round(Math.random() * 10);
+                console.log(ran);
+                if (ran % 3 == originc) {
+                  ran++;
+                }
+                switch (ran % 3) {
+                  case 0:
+                    starCount++;
+                    $('body').css('background', 'green');
+                    $('.mcircle circle').css('fill', 'green');
+                    $('#star').fadeIn('slow').delay(5000).fadeOut('slow');
+                    $('.ques').fadeOut('slow', function() {
+                      $('.ques').html("Great! See how many stars you can get. Now - " + starCount);
+                      $('.ques').fadeIn('slow').delay(3000).fadeOut('slow');
+                    });
+                    break;
+                  case 1:
+                    $('body').css('background', '#FF8C00');
+                    $('.mcircle circle').css('fill', '#FF8C00');
+                    break;
+                  case 2:
+                    $('body').css('background', 'black');
+                    $('.ques').fadeOut('slow', function() {
+                      $('.ques').html("Forgot to mention... the fuse burns<br/>faster if you guess wrong.");
+                      $('.ques').fadeIn('slow').delay(3000).fadeOut('slow');
+                    });
+                    break;
+                }
+                originc = ran % 3;
+              }
+            });
+          });
+          $('svg:last-child').click(function() {
+            $.cookie('togglWhere','fuse');
+            console.log('togglWhere',$.cookie('togglWhere'));
+            window.location.pathname = pathPrefix + "actually.html";
+          });
+        });
+      });
+    });
+  });
+  </script>
+  <script type="text/javascript ">
+  $("#slider-range-min ").slider({
+    value: 3
+  });
+  </script>
+<script src="after.js"></script></body>
+
+</html>

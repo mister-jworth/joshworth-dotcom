@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #00143C;
+}
+
+canvas {
+  display: block;
+}
+
+.logo {
+  height: 25px;
+  width: auto;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 99999;
+}
+
+label {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding:6px;
+}

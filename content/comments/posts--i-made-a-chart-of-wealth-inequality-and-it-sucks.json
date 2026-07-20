@@ -1,0 +1,51 @@
+[
+ {
+  "id": "11475",
+  "parent": "0",
+  "author": "Paul",
+  "date": "2023-08-31 14:21:40",
+  "content": "<p>This was really interesting... I've just finished David Hackett Fischer's The Great Wave - a history of prices. In it he charts the growth of inequality and wealth disparity from the 12th century to the 20th. It looks like the curve got steeper then reset itself then get's steeper again but each time the scale at the rich end gets bigger and bigger.  It would be amazing to see this on one of your interactive graphics.</p>"
+ },
+ {
+  "id": "15035",
+  "parent": "15031",
+  "author": "jworth",
+  "date": "2024-07-23 13:42:27",
+  "content": "<p>Thanks! I used a javascript called <a href=\"https://www.amcharts.com\" target=\"_blank\" rel=\"noopener nofollow ugc\">AM Charts</a> It's great!</p>"
+ },
+ {
+  "id": "17230",
+  "parent": "0",
+  "author": "Diego",
+  "date": "2025-02-28 20:12:42",
+  "content": "<p>Is there anyway you could add a button to make the y-axis logarithmic?</p>"
+ },
+ {
+  "id": "15031",
+  "parent": "0",
+  "author": "mark",
+  "date": "2024-07-22 11:38:38",
+  "content": "<p>what software did you use to make the chart? it came out really nice</p>"
+ },
+ {
+  "id": "20588",
+  "parent": "11475",
+  "author": "M",
+  "date": "2025-06-11 17:41:16",
+  "content": "<p>Seconded! Both changes throughout history and variation by location would be great additions :)</p>"
+ },
+ {
+  "id": "20591",
+  "parent": "0",
+  "author": "M",
+  "date": "2025-06-11 19:41:38",
+  "content": "<p>Really cool tool, on a similar level to Dollar Street or the Giving What We Can How-Rich-Am-I calculator</p>\n<p>A couple suggestions for further features if you feel like expanding it even further:<br />\n- Ability to switch to graph of cumulative wealth, like what the Gini coefficient uses<br />\n- Having the y-axis resize to show the variation over the current mouse-selected range from the everybody tab like when the bottom x% options are chosen<br />\n- Markers showing the median and mean of the distribution, to highlight skewing effects of the ultra-wealthy<br />\n- Markers showing the typical costs of major <br />\n- Ability to switch to graph for income rather than purely wealth, since many individuals may   have deceptively low wealth due to high expenditure</p>"
+ },
+ {
+  "id": "20592",
+  "parent": "0",
+  "author": "M",
+  "date": "2025-06-11 19:45:05",
+  "content": "<p>*markers of costs of typical semi-essential large wealth investments (e.g. a car, a house, a college degree etc.) to demonstrate the things less wealthy groups cannot afford</p>"
+ }
+]

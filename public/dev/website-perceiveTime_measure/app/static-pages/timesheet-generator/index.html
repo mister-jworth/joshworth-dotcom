@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="format-detection" content="telephone=no">
+     <meta name="keywords" content="Toggl, Timesheet Calculator, Time tracking, Timesheets">
+    <meta name="description" content="Calculate your weekly time logs and get a printable timesheet in just a few seconds. For more advanced time tracking features try Toggl's free account.">
+    <meta name="author" content="toggl.com">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="viewport" id="viewport-meta" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href="./includes/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/sweetalert.css" media="all">
+
+    <script src="/javascripts/sweetalert.min.js"></script>
+    <script src="./includes/modernizr.min.js"></script>
+
+    <title>
+      Simple Timesheet Calculator
+    </title>
+    <meta property="og:site_name" content="Toggl">
+    <meta property="og:title" content="Robust Timesheet Calculator">
+    <meta property="og:description" content="Calculate your weekly time logs and get a printable timesheet in just a few seconds. For more advanced time tracking features try Toggl's free account.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://toggl.com/timesheet-generator" />
+    <meta property="og:image" content="http://blog.toggl.com/wp-content/uploads/sites/5/2014/08/Timesheet-Template-Timesheet-Generator-Toggl.png" />
+
+  </head>
+  <body>
+
+    <div id="wrap">
+      <a id="bookmarkme" href="#">
+        <img src="./images/bm.png"/>
+      </a>
+      <div id="video-container">
+      </div>
+
+      <!-- //video-container -->
+
+      <div id="main">
+        <div class="wrap">
+
+          <a href="/" target="_blank" id="logo">
+          </a>
+
+          <div class="top">
+            <h1>
+              <span class="colored">
+                Timesheet
+              </span>
+              Calculator
+            </h1>
+          </div>
+
+          <!-- //top -->
+
+          <div id="timesheet">
+            <h4 class="c">
+              Activity
+            </h4>
+            <div id="ts-inner">
+              <div class="labels cfx">
+                <div id="lspcr">
+                </div>
+                <div>
+                  Fri
+                </div>
+                <div>
+                  Thu
+                </div>
+                <div>
+                  Wed
+                </div>
+                <div>
+                  Tue
+                </div>
+                <div>
+                  Mon
+                </div>
+              </div>
+              <div class="ts ts-row cfx">
+                <input class="primary" type="text"/>
+                <a href="#" class="remove">
+                  ×
+                </a>
+                <input class="secondary" type="text" data-day="fri">
+                <input class="secondary" type="text" data-day="thu">
+                <input class="secondary" type="text" data-day="wed">
+                <input class="secondary" type="text" data-day="tue">
+                <input class="secondary" type="text" data-day="mon">
+              </div>
+              <a id="addrow" class="c" href="#">
+                + Add row
+              </a>
+            </div>
+            <div id="printcontain">
+              <button id="print">
+                PRINT
+              </button>
+            </div>
+          </div>
+
+          <div id="output">
+
+          </div>
+          <div id="bottom">
+            <h2>
+              <a href="/">
+                <span>
+                  Get Toggl
+                </span>
+              </a>
+              for advanced timesheet fun!
+            </h2>
+            <div id="linkswrap" class="cfx">
+              <ul id="links" class="cfx">
+                <li>
+                  <a target="_blank" href="/media-coverage">
+                    <span> ■ </span>
+                    Toggl Media Coverage
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.toggl.com/time-reports">
+                    <span> ■ </span>
+                    Overview of Toggl Reports
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/best-productivity-tools-2016/">
+                    <span> ■ </span>
+                    Best Productivity Tools in 2016
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/online-stopwatch">
+                    <span> ■ </span>
+                    Online Stopwatch
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/salesforce-time-tracking">
+                    <span> ■ </span>
+                    Salesforce Timer Integration
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/pomodoro-timer-toggl">
+                    <span> ■ </span>
+                    Pomodoro Timer in Toggl
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/trello-time-tracking">
+                    <span> ■ </span>
+                    Time Tracking in Trello
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/best-free-time-tracking-app-for-iphone">
+                    <span> ■ </span>
+                    iPhone Timer App
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/work-management-software">
+                    <span> ■ </span>
+                    Work Management Software
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/how-to-create-simple-excel-timesheet">
+                    <span> ■ </span>
+                    How To Create a Excel Timesheet Template
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/gmail-time-tracking">
+                    <span> ■ </span>
+                    Timer integration with Gmail
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/business">
+                    <span> ■ </span>
+                    Corporate Timesheets System
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/task-duration-tracking-tool">
+                    <span> ■ </span>
+                    Task Tracking Tool
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="/best-free-time-tracking-app-for-android">
+                    <span> ■ </span>
+                    Android Timer App
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="share">
+              <div class="h-sep">
+              </div>
+              <a href="https://twitter.com/home?status=toggl.com/timesheet-generator%20Add%20your%20weekly%20time%20logs%20and%20get%20a%20printable%20timesheet%20in%20just%20a%20few%20seconds.%20You%20need%20to%20bookmark%20this%20page!" target="_blank" class="twitter">
+                <span>
+                </span>
+              </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://toggl.com/timesheet-generator" target="_blank" class="facebook">
+                <span>
+                </span>
+              </a>
+              <a href="https://plus.google.com/share?url=http://toggl.com/timesheet-generator" target="_blank" class="google">
+                <span>
+                </span>
+              </a>
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=toggl.com/timesheet-generator&title=Online%20timesheet%20generator&summary=Add%20your%20weekly%20time%20logs%20and%20get%20a%20printable%20timesheet%20in%20just%20a%20few%20seconds.%20You%20need%20to%20bookmark%20this%20page!&source=" target="_blank" class="linkedin">
+                <span>
+                </span>
+              </a>
+            </div>
+
+            <!-- //share -->
+          </div>
+
+          <!-- //bottom -->
+      </div>
+
+      <!-- //wrap -->
+
+  </div>
+
+  <!-- //main -->
+
+  <script src="./includes/jquery.min.js">
+  </script>
+  <script src="./includes/scripts.js">
+  </script>
+
+  <script type="text/javascript">
+    var clicky_site_ids = clicky_site_ids || [];
+    clicky_site_ids.push(100857897);
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//static.getclicky.com/js';
+      ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+
+    })();
+  </script>
+
+  <!-- processhtml:include custom-analytics.html -->
+  <!-- /processhtml -->
+
+  <!-- processhtml:include google-remarketing.html -->
+  <!-- /processhtml -->
+
+  <script type="text/javascript">
+    $(function() {
+      $("#bookmarkme").click(function() {
+        // Mozilla Firefox Bookmark
+        if ('sidebar' in window && 'addPanel' in window.sidebar) {
+          window.sidebar.addPanel(location.href,document.title,"");
+        }
+        else if( /*@cc_on!@*/false) {
+          // IE Favorite
+          window.external.AddFavorite(location.href,document.title);
+        }
+        else {
+          // webkit - safari/chrome
+          sweetAlert('Bookmark this page!', 'Press CTRL + D');
+        }
+      });
+    });
+  </script>
+  </body>
+</html>
+

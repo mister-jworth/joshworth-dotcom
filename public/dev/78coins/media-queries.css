@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* portrait */
+
+
+@media screen and (max-width: 760px) {
+
+.maintitle {
+	font-size:4em;
+	text-transform:uppercase;
+	font-weight: 100;
+	letter-spacing:-.01em;
+}
+.subtitle {
+	font-size:.1.5em;
+	padding:0 18%;
+	text-transform:uppercase;
+	font-weight: 100;
+}
+
+.coinBox {
+	height: 20px;
+	width: 20px;
+}
+
+#essay {
+	font-size: .85em;
+	padding:0px 3%;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+.coinBox {
+	height: 30px;
+	width: 30px;
+}
+
+}
+
+@media screen and (max-width: 568px) {
+
+.maintitle {
+	font-size:4em;
+	text-transform:uppercase;
+	font-weight: 100;
+	letter-spacing:-.01em;
+}
+.subtitle {
+	font-size:.1.5em;
+	padding:0 18%;
+	text-transform:uppercase;
+	font-weight: 100;
+}
+
+.coinBox {
+	height: 20px;
+	width: 20px;
+}
+
+#essay {
+	font-size: .85em;
+	padding:0px 3%;
+}
+
+}

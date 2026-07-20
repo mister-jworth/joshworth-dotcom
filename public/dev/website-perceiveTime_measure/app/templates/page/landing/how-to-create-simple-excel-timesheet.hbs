@@ -1,0 +1,185 @@
+<script> document.head.insertAdjacentHTML('afterbegin', '<link rel="stylesheet" href="stylesheets/bootstrap.min.css">'); </script>
+<link rel="stylesheet" href="stylesheets/slalom.css">
+
+{{> 'header' navLight=true }}
+
+<section class="hero hero--landing hero--dynamic-height slalom-header">
+  <div class="hero__background" style="background-image: url(images/landing-pages/header-bg1.jpg);"></div>
+  <div class="hero__content content--light">
+    <div class="wrapper">
+      <h1 class="align-center">How to create<br />a simple Excel timesheet.</h1>
+    </div>
+  </div>
+</section>
+
+<div class="slalom">
+  <div class="container">
+    <section class="posts">
+      <article class="row variant2 main-article">
+        <div class="col-1">
+          <p><img src="images/landing-pages/creating-a-simple-excel-timesheet-with-functions.jpg" alt="Creating a simple timesheet in MS Excel" style="border: 1px solid #CCCCCC" /></p>
+        </div>
+        <div class="col-2">
+          <p>
+            This is a short visual guide on how to build a simple Excel timesheet with automatic calculated hours that can be easily shared with your employees. 
+          </p>
+          <p>
+            The example we are showing here only uses two basic Excel formulas, meaning that this timesheet template can be copied, changed and customized with ease, depending on your organisation's needs.
+        </div>
+      </article>
+
+      <article class="row variant1">
+        <div class="col-1">
+          <img src="images/landing-pages/simple-excel-timesheet-01.jpg" alt="Defining categories for timesheets" style="border: 1px solid #CCCCCC" />
+        </div>
+        <div class="col-2">
+          <h2 class="top-margin-15"><span>1. Define</span> your labels and date ranges</h2>
+          <p>
+            First of all, you need to figure out what kind of information you actually need to have on your timesheets. Typically you would need a field for employee name, the time period the timesheet covers (week, month), but also the name of department & manager.
+          </p>
+          <p>
+            Of course, you can also add fields for social security numbers, employee IDs if needed, but simpler is better.
+          </p>
+        </div>
+      </article>
+
+      <article class="row variant2">
+        <div class="col-1">
+          <img src="images/landing-pages/simple-excel-timesheet-02-columns.jpg" alt="organising timesheet into columns" style="border: 1px solid #CCCCCC" />
+        </div>
+        <div class="col-2">
+          <h2 class="top-margin-25"><span>2. Use columns</span> to break up the days</h2>
+          <p>
+            In this example, the fields for morning working hours and afternoon hours are separated, to account for the longer lunch break in the middle of the day. Also, by entering hours in the timesheet twice a day, the employee won't have to remember all their day's hours at the end of the day.
+          </p>
+            Breaking up the day however means that now we have to add up the hours. The next step shows you how to calculate the hours automatically.
+          </p>
+        </div>
+      </article>
+
+      <article class="row variant1">
+        <div class="col-1">
+          <img src="images/landing-pages/simple-excel-timesheet-03-sum-row-formula.jpg" alt="Calculating daily work hours" style="border: 1px solid #CCCCCC" />
+        </div>
+        <div class="col-2">
+          <h2 class="top-margin-15"><span>3. Calculating</span> daily working hours</h2>
+          <p>
+            In this example timesheet, we will be using two basic formulas - one for adding up the total hours for a single day, and one for adding up all working hours for the week.
+          </p>
+            To add up a single day's hours, insert a simple <strong>=SUM(B7+D7)</strong> formula into the "Total hours" cell at the end of the first work day (E7 in this example). Once an employee has typed in their hours in the "morning" and "afternoon" cells, they will be automatically added up in the "total" field. 
+          </p>
+          <p>
+            To use the same formula for the other days, simply right click and copy the cell containing the formula and choose <strong><i>"paste formula"</i></strong> for the remaining total hour cells - Excel will automatically change the formula for the other rows, so no need to do this manually!
+          </p>
+        </div>
+      </article>
+
+      <article class="row variant2">
+        <div class="col-1">
+          <img src="images/landing-pages/simple-excel-timesheet-04-sum-row-column.jpg" alt="Calculating weekly total working hours" style="border: 1px solid #CCCCCC" />
+        </div>
+        <div class="col-2">
+          <h2 class="top-margin-25"><span>4. Calculating</span> total weekly hours</h2>
+          <p>
+            To get the total hours your employee worked in a week, you will need to add up all the daily total hours for that week. To do that, pick a cell where you want the weekly total count to be displayed and insert another SUM formula.
+          </p>
+          <p>
+            For example in this example, the total daily working hour fields are all in column D, starting at row number 3 and ending with row number 8. To calculate the weekly total hours, the formula would be <strong>=SUM(E7:E11)</strong>. This formula adds up all values in column D that fall between rows 3 and 8.
+          </p>
+        </div>
+      </article>
+
+      <article class="row variant1">
+        <div class="col-1">
+          <img src="images/landing-pages/simple-excel-timesheet-05-lock-cells-for-editing.jpg" alt="Locking timesheet cells for editing" style="border: 1px solid #CCCCCC" />
+        </div>
+        <div class="col-2">
+          <h2 class="top-margin-15"><span>5. Locking</span> cells to prevent editing</h2>
+          <p>
+            Once you've added these formulas and formatted the sheet to your liking, you will have a perfectly functional, easy-to-use timesheet. Now it's time to protect your design from unwanted changes.
+          </p>
+          <p>
+            To avoid someone accidentally deleting a formula or breaking your formatting, you can limit the cells your employees can edit by locking them. Typically, your employees would only need to manually insert the "morning" and "afternoon" working hours, but you can also choose to let them add their own names and edit the date ranges.
+          </p>
+            By default, all cells in Excel are set as "locked" - to designate the cells you want your employees to be able to edit, drag and select these cells, select <strong><i>"format cells"</i></strong> and under the <strong><i>"Protection"</i></strong> tab, untick the checkbox that says <i>"locked"</i>. 
+          </p>
+          <p>
+            At this point, you have only defined which cells should be "unlocked" - for these changes to have an actual effect, you need to enable the "protect sheet" settings.
+          </p>
+        </div>
+      </article>
+
+      <article class="row variant2">
+        <div class="col-1">
+          <img src="images/landing-pages/simple-excel-timesheet-06-lock-timesheet.jpg" alt="Protecting excel timesheets from editing" style="border: 1px solid #CCCCCC" />
+        </div>
+        <div class="col-2">
+          <h2 class="top-margin-25"><span>6. Locking</span> the timesheet</h2>
+          <p>
+            Once you have unlocked the cells you need your employees to edit, head to the <strong><i>"Format"</i></strong> menu and select <strong><i>"protect sheet"</i></strong>. You will see a long list of options, but you only need to tick the box where it says <i>"select unlocked cells"</i>.
+          </p>
+          <p>
+            When you've ticked the box, choose a password for unlocking the timesheet, hit "OK" and you're done. <strong>But make sure you don't forget the password!</strong>
+          </p>
+          <p>
+            Simply copy the timesheet file and pass the copies on to your employees so they can start logging their time. 
+        </div>
+      </article>
+
+      <article class="row variant1">
+        <div class="col-1">
+          <img src="images/landing-pages/simple-excel-timesheet-use-toggl-instead.jpg" alt="Toggl as a free timesheet alternative" style="border: 1px solid #CCCCCC" />
+        </div>
+        <div class="col-2">
+          <h2 class="top-margin-15"><span>7. Use Toggl</span> to skip all this work</h2>
+          <p>
+            Ultimately, Excel timesheets are tricky to manage and not very accurate. This is why we created Toggl for tracking work time.
+          </p>
+          <p>
+            It's very simple to use and easy to set up. With options for tracking in real time and filling in work hours later, it's basically a much more accurate and versatile version of a timesheet. On top of that, Toggl has a powerful reporting feature that automatically sorts your timesheet data into customizable reports that are easy to share - and all of this is stored safely in the cloud.
+          <p>
+            Feel free to check it out by following the link below - Toggl is free for small teams!
+          </p>
+        </div>
+      </article>
+    </section><!-- end posts -->
+
+    <a href="#" class="btn btn-big-cta">Let me try the Free Account</a>
+
+  </div><!-- end container -->
+
+  <section class="discover">
+    <div class="container">
+      <div class="discover-content">
+        <h2>Discover More Great Stuff</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <ul class="list-unstyled discover-list1">
+              <li><a href="/">Free Time Tracking Software</a></li>
+              <li><a href="https://blog.toggl.com/" target="_blank">Time Management Blog</a></li>
+              <li><a href="https://blog.toggl.com/2015/09/track-costs-earnings-toggl/" target="_blank">How to track your costs & earnings</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 pull-right">
+            <ul class="list-unstyled discover-list2">
+              <li><a href="https://support.toggl.com/category/basics/" target="_blank">A quick guide to Toggl</a></li>
+              <li><a href="https://support.toggl.com/video-overview/" target="_blank">Toggl reporting basics</a></li>
+              <li><a href="https://support.toggl.com/category/team-management/" target="_blank">Toggl team features guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- end discover-content -->
+    </div><!-- end container -->
+  </section><!-- end discover -->
+
+  <section class="insight">
+    <div class="container">
+      <div class="insight-box">
+        <h3>Toggl Has Over <span>1 M Happy Users</span></h3>
+      </div>
+    </div><!-- end container -->
+  </section><!-- end insight -->
+
+</div><!-- end .slalom -->
+
+{{> 'footer' }}

@@ -1,0 +1,276 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <!--        jQueryUI-->
+  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="sliders.js"></script>
+  <style type="text/css">
+  .topShow {
+    display: none;
+  }
+  
+  #slider-range-select {
+    display: none;
+  }
+  
+  #slider-range-min {
+    display: none;
+  }
+  
+  p.ques {
+    text-align: center;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  p.nice {
+    text-align: center;
+    font-size: 80px;
+    white-space: nowrap;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  p.desc {
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .forSlider {
+    display: none;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="slider-range-min"></div>
+  <div id="future"></div>
+  <p class="ques">If minding a minute in the moment is
+    <br/>complicated, what happens when you leap
+    <br/>into the future to try and predict how fast
+    <br/>your time will fly?</p>
+  <p class="nice">Nice.</p>
+  <p class="desc">ENTER THE FUTURE...</p>
+  <svg class="staticSvg topShow" id="menusvg" version="1.1" viewbox="0 0 24 24" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <g>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" x2="23" y1="5.5" y2="5.5"></line>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" x2="23" y1="11.5" y2="11.5"></line>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" x2="23" y1="17.5" y2="17.5"></line>
+    </g>
+  </svg>
+  <svg class="staticSvg topShow" id="sharesvg" version="1.1" viewbox="0 0 24 24" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+    <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="12.5" x2="12.5" y1="2" y2="17"></line>
+    <polyline fill="none" points="7.7,6.2 12.5,1.5 17.3,6.2" stroke="#FFFFFF" stroke-miterlimit="10"></polyline>
+    <polyline fill="none" points="10,9.5 5.5,9.5 5.5,22.5 19.5,22.5 19.5,9.5 15,9.5" stroke="#FFFFFF" stroke-miterlimit="10"></polyline>
+  </svg>
+  <div id="slider-range-select"></div>
+  <span class="forSlider" style="position:absolute;top:calc(50% + 30px);left:25%;transform:translate(-50%,-50%);">5 SEC</span>
+  <span class="forSlider" style="position:absolute;top:calc(50% + 30px);left:75%;transform:translate(-50%,-50%);">90 SEC</span>
+  <span class="forSlider" style="position:absolute;top:calc(50% + 30px);left:50%;transform:translate(-50%,-50%);">45 SEC</span>
+  <span class="forSlider" style="position:absolute;top:calc(50% - 35px);left:50%;transform:translate(-50%,-50%);font-size:30px;" id="time">0:45</span>
+  <script type="text/javascript">
+  var clickCount = 0,
+    ran, originc, starCount = 0;
+  var wleft, bleft, fcount = 0,
+    leftoffset = 0,
+    topoffset = 0;
+  var wh, xy, r;
+
+  function makeFutureRings() {
+    for (var i = 17; i > 0; i--) {
+      r = i * 5;
+      xy = r + 5;
+      wh = xy * 2;
+      $('#future').append("<svg class='bcircle' height='" + wh + "' width='" + wh + "'><circle cx='" + xy + "' cy='" + xy + "' r='" + r + "' stroke='rgba(56, 194, 241, 255)' stroke-width='2' fill='none' /></svg>");
+    }
+    for (var i = 17; i > 0; i--) {
+      r = i * 5;
+      xy = r + 5;
+      wh = xy * 2;
+      $('#future').append("<svg class='wcircle' height='" + wh + "' width='" + wh + "'><circle cx='" + xy + "' cy='" + xy + "' r='" + r + "' stroke='white' stroke-width='1' fill='none' /></svg>");
+    }
+
+    $('.bcircle, .wcircle').css({
+      'position': 'absolute',
+      'left': '50%',
+      'top': '65%',
+      'transform': 'translate(-50%,-50%)'
+    });
+  }
+  $(document).ready(function() {
+    console.log("ready!");
+    $("#slider-range-min").slider({
+      value: 4
+    });
+    $('.topShow, .ques, .desc, #slider-range-min').fadeIn('slow');
+    var past, now, delaySec, dmin, dsec;
+    $("#slider-range-select").slider({
+      slide: function(event, ui) {
+        console.log($('#slider-range-select').slider("value"));
+        $.cookie("yourChoice", $('#slider-range-select').slider("value"));
+        $('#time').text(function() {
+          val = $('#slider-range-select').slider("value");
+          sec = Math.round(5 + 85 * ((val - 30) / 120));
+          console.log(sec);
+          return Math.floor(sec / 60) + ':' + sec % 60;
+        });
+        $('#time').css('left', function() {
+          var temp;
+          temp = $('#slider-range-select').slider("value") - 30;
+          temp = Math.round(temp / 120 * 50 + 25);
+          return temp + '%';
+        });
+      }
+    });
+
+    $.getJSON("SvgJsons/go-button.json", function(json) {
+      comp_speedrings1 = new SVGAnim(json, 87, 87, 100);
+      $('svg:last-child').css({
+        'width': '150px',
+        'height': '150px',
+        'position': 'absolute',
+        'left': '50%',
+        'top': '75%',
+        'transform': 'translate(-50%,-50%)',
+        'display': 'none'
+      });
+      $.getJSON("SvgJsons/next-button.json", function(json) {
+        comp_speedrings1 = new SVGAnim(json, 79, 39, 24);
+        $('svg:last-child').css({
+          'width': '100px',
+          'height': '50px',
+          'position': 'absolute',
+          'left': '50%',
+          'top': '70%',
+          'transform': 'translate(-50%,-50%)',
+          'display': 'none'
+        });
+
+        makeFutureRings();
+        var wcircleLeft;
+        $('.wcircle').click(function() {
+          fcount++;
+          if (fcount == 1) {
+            $('.wcircle').draggable();
+            wleft = parseInt($(".wcircle").css('left')) - 50;
+            bleft = parseInt($(".bcircle").css('left')) + 50;
+            $(".wcircle").animate({
+              left: wleft
+            });
+            $(".bcircle").animate({
+              left: bleft
+            });
+            leftoffset = ($(window).width() - 1000) / 2;
+            topoffset = ($(window).height() - 500) / 2;
+            $('.wcircle').each(function() {
+              wcircleLeft = Math.random() * 400 + leftoffset;
+              if (wcircleLeft < 60) {
+                wcircleLeft = 100;
+              }
+              $(this).animate({
+                left: wcircleLeft,
+                top: Math.random() * 500 + topoffset
+              }, 6000);
+            });
+            $('.bcircle').each(function() {
+              $(this).animate({
+                left: Math.random() * 400 + 500 + leftoffset,
+                top: Math.random() * 500 + topoffset
+              }, 6000);
+            });
+            $(".wcircle").draggable({
+              start: function() {
+                ii = $(this).index('.wcircle');
+                console.log(ii);
+              },
+              drag: function() {
+                nowleft = parseInt($(this).css('left'));
+                nowtop = parseInt($(this).css('top'));
+                targetleft = parseInt($('.bcircle:eq(' + ii + ')').css('left'));
+                targettop = parseInt($('.bcircle:eq(' + ii + ')').css('top'));
+                rangeleft = Math.abs(targetleft - nowleft);
+                rangetop = Math.abs(targettop - nowtop);
+                console.log(rangeleft + "-" + rangetop)
+                if ((rangetop < 20) && (rangeleft < 20)) {
+                  console.log("yes");
+                  $('.bcircle:eq(' + ii + ')').find('circle').css('stroke', '#0f0');
+                } else {
+                  $('.bcircle:eq(' + ii + ')').find('circle').css('stroke', 'rgb(56, 194, 241)');
+                }
+              },
+              stop: function() {
+                console.log("stop");
+                console.log($('.bcircle:eq(' + ii + ')').find('circle').css('stroke'));
+                if ($('.bcircle:eq(' + ii + ')').find('circle').css('stroke') != 'rgb(56, 194, 241)') {
+                  $('.wcircle:eq(' + ii + ')').css('display', 'none');
+                }
+
+                //all have matched
+                cc = 0;
+                $('.wcircle').each(function() {
+                  if ($(this).css('display') != 'none') {
+                    cc++;
+                  }
+                });
+                if (cc == 0) {
+                  $('.nice').fadeIn('slow');
+                  $('svg:last-child:not(.wcircle), #slider-range-min, .topShow').fadeIn('slow');
+                }
+              }
+            });
+            $('.ques').fadeOut('slow', function() {
+              $('.ques').html('uh-oh.').delay(1000).fadeIn('slow', function() {
+                $('.ques').fadeOut('slow', function() {
+                  $('.ques').html("The future is unravelling.").fadeIn('slow').delay(3000).fadeOut('slow', function() {
+                    $('.ques').html("Can you guess how long it will take you to<br/>match the white circle to the blue circle of<br/>the same size?").fadeIn('slow');
+                    $('.wcircle, .bcircle').fadeTo('fast', 0.2);
+                    $('#slider-range-select, .forSlider').fadeIn('slow', function() {
+                      $('svg:last-child:not(.wcircle)').prev().fadeIn('slow').click(function() {
+                        var d = new Date();
+                        console.log(d.getTime());
+                        $.cookie("togglMeasureStart", d.getTime());
+                        $('.ques, .forSlider, #slider-range-select').fadeOut('slow');
+                        $('svg:last-child:not(.wcircle)').prev().fadeOut('slow');
+                        $('.wcircle, .bcircle').fadeTo('fast', 1);
+                      });
+                    });
+                  });
+                });
+              });
+            });
+            $('svg:last-child:not(.wcircle)').click(function() {
+              $.cookie('togglWhere', 'future');
+              console.log('togglWhere', $.cookie('togglWhere'));
+              window.location.pathname = pathPrefix + "actually.html";
+            });
+            $('.desc, .topShow, #slider-range-min').fadeOut('slow');
+          }
+        });
+      });
+    });
+  });
+  </script>
+  <script src="after.js"></script>
+</body>
+
+</html>

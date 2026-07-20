@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# array with urls to invalidate
+declare -a urls=( "toggl-developer-challenge" "kanban-time-tracking" "time-reports" "media-coverage" "reporting-timesheet-data" "how-to-create-simple-excel-timesheet" "pomodoro-timer-toggl" "how-to-calculate-billable-hours" "gmail-time-tracking" "toodledo-time-tracking" "project-collaboration-with-timesheets" "jira-time-tracking" "wunderlist-time-tracking" "todoist-time-tracking" "salesforce-time-tracking" "asana-time-tracking" "part-time-employee-definition-us" "motivate-employee-time-tracking" "best-productivity-tools-2016" "google-calendar-timer" "signup" "forgot-password" "reset_password" "login" "features" "about" "legal/privacy" "legal/terms" "tools" "landing" "best-free-time-tracking-app-for-iphone" "best-free-time-tracking-app-for-android" "trello-time-tracking" "work-management-software" "project-time-management" "employee-time-management" "unsubscribe" "google-calendar-timer-integration" "online-timesheet-software" "work-time-measuring-web-app" "best-time-keeping-software-lawyers" "best-time-reporting-software-freelancers" "corporate-timesheet-alternative-application" "work-hours-tracking" "task-duration-tracking-tool" "company-productivity-analysis-web-app" "best-time-tracking-software-windows" "customer-profitability-analysis-software" "pricing" "best-airport-tips" "best-software-development-management-tools-2016" )
+
+# loop counter, to know how many requests til we get limited ¯_(ツ)_/¯
+declare -i i=0
+
+# use first argument as prerender.io token. exit if missing.
+token=$1
+if [ -z $token ]
+then
+    echo "Provide prerender.io token as argument"
+    exit
+fi
+
+for url in "${urls[@]}"
+do
+    echo "$i $url"
+    curl -H "Content-Type: application/json" -d "{\"prerenderToken\": \"$token\", \"url\": \"https://toggl.com/$url\"}" http://api.prerender.io/recache
+    i=i+1
+done

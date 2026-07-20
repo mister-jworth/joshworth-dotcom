@@ -1,0 +1,37 @@
+[
+ {
+  "id": "199",
+  "parent": "0",
+  "author": "acex",
+  "date": "2014-03-06 15:41:32",
+  "content": "<p>Hi, your pixelspace got popular and I also like it and want to congratulate. It also takes long to load, and I've seen that scale.svg and one svg more are much bigger than needed -- there's i:pgf  id=\"adobe_illustrator_pgf\" part in each saved by Adobe Ilustrator or whatever which is not needed to anybody who loads svgs from the web. If you delete these parts every user will download only 90 KB total instead of around 2 MB now.</p>"
+ },
+ {
+  "id": "200",
+  "parent": "199",
+  "author": "jWorth",
+  "date": "2014-03-06 17:58:26",
+  "content": "<p>Thanks for the note. I wasn't seeing 2MB file sizes, but I think I fixed what you were talking about. Still not quite sure how to ensure an .svg is compatible for everyone.</p>"
+ },
+ {
+  "id": "201",
+  "parent": "0",
+  "author": "Radu Tanasescu",
+  "date": "2014-03-07 09:19:47",
+  "content": "<p>This simulation looks like an advance version of \"Darwin Pond\", a bi dimensional simulation of artificial life which I think can still be found on the web. Pretty cool to play with :)</p>"
+ },
+ {
+  "id": "202",
+  "parent": "0",
+  "author": "Erik",
+  "date": "2014-03-08 14:21:59",
+  "content": "<p>Was this animation demo build 1994? O.o Shit! I didn't noticed that. Really nice!</p>"
+ },
+ {
+  "id": "203",
+  "parent": "0",
+  "author": "Tremaine",
+  "date": "2016-09-19 06:12:19",
+  "content": "<p>if this was using a 1994 supercomputer, what says that a normal computer won't be able to run this?</p>\n<p>if not. then i don't see a reason not to just reduce the number of background simulations and cut down on the physics. i mean just look at some of the crazy games we have now! and this video was back in the days of TETRIS!</p>\n<p>i feel like we really need to capitalise on a computer's ability to mimic natural processes like evolution, especially now more than ever!</p>"
+ }
+]

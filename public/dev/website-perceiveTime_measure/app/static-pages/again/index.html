@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <!--        jQueryUI-->
+  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="sliders.js"></script>
+</head>
+
+<body>
+  <style type="text/css">
+  svg {
+    display: block;
+    position: absolute;
+    left: 35%;
+    top: calc(30% + 330px);
+    transition: 0.2s;
+  }
+  svg:hover {
+    /*transform: scale(1.2);*/
+  }
+  
+  p.title {
+    font-size: 80px;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    display: none;
+  }
+  
+  p.descNext {
+    color: rgba(56, 194, 241, 255);
+    position: absolute;
+    left: calc(35% + 100px);
+    top: calc(30% + 330px);
+    display: none;
+  }
+  </style>
+  <p class="title">MIND
+    <br/>THE
+    <br/>MINUTES</p>
+  <p class="descNext">SPEND SOME TIME
+    <br/>WITH TIME ITSELF</p>
+  <script type="text/javascript">
+  // makeAnimation("SvgJsons/next-button.json",200,200,100);
+  $.getJSON("SvgJsons/next-button.json", function(json) {
+        comp_speedrings = new SVGAnim(json, 79, 39, 100);
+        $('svg:last-child').css({
+          // 'display': 'none'
+        });
+        $('.title').fadeIn('slow', function() {
+          // $('svg:last-child').fadeIn('slow');
+          $('svg:last-child').css('display','block');
+          $('.descNext').fadeIn('slow');
+        });
+        $('svg:last-child').click(function() {
+            var d = new Date();
+            console.log(d.getTime());
+            $.cookie("togglMeasurePageStart", d.getTime());
+              window.location.pathname = pathPrefix + "intro-1.html";
+            });
+        });
+  </script>
+  <script src="after.js"></script>
+<script src="after.js"></script></body>
+
+</html>

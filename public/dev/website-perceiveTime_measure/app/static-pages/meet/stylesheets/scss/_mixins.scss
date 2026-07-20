@@ -1,0 +1,71 @@
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model;
+     -moz-box-sizing: $box-model;
+          box-sizing: $box-model;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin color($color, $opacity: 1) {
+  @if $opacity == 1 {
+    color: rgba($color, $opacity);
+  } @else {
+    color: $color;
+    color: rgba($color, $opacity);
+  }
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color #{$inset};
+     -moz-box-shadow: $top $left $blur $color #{$inset};
+          box-shadow: $top $left $blur $color #{$inset};
+}
+
+@mixin bg($color, $opacity: 1) {
+  @if $opacity == 1 {
+    background-color: rgba($color, $opacity);
+  } @else {
+    background-color: $color;
+    background-color: rgba($color, $opacity);
+  }
+}
+
+@mixin rotate($value) {
+  -webkit-transform: rotate($value); 
+     -moz-transform: rotate($value);
+          transform: rotate($value);
+}
+
+@mixin query($value: $tablet-1) {
+  @media screen and (max-width: $value) {
+    @content;
+  }
+}
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin align-items($value: stretch) {
+  @if $value == flex-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+  } @else if $value == flex-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+  } @else {
+    -webkit-box-align: $value;
+    -ms-flex-align: $value;
+  }
+  -webkit-align-items: $value;
+  -moz-align-items: $value;
+  align-items: $value;
+}

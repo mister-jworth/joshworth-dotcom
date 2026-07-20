@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Ocean is Actually Pretty Deep</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7991154/781306/css/fonts.css" />
+<link rel="stylesheet" type="text/css" href="http://www.joshworth.com/fonts/LineIcons/style.css" />
+</head>
+
+<body>
+ <div id="distance-counter">5645 meters</div>
+<div id="wrapper">
+    <div id="sky">
+    <div class="contentzone" style="text-align: center">
+    	<div id="titlecard"><img src="img/ocean-title.svg">
+        </div>	
+        <span style="color:#C1F1FD; font-size:larger">A leisurely dive to the bottom of the Mariana Trench<br/>(the deepest part of the ocean)</span>
+        <div style="margin:30px auto"><img src="img/downarrow-white-thin.svg" height="200"></div>
+        <div id="scalecard">
+        <table border="0" style="margin-bottom:40px;">
+  			<tbody>
+    			<tr>
+      				<td width="49%"><div class="accentline"></div></td>
+      				<td id="scalelabel">SCALE</td>
+      				<td width="49%"><div class="accentline"></div></td>
+    			</tr>
+  			</tbody>
+		</table>
+  1 pixel <span class="icon-arrow-r-lg iconstyle1"></span><div id="pixelbox"></div> = <div id="scalebox"></div>
+  <span class="icon-arrow-l-lg iconstyle1"></span> 1 cm<br/>
+        <div id="tickcard"><img src="img/ticks@1x.png"></div> = 1 meter
+        </div>
+        <div style="margin:80px auto"><img src="img/downarrow-white-thin.svg" height="200"></div>
+        <div>Hold your breath (bubbles coming out)</div>
+	</div>
+    </div>
+    
+    <div id="ticks"></div>
+    <div id="water">
+    </div>
+    <!--video test-->
+ <div class="offset3" id="canvas_output"> 
+    <video id="video" style="display:none" autoplay>
+        <source src="img/jellfish-comp.mp4" type='video/mp4; codecs="avc1.42E01E"' />
+    </video>
+    <canvas width="320" height="640" id="buffer" style="display:none"></canvas>
+    <canvas width="320" height="320" id="output"></canvas>  
+</div>
+<!-- END video test-->
+ </div>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+ <script src="js/alphavid.js"></script>
+ <script src="js/oceanscript.js"></script>
+</body>
+</html>

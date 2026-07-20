@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Bariol';
+  font-weight: bold;
+  src: url('../fonts/Bariol_Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Bariol';
+  font-weight: 200;
+  src: url('../fonts/Bariol_Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Bariol';
+  font-weight: normal;
+  src: url('../fonts/Bariol_Regular.otf') format("opentype");
+}
+
+.hero--under-maintenance-wrapper {
+  background: #f9f9f9;
+}
+
+.hero--under-maintenance {
+  height: 100%;
+  position: relative;
+  text-align: left;
+}
+
+.under-maintenance {
+  margin: -11% 0 0 -460px;
+  max-width: 940px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: left;
+}
+
+.under-maintenance-text {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 90px;
+}
+
+.under-maintenance-comic {
+  max-width: 410px;
+  max-height: 50%;
+  float: left;
+}
+
+.under-maintenance h1, h2 {
+  font-family: 'Bariol', sans-serif;
+  text-transform: none;
+}
+
+.under-maintenance h1 {
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.under-maintenance h2 {
+  font-size: 29px;
+  font-weight: 200;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.under-maintenance a.social {
+  display: inline-block;
+  text-align: center;
+}
+.under-maintenance a.social > svg {
+  transform: scale(1.5);
+  margin: 0 8px;
+}
+.under-maintenance a.social.google-plus > svg {
+  transform: scale(0.9);
+  margin: 0;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 940px) {
+  .hero--under-maintenance {
+    text-align: center;
+  }
+
+  .under-maintenance {
+    position: initial;
+    margin: 0 auto;
+    padding-top: 20%;
+    text-align: center;
+  }
+
+  .under-maintenance-comic {
+    float: none;
+  }
+
+  .under-maintenance-text {
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .under-maintenance-text h2 {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .under-maintenance-comic {
+    max-width: 80%;
+  }
+
+  .under-maintenance-text h1 {
+    font-size: 1.9em;
+  }
+
+  .under-maintenance-text h2 {
+    font-size: 1.2em;
+    padding: 0 15px;
+  }
+}

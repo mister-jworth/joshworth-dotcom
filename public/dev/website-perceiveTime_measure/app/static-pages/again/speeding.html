@@ -1,0 +1,269 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <!--        jQueryUI-->
+  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="sliders.js"></script>
+</head>
+
+<body>
+  <style type="text/css">
+  .topShow {
+    display: block;
+  }
+  
+  #slider-range-min {
+    display: block;
+  }
+  
+  #slider-range-select {
+    display: none;
+  }
+  
+  #downsvg {
+    display: none;
+    height: 100px;
+  }
+  
+  p.ques {
+    text-align: center;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  </style>
+  <p class="ques">Psychologists have found that your ability to
+    <br/>estimate time is affected by all kinds of things.
+    <br/>
+    <br/>Your sense of movement, for instance, can mess
+    <br/>with your mental stopwatch</p>
+  <svg class="staticSvg topShow" version="1.1" id="menusvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <g>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="5.5" x2="23" y2="5.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="11.5" x2="23" y2="11.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="17.5" x2="23" y2="17.5" />
+    </g>
+  </svg>
+  <svg class="staticSvg topShow" version="1.1" id="sharesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="12.5" y1="2" x2="12.5" y2="17" />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="7.7,6.2 12.5,1.5 17.3,6.2 " />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="10,9.5 5.5,9.5 5.5,22.5 19.5,22.5 19.5,9.5 15,9.5 " />
+  </svg>
+  <svg class="staticSvg" height="200mm" id="downsvg" version="1.1" viewbox="0 0 177.16535 708.66142" width="50mm" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs4"></defs>
+    <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="-491.94137" inkscape:cy="397.83644" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="837" inkscape:window-maximized="1" inkscape:window-width="1600" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="0.70710678" pagecolor="#ffffff" showgrid="false" units="mm" width="50mm"></sodipodi:namedview>
+    <metadata id="metadata7">
+      <rdf:rdf>
+        <cc:work rdf:about>
+          <dc:format>
+            image/svg+xml
+          </dc:format>
+          <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+          <dc:title></dc:title>
+        </cc:work>
+      </rdf:rdf>
+    </metadata>
+    <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1" transform="translate(0,-343.70091)">
+      <g id="layer1-7" inkscape:label="Layer 1" style="fill:none;fill-opacity:1" transform="matrix(1.0838362,0,0,1.3230916,-300.55966,89.444025)">
+        <g id="g5218" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1" transform="matrix(0.00963079,1.075106,-1.075106,0.00963079,611.80691,201.96801)">
+          <polygon id="polygon5180" points="384.394,287.5 405.606,308.713 476.213,238.106 405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></polygon>
+          <g id="g5182" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5184" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5186" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5188" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5190" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5192" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5194" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5196" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5198" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5200" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5202" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5204" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5206" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5208" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+          <g id="g5210" style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"></g>
+        </g>
+      </g>
+      <g id="g5218-4" style="stroke:none;stroke-opacity:1" transform="matrix(0.00997404,1.4398213,-1.1134239,0.01289791,350.1634,355.08817)">
+        <polygon id="polygon5180-4" points="418.787,253.106 384.394,287.5 405.606,308.713 476.213,238.106 405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106" style="fill:#ffffff;stroke:none;stroke-opacity:1"></polygon>
+        <g id="g5182-7" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5184-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5186-7" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5188-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5190-4" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5192-1" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5194-8" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5196-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5198-9" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5200-6" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5202-2" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5204-5" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5206-4" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5208-3" style="stroke:none;stroke-opacity:1"></g>
+        <g id="g5210-0" style="stroke:none;stroke-opacity:1"></g>
+      </g>
+    </g>
+  </svg>
+  <div id="slider-range-min"></div>
+  <script type="text/javascript">
+  var clickCount = 0;
+
+  function smoothlyChange(str) {
+    $('.ques').fadeOut('slow', function() {
+      $('.ques').html(str);
+      $('.ques').fadeIn('slow');
+    });
+  }
+  $(document).ready(function() {
+    console.log("ready!");
+    $("#slider-range-min ").slider({
+      value: 6
+    });
+    $("#slider-range-select").slider({
+      slide: function(event, ui) {
+        console.log($('#slider-range-select').slider("value"));
+        $.cookie("yourChoice", $('#slider-range-select').slider("value"));
+        $('#time').text(function() {
+          val = $('#slider-range-select').slider("value");
+          sec = Math.round(5 + 85 * ((val - 30) / 120));
+          console.log(sec);
+          return Math.floor(sec / 60) + ':' + sec % 60;
+        });
+        $('#time').css('left', function() {
+          var temp;
+          temp = $('#slider-range-select').slider("value") - 30;
+          temp = Math.round(temp / 120 * 50 + 25);
+          return temp + '%';
+        });
+      }
+    });
+    var past, now, delaySec, dmin, dsec;
+    var data;
+    $.getJSON("SvgJsons/speed-rings.json", function(json) {
+      comp_speedrings = new SVGAnim(json, 1748, 1748, 50);
+      $('svg:last-child').css({
+        'width': '200%',
+        'height': '200%',
+        'position': 'absolute',
+        'left': '50%',
+        'top': '50%',
+        'transform': 'translate(-50%,-50%)',
+        'z-index': '-100',
+        'display': 'none'
+
+      });
+      $.getJSON("SvgJsons/stop-button.json", function(json) {
+        comp_speedrings = new SVGAnim(json, 87, 87, 100);
+        $('svg:last-child').css({
+          'width': '150px',
+          'height': '150px',
+          'position': 'absolute',
+          'left': '50%',
+          'top': '85%',
+          'transform': 'translate(-50%,-50%)',
+          'display': 'none'
+        });
+        $.getJSON("SvgJsons/go-button.json", function(json) {
+          comp_speedrings = new SVGAnim(json, 87, 87, 100);
+          $('svg:last-child').css({
+            'width': '150px',
+            'height': '150px',
+            'position': 'absolute',
+            'left': '50%',
+            'top': '70%',
+            'transform': 'translate(-50%,-50%)',
+            'display': 'none'
+          });
+          $.getJSON("SvgJsons/next-button.json", function(json) {
+            comp_speedrings = new SVGAnim(json, 79, 39, 100);
+            $('svg:last-child').css({
+              'position': 'absolute',
+              'left': '50%',
+              'top': '75%',
+              'transform': 'translate(-50%,-50%)'
+            });
+            $('svg:last-child').click(function() {
+              clickCount++;
+              console.log(clickCount);
+
+              switch (clickCount) {
+                case 1:
+                  smoothlyChange("If you're waiting around, stuck in one place, it can<br/>feel like you're stuck in time as well.");
+                  break;
+                case 2:
+                  $('.ques').fadeOut('slow', function() {
+                    $('.ques').css('top', '30%').html("If you're speeding through space, does it feel like you're also<br/>speeding through time?<br/><br/>Start the timer if you're ready to pretend.").fadeIn('slow');
+                  });
+
+                  $('svg:last-child').fadeOut('slow');
+                  $('#downsvg').fadeIn('slow');
+                  $('svg:last-child').prev().fadeIn('slow').click(function() {
+                    var d = new Date();
+                    console.log(d.getTime());
+                    $.cookie("togglMeasureStart", d.getTime());
+                    $('svg:last-child').prev().prev().fadeIn('slow').click(function() {
+                      $.cookie('togglWhere','speed');
+                      console.log('togglWhere',$.cookie('togglWhere'));
+                      window.location.pathname = pathPrefix + "actually.html";
+                    });
+                    $('svg:last-child').prev().prev().prev().fadeIn('slow');
+                    $('svg:last-child').prev().fadeOut('slow');
+                    $('#slider-range-min').fadeOut('slow');
+                    $('.topShow').fadeOut('slow');
+                    smoothlyChange("Press the button when you feel like a minute has passed");
+                    $('#downsvg').fadeOut('slow').delay(1000).fadeIn('slow').delay(2000).fadeOut('slow', function() {
+                      // smoothlyChange("Hurry!<br/>You've only got 60 seconds<br/>to make it to the one minute mark!");
+                      // smoothlyChange("At this rate it'll take you the rest of the day<br/>to get to tomorrow!");
+                      $('.ques').fadeOut('slow', function() {
+                        $('.ques').css('top', '50%').html("Hurry!<br/>You've only got 60 seconds<br/>to make it to the one minute mark!").fadeIn('slow').delay(3000).fadeOut('slow', function() {
+                          $('.ques').html("At this rate it'll take you the rest of the day<br/>to get to tomorrow!").fadeIn('slow').delay(4000).fadeOut('slow', function() {
+                            $('.ques').html("You're speeding through time at an astounding<br/>1000 milliseconds per second!").fadeIn('slow').delay(4000).fadeOut('slow', function() {
+                              $('.ques').html("Must... go... faster...").fadeIn('slow').delay(4000).fadeOut('slow', function() {
+                                $('.ques').html("Are you sure that's not a minute yet?").fadeIn('slow').delay(4000);
+                              });
+                            });
+                          });
+                        });
+                      });
+
+                    });
+                  });
+                  break;
+                case 3:
+                  smoothlyChange("That's about as precise an answer as any<br/>answer to any question you will ever ask.");
+                  break;
+                case 4:
+                  smoothlyChange("But when it's inside the brain, and you're actually<br/>experiencing it, a minute can shrink and stretch<br/>depending on how you spend it.");
+                  break;
+                case 6:
+                  smoothlyChange("And unless you're sitting around watching a cesium-133<br/>atom, your idea of a minute is anything but precise.");
+                  break;
+                case 6:
+                  smoothlyChange("Nobody's been able to locate a phisical part of the<br/>brain that's solely responsible for time-keeping.");
+                  break;
+                default:
+                  window.location.pathname = pathPrefix + 'catc.html';
+                  break;
+              }
+            });
+          });
+        });
+      });
+    });
+  });
+  </script>
+  <script type="text/javascript ">
+
+  </script>
+<script src="after.js"></script></body>
+
+</html>

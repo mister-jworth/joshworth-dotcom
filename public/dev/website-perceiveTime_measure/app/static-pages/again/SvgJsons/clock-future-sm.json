@@ -1,0 +1,354 @@
+{
+	"DOMDocument" : {
+		"Shape" : [
+			{
+				"charid" : "1",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "1",
+						"d" : "M 62 48.6 l 0 13.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "butt",
+						"strokeLinejoin" : "miter",
+						"stroke-miterlimit" : "10",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "3",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "1",
+						"d" : "M -16.65 -1 q 0 -7.35 5.15 -12.5 q 5.2 -5.2 12.55 -5.2 q 7.3 0 12.5 5.2 q 5.2 5.15 5.2 12.5 q 0 7.35 -5.2 12.55 q -5.15 5.15 -12.5 5.15 q -7.35 0 -12.55 -5.15 q -5.15 -5.2 -5.15 -12.55 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "butt",
+						"strokeLinejoin" : "miter",
+						"stroke-miterlimit" : "10",
+						"pathType" : "Stroke"
+					}
+				]
+			}
+		],
+		"Bitmaps" : [],
+		"Sounds" : [],
+		"Text" : [],
+		"Timeline" : [
+			{
+				"charid" : "5",
+				"frameCount" : "24",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "1",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,-62,-38.6"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "4",
+				"frameCount" : "24",
+				"name" : "clock",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "5",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,1.05,-24.4"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "3",
+								"objectId" : "2",
+								"placeAfter" : "1",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.963,-0.268,0.268,0.963,-5.225,-23.568"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.853,-0.519,0.519,0.853,-11.117,-20.96"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.682,-0.729,0.729,0.682,-16.071,-16.96"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.458,-0.887,0.887,0.458,-19.817,-11.717"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.2,-0.979,0.979,0.2,-21.978,-5.618"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.066,-0.998,0.998,-0.066,-22.411,0.615"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.334,-0.941,0.941,-0.334,-21.122,6.913"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.574,-0.817,0.817,-0.574,-18.181,12.557"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.775,-0.63,0.63,-0.775,-13.779,17.342"
+							}
+						]
+					},
+					{
+						"num" : "10",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.917,-0.396,0.396,-0.917,-8.267,20.662"
+							}
+						]
+					},
+					{
+						"num" : "11",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.99,-0.135,0.135,-0.99,-2.139,22.423"
+							}
+						]
+					},
+					{
+						"num" : "12",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.99,0.135,-0.135,-0.99,4.209,22.407"
+							}
+						]
+					},
+					{
+						"num" : "13",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.917,0.396,-0.396,-0.917,10.341,20.693"
+							}
+						]
+					},
+					{
+						"num" : "14",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.775,0.63,-0.63,-0.775,15.802,17.315"
+							}
+						]
+					},
+					{
+						"num" : "15",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.574,0.817,-0.817,-0.574,20.275,12.622"
+							}
+						]
+					},
+					{
+						"num" : "16",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.334,0.941,-0.941,-0.334,23.221,6.99"
+							}
+						]
+					},
+					{
+						"num" : "17",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.066,0.998,-0.998,-0.066,24.522,0.66"
+							}
+						]
+					},
+					{
+						"num" : "18",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.2,0.979,-0.979,0.2,24.099,-5.562"
+							}
+						]
+					},
+					{
+						"num" : "19",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.458,0.887,-0.887,0.458,21.93,-11.654"
+							}
+						]
+					},
+					{
+						"num" : "20",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.682,0.729,-0.729,0.682,18.204,-16.929"
+							}
+						]
+					},
+					{
+						"num" : "21",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.853,0.519,-0.519,0.853,13.259,-20.97"
+							}
+						]
+					},
+					{
+						"num" : "22",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.963,0.268,-0.268,0.963,7.347,-23.555"
+							}
+						]
+					},
+					{
+						"num" : "23",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1,0,0,1,1.05,-24.4"
+							}
+						]
+					}
+				]
+			},
+			{
+				"frameCount" : "1",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "4",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,17.15,19.2"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

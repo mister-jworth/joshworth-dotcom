@@ -1,0 +1,853 @@
+{
+	"DOMDocument" : {
+		"Shape" : [
+			{
+				"charid" : "1",
+				"path" : [
+					{
+						"color" : "#5bb947",
+						"colorOpacity" : "1",
+						"d" : "M 43.5 0.5 q 17.8 0 30.4 12.6 q 12.6 12.65 12.6 30.4 q 0 17.8 -12.6 30.4 q -12.6 12.6 -30.4 12.6 q -17.8 0 -30.4 -12.6 q -12.6 -12.6 -12.6 -30.4 q 0 -17.8 12.6 -30.4 q 12.6 -12.6 30.4 -12.6 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "butt",
+						"strokeLinejoin" : "miter",
+						"stroke-miterlimit" : "10",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "3",
+				"path" : [
+					{
+						"color" : "#5bb947",
+						"colorOpacity" : "1",
+						"d" : "M 43.5 11.5 q 13.25 0 22.6 9.4 q 9.4 9.35 9.4 22.6 q 0 13.25 -9.4 22.65 q -9.35 9.35 -22.6 9.35 q -13.25 0 -22.65 -9.35 q -9.35 -9.35 -9.35 -22.65 q 0 -13.25 9.35 -22.6 q 9.4 -9.4 22.65 -9.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "butt",
+						"strokeLinejoin" : "miter",
+						"stroke-miterlimit" : "10",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "5",
+				"path" : [
+					{
+						"color" : "#5bb947",
+						"colorOpacity" : "1",
+						"d" : "M 43.5 22.65 q 8.65 0 14.75 6.1 q 6.15 6.15 6.15 14.75 q 0 8.65 -6.15 14.8 q -6.1 6.15 -14.75 6.15 q -8.65 0 -14.8 -6.15 q -6.1 -6.15 -6.1 -14.8 q 0 -8.65 6.1 -14.75 q 6.15 -6.1 14.8 -6.1 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "butt",
+						"strokeLinejoin" : "miter",
+						"stroke-miterlimit" : "10",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "7",
+				"path" : [
+					{
+						"color" : "#5bb947",
+						"colorOpacity" : "1",
+						"d" : "M 43.5 33.6 q 4.1 0 7 2.9 q 2.9 2.9 2.9 7 q 0 4.1 -2.9 7.05 q -2.9 2.9 -7 2.9 q -4.1 0 -7.05 -2.9 q -2.9 -2.9 -2.9 -7.05 q 0 -4.1 2.9 -7 q 2.95 -2.9 7.05 -2.9 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "butt",
+						"strokeLinejoin" : "miter",
+						"stroke-miterlimit" : "10",
+						"pathType" : "Stroke"
+					}
+				]
+			}
+		],
+		"Bitmaps" : [],
+		"Sounds" : [],
+		"Text" : [],
+		"Timeline" : [
+			{
+				"charid" : "2",
+				"frameCount" : "1",
+				"name" : "ring4",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "1",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,-43.5,-43.5"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "4",
+				"frameCount" : "1",
+				"name" : "ring3",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "3",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,-43.5,-43.5"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "6",
+				"frameCount" : "1",
+				"name" : "ring2",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "5",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,-43.5,-43.55"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "8",
+				"frameCount" : "1",
+				"name" : "ring1",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "7",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,-43.45,-43.5"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "9",
+				"frameCount" : "40",
+				"name" : "icon-go",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "2",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,43.5,43.5",
+								"name" : "ring4"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "4",
+								"objectId" : "2",
+								"placeAfter" : "1",
+								"transformMatrix" : "1,0,0,1,43.5,43.5",
+								"name" : "ring3"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "2",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "2",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "6",
+								"objectId" : "3",
+								"placeAfter" : "2",
+								"transformMatrix" : "1,0,0,1,43.5,43.55",
+								"name" : "ring2"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "3",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "3",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "8",
+								"objectId" : "4",
+								"placeAfter" : "3",
+								"transformMatrix" : "1,0,0,1,43.45,43.5",
+								"name" : "ring1"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "4",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "4",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.66,0,"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.83,0,"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.51,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.63,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.96,0,"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.75,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.93,0,"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.87,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.9,0,"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.51,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.87,0,"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.63,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.96,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.84,0,"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.75,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.93,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.81,0,"
+							}
+						]
+					},
+					{
+						"num" : "10",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.87,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.9,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.78,0,"
+							}
+						]
+					},
+					{
+						"num" : "11",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.51,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.87,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.75,0,"
+							}
+						]
+					},
+					{
+						"num" : "12",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.63,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.96,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.84,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.71,0,"
+							}
+						]
+					},
+					{
+						"num" : "13",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.75,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.93,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.81,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.68,0,"
+							}
+						]
+					},
+					{
+						"num" : "14",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.87,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.9,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.78,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.65,0,"
+							}
+						]
+					},
+					{
+						"num" : "15",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.87,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.75,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.62,0,"
+							}
+						]
+					},
+					{
+						"num" : "16",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.96,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.84,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.71,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.59,0,"
+							}
+						]
+					},
+					{
+						"num" : "17",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.93,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.81,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.68,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.56,0,"
+							}
+						]
+					},
+					{
+						"num" : "18",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.9,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.78,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.65,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.53,0,"
+							}
+						]
+					},
+					{
+						"num" : "19",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.87,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.75,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.62,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							}
+						]
+					},
+					{
+						"num" : "20",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.84,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.71,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.59,0,"
+							}
+						]
+					},
+					{
+						"num" : "21",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.81,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.68,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.56,0,"
+							}
+						]
+					},
+					{
+						"num" : "22",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.78,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.65,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.53,0,"
+							}
+						]
+					},
+					{
+						"num" : "23",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.75,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.62,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							}
+						]
+					},
+					{
+						"num" : "24",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.71,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.59,0,"
+							}
+						]
+					},
+					{
+						"num" : "25",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.68,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.56,0,"
+							}
+						]
+					},
+					{
+						"num" : "26",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.65,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.53,0,"
+							}
+						]
+					},
+					{
+						"num" : "27",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.62,0,"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							}
+						]
+					},
+					{
+						"num" : "28",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.59,0,"
+							}
+						]
+					},
+					{
+						"num" : "29",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.56,0,"
+							}
+						]
+					},
+					{
+						"num" : "30",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.53,0,"
+							}
+						]
+					},
+					{
+						"num" : "31",
+						"Command" : [
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,0.5,0,"
+							}
+						]
+					}
+				]
+			},
+			{
+				"frameCount" : "1",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "9",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0",
+								"name" : "goBtn"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

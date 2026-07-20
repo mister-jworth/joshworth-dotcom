@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^1pixelmoon\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.1pixelmoon\.com$
+RewriteRule ^/?$ "http\:\/\/joshworth\.com\/dev\/pixelspace\/pixelspace_solarsystem\.html" [R=301,L]
+

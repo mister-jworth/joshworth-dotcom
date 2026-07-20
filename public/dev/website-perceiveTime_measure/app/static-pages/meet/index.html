@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="keywords" content="Toggl - Meet the Team Behind This Productivity Tool">
+        <meta name="description" content="Meet us for coffee & give feedback about Toggl timer. We frequently fly out to different locations to meet our productive users. Let's meet!">
+        <meta name="author" content="toggl.com">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+        <meta name="viewport" id="viewport-meta" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link href="stylesheets/style.css" rel='stylesheet' type='text/css'>
+
+        <title>Meet the Toggler</title>
+        <meta property="og:site_name" content="Toggl" />
+        <meta property="og:title" content="Toggl - Meet the Team Behind This Productivity Tool" />
+        <meta property="og:description" content="Meet us for coffee & give feedback about Toggl timer. We frequently fly out to different locations to meet our productive users. Let's meet!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://toggl.com/meet" />
+        <meta property="og:image" content="https://toggl.com/meet/images/meet_badge.png" />
+    </head>
+    <body>
+
+        <div id="wrap">
+            <div id="video-container">
+                <video width="320" height="240" autoplay loop>
+                    <source src="video/video.webm" type="video/webm">
+                    <source src="video/video.mp4" type="video/mp4">
+                    <source src="video/video.ogv" type="video/ogg">
+                </video>
+            </div> <!-- //video-container -->
+
+            <div id="main">
+                <div class="wrap">
+
+                    <a href="https://toggl.com" target="_blank" id="logo"></a>
+
+                    <div class="top">
+                        <h1>Meet the <span class="colored">Toggler</span>.</h1>
+                        <p style="font-size: 24px"> You've met the product - now meet its people. </p>
+                        <p> Every year, we fly out to different cities to meet our fellow togglers face to face. We do this to learn more about how You use Toggl, and what we could do to make it better. </p>
+                    </div> <!-- //to -->
+
+                    <div class="grid-holder cfx">
+
+                    <!-- processhtml:template -->
+                    <% if (meetings && meetings.length) { %>
+                        <% meetings.forEach(function(meeting, index) { %>
+                            <div class="grid grid-<%= (index % 2) ? 'left' : 'right' %>"><img src="<%= meeting.img %>" alt="<%= meeting.who %>" /></div>
+                            <div class="grid grid-<%= (index % 2) ? 'left' : 'right' %>" id="<%= meeting.id %>">
+                                <div class="inner">
+                                    <div class="row">
+                                        <div class="content">
+                                            <h2><a href="#<%= meeting.id %>"><%= meeting.location %></a></h2>
+                                            <h3><%= meeting.date %></h3>
+                                            <p><%= meeting.description %></p>
+                                            <br/>
+                                            <div class="request-meeting">
+                                                <a href="javascript:void(0)" target="_blank" class="btn">Request meeting</a>
+                                            </div>
+                                            <div class="request-specifics" style="display:none">
+                                                <form data-location="<%= meeting.id %>">
+                                                    <input type="text" placeholder="Your email">
+                                                    <input type="submit" href="javascript:void(0)" class="btn" value="Send"></input>
+                                                </form>
+                                            </div>
+                                            <div class="request-done" style="display:none">
+                                                Thank you, we’ll email you with more details later. Looking forward to meeting you!
+                                            </div>
+                                            <div class="request-failed" style="display:none">
+                                                Unfortunately something broke when trying to send the data to our team. Please  <a href="mailto:meet@toggl.com">drop us an email</a> manually!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <% }) %>
+                    <% } else if (vacation) { %>
+                        <div class="grid grid-right"><img src="images/vacation.jpg" alt="We are on vacation!" /></div>
+                        <div class="grid grid-right">
+                            <div class="inner">
+                                <div class="row">
+                                    <div class="content">
+                                        <h2>Vacation</h2>
+                                        <h3><%= vacation.title %></h3>
+                                        <p>
+                                          <%= vacation.text %>
+                                        </p>
+                                        <p>
+                                            Drop us an email at
+                                            <a href="mailto:meet@toggl.com">meet@toggl.com</a> to
+                                            help your city get on that list too!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                    <!-- /processhtml -->
+
+                    </div> <!-- //grid-holder -->
+
+                    <div id="bottom">
+                        <h2>Your city not in the list? <a href="mailto:meet@toggl.com">Let us know</a> where our next visit should be.</h2>
+                        <h3 class="padded">Share this opportunity with everyone:<h3>
+
+                        <div class="share">
+                            <a href="https://twitter.com/home?status=.@Toggl%20is%20on%20the%20road%20again!%20Follow%20the%20link%20to%20see%20if%20they%E2%80%99re%20coming%20to%20your%20area%20and%20request%20a%20meeting:%20toggl.com/meet" target="_blank" class="twitter"><span></span></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://toggl.com/meet" target="_blank" class="facebook"><span></span></a>
+                            <a href="https://plus.google.com/share?url=https://toggl.com/meet" target="_blank" class="google"><span></span></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=toggl.com/meet&title=Meet%20the%20good%20folks%20behind%20Toggl!&summary=&source=" target="_blank" class="linkedin"><span></span></a>
+                        </div> <!-- //share -->
+                    </div> <!-- //bottom -->
+                </div> <!-- //wrap -->
+
+            </div> <!-- //main -->
+        </div> <!-- //wrap -->
+
+        <script src="javascripts/jquery.min.js"></script>
+        <script src="javascripts/scripts.js"></script>
+
+  <script type="text/javascript">
+    var clicky_site_ids = clicky_site_ids || [];
+    clicky_site_ids.push(100857897);
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//static.getclicky.com/js';
+      ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+
+    })();
+  </script>
+
+  <!-- processhtml:include custom-analytics.html -->
+  <!-- /processhtml -->
+
+  <!-- processhtml:include google-remarketing.html -->
+  <!-- /processhtml -->
+
+  </body>
+</html>

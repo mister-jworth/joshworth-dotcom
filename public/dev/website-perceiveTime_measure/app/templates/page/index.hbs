@@ -1,0 +1,73 @@
+{{> 'header' }}
+<section class="hero hero--front">
+  <div class="hero__background{{#if aprilFools}} aprilfools{{/if}}">
+    <section class="hero__manual-video js-manual-video" style="display:none;"></section>
+    <div class="video js-automatic-video">
+      <div class="wrapper">
+      </div>
+    </div>
+  </div>
+  <div class="hero__content content--light hero__content--centered">
+    <section class="js-manual-video" style="display:none;">
+      <h1 class="hero-timer-heading hero-timer-heading__manual">Take your productivity to the next level</h1>
+      <h3 class="manual-time-start">
+        <div class="seen-wrapper">
+          <a href="/feature-list">
+              Learn about advanced features
+          </a>
+        </div>
+      </h3>
+    </section>
+    <section class="js-automatic-video">
+      <h1 class="hero-timer-heading dynamic" data-default-text="Toggl anything"></h1>
+      <h1 class="hero-timer-heading dynamic"></h1>
+      <span class="hero-timer" style="opacity: 0;">
+        <span class="seconds"></span>.<span class="milliseconds"></span>
+      </span>
+    </section>
+
+  </div>
+
+  <a href="/app" class="logged cta-button cta-button--filled js-redirect-to-app js-ripple-button" data-custom-analytics-event="Clicked bottom 'Start tracking' on the homepage while logged-in - goes to /app">Start tracking</a>
+  <a href="/signup" class="not-logged cta-button cta-button--filled js-ripple-button" data-custom-analytics-event="Clicked bottom 'Start tracking' on the homepage as a new user - goes to /signup">Start tracking</a>
+
+  <div class="js-play-pause-controls" style="display: none;">
+    <div class="video-pause-button" style="display:none;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="white">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M9 16h2V8H9v8zm3-14C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-4h2V8h-2v8z"/>
+      </svg>
+    </div>
+    <div class="video-play-button">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="36" height="36" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+      </svg>
+    </div>
+  </div>
+  <div class="video-mute-button js-automatic-video">
+    <svg height="32" version="1.1" width="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+      <defs></defs>
+      <g class="audio-waves">
+        <path class="first" fill="white" d="m 38,23 -3,3 c 2,2 3,4 3,6 0,2 -1,5 -3,6 l 3,3 c 2,-2 4,-6 4,-9 0,-4 -1,-7 -4,-9 z"></path>
+        <path class="second" fill="white" d="m 50,32 c 0,-6 -2,-11 -6,-15 L 41,20 c 3,3 5,8 5,12 0,5 -2,9 -5,12 l 3,3 C 48,43 50,38 50,32 z"></path>
+        <path class="third" fill="white" d="m 59,32 c 0,-8 -3,-16 -9,-22 l -3,3 c 5,5 8,11 8,18 0,7 -3,14 -8,18 l 3,3 c 6,-5 9,-13 9,-22 z"></path>
+      </g>
+      <polygon fill="white" points="12,40 26,52 26,10 12,22 0,22 0,40"></polygon>
+    </svg>
+  </div>
+</section>
+<section class="content-section content-section--centered content-section--centered--padded-more">
+  <div class="timer cf">
+    <div class="timer__task">Reading toggl.com</div>
+    <button class="timer__button timer__button--stop js-ripple-button">Stop</button>
+    <div class="timer__time">0 sec</div>
+  </div>
+  <h2>The ultimate timer. It's insanely simple.</h2>
+  <p>
+    Toggl’s time tracker is built for speed and ease of use. Time keeping with Toggl is so simple that you’ll actually use it. Toggl drives a stake in the heart of timesheets.
+  </p>
+  <a href="/signup" class="cta-button cta-button--empty js-ripple-button" data-custom-analytics-event="Clicked bottommost 'Get Started' on the homepage as a new user">Get Started</a>
+</section>
+{{> 'toggler-grid'}}
+{{> 'footer' }}

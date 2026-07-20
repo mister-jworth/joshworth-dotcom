@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Lincoln International Night!</title>
+	
+<style>	
+	
+	body {
+		
+		font-family: sofia-pro, sans-serif;	
+		font-weight: 500;
+		font-style: normal;
+		font-size: 14px;
+		margin: 0px;
+    background-color: #00276D;
+
+	}
+
+    .tiptext {
+        color:#000000; 
+        text-decoration:none;
+        font-size:16px;
+        display: block;
+        margin: 9px 0px 9px 0px;
+    }
+
+    .tiptext:hover {
+        text-decoration: underline;
+    }
+
+	
+	#chartdiv {
+		height:100vh;
+    width:100vw;
+    overflow: hidden;
+		z-index: -10000;
+		background-color: #00276D;
+	}
+
+
+@media (max-height:400px){
+	body {
+		font-size: 14px;
+	}
+}
+@media (max-width:600px){
+	body {
+		font-size: 14px;
+	}
+}
+</style>
+
+  
+  <!-- Resources -->
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+  
+  <!-- Chart code -->
+  <script>
+
+am4core.ready(function() {
+
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+// Create map instance
+var chart = am4core.create("chartdiv", am4maps.MapChart);
+
+var mapData = [
+  { "id": "US",
+   "name": "Cherokee Nation", 
+   "value": 1,
+   "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/cherokee-nation.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/cherokee-nation-jackson-hampton' class='tiptext'><b>Jackson Hampton</b><br/>1st Grade | Cohen</a>",
+   "color": "#FFEC00" },
+
+  { "id": "CN",
+  "name": "China",
+  "value": 3,
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/china.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/china-haven-hanson' class='tiptext'><b>Haven Hanson</b><br/>2nd Grade | Starrett</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/china-keeva-zheng' class='tiptext'><b>Keeva Zhang</b><br/>Kindergarten | Collingwood</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/china-milabelle-alexis-chang' class='tiptext'><b>Mirabelle & Alexis Chang</b><br/>3rd Grade | Bizub<br/>1st Grade | Garceron</a>",
+  "color": "#FFEC00" },
+
+  { "id": "GB",
+  "name": "UK | Wales",
+  "value": 2,
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/uk.png' style='height:40px'>&nbsp<img src='http://www.joshworth.com/dev/international-night/images/wales.png'<br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/england-max-ethan-moran' class='tiptext'><b>Max & Ethan Moran</b><br/>2nd Grade | Hanson</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/wales-emrys-idris-williams' class='tiptext'><b>Emrys & Idris Williams</b><br/>1st Grade | Robinson<br/>Kindergarten | Price</a>",
+  "color": "#FFEC00" },
+
+  { "id": "DE",
+  "name": "Germany",
+  "value": 1,
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/germany.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/germany-anja-haug' class='tiptext'><b>Anja Haug</b><br/>3rd Grade | Bizub</a>",
+  "color": "#FFEC00" },
+
+  { "id": "FR",
+  "name": "France",
+  "value": 1,
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/france.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/france-aurelie-ernoux' class='tiptext'><b>Aurelie Ernoux</b><br/>5th Grade | O'Malley</a>",
+  "color": "#FFEC00" },
+
+
+  { "id": "GR",
+  "name": "Greece",
+  "value": 2,
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/greece.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/greece-abby-markis' class='tiptext'><b>Abby Markis</b><br/>3rd Grade | Bizub</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/greece-florendia-svitak' class='tiptext'><b>Florendia Svitak</b><br/>2nd Grade | Starrett</a>",
+  "color": "#FFEC00" },
+
+  { "id": "IN",
+  "name": "India",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/india.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/india-celia-gulat' class='tiptext'><b>Celia Gulati</b><br/>Kindergarten | Dickert</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/india-gia-sinha' class='tiptext'><b>Gia Sinha</b><br/>Kindergarten | Collingwood</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/india-krishna-jethwani' class='tiptext'><b>Krishna Jethwani</b><br/>Kindergarten | Dickert</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/india-radhika-chugani' class='tiptext'><b>Radhika Chugani</b><br/>1st Grade | Cohen</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/india-shiv-kabir-raina' class='tiptext'><b>Shiv & Kabir Raina</b><br/>4th Grade | Ozanich<br/>1st Grade | Cohen</a>",
+  "value": 5,
+  "color": "#FFEC00" },
+
+  { "id": "IT",
+  "name": "Italy",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/italy.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/italy-luca-stenta' class='tiptext'><b>Luca Stenta</b><br/>1st Grade | Cohen</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/italy-mexico-tori-josie-hale' class='tiptext'><b>Tori & Josie Hale</b><br/>2nd Grade | Byrne<br>Kindergarten | Collingwood</a>",
+  "value": 2,
+  "color": "#FFEC00" },
+
+  { "id": "JM",
+  "name": "Jamaica",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/jamaica.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/jamaica-the-chen-family' class='tiptext'><b>The Chen Family</a>",
+  "value": 1,
+  "color": "#FFEC00" },
+
+  { "id": "JP",
+  "name": "Japan",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/japan.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/japan-hana-weiss' class='tiptext'><b>Hana Weiss</b><br>5th Grade | O'Malley</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/japan-anna-yamashita' class='tiptext'><b>Anna Yamashita</b><br>Kindergarten | Wolfrum</a>",
+  "value": 2,
+  "color": "#FFEC00" },
+
+  { "id": "MX",
+  "name": "Mexico",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/mexico.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/mexico-faith-button' class='tiptext'><b>Faith Button</b><br/>3rd Grade | Bizub</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/mexico-kiana-losq' class='tiptext'><b>Kiana Losq</b><br/>5th Grade | Caywood</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/mexico-layla-sagastume' class='tiptext'><b>Layla Sagastume</b><br/>2nd Grade | Hanson</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/italy-mexico-tori-josie-hale' class='tiptext'><b>Tori & Josie Hale</b><br/>2nd Grade | Byrne<br>Kindergarten | Collingwood</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/mexico-audrey-elder' class='tiptext'><b>Audrey Elder</b><br/>3rd Grade | Ventura</a>",
+  "value": 5,
+  "color": "#FFEC00" },
+
+  { "id": "NG",
+  "name": "Nigeria",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/nigeria.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/nigeria-zolani-yohannes' class='tiptext'><b>Zolani Yohannes</b><br/>Kindergarten | Collingwood</a>",
+  "value": 1,
+  "color": "#FFEC00" },
+
+  { "id": "PH",
+  "name": "Phillipines",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/philippines.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/philippines-zolani-yohannes' class='tiptext'><b>Zolani Yohannes</b><br/>Kindergarten | Collingwood</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/philippines' class='tiptext'><b>Food from the Phillipines</b></a>",
+  "value": 2,
+  "color": "#FFEC00" },
+
+  { "id": "LB",
+  "name": "Lebanon\nPalestine",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/lebanon.png' style='height:40px'>&nbsp;<img src='http://www.joshworth.com/dev/international-night/images/palestine.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/lebanon-palestine-ollie-mazen-genberg' class='tiptext'><b>Oliver \"Ollie\" & Mazen Genberg</b><br/>5th Grade | Caywood<br/>Kindergarten | Price</a>",
+  "value": 1,
+  "color": "#FFEC00" },
+
+  { "id": "PL",
+  "name": "Poland",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/poland.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/poland-hania-oszutowska' class='tiptext'><b>Hania Oszutowska</b><br/>5th Grade | Caywood<br/>3rd Grade | Kelly</a>",
+  "value": 1,
+  "color": "#FFEC00" },
+
+  { "id": "KR",
+  "name": "South Korea",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/southkorea.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/south-korea-olivia-aiden-weiss' class='tiptext'><b>Olivia & Aiden Weiss</b><br/>2nd Grade | Starrett<br/>Kindergarten | Collingwood</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/south-korea-skye-llorin' class='tiptext'><b>Skye Llorin</b><br/>2nd Grade | Dominelli<</a>",
+  "value": 2,
+  "color": "#FFEC00" },
+
+  { "id": "ES",
+  "name": "Spain",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/spain.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/spain-dylan-jordan' class='tiptext'><b>Dylan Jordan</b><br/>3rd Grade | Ventura</a>",
+  "value": 1,
+  "color": "#FFEC00" },
+
+  { "id": "TO",
+  "name": "Tonga",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/tonga.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/tonga-christian-ana-elizabeth-maumalanga' class='tiptext'><b>Christian & Ana Elizabeth Maumalanga</b><br/>4th Grade | Austin<br/>3rd Grade | Ventura</a>",
+  "value": 1,
+  "color": "#FFEC00" },
+
+  { "id": "TR",
+  "name": "Turkey",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/turkey.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/turkey-doruk-engin' class='tiptext'><b>Doruk Engin</b><br/>3rd Grade | Ventura</a>",
+  "value": 1,
+  "color": "#FFEC00" },
+
+  { "id": "VN",
+  "name": "Vietnam",
+  "tooltipHTML": "<img src='http://www.joshworth.com/dev/international-night/images/vietnam.png' style='height:40px'><br/><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/vietnam-brendan-tsurui' class='tiptext'><b>Brendan Tsurui</b><br/>3rd Grade | Ventura</a><a href='https://sites.google.com/lincolnpta.org/2021-lincoln-intl-night/vietnam-jolene-kaylene-nguyen' class='tiptext'><b>Jolene & Kaylene Nguyen</b><br/>5th Grade | Caywood<br/>2nd Grade | McGuire</a>",
+  "value": 2,
+  "color": "#FFEC00" }
+];
+
+
+// Set map definition
+chart.geodata = am4geodata_worldLow;
+
+// Set projection
+chart.projection = new am4maps.projections.Miller();
+
+// Create map polygon series
+var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+polygonSeries.exclude = ["AQ"];
+polygonSeries.useGeodata = true;
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 0.5;
+polygonSeries.calculateVisualCenter = true;
+
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.fill = am4core.color("#0D3887");
+polygonTemplate.stroke = am4core.color("#00276D");
+
+polygonSeries.events.on("validated", function(){
+  imageSeries.invalidate();
+})
+
+
+var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+imageSeries.data = mapData;
+imageSeries.dataFields.value = "value";
+
+var imageTemplate = imageSeries.mapImages.template;
+imageTemplate.nonScaling = true
+
+//rich tooltip setup
+imageTemplate.tooltipHTML = "{tooltipHTML}";
+imageSeries.tooltip.label.interactionsEnabled = true;
+imageSeries.tooltip.keepTargetHover = true;
+imageSeries.tooltip.getFillFromObject = false;
+imageSeries.tooltip.background.fill = am4core.color("#FFFFFF");
+
+
+imageTemplate.adapter.add("latitude", function(latitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLatitude;
+   }
+   return latitude;
+})
+
+imageTemplate.adapter.add("longitude", function(longitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLongitude;
+   }
+   return longitude;
+})
+
+var circle = imageTemplate.createChild(am4core.Circle);
+circle.fillOpacity = 0.70;
+circle.propertyFields.fill = "color";
+
+imageSeries.heatRules.push({
+  "target": circle,
+  "property": "radius",
+  "min": 12,
+  "max": 30,
+  "dataField": "value"
+})
+
+var label = imageTemplate.createChild(am4core.Label);
+label.text = "{name}"
+label.fill = "#FFEC00"
+label.horizontalCenter = "middle";
+label.padding(2,2,2,2);
+label.adapter.add("dy", function(dy, target){
+  var circle = target.parent.children.getIndex(0);
+  return circle.pixelRadius;
+})
+
+});
+
+</script>
+  
+
+<!-- HTML -->
+<body>
+
+<div id="chartdiv"></div>
+
+</body>

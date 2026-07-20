@@ -1,0 +1,242 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <!--        jQueryUI-->
+  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="sliders.js"></script>
+</head>
+
+<body>
+  <style type="text/css">
+  .topShow {
+    display: none;
+  }
+  
+  #slider-range-min {
+    display: block;
+  }
+  
+  #slider-range-select {
+    display: none;
+  }
+  
+  #downsvg {
+    display: none;
+  }
+  
+  p.ques {
+    text-align: center;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  
+  p.elapsedTime {
+    text-align: center;
+    font-size: 100px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  #togglMark {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    display: none;
+  }
+  </style>
+  <p class="ques">If you're just using your brain, your chances of<br/>measuring time accurately are pretty slim.</p>
+  <svg class="staticSvg topShow" version="1.1" id="menusvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <g>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="5.5" x2="23" y2="5.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="11.5" x2="23" y2="11.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="17.5" x2="23" y2="17.5" />
+    </g>
+  </svg>
+  <svg class="staticSvg topShow" version="1.1" id="sharesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="12.5" y1="2" x2="12.5" y2="17" />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="7.7,6.2 12.5,1.5 17.3,6.2 " />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="10,9.5 5.5,9.5 5.5,22.5 19.5,22.5 19.5,9.5 15,9.5 " />
+  </svg>
+
+  <svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     id="togglMark"
+     version="1.1"
+     inkscape:version="0.91 r13725"
+     xml:space="preserve"
+     width="750"
+     height="375"
+     viewBox="0 0 750 375"
+     sodipodi:docname="Toggl-logo-white.svg"><metadata
+       id="metadata4613"><rdf:RDF><cc:Work
+           rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+             rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+       id="defs4611"><clipPath
+         clipPathUnits="userSpaceOnUse"
+         id="clipPath4621"><path
+           d="M 0,300 600,300 600,0 0,0 0,300 Z"
+           id="path4623"
+           inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+       pagecolor="#ffffff"
+       bordercolor="#666666"
+       borderopacity="1"
+       objecttolerance="10"
+       gridtolerance="10"
+       guidetolerance="10"
+       inkscape:pageopacity="0"
+       inkscape:pageshadow="2"
+       inkscape:window-width="1600"
+       inkscape:window-height="837"
+       id="namedview4609"
+       showgrid="false"
+       inkscape:zoom="0.464"
+       inkscape:cx="375"
+       inkscape:cy="187.5"
+       inkscape:window-x="-8"
+       inkscape:window-y="-8"
+       inkscape:window-maximized="1"
+       inkscape:current-layer="g4615" /><g
+       id="g4615"
+       inkscape:groupmode="layer"
+       inkscape:label="Toggl-logo-white"
+       transform="matrix(1.25,0,0,-1.25,0,375)"><g
+         id="g4617"><g
+           id="g4619"
+           clip-path="url(#clipPath4621)"><g
+             id="g4625"
+             transform="translate(254.322,157.2304)"><path
+               d="m 0,0 c -6.134,0 -9.747,2.956 -9.747,7.446 0,4.716 3.504,7.343 10.407,7.671 l 0,7.556 c 0,8.432 2.737,12.6 8.652,12.6 5.804,0 8.542,-4.168 8.542,-12.6 l 0,-7.556 1.535,0 c 6.9,0 10.844,-2.955 10.844,-7.671 C 30.233,2.627 26.618,0 19.279,0 l -1.425,0 0,-30.558 c 0,-8.438 -2.628,-12.599 -8.542,-12.599 -5.915,0 -8.652,4.161 -8.652,12.599 L 0.66,0 0,0 Z"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path4627"
+               inkscape:connector-curvature="0" /></g><g
+             id="g4629"
+             transform="translate(313.7976,129.5202)"><path
+               d="M 0,0 C 6.57,0 11.391,5.694 11.391,14.68 11.391,23.439 6.35,29.133 0,29.133 -6.35,29.133 -11.389,23.658 -11.389,14.68 -11.389,5.584 -6.57,0 0,0 m 0,45.346 c 17.091,0 29.133,-12.928 29.133,-30.893 0,-17.958 -12.042,-30.886 -29.133,-30.886 -16.978,0 -29.244,12.928 -29.244,30.886 0,17.965 12.266,30.893 29.244,30.893"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path4631"
+               inkscape:connector-curvature="0" /></g><g
+             id="g4633"
+             transform="translate(377.2168,129.5202)"><path
+               d="m 0,0 c 6.466,0 11.392,5.694 11.392,14.453 0,8.658 -5.038,14.133 -11.392,14.133 -6.354,0 -11.284,-5.475 -11.284,-14.133 C -11.284,5.584 -6.466,0 0,0 m -4.159,-15.556 c -13.583,0 -24.978,12.489 -24.978,30.009 0,17.527 12.162,30.565 26.838,30.565 5.915,0 10.298,-1.971 13.798,-6.132 1.972,3.613 5.037,5.475 7.672,5.475 5.915,0 8.653,-4.052 8.653,-12.49 l 0,-34.719 c 0,-10.409 -0.659,-18.292 -4.055,-23.878 -5.037,-8.438 -14.018,-12.928 -26.288,-12.928 -15.769,0 -25.301,5.803 -25.301,12.6 0,4.379 3.177,7.556 7.448,7.556 4.271,0 9.42,-4.6 18.512,-4.6 8.434,0 13.471,5.147 13.471,14.563 0,0.664 -0.112,1.323 -0.112,2.089 -3.72,-5.374 -8.869,-8.11 -15.658,-8.11"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path4635"
+               inkscape:connector-curvature="0" /></g><g
+             id="g4637"
+             transform="translate(442.6078,129.5202)"><path
+               d="M 0,0 C 6.458,0 11.395,5.694 11.395,14.453 11.395,23.111 6.35,28.586 0,28.586 -6.354,28.586 -11.28,23.111 -11.28,14.453 -11.28,5.584 -6.462,0 0,0 m -4.163,-15.556 c -13.587,0 -24.974,12.489 -24.974,30.009 0,17.527 12.154,30.565 26.834,30.565 5.915,0 10.302,-1.971 13.806,-6.132 1.972,3.613 5.037,5.475 7.664,5.475 5.915,0 8.653,-4.052 8.653,-12.49 l 0,-34.719 c 0,-10.409 -0.659,-18.292 -4.051,-23.878 -5.037,-8.438 -14.018,-12.928 -26.288,-12.928 -15.777,0 -25.301,5.803 -25.301,12.6 0,4.379 3.173,7.556 7.444,7.556 4.275,0 9.424,-4.6 18.512,-4.6 8.434,0 13.475,5.147 13.475,14.563 0,0.664 -0.108,1.323 -0.108,2.089 -3.724,-5.374 -8.877,-8.11 -15.666,-8.11"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path4639"
+               inkscape:connector-curvature="0" /></g><g
+             id="g4641"
+             transform="translate(491.4584,198.4165)"><path
+               d="m 0,0 c 5.803,0 8.542,-4.161 8.542,-12.6 l 0,-59.144 c 0,-8.438 -2.631,-12.599 -8.542,-12.599 -5.915,0 -8.653,4.161 -8.653,12.599 l 0,59.144 C -8.653,-4.161 -5.915,0 0,0"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path4643"
+               inkscape:connector-curvature="0" /></g><g
+             id="g4645"
+             transform="translate(159.293,120.4337)"><path
+               d="m 0,0 c -15.998,0 -28.976,12.98 -28.976,28.981 0,13.355 9.031,24.589 21.322,27.955 l 0,-8.42 C -15.46,45.455 -20.981,37.865 -20.981,28.981 -20.981,17.394 -11.585,7.997 0,7.997 c 11.586,0 20.983,9.397 20.983,20.984 0,8.884 -5.525,16.474 -13.321,19.535 l 0,8.42 C 19.943,53.57 28.978,42.336 28.978,28.981 28.978,12.98 16.003,0 0,0 m -4.162,66.619 8.326,0 0,-41.3 -8.326,0 0,41.3 z M 0,89.701 c -32.748,0 -59.293,-26.541 -59.293,-59.293 0,-32.751 26.545,-59.292 59.293,-59.292 32.748,0 59.292,26.541 59.292,59.292 C 59.292,63.16 32.748,89.701 0,89.701"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path4647"
+               inkscape:connector-curvature="0" /></g></g></g></g></svg>
+  <div id="slider-range-min"></div>
+  <div id="slider-range-select"></div>
+
+  <script type="text/javascript">
+  var clickCount = 0;
+
+  function smoothlyChange(str) {
+    $('.ques').fadeOut('slow', function() {
+      $('.ques').html(str);
+      $('.ques').fadeIn('slow');
+    });
+  }
+  $(document).ready(function() {
+    console.log("ready!");
+    $("#slider-range-min ").slider({
+      value: 8
+    });
+    $("#slider-range-select").slider({
+      slide: function(event, ui) {
+        console.log($('#slider-range-select').slider("value"));
+        $.cookie("yourChoice", $('#slider-range-select').slider("value"));
+        $('#time').text(function() {
+          val = $('#slider-range-select').slider("value");
+          sec = Math.round(5 + 85 * ((val - 30) / 120));
+          console.log(sec);
+          return Math.floor(sec / 60) + ':' + sec % 60;
+        });
+        $('#time').css('left', function() {
+          var temp;
+          temp = $('#slider-range-select').slider("value") - 30;
+          temp = Math.round(temp / 120 * 50 + 25);
+          return temp + '%';
+        });
+      }
+    });
+    var past, now, delaySec, dmin, dsec;
+    var data;
+    $.getJSON("SvgJsons/next-button.json", function(json) {
+      comp_speedrings = new SVGAnim(json, 79, 39, 100);
+      $('svg:last-child').css({
+        'position': 'absolute',
+        'left': '50%',
+        'top': '75%',
+        'transform': 'translate(-50%,-50%)'
+      });
+      $('svg:last-child').click(function() {
+        clickCount++;
+        console.log(clickCount);
+
+        switch (clickCount) {
+          case 1:
+            smoothlyChange("It's pretty impressive that you have any<br/>internal sense of time of at all, considering<br/>your brain is a clock made of meat that<br/>was originally developed by monkeys.");
+            break;
+          case 2:
+            smoothlyChange("Luckily, we've invented handy tools like clocks and<br/>calendars to help us out.");
+            break;
+          case 3:
+            smoothlyChange('<b>Toggl</b>,the company who was kind enough to<br/>sponsor this project, has created an easy time-<br/>tracking tool to help answer the age-old question-<br/>"where on earth did all my time go?"');
+
+            break;
+          case 4:
+            
+            $('.ques').fadeOut('slow',function(){
+              smoothlyChange("Thank you for taking the<br/>time to think about time.");  
+              $('.topShow').fadeIn('slow');
+              $('svg:last-child').fadeOut('slow');
+              $('#togglMark').slideDown('3000');
+            });         
+            break;
+        }
+      });
+    });
+    $('#togglMark').click(function(){
+      window.location.href = "http://toggl.com";
+    });
+  });
+  </script>
+<script src="after.js"></script></body>
+
+</html>

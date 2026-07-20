@@ -1,0 +1,51 @@
+[
+ {
+  "id": "190",
+  "parent": "0",
+  "author": "Matt",
+  "date": "2014-03-05 05:20:24",
+  "content": "<p>F'ing hilarious!</p>"
+ },
+ {
+  "id": "191",
+  "parent": "0",
+  "author": "bob",
+  "date": "2015-05-05 21:54:43",
+  "content": "<p>That is not true, I have an i Phone 6 and it doesn't even look like that.</p>"
+ },
+ {
+  "id": "192",
+  "parent": "0",
+  "author": "serah",
+  "date": "2016-10-11 21:40:40",
+  "content": "<p>ahahahah</p>"
+ },
+ {
+  "id": "193",
+  "parent": "191",
+  "author": "Bill",
+  "date": "2017-03-24 14:22:37",
+  "content": "<p>The iPhone 6 isnt the only one with fingerprint recognition; iPhone 5s, iphone SE, iPhone 6 (and plus size), Iphone 6s (and plus size), and iPhone 7 (and plus size) all have the touch id capability.</p>"
+ },
+ {
+  "id": "194",
+  "parent": "0",
+  "author": "Bill",
+  "date": "2017-03-24 14:25:03",
+  "content": "<p>This is not true at all. If it was, my phone case (or all phone cases for that matter) would be caked with lotion. Also, if it was sweet smelling, our hands would smell sweet after using the phone, which doesn't happen.</p>"
+ },
+ {
+  "id": "195",
+  "parent": "194",
+  "author": "jworth",
+  "date": "2017-03-24 19:37:07",
+  "content": "<p>Glad you figured out it wasn't true.</p>"
+ },
+ {
+  "id": "196",
+  "parent": "0",
+  "author": "poodle",
+  "date": "2018-10-19 19:28:47",
+  "content": "<p>hahahahah oh man. this is great.</p>"
+ }
+]

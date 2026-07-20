@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="Toggl, Online Stopwatch on full screen, Time Tracking on big screen">
+    <meta name="description" content="Big screen online stopwatch for robust and quick time logging. Features start, pause and reset buttons. For advanced features, sign up for a free Toggl account.">
+    <meta name="author" content="toggl.com">
+
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" id="viewport-meta" name="viewport">
+
+    <title>Online Stopwatch</title>
+
+    <meta property="og:site_name" content="Toggl" />
+    <meta property="og:title" content="Online Stopwatch" />
+    <meta property="og:description" content="Big screen online stopwatch for robust and quick duration tracking. Features start, pause and reset buttons. Get advanced features by signing up with Toggl." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://toggl.com/online-stopwatch" />
+    <meta property="og:image" content="http://blog.toggl.com/wp-content/uploads/sites/5/2014/08/toggl-online-timer-stopwatch.png" />
+
+    <link href="./includes/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/sweetalert.css" media="all">
+
+    <script src="./includes/modernizr.min.js"></script>
+    <script src="/javascripts/sweetalert.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="video-container"></div>
+    <div id="wrap">
+        <a href="#" id="bookmarkme"><img src="./images/bm.png"></a>
+        <div id="main">
+            <div class="wrap">
+                <a href="/" id="logo" target="_blank"></a>
+
+                <div class="top">
+                    <h1>Online <span class="colored">Stopwatch</span></h1>
+                </div><!-- //top -->
+
+                <div id="timesheet">
+                    <p id="time">00:00:00</p>
+
+                    <div class="cfx cfx" id="controlwrap">
+                        <button class="tcontrol prim" id="start">START</button>
+
+                        <div class="vsep">
+                            <br>
+                        </div><button class="tcontrol sec" id="reset">RESET</button>
+                    </div>
+                </div>
+
+                <div id="bottom">
+                    <h2><a target="_blank" href="/"><span>Get Toggl</span></a> for advanced time management features!</h2>
+
+                    <div class="cfx" id="linkswrap">
+                        <ul class="cfx" id="links">
+                            <li>
+                              <a target="_blank" href="http://www.entrepreneur.com/article/249589">
+                                <span> ■ </span>
+                                Best tools for digital nomads
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="https://www.toggl.com/pomodoro-timer-toggl">
+                                <span> ■ </span>
+                                Pomodoro Timer Add-on for Toggl
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://www.slideshare.net/Toggl/how-much-money-does-time-tracking-save">
+                                <span> ■ </span>
+                                How much money can time tracking save?
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/best-productivity-tools-2016">
+                                <span> ■ </span>
+                                Best productivity tracking tools in 2016
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/employee-timesheet-template/">
+                                <span> ■ </span>
+                                Employee Time Card Calculator
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://www.listhunt.co/2015/10/05/track-your-time-analyze-productivity-with-toggl/">
+                                <span> ■ </span>
+                                How to analyze productivity by using Toggl?
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="http://www.startupist.com/2015/09/09/toggl-the-ultimate-time-tracking-tool-every-busy-entrepreneur-needs/">
+                                <span> ■ </span>
+                                Time tracking benefits for entrepreneurs
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/how-to-calculate-billable-hours ">
+                                <span> ■ </span>
+                                How to calculate billable hours?
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/trello-time-tracking">
+                                <span> ■ </span>
+                                Time tracking integration in Trello
+                              </a>
+                            </li>
+                            <li>
+                              <a target="_blank" href="/business">
+                                <span> ■ </span>
+                                Enterprise Time Management System
+                              </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="share">
+                        <div class="h-sep"></div>
+                            <a class="twitter" href="https://twitter.com/home?status=toggl.com/online-stopwatch%20Best%20quick%20online%20stopwatch%20available.%20You%20need%20to%20bookmark%20this!" target="_blank">
+                                <span></span>
+                            </a>
+                            <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://toggl.com/online-stopwatch/" target="_blank">
+                                <span></span>
+                            </a>
+                            <a class="google" href="https://plus.google.com/share?url=https://toggl.com/online-stopwatch" target="_blank"><span></span></a>
+                            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://toggl.com/online-stopwatch&title=Online%20stopwatch&summary=Online%20stopwatch%20that%20covers%20the%20whole%20screen.%20Best%20for%20quick%20time%20tracking.%20Features%20start,%20pause%20and%20reset%20buttons.&source=" target="_blank">
+                                <span></span>
+                            </a>
+                    </div><!-- //share -->
+                </div><!-- //bottom -->
+            </div><!-- //wrap -->
+        </div><!-- //main -->
+    </div><!-- //wrap -->
+    <script src="./includes/jquery.min.js"></script>
+    <script src="./includes/scripts.js"></script>
+    <script type="text/javascript">
+      var clicky_site_ids = clicky_site_ids || [];
+      clicky_site_ids.push(100857897);
+      (function() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//static.getclicky.com/js';
+        ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+
+      })();
+    </script>
+
+    <!-- processhtml:include custom-analytics.html -->
+    <!-- /processhtml -->
+
+    <!-- processhtml:include google-remarketing.html -->
+    <!-- /processhtml -->
+
+    <script type="text/javascript">
+$(function() {
+    $("#bookmarkme").click(function() {
+        // Mozilla Firefox Bookmark
+        if ('sidebar' in window && 'addPanel' in window.sidebar) {
+        window.sidebar.addPanel(location.href,document.title,"");
+        } else if( /*@cc_on!@*/false) { // IE Favorite
+        window.external.AddFavorite(location.href,document.title);
+        } else { // webkit - safari/chrome
+          sweetAlert('Bookmark this page!', 'Press CTRL + D');
+        }
+    });
+});
+    </script>
+</body>
+</html>

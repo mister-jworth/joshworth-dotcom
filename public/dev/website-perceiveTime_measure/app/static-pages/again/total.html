@@ -1,0 +1,134 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <!--        jQueryUI-->
+  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="sliders.js"></script>
+</head>
+
+<body>
+  <style type="text/css">
+  form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: none;
+  }
+  .topShow {
+    display: block;
+  }
+  
+  #slider-range-min {
+    display: block;
+  }
+
+  
+  p.ques {
+    text-align: center;
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #totalInput input {
+    color: white;
+    background: black;
+    border: none;
+    text-align: center;
+    font-size: 80px;
+    width: 20%;
+  }
+  
+  #totalInput input:focus {
+    color: white
+  }
+  ::-webkit-input-placeholder { /* WebKit browsers */
+      color:    white;
+       opacity: 0.1 !important;
+  }
+  </style>
+  <p class="ques">So if the length of a minute can change so easily,
+    <br/>what happens when you need to measure a whole
+    <br/>bunch of them?</p>
+  <form id="totalInput">
+    <input id="minInput" maxlength="2" type="text" name="FirstName" placeholder="12" /> <span style="font-size:80px;">:</span>
+    <input id="secInput" maxlength="2" type="text" name="LastName" placeholder="34"/>
+  </form>
+  <svg class="staticSvg topShow" version="1.1" id="menusvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <g>
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="5.5" x2="23" y2="5.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="11.5" x2="23" y2="11.5" />
+      <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="17.5" x2="23" y2="17.5" />
+    </g>
+  </svg>
+  <svg class="staticSvg topShow" version="1.1" id="sharesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+    <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="12.5" y1="2" x2="12.5" y2="17" />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="7.7,6.2 12.5,1.5 17.3,6.2 " />
+    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="10,9.5 5.5,9.5 5.5,22.5 19.5,22.5 19.5,9.5 15,9.5 " />
+  </svg>
+
+  <div id="slider-range-min"></div>
+  <div id="slider-range-select"></div>
+
+  <script type="text/javascript">
+  var clickCount = 0;
+
+  function smoothlyChange(str) {
+    $('.ques').fadeOut('slow', function() {
+      $('.ques').html(str);
+      $('.ques').fadeIn('slow');
+    });
+  }
+  $(document).ready(function() {
+    console.log("ready!");
+    $("#slider-range-min ").slider({
+      value: 8
+    });
+
+    var past, now, delaySec, dmin, dsec;
+    var data;
+
+    $.getJSON("SvgJsons/next-button.json", function(json) {
+      comp_speedrings = new SVGAnim(json, 79, 39, 100);
+      $('svg:last-child').css({
+        'position': 'absolute',
+        'left': '50%',
+        'top': '75%',
+        'transform': 'translate(-50%,-50%)'
+      });
+      $('svg:last-child').click(function() {
+        clickCount++;
+        console.log(clickCount);
+
+        switch (clickCount) {
+          case 1:
+            $('.ques').fadeOut('slow', function() {
+              $('.ques').html("For instance, how much time do you think<br/>you've spen on this page?").css('top', '30%').fadeIn('slow');
+              document.getElementById("minInput").focus();
+              $('form').css('display','block');
+            });
+            break;
+          case 2:
+            $.cookie('togglWhere','total');
+            window.location.pathname = pathPrefix + "actually.html";
+            break;
+        }
+      });
+    });
+  });
+  </script>
+  <script src="after.js"></script>
+</body>
+
+</html>

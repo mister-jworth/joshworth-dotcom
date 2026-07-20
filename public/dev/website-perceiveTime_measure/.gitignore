@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-assets
+.tmp
+ssh_secrets.json
+.DS_Store
+Gemfile.lock
+vendor
+.bundle
+.idea/

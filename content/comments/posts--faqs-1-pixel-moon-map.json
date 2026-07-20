@@ -1,0 +1,240 @@
+[
+ {
+  "id": "315",
+  "parent": "0",
+  "author": "Alexi Grigoriadis",
+  "date": "2014-10-12 05:00:49",
+  "content": "<p>Hey Josh,<br />\nI have an idea.<br />\nIn the \u2018units\u2019 pop-up menu,<br />\ncould there be a checkbox saying \u2018Relative to Earth\u2019?<br />\nCurrently, all of the distances shown are how far away the area is from the sun, but<br />\ncould you do it so that people could see the distances from the earth instead?<br />\nAll you would have to do (when the checkbox is selected) would be to subtract:<br />\n153,342,924 kilometres;<br />\n95,282,846 miles;<br />\n1 Astronomical Unit;<br />\n8.5 light minutes;<br />\n12,041.1 Earths;<br />\n44,130 pixels;<br />\n12,169,294,448.6 buses;<br />\n5,111,425,688.6 blue whales; or<br />\n17,323.4 Great Walls of China<br />\nfrom the listed distances.<br />\nI think that this would give users a better idea as to how far away planets, moons, etc are.<br />\nThanks!<br />\nP.S. I love your site: not just \u201cIf the Moon was 1 Pixel\u201d but the entire blog. Congrats, and keep up the good work.</p>"
+ },
+ {
+  "id": "316",
+  "parent": "0",
+  "author": "Niels Kloster",
+  "date": "2014-11-04 12:19:19",
+  "content": "<p>Small comment about Pluto:<br />\nI think you should consider including Eris as it is the only dwarf planet (not exoplanet) larger than Pluto. Include the new bigger cat :)</p>"
+ },
+ {
+  "id": "318",
+  "parent": "0",
+  "author": "Wayne",
+  "date": "2015-05-01 10:17:28",
+  "content": "<p>I think your \"moon = pixel\" map would have more impact if at the end, the viewer were taken outside of our galaxy with an arrow pointing to the map they just viewed, then perhaps a view of our galaxy from deep space, etc. etc.</p>"
+ },
+ {
+  "id": "322",
+  "parent": "0",
+  "author": "Sword of Islam | Infidel Slayer",
+  "date": "2015-07-14 13:01:17",
+  "content": "<p>...finger scrolling? rip index finger</p>"
+ },
+ {
+  "id": "323",
+  "parent": "0",
+  "author": "Patrick Dunn",
+  "date": "2015-07-14 16:47:05",
+  "content": "<p>A great visual metaphor for how long it takes to get something big completed. Or even something little. Waiting for the movie trailer to open in theaters across the country as this trailer will allow me to actually get thru the popcorn line, climb over the poor sods who came in after me, and land ungracefully in my seat.</p>"
+ },
+ {
+  "id": "326",
+  "parent": "0",
+  "author": "Bruce Tabor",
+  "date": "2015-07-17 04:02:53",
+  "content": "<p>And BTW, my daughter loves it!</p>\n<p>We stand back 10.8 metres looking at the \"sun\" on the screen and I say \"If the sun were this far, Neptune would be 324 metres and alpha Centauri would be 3000 km away in Perth - we';re in Sydney.\"</p>"
+ },
+ {
+  "id": "327",
+  "parent": "0",
+  "author": "rahul deshpande",
+  "date": "2015-07-20 05:13:23",
+  "content": "<p>Amazing work, I must congratulate you on this!<br />\nI really enjoyed travelling through &amp; reading the 'sapce notes' in between. <br />\nSimply superb!<br />\nOne small feedback (just to add a lil fun element).. you can make the cursser look like a spacecraft travelling ;) when on the space map.</p>\n<p>Good luck. <br />\nRahul</p>"
+ },
+ {
+  "id": "329",
+  "parent": "0",
+  "author": "Greg",
+  "date": "2015-08-19 22:16:04",
+  "content": "<p>No worthwhile titans? You forgot about titanium, didn't you?</p>\n<p>Titanium is most displeased with your forgetfulness.</p>"
+ },
+ {
+  "id": "332",
+  "parent": "0",
+  "author": "Roberto Marqu\u00ednez, Argentina",
+  "date": "2015-09-24 22:10:18",
+  "content": "<p>Buenas noches, Josh. Gracias por tu trabajo. Me asombra mucho, mucho, mucho... sobre todo porque evidencia, resalta, las inmensas dimensiones de las DISTANCIAS  ENTRE los cuerpos del Sistema Solar... algo que, sencillamente, se me hab\u00eda escapado, quiz\u00e1s porque all\u00ed \"no hay nada\".</p>\n<p>Pregunto ahora: activado el \u00edcono que inicia en forma autom\u00e1tica el viaje desde el Sol hasta Plut\u00f3n (entiendo que hasta en este \"detalle\" has debido establecer una escala (\"this is how fast light travels...\") en la velocidad de desplazamiento), \u00bfcu\u00e1l es la duraci\u00f3n total de la simulaci\u00f3n?</p>\n<p>Te felicito y, nuevamente, gracias.</p>"
+ },
+ {
+  "id": "333",
+  "parent": "332",
+  "author": "jworth",
+  "date": "2015-09-26 02:54:47",
+  "content": "<p>If I understand you correctly, the trip takes 328.4 minutes or about 5.5 hours. Try switching to the Light Minutes units down by the distance counter.<br />\n(Traducci\u00f3n de Google: Si he entendido bien, el viaje dura 328,4 minutos o alrededor de 5,5 horas. Intente cambiar a las unidades Minutos Luz por el contador de distancia.)</p>"
+ },
+ {
+  "id": "334",
+  "parent": "333",
+  "author": "Roberto Marqu\u00ednez",
+  "date": "2015-09-26 18:05:04",
+  "content": "<p>English<br />\nGood afternoon, Josh. Thanks for answering.<br />\nBy one hand, I 'm afraid I didn't expressed well myself. On the other hand, the Google translator is not so good (and my English either).</p>\n<p>I try again: I'm not asking how long it takes light to travel the distance between the Sun and Pluto (5.5 hours; I already knew it), but the duration of the simulation that we see on the website.<br />\nThat is: if we enter to:</p>\n<p>http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html</p>\n<p>how many minutes takes this representation?<br />\nThanks again.<br />\n------------------------<br />\n\tEspa\u00f1ol<br />\nBuenas tardes, Josh. Gracias por responder.<br />\nPor un lado, me temo que no me expres\u00e9 bien; por el otro, el traductor de Google no es tan bueno (y mi ingl\u00e9s tampoco).</p>\n<p>Lo intento de nuevo: No estoy preguntando cu\u00e1nto tarda la luz en recorrer la distancia entre el Sol y Plut\u00f3n (5,5 horas; eso ya lo sab\u00eda), sino cu\u00e1nto dura la simulaci\u00f3n que vemos en el sitio Web.<br />\nEs decir: si entramos a:</p>\n<p>http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html</p>\n<p>\u00bfcu\u00e1ntos minutos dura esta representaci\u00f3n?<br />\nNuevamente, gracias.</p>"
+ },
+ {
+  "id": "469",
+  "parent": "0",
+  "author": "John (Jack) Meade",
+  "date": "2015-03-19 01:49:35",
+  "content": "<p>Go the other way. I mean how far could it really be to the planck length anyway???</p>\n<p>My Cheshire cat is smiling at the sock-like Klein bottle with his name (Spot) on it, hanging from my fireplace. And no, I was not aware that Klein's first name is Felix.until right now (see below)</p>\n<p>I know there's a map of probability functions describing synchronicity <br />\naround here somewhere. What are the chances?</p>\n<p>\"NPYD!! Hands up!\"  --Richard Castle (Nathan Fillion) Go ahead, try spelling 'synchronicity' from memory first.</p>\n<p>Just as I was about to hit the 'post comment' button, my wife's surface 2 in the other room began playing the trailer for \"Pixels\" Ok, ok, I'm quitting now. No, Now. Ok really, really, now.  ...</p>"
+ },
+ {
+  "id": "471",
+  "parent": "0",
+  "author": "Lisa",
+  "date": "2015-06-27 00:26:07",
+  "content": "<p>Amazing map!  Thank you so much for sharing it with the rest of us.</p>"
+ },
+ {
+  "id": "472",
+  "parent": "0",
+  "author": "Jay Edwards",
+  "date": "2015-07-13 13:48:35",
+  "content": "<p>AWESOME!!!!!!<br />\nI love your map, showing the scaled of space has always been an issue when explaining it to kids.<br />\nThis will be an awesome tool I think they will enjoy seeing.<br />\nThank you good Sir!</p>"
+ },
+ {
+  "id": "473",
+  "parent": "0",
+  "author": "Laura",
+  "date": "2015-07-13 14:53:21",
+  "content": "<p>Can't get to the \"end\" using my iPhone 6. Crashes repeatedly after Uranus via finger scrolling, icon clicking or arrow use.</p>"
+ },
+ {
+  "id": "476",
+  "parent": "0",
+  "author": "Squish",
+  "date": "2015-07-16 22:41:53",
+  "content": "<p>this... was awesome.<br />\ni have no suggestions, cause its perfect.</p>\n<p>&lt;3</p>"
+ },
+ {
+  "id": "477",
+  "parent": "0",
+  "author": "Bruce Tabor",
+  "date": "2015-07-17 03:59:00",
+  "content": "<p>One suggestion, which I also posted on the \"If the moon were 1 pixel\" page. (BTW, it's awesome!!!)</p>\n<p>I don't mind you leaving Eris out, but OMITTING TRITON, THE BIG MOON OF NEPTUNE is inconsistent with what you've presented.</p>\n<p>Triton is larger than Pluto! Triton is 2706km in diameter; Pluto is 2370km.</p>\n<p>Triton also represents a big cut-off when it comes to moon size. The first 7 moons get gradually smaller (Ganymede 5262km, Titan 5150km \u2013 both bigger than Mercury 4880km \u2013 Callisto 4806km, Io 3642km, Moon 3476km, Europa 3138km, Triton 2706km), and then there is a big jump to Titania at 1580km \u2013 less than half our Moon\u2019s diameter.</p>\n<p>Finally, Triton\u2019s is more massive than all the moons in the Solar System smaller than itself combined. So there is a big cut-off.</p>"
+ },
+ {
+  "id": "481",
+  "parent": "0",
+  "author": "Philip",
+  "date": "2015-07-21 22:29:22",
+  "content": "<p>I loved this map, well done!   My kids thought it was very cool and it gave them a bit of understanding about how big and empty the solar system really is.  Your comments between planets really made it fun</p>"
+ },
+ {
+  "id": "485",
+  "parent": "0",
+  "author": "Michael",
+  "date": "2015-09-11 20:03:00",
+  "content": "<p>Just found out about the one pixel moon map,</p>\n<p>greatly enjoyed it but somewhat disappointed to see that there isn't a Uranus joke included ;)</p>"
+ },
+ {
+  "id": "487",
+  "parent": "0",
+  "author": "Bill Berit",
+  "date": "2015-09-19 08:44:45",
+  "content": "<p>Amazing map that takes one to reality. I sent your link to all the Real Estate Corporations on Earth so they would not get their shorts in a knot trying to figure out how to sell off all the Earth Like Planets being discovered today. Think it will wake them up? BB</p>"
+ },
+ {
+  "id": "491",
+  "parent": "0",
+  "author": "jworth",
+  "date": "2015-09-28 03:22:05",
+  "content": "<p>Well, I guess I'm still lost. It all depends on how fast you scroll, right? The light speed simulation button scrolls the browser at the scaled equivalent of the speed of light, so you could actually sit there and watch it scroll for 5.5 hours (as some people have reportedly done, just for the fun of it)</p>"
+ },
+ {
+  "id": "492",
+  "parent": "491",
+  "author": "Roberto Marqu\u00ednez",
+  "date": "2015-09-28 15:32:13",
+  "content": "<p>English<br />\nGood morning, Josh. Thanks, again, for responding.</p>\n<p>Let me try one more time.<br />\n\"It all depends on how fast you scroll, right?\", you said... but this is not my case, because I activate the AUTOMATIC SCROLLING (the icon at the bottom right of the screen)</p>\n<p>In other words:<br />\n1- We entered at:</p>\n<p>http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html</p>\n<p>2- We activate AUTOMATIC SCROLLING (the icon at the bottom right of the screen)</p>\n<p>3- From that moment, how many minutes lasts this representation?</p>\n<p>Thank you again.<br />\n-----<br />\n\t\tEspa\u00f1ol<br />\nBuen d\u00eda Josh. Gracias nuevamente por responder.<br />\n\"Todo depende de cu\u00e1n veloz te desplaces, \u00bfverdad?\", dec\u00eds... pero no es mi caso, porque activo el DESPLAZAMIENTO AUTOM\u00c1TICO (el \u00edcono en el \u00e1ngulo inferior derecho de la pantalla)</p>\n<p>En otras palabras:<br />\n1- Entramos a:</p>\n<p>http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html</p>\n<p>2- Activamos el DESPLAZAMIENTO AUTOM\u00c1TICO (el \u00edcono en el \u00e1ngulo inferior derecho de la pantalla)</p>\n<p>3- A partir de ese momento, \u00bfcu\u00e1ntos minutos dura esta representaci\u00f3n?</p>\n<p>Nuevamente, gracias.</p>"
+ },
+ {
+  "id": "493",
+  "parent": "492",
+  "author": "jworth",
+  "date": "2015-09-28 17:57:02",
+  "content": "<p>It takes 5.5 hours to get from the Sun to Pluto when you use the speed-of-light scrolling button. If you have some other automatic scrolling button, you'll need to time it yourself, since I don't have one in my browser.</p>"
+ },
+ {
+  "id": "506",
+  "parent": "0",
+  "author": "collen",
+  "date": "2016-01-18 19:41:04",
+  "content": "<p>Hello! I demand representation for Ceres. I know, it's less than a pixel in width. But the moon is represented as a pure white pixel. Therefore we can represent Ceres with a  By the way the Best Website For Homework Help Services is http://speedypaper.net/</p>"
+ },
+ {
+  "id": "569",
+  "parent": "0",
+  "author": "Dean",
+  "date": "2019-08-09 08:41:06",
+  "content": "<p>Science just proved God's existence. Psalm 8:3-5 (NIV)</p>\n<p>\"When I consider your heavens, the work of your fingers,<br />\nthe moon and the stars, which you have set in place,<br />\nwhat is mankind that you are mindful of them,<br />\nhuman beings that you care for them?</p>\n<p>You have made them a little lower than the angels<br />\nand crowned them with glory and honor.\"</p>"
+ },
+ {
+  "id": "944",
+  "parent": "0",
+  "author": "Marcus",
+  "date": "2020-04-26 16:31:44",
+  "content": "<p>Still a fantastic model of the solar system. After watching Star Wars I wanted my kids to understand how \"slow\" the speed of light really is, and this was perfect.</p>"
+ },
+ {
+  "id": "3030",
+  "parent": "3028",
+  "author": "jworth",
+  "date": "2022-01-11 14:56:00",
+  "content": "<p>Some ancient astronomers actually did that work. I just Googled. (Try searching for \"What is the diameter of the sun\")</p>"
+ },
+ {
+  "id": "3028",
+  "parent": "0",
+  "author": "Nicole Valdivia Caparo",
+  "date": "2022-01-11 14:46:16",
+  "content": "<p>Hi Josh I am wondering how did you calculate the measures of the planets  and sun?</p>"
+ },
+ {
+  "id": "16974",
+  "parent": "0",
+  "author": "Charlotte ELIZZY",
+  "date": "2025-02-05 18:45:23",
+  "content": "<p>OMG I loved it</p>"
+ },
+ {
+  "id": "16975",
+  "parent": "3030",
+  "author": "charlotte",
+  "date": "2025-02-05 18:47:41",
+  "content": "<p>so cool josh</p>"
+ },
+ {
+  "id": "30349",
+  "parent": "0",
+  "author": "Diana Pierscinski",
+  "date": "2026-04-16 17:11:10",
+  "content": "<p>Was the site hacked? It now takes you to some random foreign site instead. Would love to still use this!</p>"
+ },
+ {
+  "id": "30350",
+  "parent": "30349",
+  "author": "jworth",
+  "date": "2026-04-16 17:27:19",
+  "content": "<p>Oh my. Thanks for the heads-up. I'll get it fixed.</p>"
+ },
+ {
+  "id": "30351",
+  "parent": "30350",
+  "author": "Diana Pierscinski",
+  "date": "2026-04-16 18:19:23",
+  "content": "<p>Thanks so much! I appreciate it!</p>"
+ },
+ {
+  "id": "30376",
+  "parent": "30350",
+  "author": "Diana Pierscinski",
+  "date": "2026-04-21 12:21:17",
+  "content": "<p>Did you figure out what happened? We ended up having to use a different site with our students unfortunately.</p>"
+ }
+]

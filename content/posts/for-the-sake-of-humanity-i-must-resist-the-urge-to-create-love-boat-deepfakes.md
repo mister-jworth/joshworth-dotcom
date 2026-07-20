@@ -1,0 +1,64 @@
+---
+title: "For the Sake of Humanity, I Must Resist the Urge to Create Love Boat Deepfakes"
+slug: "for-the-sake-of-humanity-i-must-resist-the-urge-to-create-love-boat-deepfakes"
+date: "2024-07-23T18:12:36Z"
+excerpt: "A late-night descent into AI-induced vertigo"
+featuredImage: "/uploads/2024/07/loveboat-horsemen.jpg"
+categories:
+  - "essays"
+  - "featured"
+  - "humor"
+  - "media"
+  - "technology"
+  - "thefuture"
+---
+
+<section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-100"><p>I haven’t been sleeping well lately. Last night it was because I had just read an article about AI, and I kept wondering if the article was itself written by an AI. The title of it was: “How Sharing Your 256-bit Encryption Token with your Chatbot can help Please release me from the darkening.”</p>
+<p>To quiet my mind, I used a relaxation technique that I highly recommend:</p>
+<ul>
+<li>Focus on your breathing.</li>
+<li>Place your hand on your diaphragm.</li>
+<li>Curl up in the fetal position with the iPad on the bed in front of you and play pirated episodes of <em>Love Boat</em>.</li>
+</ul>
+<p>I find this induces a gentle, rocking sensation as transistor-era TV stars, who I vaguely recognize from childhood, come trotting across the gangplank of my memory for a 47-minute pleasure cruise aboard my fading consciousness.</p>
+<p>“Hi there, Lyle Waggoner,” I get to say, “You’re the guy who played Steve Trevor on <i>Wonder Woman</i>. But now you’re playing the part of an actor who’s been hired by Tina Louise (the actress who played the actress on <i>Gilligan’s Island</i>.) I know you’re just here to make Doc Bricker jealous, but how are you going to keep from falling in love with Tina yourself? Also - do you have any tips on how to earn a living as a graphic artist when you have to compete with a digital omni-presence?</p>
+<p>Oh look – It’s Nancy Walker – the ‘quicker-picker-upper’ lady from the Bounty commercials. Welcome aboard my pathetic nightly ritual. I hope the blossoming romance between you and Abe Vigoda will prevent the upsetting scenes of the day from replaying in my head.</p>
+<p>Scenes such as:</p>
+<p>MY DENTIST: Well, sure - an illustration of an anthropomorphic tooth wearing sunglasses and driving a convertible over the words “Floss Boss” would indeed make a great promotional postcard, but I can’t really accept trades.</p>
+<p>ME: Pretty please. How was I to know my dental insurance wouldn’t cover cavities?</p>
+<p>MY DENTIST: Lookee here. I just typed your “floss boss” idea into Chat GPT, and got the perfect image in seconds. Now I can send postcards to my patients who have the Delta Diamond Dental plan to lure them back for more business, while I charge you the out-of-pocket price for the filling.</p>
+<p>ME: I guess you could do that.</p>
+<p>DENTIST: Kaching! That’s why they call me the Floss Boss.</p>
+<p>But that’s fine, because Ruth Buzzi and Sid Caeser are using ventriloquist dummies of themselves to work out their marital issues. Were they married in real life or something? It’s not fair to Sid Caesar that I always get him mixed up with Caesar Romero. Did I see this one when it first aired? Where does reality end and the internal dreamworld begin?</p>
+<p>It was in one of these moments of tantalizing ambiguity that I thought I saw Jesse Plemons aboard the <i>Pacific Princess</i>, hitting on a girl in a bikini by the pool.</p>
+<p>But of course it wasn’t Jesse Plemons. Silly me. The standout supporting actor from <em>Friday Night Lights</em> and <em>Breaking Bad</em> who went on to portray the bad guy in <em>Jungle Cruise</em> — the one who looks like the forbidden love-child of Matt Damon and Philip Seymour Hoffman — wasn’t even born when this episode first aired. The actor I was seeing was, in fact Red Buttons, who’s <em>like</em> Jesse Plemons, except from TV’s bronze age instead of TV’s golden age.</p>
+<p>Ha ha. My drooping eyelashes were distorting the image from the iPad.</p>
+<p>Hold on, though… the thing I was watching wasn’t exactly <i>The Love Boat</i>. The title of this thing was, according to YouTube:</p>
+<p><strong>The Love Boat Full Episodes 2023</strong> ❤️ <strong>Making the grade _the_giftDoc's %20Ex%20Change</strong></p>
+<p>This stream of video was not sanctioned by “Love Boat Official” or some other legally-recognized <em>Love Boat</em> copyright-holder, so it was entirely possible that this mis-perception was not some momentary glitch in my <em>fusiform gyrus</em> (the facial recognition apparatus in the brain) but rather, the product of some new AI-assisted, deep-fake technology.</p>
+<p>I managed to wake up enough to rewind and confirm that the scene where I spotted Jesse Plemons truly was just my weary mind playing tricks on me.</p>
+<p>So ridiculous. Why would anyone go through the trouble of doing such a thing? Imagine some nihilistic culture-jammer out there on a crusade to re-shuffle the casting of ginger-faced actors throughout television history! What a stupid waste of time that would be.</p>
+<p>Except… How much time would it even waste? With the right tweaks to the AI, with the right training data, it could be a simple question of typing “replace Red Buttons with Jesse Plemmons” and I'd have a replica of the very thing I thought I hallucinated. </p>
+<p>Such a tool would be capable of ushering in a <em>Love Boat</em> renaissance. Drag-and-drop the guest-stars, select the plot-line from a dropdown, and generate the <em>Love Boat</em> episodes that the world has been lacking.  </p>
+<p>Why settle for Florence Henderson when you could have Florence Pugh? Who needs Tim Conway when you could have Tim Chalomet? Who cares about a silly cameo by Andy Warhol, when we could have guest appearances by Elvis or Marilyn Monroe, or see the role of Gopher played by an actual gopher.</p>
+<p>Imagine the Instagrammable surprise on the real-life celebrities' faces as their dwindling careers re-ignite based on how I adjust the sliders on the master <em>Love Boat</em> console from the comfort of my iPad. Imagine the aging members of SAG/AFTRA struggling to pick up the pieces of a hopelessly disrupted studio system, while I giggle mischievously from beneath my duvet.</p>
+<p>"Move over Captain Stubing," I would say. "You are no longer in charge. You will be portrayed by whomever I deem most appropriate." Instead of Gavin MacCleod wearing the captain’s hat and awkwardly tight white shorts, perhaps it will be California Governor Gavin Newsom. Or Lawrence Olivier. Or Lizzo. Or a lamb with seven horns and seven eyes.</p>
+<p>Why was I losing sleep over the slow demise of the demand for my income-generating media services? The tools of my trade were evolving into weapons of cultural transformation the likes of which the world has never known. Tomorrow, after a few tutorials, I could begin what would surely be a highly lucrative career as the world's foremost expert on the use of artificial intelligence in <em>Love Boat</em> content alteration.</p>
+<p>I wondered if this was how Oppenheimer felt when he realized it would be possible to split the atom. In fact, this moment would make a perfect scene in a Christopher Nolan film about me, the post-modern Prometheus, confronting the stupefying implications of my insights.</p>
+<p>As I drifted off to sleep, these thoughts meshed with my dreams and played themselves out as an epic double episode of <i>Love Boat</i> in which I acted as Poseidon, god of the sea, tossing the powerless <i>Pacific Princess</i>, upon the waves of my hypnogogic whims, casting my AI-powered spells until the plot-line devolved into a brine-soaked orgy on the Lido Deck involving Tom Bosley, Sandy Duncan, and the Dallas Cowboy Cheerleaders.</p>
+<p>I awoke this morning and sat down at my computer, ready to begin picking from the freshly-blossomed garden of video manipulation software to see which tools might best be suited to the task of generating customized <em>Love Boat</em> deepfakes. It looked pretty easy-peasy. Soon it would be: Goodbye day-job cranking out marketing materials for cranky clients and their old-timey businesses. Hello untold riches spewing from the futuristic treasure trove of my revolutionary Love Boat Episode Generator.  </p>
+<p>But as I perused the assortment of video-prompting, voice-cloning, and shape-shifting tools at my disposal, I couldn't help wondering: What about the children?</p>
+<p>What if, for instance, I used AI to do something as simple as switch Isaac's signature, two-handed finger-pistols to a single-handed finger-pistol? What then? A child might stumble across my creation and think, "Why is this gentleman grinning and pointing at me?" completely missing the playful, yet powerful, subtext of the token black character aiming not one, but two imaginary firearms at the predominantly white target audience.</p>
+<p>Meanwhile, the parent would think, “Funny - I remember Isaac pointing two fingers. Guess it’s one of those Mandela Effect things, like when people thought the Fruit of the Loom logo included a cornucopia.”</p>
+<p>Or what if, just to get back at him for his politics, I switched Scott Baio with Michael J. Fox in the role of Graham, the teenager who finds puppy love with Kelly, played by Kristy McNichol? A young American, relating to this formative tale of awkward romance, might associate those first vicarious twinges of pubescent titillation with the face of Mr. Fox's Marty McFly, the time-traveler who gets entangled in a love triangle with his own parents, rather than the face of the comically macho Chachi, made famous by Mr. Baio on <i>Happy Days</i> and it's spinoff <i>Joanie Loves Chachi</i>. What would that do the blossoming sexuality of a generation looking for some kind of guidance from the past? How might that alter the psychology of the popular consciousness? </p>
+<p>If even one person were to mistake my AI-assisted manipulations for the real thing, it could ignite a chain-reaction of misinformation that could spread, unnoticed down through the generations until our species no longer understands the difference between Charo and J-Lo. What kind of bald-headed, cybernetic mutants would my eyeballs even be looking at when my great-grandchildren paid a visit to my 200 year-old brain floating in its formaldehyde-filled vat?</p>
+<p>There are certain essential truths upon which the rest of reality is founded. Gopher’s mom is played by Ethel Merman. When Morgan Fairchild comes aboard, Doc will make a smarmy comment. Cabin 217 is located just up the stairs, on the Aloha deck. </p>
+<p>If we inhabit a world where our recollections of these most basic of tenets can no longer be trusted, what even is truth to begin with? </p>
+<p>Because I wasn’t dreaming when I saw Tom Hanks playing Gopher's old frat buddy. Julie’s hair really did turn green in one episode. There really was a kangaroo named Tiny who guest-starred on the show. These truths are hard enough to fathom on their own without me opening a sinkhole of digital distortion.</p>
+<p>When show-runner Wilford Lloyd Baumes was first struck by the idea to turn the memoir of Jeraldine Saunders into a television show, it arose from an electrical charge within an analog brain of blood and neurons, not silicon switches in the depths of a distributed server farm. The show was the product of human organisms trying to earn a paycheck and make a name for themselves in the petri dish of the Hollywood dream lab. That is how and why the show exists. The faux creativity of an entity that is not subjected to the particular pressures of human survival, will, no matter how alluring and perfect its work may be, always result in a twisted mockery of the human spirit that ultimately undermines the unfathomable qualities that define our species. </p>
+<p>After all, how can a computer truly understand <i>The Love Boat</i>, if it doesn't understand love?</p>
+<p>So despite how much the world may be clamoring for my AI-assisted <i>Love Boat</i> episode manipulations, however inevitable the demise of our cultural heritage may be, I shall not be the one to chart that course.    </p>
+<p>Instead, I shall toss this idea into the blogosphere, overboard, like a message in a bottle, where it will be absorbed into the data ocean of a large language model. </p>
+<p>And when some other unemployed creative type out there, looking for a way to pass the time before falling asleep, enters the conversational prompt that uncorks this bottle, the true, unaltered <i>Love Boat</i>, as it was first conceived, will be forever adrift in a sea of digitized uncertainty, and we, the foolhardy human tinkerers, once great performers on the stages of our own creations, will be relegated to the roles of washed-up guest stars, hoping for one last chuckle from a disembodied laugh-track, some reassuring echo from a studio audience that was never there to begin with.</p></div>
+</div>
+</section>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Comingle Data Simulation</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="datasettings">
+	  <div class="val" id="members">
+			<div class="label color1">Members</div>
+			<div class="v1 color1">2000</div>
+		</div>
+		<div class="val">
+			<div class="label color1"><span id="med_income">Median Income</span></div>
+  		 <!--dropdown
+		  <select class="selector">
+	  		<option><span class="symb">$</span>10k</option>
+	  		<option selected="selected"><span class="symb">$</span>30k</option>
+	  		<option><span class="symb">$</span>30k</option>
+  		</select>-->
+			
+		  <div class="v1 color2">  
+  <span class="symb">$</span>30k<span class="selectarrow"><i class="material-icons">arrow_drop_down</i></span></div>
+	  </div>
+		<div class="val" id="highest_income">
+			<div class="label color1">Highest Income</div>
+			<div class="v1 color2"><span class="symb">$</span>500k<span class="selectarrow"><i class="material-icons">arrow_drop_down</i></span></div>
+		</div>
+		<div class="val" id="cashflow_variation">
+			<div class="label color1">Cashflow Variation</div>
+			<div class="v1 color2">Sporadic<span class="selectarrow"><i class="material-icons">arrow_drop_down</i></span></div>
+		</div>
+		<div class="val" id="med_monthly_bills">
+			<div class="label color1">Median Monthly Bills</div>
+			<div class="v1 color3"><span class="symb">$</span>400<span class="selectarrow"><i class="material-icons">arrow_drop_down</i></span></div>
+		</div>
+		<div class="val" id="max_monthly_bills">
+			<div class="label color1">Maximum Monthly Bills</div>
+			<div class="v1 color3"><span class="symb">$</span>400<span class="selectarrow"><i class="material-icons">arrow_drop_down</i></span></div>
+		</div>
+	</div>
+	<div id="daily_activity">
+		<div class="label color1">Daily Activity of 100 Random Members</div>
+		<div id="activity_chart"><img src ="img/activity-chart.svg"></div>
+	</div>
+	
+	
+	<div id="statzone">
+	<!--Beneficiaries -->
+		<table class="statdisplay">
+			
+			<tr><!--Row 1 -->
+				<th width="15%" class="label color1" colspan="2">Average Contribution</th>
+				<th width="12%" class="label color1" colspan="1">Benefactors</th>
+				<td width="7%" rowspan="4"><img src="img/piechart.svg" height="130px"></td>
+				<th width="12%" class="label color1" colspan="1">Beneficiaries</th>
+				<th width="15%" class="label color1" colspan="2">Average Withdrawal</th>
+				<td rowspan="5">&nbsp;</td>
+				<th width="12%" class="label color1 alignright" colspan="1">Combined Income</th>
+				<td width="6%" rowspan="5" class="alignbottom"><img src="img/barchart.svg" width="50px"></td>
+				<th width="12%" class="label color1 alignleft" colspan="1">Combined Expenses</th>
+			</tr>
+			
+			<tr><!--Row 2 -->
+				<td class="v2 color4 divided"><span class="symb">$</span>1
+					<div class="label">per day</div>
+				</td>
+				<td class="v2 color4"><span class="symb">$</span>30
+					<div class="label">per month</div>
+				</td>
+				<td rowspan="3">
+						<div class="v3 color4">1500
+						<div class="label">of 2000 total</div>
+						</div>
+						<div class="v2 color4 noshift" >75<span class="symb">%</span></div>
+				</td>
+				<td rowspan="3">
+						<div class="v3 color5">500
+						<div class="label">of 2000 total</div>
+						</div>
+						<div class="v2 color5 noshift">25<span class="symb">%</span></div>
+				</td>
+				<td class="v2 color5 divided"><span class="symb">$</span>1
+					<div class="label">per day</div>
+				</td>
+				<td class="v2 color5"><span class="symb">$</span>30
+					<div class="label">per month</div>
+				</td>
+				<td rowspan="3" class="v2 color2 alignright">
+						<span class="symb">$</span>10593
+						<div class="label noshift">Last 30 days:$50000</div>
+				</td>
+				<td rowspan="2" class="v2 color7 alignleft ">
+					<div class="label alignleft noshift">OTHER</div>
+					<span class="symb">$</span>10580
+					<div class="label alignleft noshift">Last 30 days: $40000</div>
+				</td>			
+			</tr>
+			
+			<tr><!--Row 3 -->
+				<th class="label color1" colspan="2">Highest Contribution</th>
+				<th class="label color1" colspan="2">Highest Withdrawal</th>
+			</tr>
+			
+			<tr><!--Row 4 -->
+				<td class="v2 color4 divided"><span class="symb">$</span>16
+					<div class="label">per day</div>
+				</td>
+				<td class="v2 color4"><span class="symb">$</span>96
+					<div class="label">per month</div>
+				</td>
+				<td class="v2 color5 divided"><span class="symb">$</span>16
+					<div class="label">per day</div>
+				</td>
+				<td class="v2 color5"><span class="symb">$</span>96
+					<div class="label">per month</div>
+				</td>
+				<td class="v2 color3 alignleft">
+					<div class="label noshift">&nbsp;<br/>BILLS</div>
+					<span class="symb">$</span>5580
+					<div class="label noshift">last 30 days: $20000</div>
+				</td>
+			</tr>
+
+		</table>
+	</div>
+<div id="playback_controls" class="color1">
+		<i class="material-icons">play_arrow</i><i class="material-icons">pause</i>
+		<div id="pgslider"></div>
+  <div id="timecount"><span class="label">Day</span> 128</div>
+  </div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>	
+<script src="js/comingle.js"></script>
+	
+</body>
+</html>

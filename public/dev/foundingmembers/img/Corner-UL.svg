@@ -1,0 +1,21 @@
+<svg width="54" height="69" viewBox="0 0 54 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Corner-UL">
+<g id="corner-img-ul">
+<path id="curvedframe" d="M52.5 15.5V53.5C52.5 61.7843 45.7843 68.5 37.5 68.5H0" stroke="white" stroke-opacity="0.6"/>
+<path id="frame1" opacity="0.3" d="M53.001 24L23.5 24C15.2157 24 8.5 30.7157 8.5 39L8.5 69.0007" stroke="white"/>
+<path id="body" d="M19.5 68V67C19.5 60.9249 24.4249 56 30.5 56V56C36.5751 56 41.5 60.9249 41.5 67V67" stroke="white" stroke-opacity="0.6"/>
+<ellipse id="head" cx="30.6454" cy="46.7051" rx="8.14541" ry="8.20508" stroke="white" stroke-opacity="0.6"/>
+<path id="halo" d="M38 33.5C38 33.6121 37.9264 33.8108 37.5742 34.071C37.2318 34.3239 36.7044 34.5728 36.0077 34.7905C34.6203 35.2241 32.673 35.5 30.5 35.5C28.327 35.5 26.3797 35.2241 24.9923 34.7905C24.2956 34.5728 23.7682 34.3239 23.4258 34.071C23.0736 33.8108 23 33.6121 23 33.5C23 33.3879 23.0736 33.1892 23.4258 32.929C23.7682 32.6761 24.2956 32.4272 24.9923 32.2095C26.3797 31.7759 28.327 31.5 30.5 31.5C32.673 31.5 34.6203 31.7759 36.0077 32.2095C36.7044 32.4272 37.2318 32.6761 37.5742 32.929C37.9264 33.1892 38 33.3879 38 33.5Z" stroke="white" stroke-opacity="0.65"/>
+<g id="shine-r">
+<path id="Vector 46" d="M39.5 31.1465L41.9148 30.4994" stroke="white" stroke-opacity="0.6"/>
+<path id="Vector 48" d="M42 33.5H39.5" stroke="white" stroke-opacity="0.6"/>
+<path id="Vector 47" d="M39.5 36L41.9148 36.647" stroke="white" stroke-opacity="0.6"/>
+</g>
+<g id="shine-l">
+<path id="Vector 49" d="M18.5 33.5H21" stroke="white" stroke-opacity="0.6"/>
+<path id="Vector 50" d="M21 31.1465L18.5852 30.4994" stroke="white" stroke-opacity="0.6"/>
+<path id="Vector 51" d="M21 36L18.5852 36.647" stroke="white" stroke-opacity="0.6"/>
+</g>
+</g>
+</g>
+</svg>

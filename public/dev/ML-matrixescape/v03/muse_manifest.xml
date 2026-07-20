@@ -1,0 +1,32 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="marklogic.com" resolutions="1x" timestamp="1521004461999">
+  <folder name="css">
+    <file name="site_global.css" crc="287562324"/>
+    <file name="index.css" crc="309420834" ref="index"/>
+    <file name="nomq_index.css" crc="4206680584" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <folder name="ml-animation06">
+      <folder name="images">
+        <file name="anim_test2_resp_atlas_.png" crc="50663971" mt="1520533254000"/>
+        <file name="_preloader.gif" crc="426836852" mt="1520533254000"/>
+      </folder>
+      <file name="ML-animation2.js" crc="4248159052" mt="1520533254000"/>
+      <file name="ML-animation2.html" crc="120206915" mt="1520533254000"/>
+    </folder>
+  </folder>
+  <folder name="scripts">
+<folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="310584261" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  </folder>
+  <file name="index.html" crc="3801162835" seo="true" mt="1521004369871" redirect="true"/>
+</manifest>

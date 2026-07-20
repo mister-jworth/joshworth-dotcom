@@ -1,0 +1,29 @@
+<header>
+  <div class="wrapper">
+    <a href="/" class="logo" data-custom-analytics-event="Clicked navbar Toggl logo">Toggl</a>
+    <button class="nav-opener nav-opener--red"></button>
+    {{log hideNav}}
+    {{#unless hideNav }}
+      {{#if navLight }}
+        <nav class="main-nav main-nav--light">
+        {{ else }}
+          <nav class="main-nav">
+      {{/if}}
+      <ol>
+        <li><a href="/features" data-custom-analytics-event="Clicked navbar Features">Features</a></li>
+        <li><a href="/pricing" data-custom-analytics-event="Clicked navbar Pricing">Pricing</a></li>
+        <li><a href="https://blog.toggl.com" data-custom-analytics-event="Clicked navbar Blog" target="_blank">Blog</a></li>
+        <li><a href="/business/" data-custom-analytics-event="Clicked navbar Business">Business</a></li>
+        <li class="logged" style="display:none"><a href="#" class="js-logout-button" data-custom-analytics-event="Clicked navbar Log out">Log out</a></li>
+        <li class="logged" style="display:none"><a href="/app/" clickthrough class="cta-button cta-button--small cta-button--inline cta-button--filled" data-custom-analytics-event="Clicked navbar Go to timer">Go to timer</a></li>
+        <li class="not-logged"><a href="/login" data-custom-analytics-event="Clicked navbar Log in">Login</a></li>
+        <li class="not-logged"><a href="/signup" class="cta-button cta-button--small cta-button--inline cta-button--filled cta-button--no-arrow js-ripple-button" data-custom-analytics-event="Clicked navbar Sign up">Sign up</a></li>
+
+      </ol>
+      <ol class="secondary">
+        {{> 'secondary-nav' }}
+      </ol>
+          </nav>
+    {{/unless}}
+  </div>
+</header>

@@ -1,0 +1,203 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Asteroid Close Calls</title>
+
+
+
+<!-- Styles -->
+<style>
+body {
+    background-color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+#chartdiv {
+  width: 100vw;
+  height: 5972px; 
+}
+
+#title-zone { 
+    margin: 0 0 100px 0;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.text-m {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+    color: #AAAAAA;
+}
+
+#earth {
+    background-color: #00A3FF;
+    height: 500px;
+    width: 500px;
+    border-radius: 2000px;
+    display: block;
+    margin: 30px auto;
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 500px;
+    letter-spacing: 2px;
+}
+
+#moon {
+    background-color: #ffffff;
+    height: 150px;
+    width: 150px;
+    border-radius: 2000px;
+    display: block;
+    margin: 30px auto;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 150px;
+    letter-spacing: 2px;
+}
+
+</style>
+
+<!-- Resources -->
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<script>
+
+am4core.ready(function() {
+
+// Themes begin
+am4core.useTheme(am4themes_animated);
+
+// Themes end
+
+var chart = am4core.create("chartdiv", am4charts.XYChart);
+
+// -- https://www.amcharts.com/docs/v4/concepts/data/loading-external-data/#Reloading_different_data
+
+//CORS error getting published file --> chart.dataSource.url ="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWGcEC9gi-WNWBRRsrS__y2Uy79Wto9Rz092nBq6MKaXxatAmFwy6MRUGxyaAWbYkV74NYu9ZgG-wN/pub?gid=256872208&single=true&output=csv";
+chart.dataSource.url ="https://www.joshworth.com/dev/closecalls/CNEOSdata.csv";
+chart.dataSource.parser = new am4core.CSVParser();
+chart.dataSource.parser.options.useColumnNames = true;
+chart.dataSource.load();
+
+chart.dataSource.events.on("error", function(ev) {
+  console.log("Oops! Something went wrong");
+});
+
+function colorAsteroid() {
+    colorSeed = Math.floor(Math.random() * 5);
+    var asteroidPalette = ["#F4C3C3","#DDFBE2","#9DDCFF","#CFCBCB","#FAD1AB"];
+    var asteroidColor = asteroidPalette[colorSeed];
+    return asteroidColor;
+}
+
+var valueAxisY = chart.yAxes.push(new am4charts.ValueAxis());
+valueAxisY.renderer.ticks.template.disabled = true;
+valueAxisY.renderer.axisFills.template.disabled = true;
+valueAxisY.renderer.labels.disabled = true;
+//valueAxisY.renderer.labels.template.fontSize = 20;
+
+var dateAxisX = chart.xAxes.push(new am4charts.DateAxis());
+dateAxisX.renderer.labels.template.fill = am4core.color("rgba(255, 255, 255, .55)");
+dateAxisX.renderer.labels.template.fontSize = 20;
+dateAxisX.renderer.opposite = true;
+//dateAxisY.renderer.ticks.template.disabled = true;
+//dateAxisY.renderer.axisFills.template.disabled = true;
+
+chart.dateFormatter.dateFormat = "yyyy";
+
+var series = chart.series.push(new am4charts.LineSeries());
+series.dataFields.valueY = "distance";
+series.dataFields.dateX = "date";
+series.dataFields.value = "diameter";
+series.strokeOpacity = 0;
+series.sequencedInterpolation = true;
+series.interpolationDuration = 1000;
+series.tooltip.pointerOrientation = "vertical";
+
+var tail = series.bullets.push(new am4core.Line());
+var gradient = new am4core.LinearGradient();
+gradient.addColor(am4core.color("rgba(255, 255, 255, .75)"));
+gradient.addColor(am4core.color("rgba(255, 255, 255, 0)"));
+gradient.rotation = 180;
+tail.fillOpacity = 0;
+tail.strokeOpacity = 1;
+tail.strokeWidth = 1;
+tail.strokeDasharray = "1,2",
+tail.stroke = gradient;
+tail.width = -500;
+tail.height = .1;
+tail.zIndex = 8;
+
+//var bullet = series.bullets.push(new am4charts.CircleBullet());
+var bullet = series.bullets.push(new am4core.Circle());
+bullet.propertyFields.fill = "color";
+bullet.strokeOpacity = 0;
+bullet.strokeWidth = 8;
+bullet.fillOpacity = 0.7;
+bullet.stroke = am4core.color("#ffffff");
+bullet.hiddenState.properties.opacity = 0;
+bullet.tooltipText = "{objectname}\n{distance}";
+bullet.zIndex = 10;
+
+var outline = chart.plotContainer.createChild(am4core.Circle);
+outline.fillOpacity = 0;
+outline.strokeOpacity = 0.8;
+outline.propertyFields.fill = "color";;
+outline.strokeWidth = 0;
+outline.hide(0);
+
+bullet.events.on("over", function(event) {
+    var target = event.target;
+    outline.radius = target.pixelRadius + 4;
+    outline.x = target.pixelX;
+    outline.y = target.pixelY;
+    outline.show();
+})
+
+bullet.events.on("out", function(event) {
+    outline.hide();
+})
+
+var hoverState = bullet.states.create("hover");
+hoverState.properties.fillOpacity = 1;
+hoverState.properties.strokeOpacity = 1;
+
+series.heatRules.push({ 
+    target: bullet, 
+    min: 2, 
+    max: 6, 
+    property: "radius",
+    logarithmic: true }
+) 
+
+bullet.adapter.add("tooltipY", function (tooltipY, target) {
+    return -target.radius - 8;
+})
+
+}); // end am4core.ready()
+</script>
+
+<!-- HTML -->
+<div id="title-zone"> <span class="title">Asteroid Close Calls</span>
+    <div class="text-m">Some descriptive info about how close asteroids get to earth and what this page is showing</div>
+</div>
+<div id="moon">Moon</div>
+
+<div id="chartdiv"></div>
+
+<div id="earth">Earth</div>  

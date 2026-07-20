@@ -1,0 +1,86 @@
+/* WEB DEVELOPMENT TEAM */
+
+/* FRONT-END */
+
+Your title: Andrin Riiet
+Location: Koh Tao
+
+Your title: Jaan Lambert
+Location: Estonia
+
+Your title: Thiago Duarte
+Location: Brazil
+
+Your title: Naeem Talukdar
+Location: Canada
+
+Your title: Merlyn Rees
+Location: UK
+
+Your title: David da Silva Contin
+Location: Spain
+
+Your title: Pedro Tacla Yamada
+Location: Brazil
+
+Your title: Mikk Kirštein
+Location: Czech Rep.
+
+Your title: Indrek Vändrik
+Site: http://zombierun.eu/
+Twitter: @ZombieRunGame
+Location: Tallinn
+
+Your title: Aleksandr Motsjonov
+Site: https://plus.google.com/+AleksandrMotsjonov
+Twitter: @soswow
+Location: Australia
+
+Your title: Mart Roosmaa
+Location: Norway
+
+/* BACK-END */
+
+Your title: Margus Mahler
+Location: Tallinn
+
+Your title: Madis Lõhmus
+Location: Tallinn
+
+Your title: Tanel Lebedev
+Location: Tallinn
+
+Your title: Ervin Weber
+Location: Tallinn
+
+Your title: Damian Mee
+Location: Taiwan
+
+Your title: Tambet Masik
+Location: Tallinn
+
+
+/* THANKS */
+
+Your title: Krister Haav
+Location: Tallinn
+
+Your title: Liisa Toompuu
+Location: Tallinn
+
+Your title: Annika Helendi
+Location: Tallinn
+
+
+/* You can find our whole team here: https://toggl.com/about */
+
+/* ================================== */
+/* We're hiring! Visit jobs.toggl.com */
+/* ================================== */
+
+
+/* SITE */
+
+Last update: Fri Mar 11 22:21:48 2016 ICT
+Standards: HTML5, CSS3, CoffeeScript, ES6
+Components: jQuery, Backbone, Marionette, Foundation, React, Redux

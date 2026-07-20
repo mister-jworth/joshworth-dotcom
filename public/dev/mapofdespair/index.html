@@ -1,0 +1,464 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<meta content="2020 Election Map of Despair" property="og:title" />
+<meta content="All your dread and disgust compiled in one handy map." property="og:description" />
+<meta content="https://joshworth.com/dev/mapofdespair/despair.jpg" property="og:image" />
+<meta content="https://joshworth.com/dev/mapofdespair/" property="og:url" />
+<meta content="2020 Election Map of Despair" property="twitter:title" />
+<meta content="All your dread and disgust compiled into one handy map." property="twitter:description" />
+<meta content="https://joshworth.com/dev/mapofdespair/despair.jpg" property="twitter:image" />
+<meta property="og:type" content="website" />
+<meta content="summary_large_image" name="twitter:card" />
+
+
+<title>2020 Election Map of Despair</title>
+	
+<link rel="stylesheet" href="https://use.typekit.net/ofv2eqe.css">
+	
+<style>	
+	
+	body {
+		background-color: #252525;
+		color: #F0F0F0;
+		font-family: sofia-pro, sans-serif;	
+		font-weight: 500;
+		font-style: normal;
+		font-size: 14px;
+		margin: 20px;
+	}
+	#pagetop {
+		text-align: center;
+		margin: 18px auto 0px auto;
+	}
+	#pagetop h1 {
+		font-size: 38px;
+		line-height:38px;
+
+	}
+	#pagetop p {
+		font-size: 14px;
+		font-weight: 400;
+		opacity: 0.8;
+	}
+
+	#chartdiv {
+		height:80vh;
+		width: 98vw;
+	}
+
+
+@media (max-height:400px){
+	body {
+		font-size: 14px;
+	}
+}
+@media (max-width:600px){
+	body {
+		font-size: 14px;
+	}
+}
+</style>
+
+<!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/geodata/usaLow.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<script>
+am4core.ready(function() {
+
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+ // Create map instance
+var chart = am4core.create("chartdiv", am4maps.MapChart);
+
+// Set map definition
+chart.geodata = am4geodata_usaLow;
+
+// Set projection
+chart.projection = new am4maps.projections.AlbersUsa();
+
+//disavle pan and zoom
+chart.maxZoomLevel = 1;
+chart.seriesContainer.draggable = false;
+chart.seriesContainer.resizable = false;
+
+// Create map polygon series
+var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+
+//Set min/max fill color for each area
+polygonSeries.heatRules.push({
+  property: "fill",
+  target: polygonSeries.mapPolygons.template,
+  min: am4core.color("#000000"),
+  max: am4core.color("#244C81") //25507D
+});
+
+// Make map load polygon data (state shapes and names) from GeoJSON
+polygonSeries.useGeodata = true;
+
+// Set heatmap values for each state
+polygonSeries.data = [
+  {
+    id: "US-AL",
+    label: "AL",
+    value: 0,
+    caption: "No. This doesn't mean you can have your slaves back."
+  },
+  {
+    id: "US-AK",
+    label: "AK",
+    value: 0,
+    caption: "Shoulda just let the moose vote."
+  },
+  {
+    id: "US-AZ",
+    label: "AZ",
+    value: 3,
+    caption: "Did a batch of old white\nguys die off or something?"
+  },
+  {
+    id: "US-AR",
+    label: "AR",
+    value: 0,
+    caption: "Humanity is doomed."
+  },
+  {
+    id: "US-CA",
+    label: "CA",
+    value: 4,
+    caption: "Might as well just secede at this point."
+  },
+  {
+    id: "US-CO",
+    label: "CO",
+    value: 4,
+    caption: "See America? Even a state that's\n high on legal weed can figure this out."
+  },
+  {
+    id: "US-CT",
+    label: "CT",
+    value: 4,
+    caption: "Doesn't make up for the shame."
+  },
+  {
+    id: "US-DE",
+    label: "DE",
+    value: 4,
+    caption: "Hardly lessens the soul-crushing digust."
+  },
+  {
+    id: "US-FL",
+    label: "FL",
+    value: 0,
+    caption: "Just fall in the ocean already."
+  },
+  {
+    id: "US-GA",
+    label: "GA",
+    value: 2,
+    caption: "Seriously?"
+  },
+  {
+    id: "US-HI",
+    label: "HI",
+    value: 4,
+    caption: "Maybe statehood wasn't such a smart move after all?"
+  },
+  {
+    id: "US-ID",
+    label: "ID",
+    value: 0,
+    caption: "What the hell is wrong with people?"
+  },
+  {
+    id: "US-IL",
+    label: "IL",
+    value: 4,
+    caption: "Fails to lessen the deep nausea."
+  },
+  {
+    id: "US-IN",
+    label: "IN",
+    value: 0,
+    caption: "2016 was one thing - like \"Let's see what happens\nwith this joker.\" Turns out the country goes to hell.\nWe're really going to try it again?"
+  },
+  {
+    id: "US-IA",
+    label: "IA",
+    value: 0,
+    caption: "Forgive them lord, for they\n know not what they do."
+  },
+  {
+    id: "US-KS",
+    label: "KS",
+    value: 0,
+    caption: "There's no place like home.\n A home full of idiots."
+  },
+  {
+    id: "US-KY",
+    label: "KY",
+    value: 0,
+    caption: "Is it that when you've got nothing, you'll fall for anything?"
+  },
+  {
+    id: "US-LA",
+    label: "LA",
+    value: 0,
+    caption: "Guess floods and rising sea levels are no big deal.",
+  },
+  {
+    id: "US-ME",
+    label: "ME",
+    value: 4,
+    caption: "Why bother?"
+  },
+  {
+    id: "US-MD",
+    label: "MD",
+    value: 4,
+    caption: "A drop of wisdom dissolving in an ocean of ignorance."
+  },
+  {
+    id: "US-MA",
+    label: "MA",
+    value: 4,
+    caption: "Why is a vote against a racist doofus such a brain-buster?"
+  },
+  {
+    id: "US-MI",
+    label: "MI",
+    value: 4,
+    caption: "Disgusting that it took so long."
+  },
+  {
+    id: "US-MN",
+    label: "MN",
+    value: 4,
+    caption: "It's just so disheartening."
+  },
+  {
+    id: "US-MS",
+    label: "MS",
+    value: 0,
+    caption: "Looks like lies and bigotry go over big here."
+  },
+  {
+    id: "US-MO",
+    label: "MO",
+    value: 0,
+    caption: "Must've been the tax-evasion that won them over."
+  },
+  {
+    id: "US-MT",
+    label: "MT",
+    value: 0,
+    caption: "Was it insulting the military that convinced them?"
+  },
+  {
+    id: "US-NE",
+    label: "NE",
+    value: 0,
+    caption: "Are there that many people who aren't even paying attention?"
+
+  },
+  {
+    id: "US-NV",
+    label: "NV",
+    value: 2,
+    caption: "Are we just gambling with the country for fun now?"
+  },
+  {
+    id: "US-NH",
+    label: "NH",
+    value: 4,
+    caption: "We're just dumb animals responding to stimuli."
+  },
+  {
+    id: "US-NJ",
+    label: "NJ",
+    value: 4,
+    caption: "Even so. How do we even move on from here?"
+  },
+  {
+    id: "US-NM",
+    label: "NM",
+    value: 4,
+    caption: "This should have all been decided in 10 minutes."
+  },
+  {
+    id: "US-NY",
+    label: "NY",
+    value: 4,
+    caption: "Apparently you have to live in a major\nmetropolis to know how to spot a con man."
+  },
+  {
+    id: "US-NC",
+    label: "NC",
+    value: 2,
+    caption: "This is so pathetic."
+  },
+  {
+    id: "US-ND",
+    label: "ND",
+    caption: "Strike a blow against the coastal elites by voting for\na dad-made, NY billionaire with a reality show. Got it.",
+    value: 0
+  },
+  {
+    id: "US-OH",
+    label: "OH",
+    caption: "Some people just want to watch the world burn.",
+    value: 0
+  },
+  {
+    id: "US-OK",
+    label: "OK",
+    caption: "No. Not OK.",
+    value: 0
+  },
+  {
+    id: "US-OR",
+    label: "OR",
+    value: 4,
+    caption: "Does rejecting tyranny make\nyou some kind of weirdo these day?"
+  },
+  {
+    id: "US-PA",
+    label: "PA",
+    value: 2,
+    caption: "That it should even take this long \nto vote out a moron is depressing enough."
+  },
+  {
+    id: "US-RI",
+    label: "RI",
+    value: 4,
+    caption: "But what about the sense of impending doom?"
+  },
+  {
+    id: "US-SC",
+    label: "SC",
+    value: 0,
+    caption: "What the actual fuck are people thinking?"
+  },
+  {
+    id: "US-SD",
+    label: "SD",
+    value: 0,
+    caption: "What the hell kind of info is coming \nthrough on these people's Facebook?"
+  },
+  {
+    id: "US-TN",
+    label: "TN",
+    value: 0,
+    caption: "Is it FOX News? Russian disinformation? What is it??"
+  },
+  {
+    id: "US-TX",
+    label: "TX",
+    value: 0,
+    caption: "So... locking kids in cages\n is all fine and dandy then?"
+  },
+  {
+    id: "US-UT",
+    label: "UT",
+    value: 0,
+    caption: "Are people just addicted to the deranged Tweets?"
+  },
+  {
+    id: "US-VT",
+    label: "VT",
+    value: 4,
+    caption: "Sure, but all faith in humanity was gone a long time ago."
+  },
+  {
+    id: "US-VA",
+    label: "VA",
+    value: 4,
+    caption: "There's still the unbearable shame to contend with."
+  },
+  {
+    id: "US-WA",
+    label: "WA",
+    value: 4,
+    caption: "Does being near a coastline somehow\nmakes you less desperate for easy answers?"
+  },
+  {
+    id: "US-WV",
+    label: "WV",
+    value: 0,
+    caption: "Most of the world thinks we're idiots. Why are we proving them right?"
+  },
+  {
+    id: "US-WI",
+    label: "WI",
+    value: 4,
+    caption: "Will this be the start of Civil War II?"
+  },
+  {
+    id: "US-WY",
+    label: "WY",
+    value: 0,
+    caption: "You know who else responded well to \nhate-filled lies during times of trouble? Nazi Germany."
+  }
+];
+
+/*/ Set up heat legend
+let heatLegend = chart.createChild(am4maps.HeatLegend);
+heatLegend.series = polygonSeries;
+heatLegend.align = "right";
+heatLegend.valign = "bottom";
+heatLegend.width = am4core.percent(12);
+heatLegend.marginRight = am4core.percent(6);
+heatLegend.minValue = 0;7
+heatLegend.maxValue = 4;
+heatLegend.markerCount = 3;
+
+
+// Set up custom heat map legend labels using axis ranges
+var minRange = heatLegend.valueAxis.axisRanges.create();
+minRange.value = heatLegend.minValue;
+minRange.label.text = "Total despair";
+minRange.color = am4core.color("#989898");
+var maxRange = heatLegend.valueAxis.axisRanges.create();
+maxRange.value = heatLegend.maxValue;
+maxRange.label.text = "Glimmer of hope";
+
+
+
+// Blank out internal heat legend value axis labels
+heatLegend.valueAxis.renderer.labels.template.adapter.add("text", function(labelText) {
+  return "";
+});
+*/
+
+
+// Configure series tooltip
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.tooltipText = "{label}\n{caption}";
+polygonTemplate.nonScalingStroke = true;
+polygonTemplate.strokeWidth = 0.5;
+polygonTemplate.stroke = am4core.color("#989898");
+
+// Create hover state and set alternative fill color
+var hs = polygonTemplate.states.create("hover");
+hs.properties.fill = am4core.color("#404040");
+
+}); // end am4core.ready()
+</script>
+</head>
+<!-- HTML -->
+<body>
+<div id="pagetop"><h1>2020 Election Map of Despair</h1></div>
+	
+</div>
+
+<div id="chartdiv"></div>
+<div id="credit" style="text-align: right;"><a href="http://www.joshworth.com" target="_blank" style="color:#999999; text-decoration: none;">JoshWorth.com</a></div>
+</body>

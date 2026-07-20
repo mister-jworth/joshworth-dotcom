@@ -1,0 +1,267 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="./app.css">
+
+	  <!--        jQueryUI-->
+	  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+
+	  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script> 
+
+	  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>   
+    <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>  
+		<script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>	
+		
+		<script src="sliders.js"></script>	
+
+</head>
+<body>
+<style type="text/css">
+    svg:nth-last-child(1) {
+        display: block;
+
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        transform: translate(-50%,-50%);
+    }
+    .topShow {
+        display: block;
+    }
+
+    #slider-range-min {
+        display: block;
+    }
+    #downsvg {
+        display: none;
+    }
+    
+    p.ques {
+        text-align: center;
+        font-size: 40px;
+        white-space: nowrap;
+
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%,-50%);        
+    }
+    p.elapsedTime {
+        text-align: center;
+        font-size: 100px;
+        white-space: nowrap;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);        
+
+        display: none;
+    }
+</style>
+    <img src="capture.png" style="display:block;width:50%;height:50%;position:absolute;left:50%;top:10%;transform:translateX(-50%);">
+
+	<svg class="staticSvg topShow" version="1.1" id="menusvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	    viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+	    <g>
+	        <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="5.5" x2="23" y2="5.5"/>
+	        <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="11.5" x2="23" y2="11.5"/>
+	        <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="1" y1="17.5" x2="23" y2="17.5"/>
+	    </g>
+	</svg>
+	<svg class="staticSvg topShow" version="1.1" id="sharesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	    viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+	    <line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="12.5" y1="2" x2="12.5" y2="17"/>
+	    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="7.7,6.2 12.5,1.5 17.3,6.2 "/>
+	    <polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="10,9.5 5.5,9.5 5.5,22.5 19.5,22.5 19.5,9.5 15,9.5 "/>
+	</svg>
+	<svg
+    class="staticSvg"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    width="50mm"
+    height="200mm"
+    viewBox="0 0 177.16535 708.66142"
+    id="downsvg"
+    version="1.1"
+    inkscape:version="0.91 r13725"
+    sodipodi:docname="ddd.svg">
+    <defs
+        id="defs4" />
+    <sodipodi:namedview
+        id="base"
+        pagecolor="#ffffff"
+        bordercolor="#666666"
+        borderopacity="1.0"
+        inkscape:pageopacity="0.0"
+        inkscape:pageshadow="2"
+        inkscape:zoom="0.70710678"
+        inkscape:cx="-491.94137"
+        inkscape:cy="397.83644"
+        inkscape:document-units="px"
+        inkscape:current-layer="layer1"
+        showgrid="false"
+        units="mm"
+        width="50mm"
+        inkscape:window-width="1600"
+        inkscape:window-height="837"
+        inkscape:window-x="-8"
+        inkscape:window-y="-8"
+        inkscape:window-maximized="1" />
+    <metadata
+        id="metadata7">
+        <rdf:RDF>
+            <cc:Work
+                rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                    rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title />
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1"
+        transform="translate(0,-343.70091)">
+        <g
+            id="layer1-7"
+            inkscape:label="Layer 1"
+            transform="matrix(1.0838362,0,0,1.3230916,-300.55966,89.444025)"
+            style="fill:none;fill-opacity:1">
+            <g
+                style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                transform="matrix(0.00963079,1.075106,-1.075106,0.00963079,611.80691,201.96801)"
+                id="g5218">
+                <polygon
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    points="384.394,287.5 405.606,308.713 476.213,238.106 405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 "
+                    id="polygon5180" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5182" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5184" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5186" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5188" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5190" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5192" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5194" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5196" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5198" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5200" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5202" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5204" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5206" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5208" />
+                <g
+                    style="fill:none;fill-opacity:1;stroke:none;stroke-opacity:1"
+                    id="g5210" />
+            </g>
+        </g>
+        <g
+            id="g5218-4"
+            transform="matrix(0.00997404,1.4398213,-1.1134239,0.01289791,350.1634,355.08817)"
+            style="stroke:none;stroke-opacity:1">
+            <polygon
+                id="polygon5180-4"
+                points="418.787,253.106 384.394,287.5 405.606,308.713 476.213,238.106 405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 "
+                style="fill:#ffffff;stroke:none;stroke-opacity:1" />
+            <g
+                id="g5182-7"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5184-9"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5186-7"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5188-9"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5190-4"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5192-1"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5194-8"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5196-9"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5198-9"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5200-6"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5202-2"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5204-5"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5206-4"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5208-3"
+                style="stroke:none;stroke-opacity:1" />
+            <g
+                id="g5210-0"
+                style="stroke:none;stroke-opacity:1" />
+        </g>
+    </g>
+	</svg>
+
+	<div id="slider-range-min"></div>
+
+	<script type="text/javascript">
+    $( document ).ready(function() {
+        console.log( "ready!" );
+        $("#slider-range-min ").slider({ value: 2 });
+        var past,now,delaySec,dmin,dsec;
+        $.getJSON("SvgJsons/next-button.json", function(json) {
+          comp_speedrings = new SVGAnim(json,79,39,100);
+          $('svg:last-child').click(function(){
+            window.location.pathname = pathPrefix + "catd.html";     
+            console.log(clickCount);
+          });
+        });
+    });	
+	</script>
+<script src="after.js"></script></body>
+</html>

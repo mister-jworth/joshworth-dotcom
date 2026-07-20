@@ -1,0 +1,1164 @@
+[
+ {
+  "id": "37",
+  "parent": "0",
+  "author": "Anthony",
+  "date": "2014-03-04 22:19:02",
+  "content": "<p>This is quite incredible! Great job making me feel so small :)</p>"
+ },
+ {
+  "id": "38",
+  "parent": "0",
+  "author": "Steph",
+  "date": "2014-03-05 02:40:43",
+  "content": "<p>Very good job. This is the closest I've ever come to wrapping my head around the size of the universe. Awesome site, Thank you!</p>"
+ },
+ {
+  "id": "39",
+  "parent": "0",
+  "author": "Tianshuo",
+  "date": "2014-03-05 05:56:50",
+  "content": "<p>And I thought http://scaleofuniverse.com/ was amazing, I scrolled from start to end. A spiritual journey.</p>"
+ },
+ {
+  "id": "40",
+  "parent": "0",
+  "author": "Mark",
+  "date": "2014-03-05 11:16:08",
+  "content": "<p>On Chrome, the scroll is too fast to read the bits of writing between the planets. I see some sentences flashing by, but that's it!</p>\n<p>I'm on Chromium Version 32.0.1700.107 Ubuntu 13.10 (32.0.1700.107-0ubuntu0.13.10.1~20140204.972.1)</p>"
+ },
+ {
+  "id": "41",
+  "parent": "40",
+  "author": "Amber",
+  "date": "2014-03-05 21:57:03",
+  "content": "<p>Did you try holding down the right arrow on the scroll bar? I use Chrome too and that worked much better for me.</p>"
+ },
+ {
+  "id": "42",
+  "parent": "0",
+  "author": "Christine",
+  "date": "2014-03-05 22:30:15",
+  "content": "<p>Seriously Awesome!  Educational, funny and thought provoking!</p>"
+ },
+ {
+  "id": "43",
+  "parent": "0",
+  "author": "Eric Rational",
+  "date": "2014-03-05 23:31:30",
+  "content": "<p>Thank you for taking the time to make this, it was a fantastic experience.</p>"
+ },
+ {
+  "id": "44",
+  "parent": "0",
+  "author": "Xanth\u00eb",
+  "date": "2014-03-06 01:18:53",
+  "content": "<p>Thanks for this, a really cool piece of web programming! PZ Myers linked it recently on <a href=\"http://freethoughtblogs.com/pharyngula/2014/03/05/space-travel-is-boring/\" rel=\"nofollow\">Pharyngula</a>, which resulted in it getting eyeballed by a few people with pretensions to being astronomers. (And some of us are really pedantic assholes \u2013 me included! \u2013 so I apologise for noting that the appearance of the Jovian satellites immediately struck me as wrong; also please forgive me for compiling the following list of what are essentially, nitpicks.) That said, I do actually like the snarky comments interspersing the inherent tedium of accurately depicting the distances between the planets to scale!</p>\n<p>1. In the scale legend, the normal SI abbreviation for the metre should be shown as the lower-case m, not M.</p>\n<p>2. The spacing of the Galilean satellites have been perturbed; the three beyond Io are 121 pixels too far to the right (exactly the amount of the apparent width of Io\u2019s orbit). The quantities 193, 307, and 541 pixels <i>would</i> be correct if you hadn\u2019t already shifted the moons to start with, 121 pixels beyond Jupiter; as it stands if Io is at \u20180\u2019 px, then E, G, and C should be at corrected distances of 72, 186, and 420 px. The reason this immediately stood out to me as not-quite-right is a well-known, fascinating feature of the Jovian satellites \u2013 Io, Europa, and Ganymede are in gravitational resonance with each other, with their orbital periods almost exactly in a 1:2:4 ratio; Kepler\u2019s harmonic law also relates this ratio to the semi-major axes of their orbits, 1:\u221b2\u00b2:\u221b4\u00b2. Callisto spoils the pattern somewhat \u2013 it\u2019s in a ~9.4:4 ratio with Ganymede, rather than the 2:1 resonance.</p>\n<p>3. Triton, Neptune\u2019s giant moon is omitted, despite being well over half the diameter of the earth\u2019s moon \u2013 and larger than Pluto! If a moon being smaller than the earth\u2019s moon was the only criterion for non-inclusion then you would have lost Europa as well; and Triton is rather close-in to Neptune at only 102 px. Like Europa, Triton is closer to being rounded up to 1 pixel in size (whereas all of the other moons and minor planets in the solar system are closer to being rounded down to zero).</p>\n<p>4. Eris has been measured (radiometric and occultation measurements) at almost exactly the same size (Wikipedia: 2326 \u00b112 km) as Pluto (2306 \u00b120 km)\u2026 why no love for (dwarf) planet <abbr title=\"Or as Mike Brown joked, planet Xena. After Pluto\u2019s designation as a ninth planet, a hypothesised tenth planet often was dubbed Planet X.\">X</abbr> as well? And it would only add another 2.45 million pixels(!) further on to depict its current position 96.4 astronomical units from the sun\u2026 lol. (None of the other TNOs/dwarf planets currently known have a mean diameter greater than the moon\u2019s radius.)</p>\n<p>5. Having the astronomical symbols for the sun and planets to click on to automate the scrolling is a very nice feature that didn\u2019t appear on my mobile phone; given that Pluto is 5.5 light hours from the sun, it\u2019s nice that scrolling the entire width of the page via click only takes 5 seconds or so \u2013 that seems like an apparent speed of 4000 times the speed of light! So I imagine it might be possible to code the rate of change in the scroll location (measured in km) as a multiplicative factor of light speed\u2026</p>\n<p>Not a nitpick as such, but even a linear display such as this is implicitly ignoring two of the three spatial dimensions; to imagine a blob of 1 px in size representing say Pluto or the earth\u2019s moon <i>without</i> scroll bars, you would need a 2D computer display of about 4 million pixels in <i>each</i> direction \u2013 say sixteen trillion (1.6&times;10\u00b9\u00b3) pixels screen area \u2013 and then have to have some way of cubing that to a 3D model multiplying that number by another 4 million\u2026 and of those approximately 10 to the power of 20 pixels, only about 70 million would be non-black (the vast majority being those depicting the Sun).</p>\n<p>Space is mind-bogglingly empty \u2013 though as other people have noted, if a similar graphical method were used to compare the size of an atomic nucleus to the surrounding electron cloud, the resulting display would be even larger and comparatively empty.</p>\n<p>Finally, thanks again for doing this. Thumbs up!</p>"
+ },
+ {
+  "id": "45",
+  "parent": "0",
+  "author": "Tony",
+  "date": "2014-03-06 01:54:37",
+  "content": "<p>Awesome site!<br />\nJust took a tour on our Solar System. Very tired.<br />\nBut can you please add a few more features?</p>\n<p>For starters, please add an \"auto\" button so one doesn't have to keep<br />\nholding the left mouse to scroll the bar. Just click auto and let it go.</p>\n<p>Secondly, could you add a little rocket ship at the bottom?<br />\nLike, right above the kilometer meter? It would give the representation<br />\na nice touch I think. Also animate it with the little flame behind the rocket and stuff like that. Plus, make the ship slow down during the text parts,<br />\nso like if you are in \"auto\" mode and the rocket is moving... slow it down so we can read the text and then speed it up again during the black boring parts.</p>\n<p>Lastly, add an amount of how many pixels make up a planet.<br />\nYou mentioned that the moon is 1 pixel, but what about the sun?<br />\nor the earth, or even Jupiter being the giant it is.<br />\nSo when you see, say, Jupiter, it tells you how many pixels compose it.</p>\n<p>Just a few pointers. Great representation tho. Made it all the way to the end lol</p>"
+ },
+ {
+  "id": "46",
+  "parent": "0",
+  "author": "Kirk",
+  "date": "2014-03-06 04:18:20",
+  "content": "<p>I just scrolled (and scrolled) on an iPad, and it's just peachy. I or presume you figured out the answer to your question.</p>"
+ },
+ {
+  "id": "47",
+  "parent": "0",
+  "author": "Anbu",
+  "date": "2014-03-06 06:07:03",
+  "content": "<p>It was a great spiritual experience. Thanks for making this. Please dont ever, ever take down the page.</p>\n<p>Many sages and siddhas have written many poems in Tamil explaining the significance of this emptiness. They claim it is the same emptiness that exists between the planets, exist between electrons of an atom. <br />\nMother bears a child, here who is stronger and has more weight ? Mother or the child ? Obviously, the mother is stronger. And similarly this wast nothingness bears all these planets, even though it is nothing, it is much stronger and has more weight than the sum of all things in this universe.</p>\n<p>When we swim in an ocean, the ocean holds us. Its much bigger than us. We are just traversing through it. When we stroke and advance a bit, the ocean fills the spot where we were a moment before. Its always there.</p>\n<p>Similarly this nothingness is always there. The atoms that make the cells, cells that make the molecules, molecules that make organs, organs that make us have this nothingness within much in the same way the nothingness that exists between two planets. So by this analogy, you can safely say, the nothingness that exist between Pluto and Neptune already exist between two electron of an atom in your brain cell.</p>\n<p>So they say, if one needs to understand the concepts of universe, one doesn't have to look outside, one can start looking inside. Both are hard, but looking inside is a bit easier than looking outside.</p>"
+ },
+ {
+  "id": "48",
+  "parent": "0",
+  "author": "safarinz",
+  "date": "2014-03-06 09:08:44",
+  "content": "<p>Well done, made it to the end and enjoyed the fun facts and philosophical comments on the way.</p>"
+ },
+ {
+  "id": "49",
+  "parent": "0",
+  "author": "The Old Man",
+  "date": "2014-03-06 14:56:57",
+  "content": "<p>Wonderfully superb!  Every school child should see this.  As an old man, I have seen similar projects but none that so capably demonstrate the relative distances and sizes.   Thank you for creating this -- it shall be shared regularly.  What a journey!</p>"
+ },
+ {
+  "id": "50",
+  "parent": "0",
+  "author": "DanTheMan",
+  "date": "2014-03-06 16:25:29",
+  "content": "<p>Great stuff!  Now you need create another version where the Solar System is a pixel and then we will really feel very small.</p>"
+ },
+ {
+  "id": "51",
+  "parent": "0",
+  "author": "caitlinostberg",
+  "date": "2014-03-06 16:33:33",
+  "content": "<p>I loved taking Astronomy when I was in high school and this would have been really helpful! I think you were able to capture the distance between everything fairly well. While I still can't fathom the size of our universe (let alone the size of our Solar System) this made it a bit more understandable.</p>"
+ },
+ {
+  "id": "52",
+  "parent": "44",
+  "author": "jWorth",
+  "date": "2014-03-06 17:36:07",
+  "content": "<p>Thanks for all the great insights! I had a feeling it wouldn't quite pass the true astronomer test. Pluto is only visible for sentimental reasons, which don't quite mesh with actual science. I originally wasn't going to include any moons besides ours, but then I got carried away and started adding them without really finishing. I'll use all your notes when I revisit it. Thanks again!</p>"
+ },
+ {
+  "id": "53",
+  "parent": "46",
+  "author": "jWorth",
+  "date": "2014-03-06 17:38:08",
+  "content": "<p>When you look at it on a desktop browser, there's a distance counter near the bottom and some shortcut astronomical symbols at the top. Still can't figure it out!</p>"
+ },
+ {
+  "id": "54",
+  "parent": "47",
+  "author": "jWorth",
+  "date": "2014-03-06 17:43:41",
+  "content": "<p>Some beautiful, wise words. If you ever decide to start a cult, you can count me in!<br />\nNot sure if I agree that looking in is easier than looking out. If you're looking within and you stumble on a black hole, you'll get sucked in for real!</p>"
+ },
+ {
+  "id": "55",
+  "parent": "0",
+  "author": "Christina",
+  "date": "2014-03-06 20:54:11",
+  "content": "<p>All that emptiness is calming and reassuring in some way.  When petty everyday things start to annoy, remembering how tiny we are in all that vastness will help.</p>"
+ },
+ {
+  "id": "56",
+  "parent": "0",
+  "author": "CKim71",
+  "date": "2014-03-06 22:42:52",
+  "content": "<p>Speaking for the design side of this equation, this is an amazing infographic. Elegant, simple, snarky and interesting. Made it all the way through. I love your philosophical questions. The comment about doing a little rocket ship navigation device that slows for comments is a neat idea. Overall though, wow. Love the thinking and the execution.</p>"
+ },
+ {
+  "id": "57",
+  "parent": "0",
+  "author": "Josh",
+  "date": "2014-03-06 22:52:58",
+  "content": "<p>Hey Josh, this is incredible! I've been researching and illustrating the solar system as a personal project. I'm currently in tune with the vastness of space between the planets, but this visual representation blows my mind. Pretty unreal!</p>\n<p>Josh</p>"
+ },
+ {
+  "id": "58",
+  "parent": "0",
+  "author": "AlexR",
+  "date": "2014-03-07 04:23:24",
+  "content": "<p>I think this is excellent, but I also think it would be improved if the text could appear dynamically as you scroll, so it could remain stationary and readable while you continue scrolling.</p>"
+ },
+ {
+  "id": "59",
+  "parent": "0",
+  "author": "William Young",
+  "date": "2014-03-07 04:37:39",
+  "content": "<p>Should I point out the punctuation typo at 1682194115 km? There should be an apostrophe in the 'Let's' of \"Lets try a few metaphors anyway\"</p>"
+ },
+ {
+  "id": "60",
+  "parent": "58",
+  "author": "AlexR",
+  "date": "2014-03-07 05:17:25",
+  "content": "<p>I also want to say that it consistently scales itself to be slightly taller than the window, meaning that there's always a tiny amount of vertical scroll.</p>"
+ },
+ {
+  "id": "61",
+  "parent": "0",
+  "author": "Joe Babcock",
+  "date": "2014-03-07 05:53:13",
+  "content": "<p>Thank you!!! This is the best example I have seen of how vast our solar system is.  I understand at last.  Now if I can only get my 5 year old to understand...</p>"
+ },
+ {
+  "id": "62",
+  "parent": "0",
+  "author": "Andrew",
+  "date": "2014-03-07 07:10:14",
+  "content": "<p>Congratulations on a job well done! This morning, instead of ploughing through the news over breakfast, I ploughed through the solar system. As you rightly comment, the emptiness of space is boggling. Much more so, than reading coverage of the Oscars :-).<br />\nMany thanks!</p>"
+ },
+ {
+  "id": "63",
+  "parent": "0",
+  "author": "Negasta",
+  "date": "2014-03-07 12:28:32",
+  "content": "<p>I love things like this, always gives me perspective.</p>\n<p>I wonder how long the chart would be if printed out on paper the height of an A4 page?</p>"
+ },
+ {
+  "id": "64",
+  "parent": "0",
+  "author": "Mercedesz",
+  "date": "2014-03-07 16:02:37",
+  "content": "<p>it's pretty awesome! if you want to read all the comments, scrolling along the whole thing manually is a bit tiring, i agree. but i think this effort is what really makes that vast void between each two planets \"tangible\" -- if it can be tangible at all. :) very well done!<br />\nps: personally i like to be a speck. :)</p>"
+ },
+ {
+  "id": "65",
+  "parent": "0",
+  "author": "stephen pruitt",
+  "date": "2014-03-07 16:23:01",
+  "content": "<p>I have a feeling you'll be getting lots of kudos for this, since it seems to have hit facebook for real, and I just did my part by sharing and tweeting it, but before that mad rush of adoration washes over you and becomes annoyance, I just wanted to tell you that this is the best bit of web design I've seen in months, and the best bit of science education I've seen in even longer, and a lovely philosophical meditation as well. Thank you.</p>"
+ },
+ {
+  "id": "66",
+  "parent": "63",
+  "author": "jWorth",
+  "date": "2014-03-07 16:29:52",
+  "content": "<p>Depends on the resolution. If it's 300 dpi, and the sun (which is 400px on screen) is as tall as the paper, it works out to be 46,777\" wide (3,898') or 5503 sheets of paper! That's a lot, but doesn't seem quite right. Someone please check my math.</p>"
+ },
+ {
+  "id": "67",
+  "parent": "0",
+  "author": "Rishabh",
+  "date": "2014-03-07 20:31:32",
+  "content": "<p>Hi! Wonderful work, I really enjoyed it.</p>\n<p>By the way, I wanted to point out that somewhere after Jupiter, you missed a word (or rather, a number) in this sentence:<br />\n\"You would need of these screens lined up side-by-side to show this whole map at once.\"</p>"
+ },
+ {
+  "id": "68",
+  "parent": "67",
+  "author": "jWorth",
+  "date": "2014-03-07 23:02:07",
+  "content": "<p>There's a little script in there that looks at your screen size and gives you a number. Old browser maybe?</p>"
+ },
+ {
+  "id": "69",
+  "parent": "0",
+  "author": "north face rea",
+  "date": "2014-03-07 23:05:13",
+  "content": "<p>I \u03f2ould not \u0433efrain fr\u07cbm commenting. Perfectly wr\u0456tten!</p>"
+ },
+ {
+  "id": "70",
+  "parent": "0",
+  "author": "Lorenzo",
+  "date": "2014-03-08 01:07:20",
+  "content": "<p>Hi, just wanted to thank you for this wonder. Maybe it's silly, but if you want a spanish translation of the text, I would do it (for free of course). Maybe you could put in behind the english, I don't know :p Really nice job. Thank you again!</p>"
+ },
+ {
+  "id": "71",
+  "parent": "0",
+  "author": "World's Greatest Junkman",
+  "date": "2014-03-08 01:25:28",
+  "content": "<p>Pretty cool! I liked the comments, and holding down the scroll bar makes you understand just how much space there is...really, if it automatically scrolled to the next planet, well, you might as well get a bedroom solar system mobile. The original Whole Earth Catalog had projects teachers could do to help their students understand space and the solar system; use a roll of toilet paper and mark the planets on it; find household items like grapefruit and raisins to be planets and place them in a field, or use homemade signs along a road - sometimes your solar system stretches for miles! I did a roadside one when my kids were in school learning about the solar system. Now I want to do one of an atom! Yahoo! Many thanks, this was a blast.</p>"
+ },
+ {
+  "id": "72",
+  "parent": "0",
+  "author": "Pippa",
+  "date": "2014-03-08 08:51:53",
+  "content": "<p>Had a singularly challenging, empty day, feeling like nothing. Scrolling all the way through this gave me perspective. And how amazing that the emptiness of space echoes the emptiness inside an atom, and actually inside our bodies, too, when you think that our atoms don't touch. If this is the pattern, then it stands to reason that experiences of emptiness in the spirit holds significance as well. The emptiness gives weight to what IS there, making it significant. Wow.</p>\n<p>Thank you, Josh - you sure made a difference in my day today.</p>\n<p>And THANK YOU for adding Pluto - yes, we still love it!</p>"
+ },
+ {
+  "id": "73",
+  "parent": "0",
+  "author": "Ronin_oni",
+  "date": "2014-03-08 19:55:09",
+  "content": "<p>Very well done, I've never come across something that most accurately showed the true distance of our tiny little corner of the universe. I also enjoyed your philosophical view on the nothingness of space, it reminded me of someone else...<br />\nhttp://memegenerator.net/instance/46971139?urlName=Rust-Chole&amp;browsingOrder=New&amp;browsingTimeSpan=AllTime</p>"
+ },
+ {
+  "id": "74",
+  "parent": "0",
+  "author": "Ross",
+  "date": "2014-03-08 20:49:51",
+  "content": "<p>Amazing! Just when one might've thought \"scale of the universe\" visualizations were old hat, you've gone and created something startling and fresh. Very nice work. :D</p>\n<p>I just wanted to point out that it'd be worth your while to fix the CSS bug that's causing your page to scroll vertically (consistent in Chrome/FF/IE, even with the page full screened at 1920x1080). \"body { overflow-y: hidden; }\" would be a (hacky) one-line fix, but I believe the real problem may be your use of \"vh\" for div dimensions.</p>"
+ },
+ {
+  "id": "75",
+  "parent": "0",
+  "author": "Daniel",
+  "date": "2014-03-08 21:02:04",
+  "content": "<p>Thanks for a absolutely superb communication of an essentially incommunicable understanding. Kudos by the parsec.</p>"
+ },
+ {
+  "id": "76",
+  "parent": "49",
+  "author": "The Old Woman",
+  "date": "2014-03-08 22:18:02",
+  "content": "<p>Indeed, very very superB</p>"
+ },
+ {
+  "id": "77",
+  "parent": "0",
+  "author": "Duane",
+  "date": "2014-03-09 08:19:45",
+  "content": "<p>Very impressive! If you're willing to take any suggestions, I was thinking that a small window in the top, right corner (3\" X 3\" perhaps) could show the receding sun as you head toward Pluto, starting out at full size and getting proportionally smaller as would be seen by the time you get to each planet. Just a thought.</p>"
+ },
+ {
+  "id": "78",
+  "parent": "0",
+  "author": "MikeS",
+  "date": "2014-03-09 11:39:20",
+  "content": "<p>Seconding all the adoring comments.  Can't wait to show this to my nephews!<br />\nI scrolled all the way by hand on ipad (no automation visible, nor any scale numbers unfortunately) - and it felt like a real achievement to get to the end.  Now\u2026 to clean the grease from the screen\u2026</p>"
+ },
+ {
+  "id": "79",
+  "parent": "0",
+  "author": "Emilio",
+  "date": "2014-03-09 12:44:03",
+  "content": "<p>Excellent Work <br />\nlove it</p>"
+ },
+ {
+  "id": "80",
+  "parent": "64",
+  "author": "Nadine",
+  "date": "2014-03-09 19:55:48",
+  "content": "<p>I agree, it is \"Tediously Accurate\", as announced, and I also felt it was better to scroll the map all the way.<br />\nThank you, Josh, for designing this experiment, your kinetic metaphor works very well !</p>"
+ },
+ {
+  "id": "81",
+  "parent": "59",
+  "author": "jWorth",
+  "date": "2014-03-10 03:09:50",
+  "content": "<p>Thanks for noticing. Fixed it.</p>"
+ },
+ {
+  "id": "82",
+  "parent": "70",
+  "author": "jWorth",
+  "date": "2014-03-10 03:12:14",
+  "content": "<p>A translation would be great! Thanks for offering. Send me an email through the contact page.</p>"
+ },
+ {
+  "id": "83",
+  "parent": "0",
+  "author": "Charles",
+  "date": "2014-03-10 03:33:54",
+  "content": "<p>Beautiful work, very meticulously made. Reminds me of http://coswyn.com/2010/10/27/comprehending-creation-our-solar-system-galaxy-and-universe-to-scale/ but with a nice spin.</p>"
+ },
+ {
+  "id": "84",
+  "parent": "77",
+  "author": "jWorth",
+  "date": "2014-03-10 03:55:34",
+  "content": "<p>Like a rear-view mirror? Interesting idea.</p>"
+ },
+ {
+  "id": "85",
+  "parent": "74",
+  "author": "jWorth",
+  "date": "2014-03-10 03:59:18",
+  "content": "<p>Thanks for the fix! I used the hidden y overflow option. vh seems to mean something a little different to everyone.</p>"
+ },
+ {
+  "id": "86",
+  "parent": "84",
+  "author": "Asa",
+  "date": "2014-03-11 05:33:11",
+  "content": "<p>This is great!<br />\nI actually had a similar idea to the rearview mirror that it would be nice to keep things in a perspective view of some kind (until they would disappear anyway).  What came to mind for me was putting the whole trip more on the y axis than the x axis,.. and like we're looking through the rear window of our vehicle the whole time.  Maybe a dual-viewport set of forward-looking and backward looking views would further aid perspective awareness.  E.g., (backwards) The sun would always be in view.  Maybe at a minimal x angle so the planets don't overlap each other, assuming that more than one would would ever require a pixel at a time.  P.S. In Firefox 29 Aurora (only browser tested), I have vertical scroll bars, in the event the fix you mentioned in a comment should already be in effect.  I took the trip in 1920x1080 fullscreen.</p>\n<p>Thanks! Will be sharing.</p>"
+ },
+ {
+  "id": "87",
+  "parent": "0",
+  "author": "Data Recovery Rotterdam",
+  "date": "2014-03-11 11:17:16",
+  "content": "<p>Wow! that's in fact just a lot of empty space, with a bit od something here and there? the sun looks pretty big to me, i didn't understand it to be that big in comparison!</p>"
+ },
+ {
+  "id": "88",
+  "parent": "0",
+  "author": "Adam",
+  "date": "2014-03-11 21:28:23",
+  "content": "<p>This is a great applet and I sent it out to a group of middle school science teachers to (hopefully) explore with their students.  <br />\nThat said, I have a question, and I mean no disrespect.  <br />\nWould it be much more difficult to replace the larger planets with actual images?  It would be nice, after all that scrolling, to get a 2D picture of Jupiter rather than an orange circle.  There's some readily available in the wikimedia commons.  I know they're pretty big but you could shrink them with your skills.  <br />\nyou could set up an html/xml tag</p>\n<p>and then set up a css selector for it that could shrink it</p>\n<p>#jupiter {</p>\n<p>position: absolute;<br />\n    top: 0;<br />\n    left: 25%;<br />\n height: 100px;<br />\n width: 100px;<br />\n margin-left: -25px;<br />\n margin-top: -25px;</p>\n<p>--I just put in arbitrary numbers here.  I can see you used XML now that I've looked.  Anyway, thanks for the page!</p>"
+ },
+ {
+  "id": "89",
+  "parent": "0",
+  "author": "Brendon",
+  "date": "2014-03-11 23:01:05",
+  "content": "<p>This is great.</p>"
+ },
+ {
+  "id": "90",
+  "parent": "0",
+  "author": "Brian Ponikvar",
+  "date": "2014-03-13 18:31:02",
+  "content": "<p>Simply brilliant! \"Stellar\" work!</p>"
+ },
+ {
+  "id": "91",
+  "parent": "0",
+  "author": "como reconquistar",
+  "date": "2014-03-15 01:24:00",
+  "content": "<p>very good website congratulations my name hugo</p>"
+ },
+ {
+  "id": "92",
+  "parent": "0",
+  "author": "rickl",
+  "date": "2014-03-15 23:59:21",
+  "content": "<p>Outstanding job, Josh!  I'm an astronomy/spaceflight buff, and since I was a child I've seen illustrations showing the Sun and planets to scale in size, OR showing their orbital distances to scale.</p>\n<p>But never before now has anyone shown them to scale in both size AND distance.</p>"
+ },
+ {
+  "id": "93",
+  "parent": "0",
+  "author": "Khrys",
+  "date": "2014-03-18 16:11:38",
+  "content": "<p>Hi, can i duplicate the page to do a french translation. <br />\nI respect your work and your copyright and i will explain that is your original idea and your property. <br />\nIt's for french student who have the same problem than your daughter with the scale of the solar system.</p>"
+ },
+ {
+  "id": "94",
+  "parent": "0",
+  "author": "Vincenzo",
+  "date": "2014-03-22 19:20:00",
+  "content": "<p>Really amazing!</p>"
+ },
+ {
+  "id": "95",
+  "parent": "0",
+  "author": "Paulo",
+  "date": "2014-03-27 11:31:54",
+  "content": "<p>Hey man, great job. I've seen something similar before but it didn't have the ruler at the bottom (the screen was full of stars which passed by instead). The ruler gives a much clearer sense of distance. Just a tip: would be better if the comments just appeared static momentarily perhaps at the top below the symbols instead of passing by. I can't read them as it scrolls so I have to stop the scrolling to read them which kills the association between time duration of scroll and distance. Other than that, great stuff.</p>"
+ },
+ {
+  "id": "96",
+  "parent": "0",
+  "author": "Laura Bethmann",
+  "date": "2014-03-30 17:44:56",
+  "content": "<p>Loved it, Josh. Quite an abbreviated trip! Fabulous 'billboards' along the way. So, size is relative. And matter, just like the universe, is also incredibly 'empty'. The following example has shown up in many places, one being on physics.org, that because of all the space inside each of our atoms, the entire human race could fit into the volume of a sugar cube. So much space Everywhere. Thanks for putting your map out in cyber space!</p>"
+ },
+ {
+  "id": "97",
+  "parent": "0",
+  "author": "Fabi\u00e1n H. R\u00edos Rubino",
+  "date": "2014-04-03 17:04:15",
+  "content": "<p>Great work!<br />\nI was thinking about what would be a good model to show the scale of the universe in the web just two days ago. The thought came up right after I woke up and realized that I had probably been re-living in a dream an actual day in 1985 in high school when we imagined a model. In our model, the pixel was the head of a head pin located in the middle of our school patio. For me it was an aha moment.<br />\nThank you.</p>"
+ },
+ {
+  "id": "98",
+  "parent": "0",
+  "author": "Peyronie Attending",
+  "date": "2014-04-09 20:56:03",
+  "content": "<p>Though I once believed investing in space was like investing in our future for knowledge and expansion, eye-opening exhibits like this reinforce what I now believe--- the universe is just too big for exploration. Pretty disappointed in mankind that almost 50 years from landing on the moon that are crowning  space-related achievements are getting benefits from man-made satellites (ie gps), stationary telescopes (ie Hubble), and moving telescopes (probes--- but I am excited about New Horizons approaching Pluto next year).  Things are too far so focus in subjects that affect us more like medicine.</p>"
+ },
+ {
+  "id": "99",
+  "parent": "0",
+  "author": "Matt Squirrell",
+  "date": "2014-04-15 11:51:08",
+  "content": "<p>I did something a whole lot like this in 2009 ( quitethehike.co.uk ), and I keep meaning to bring it up to date somehow (the design and coding are super-ropey by modern standards).</p>\n<p>And every time I start thinking about it, someone else comes along and does it better ;-)</p>"
+ },
+ {
+  "id": "100",
+  "parent": "0",
+  "author": "Jazza",
+  "date": "2014-04-16 11:13:26",
+  "content": "<p>Hey Josh,<br />\nThat was one long trip you took us on. I knew there was a lot of nothing out there, but you really gave me some proper perspective on the true size of things.<br />\nAnd I'm glad you left Pluto in - I feel like he's still part of the family, y'know?<br />\nThank you very much for this map. Tedious? Totally worth it!</p>"
+ },
+ {
+  "id": "101",
+  "parent": "0",
+  "author": "Leonardo Molina",
+  "date": "2014-04-16 15:31:39",
+  "content": "<p>No words to describe the amazing job you made here.<br />\nIt really was, for me, a spiritual journey; not for religious reasons. Simply is amazing to see how big the Universe is &amp; how much is left to discover yet.<br />\nYou rock!</p>"
+ },
+ {
+  "id": "102",
+  "parent": "0",
+  "author": "tiit",
+  "date": "2014-04-22 12:22:41",
+  "content": "<p>mindblow</p>"
+ },
+ {
+  "id": "103",
+  "parent": "0",
+  "author": "Franky",
+  "date": "2014-05-29 10:08:30",
+  "content": "<p>So amazing!</p>"
+ },
+ {
+  "id": "104",
+  "parent": "0",
+  "author": "Sam Benson",
+  "date": "2014-05-29 14:03:59",
+  "content": "<p>This really is fantastic!</p>\n<p>Any chance of this being open sourced on Github or the like so we can offer enhancements?</p>"
+ },
+ {
+  "id": "105",
+  "parent": "0",
+  "author": "Carrie Hansen",
+  "date": "2014-05-29 14:42:55",
+  "content": "<p>My significant other just said, \"My right arrow is faster than the speed of light.\" Just... wow. As if this project wasn't already mind blowing.</p>\n<p>It would be cool to see a version where holding the right arrow/scroll button makes the model move at the scale speed of light. So for instance, holding the right arrow leaving the sun, you arrive at Mercury after 3 minutes 12 seconds.</p>\n<p>Nobody would last much past Earth, I'll bet. Still, it would make you stop and realize the crazy scale.</p>"
+ },
+ {
+  "id": "106",
+  "parent": "0",
+  "author": "Joe",
+  "date": "2014-05-29 19:39:05",
+  "content": "<p>Very nice. Strikes me though a single 32 bit integer can count the km well past Uranus. So your 64 bit computer is pretty darned big on the inside too. A single word can count well more integers than the km to Pluto (we still love you!) -- where would you end up in space at 2^64 km... past Alpha Centauri ...</p>"
+ },
+ {
+  "id": "107",
+  "parent": "0",
+  "author": "Cole",
+  "date": "2014-05-29 19:49:13",
+  "content": "<p>This is great.  I've forwarded it onto my mum and my son.</p>"
+ },
+ {
+  "id": "108",
+  "parent": "0",
+  "author": "Bill Berit",
+  "date": "2014-05-31 15:29:59",
+  "content": "<p>Suggest checking your Moon Pixel show, I am getting the last comment section over printed with another message. <br />\nB</p>"
+ },
+ {
+  "id": "109",
+  "parent": "0",
+  "author": "Steve",
+  "date": "2014-06-01 16:43:25",
+  "content": "<p>Fun, and a nice capture of \"size.\" A local school built a solar system and installed it on the bike path - the inner planets were done and gone before you got off the starting part; the last planet was10 km away !</p>\n<p>\"km\" as a unit of measurement is a bit messy - perhaps using the \"light second\" as a basis would help connect this to the astronomical realm.<br />\n(The earth being about 500 light seconds from the sun, etc\u2026)</p>\n<p>Anyway, thanks</p>"
+ },
+ {
+  "id": "110",
+  "parent": "0",
+  "author": "Emily",
+  "date": "2014-06-06 03:00:42",
+  "content": "<p>this ruined my night</p>"
+ },
+ {
+  "id": "111",
+  "parent": "0",
+  "author": "Itzel L\u00f3pez",
+  "date": "2014-06-09 21:49:40",
+  "content": "<p>\u00a1Hi!<br />\nQuiero utilizar su recurso para un MOOC que desarrollar\u00e1 la Universidad Nacional Aut\u00f3noma de M\u00e9xico acerca de Matem\u00e1ticas b\u00e1sicas, \u00bfexiste alg\u00fan tipo de restricci\u00f3n para su uso?</p>\n<p>\u00a1Saludos!</p>"
+ },
+ {
+  "id": "112",
+  "parent": "0",
+  "author": "Riccardo",
+  "date": "2014-06-11 13:55:15",
+  "content": "<p>THANKS!!!<br />\nThere should be a PixelMoon Fountation for the enhancement of the project, like: add right-click pop-up explanations about bodies encountered, 3d representations, meteors position (remember the ISON crazyness some time ago?), trip to the Oort cloud, and so on...</p>\n<p>And: could there be an off-line application, to be seen without an internet connection?</p>"
+ },
+ {
+  "id": "113",
+  "parent": "0",
+  "author": "Martin Gregory",
+  "date": "2014-06-25 09:17:12",
+  "content": "<p>Absolutely loved it.   Especially the speed of light!</p>"
+ },
+ {
+  "id": "114",
+  "parent": "0",
+  "author": "K.Basham",
+  "date": "2014-06-26 09:40:51",
+  "content": "<p>Thanks so much for doing this.</p>\n<p>https://www.smashwords.com/books/view/449772</p>"
+ },
+ {
+  "id": "115",
+  "parent": "0",
+  "author": "Dawit",
+  "date": "2014-07-11 03:17:41",
+  "content": "<p>That was pretty awesome. Thank you!!!</p>"
+ },
+ {
+  "id": "116",
+  "parent": "0",
+  "author": "Aaron",
+  "date": "2014-08-10 04:10:09",
+  "content": "<p>very nice work! but why no titan?</p>"
+ },
+ {
+  "id": "117",
+  "parent": "0",
+  "author": "Alexi",
+  "date": "2014-08-30 01:32:56",
+  "content": "<p>Love this work! Also liked your very quotable commentary on nothingness (one of my favorite topics). It is like those occasional and sometimes humors road signs I often see when driving along the interstate. I'll be showing this around for some time to come.</p>"
+ },
+ {
+  "id": "118",
+  "parent": "0",
+  "author": "Flonkbob",
+  "date": "2014-09-11 04:04:26",
+  "content": "<p>Thank you for this! This is something I have wanted to see since long before personal computers even existed.  It is beautiful and inspiring, yet at the same time the bleak emptiness scares the bejeebers out of me.</p>"
+ },
+ {
+  "id": "119",
+  "parent": "0",
+  "author": "Crystal",
+  "date": "2014-10-08 01:55:09",
+  "content": "<p>This is fabulous - thanks for your time and sharing.</p>"
+ },
+ {
+  "id": "120",
+  "parent": "0",
+  "author": "Hai",
+  "date": "2014-10-23 23:14:55",
+  "content": "<p>This is the best thing I've seen in a long time. I realized that I've never actually seen a true scale of our solar system before and it is simply epic.<br />\nI love that in the beginning, the notes were playful jabs about the amount nothingness but as I scrolled further out, the notes became progressively profound and border-line philosophical. Especially the bit about being both pathetically insignificant and miraculously important. Wow.<br />\nExcellent job. I look forward to more of your interactive work.</p>"
+ },
+ {
+  "id": "121",
+  "parent": "0",
+  "author": "Jon",
+  "date": "2014-11-30 09:06:35",
+  "content": "<p>Thanks for making this. I was specifically looking for a to-scale model of the solar system when I came here, and this is exactly what I was looking for--and absolutely fascinating. One of my 'pet peeves' with the way the solar system is depicted on TV is that they always show the planets and moons far too close together (and/or far too large) and the inaccuracy was bothering me. (Even documentaries on astronomy such as \"The Universe\" do it.) Now I have more of an understanding why they do that!</p>\n<p>Minor quibbles: I would've liked to have seen a few more of Jupiter and Saturn's moons, and maybe little Ceres could put in an appearance, midway between Mars and Jupiter? I was actually a little disappointed that you stopped at Pluto and didn't go on to cover some of the more recently discovered transplutonian objects such as Eris, Haumea, Quaoar, Makemake and Sedna. Then again, Sedna takes 11,400 years to orbit the Sun, and at its closest point it's about twice as far out as Pluto (at its furthest, it's over 900AU away, 30 times the distance to Neptune), so that's a whole other lot of additional nothingness, and I think the point has already been made.</p>\n<p>I also enjoyed the commentary, it helped to evoke an appropriate frame of mind--the human brain just simply isn't built to grok distances of more than a few hundred miles, and we are orders of magnitude out of our depth here. Light travels at an alarmingly slow rate on these scales.</p>"
+ },
+ {
+  "id": "122",
+  "parent": "0",
+  "author": "Solar Home Guide",
+  "date": "2014-12-02 06:09:32",
+  "content": "<p>Great solar map. I am happy to find this post on google.</p>"
+ },
+ {
+  "id": "123",
+  "parent": "72",
+  "author": "endri",
+  "date": "2014-12-31 21:18:07",
+  "content": "<p>A really interesting, intuitive insight indeed . I tended to think the same.</p>"
+ },
+ {
+  "id": "124",
+  "parent": "0",
+  "author": "kv1nk1tt",
+  "date": "2015-02-16 00:53:22",
+  "content": "<p>Great work, sir - well done.</p>"
+ },
+ {
+  "id": "125",
+  "parent": "0",
+  "author": "Mark",
+  "date": "2015-02-19 00:05:11",
+  "content": "<p>I really thought i had a grasp at the distance between our planets. i knew solar system models at schools were by far not to scale etc. but..WOW!!!!!</p>\n<p>i feel so miniscule!</p>"
+ },
+ {
+  "id": "126",
+  "parent": "0",
+  "author": "Larry",
+  "date": "2015-03-31 00:13:49",
+  "content": "<p>This is the best of these I have seen.  The scale on the bottom helps a lot. Others don't include this and so you don't know if the system is not working or if ithe next planet is still far away.  Or they put pretty little stars between the planets which is a major misconception!<br />\nThe humor helps a lot; always a great teaching tool.<br />\nOne complaint or should I say wish:... most of us in the U.S. of A don't know metric. Can you add miles?<br />\nGreat site, thanks again!<br />\nLarry</p>"
+ },
+ {
+  "id": "127",
+  "parent": "0",
+  "author": "STEPHANIE",
+  "date": "2015-06-18 15:50:51",
+  "content": "<p>amazing!!!</p>"
+ },
+ {
+  "id": "129",
+  "parent": "0",
+  "author": "Rita",
+  "date": "2015-06-24 19:52:55",
+  "content": "<p>This is great. Have you visited the Monte Generoso point in Switzerland? Well, it's an unforgetable experience but you cannot download it and take it with you in your laptop to show it to others. Thanks.</p>"
+ },
+ {
+  "id": "133",
+  "parent": "126",
+  "author": "Dave",
+  "date": "2015-07-13 17:45:10",
+  "content": "<p>Hey Larry!<br />\nThe triangle next to the Km indicator gives you a drop-down that lets you pick Miles. Also whales, or the Great Wall of China for a measuring stick.....</p>"
+ },
+ {
+  "id": "134",
+  "parent": "0",
+  "author": "Mark Holland",
+  "date": "2015-07-13 18:05:22",
+  "content": "<p>Bravo! And this is a single dimension. Add two more (at least) and then a galaxy that is many orders of magnitude larger still in a universe that is beyond comprehension. What IS going on here and how does it come to pass that we find ourselves alive and awake on an infinitesimal dust speck amidst the incomprehensible cosmos?</p>"
+ },
+ {
+  "id": "135",
+  "parent": "0",
+  "author": "Matthew Johnson",
+  "date": "2015-07-13 19:10:36",
+  "content": "<p>FYI: A high quality printer prints much better than 300 dpi (that is considered print quality for magazines). An average printer prints at 1200 dpi. Good quality photo printers are 4800 dpi.</p>"
+ },
+ {
+  "id": "138",
+  "parent": "0",
+  "author": "Bruce Tabor",
+  "date": "2015-07-16 01:59:15",
+  "content": "<p>Josh - Absolutely awesome!!!</p>\n<p>BUT, THERE IS A SERIOUS OMISSION!!! TRITON, THE BIG MOON OF NEPTUNE.</p>\n<p>Triton is larger than Pluto! Triton is 2706km in diameter; Pluto is 2370km.</p>\n<p>Triton also represents a big cut-off when it comes to moon size. The first 7 moons get gradually smaller (Ganymede 5262km, Titan 5150km - both bigger than Mercury 4880km - Callisto 4806km, Io 3642km, Moon 3476km, Europa 3138km, Triton 2706km), and then there is a big jump to Titania at 1580km - less than half our Moon's diameter.</p>\n<p>Finally, Triton's is more massive than all the moons in the Solar System smaller than itself combined. So there is a big cut-off.</p>\n<p>(I have a minor quibble about Eris, but that would nearly triple the width of you picture!)</p>"
+ },
+ {
+  "id": "141",
+  "parent": "0",
+  "author": "jworth",
+  "date": "2015-08-19 03:03:11",
+  "content": "<p>Very good point about the expansion of space. So much to consider when considering nothing.</p>"
+ },
+ {
+  "id": "142",
+  "parent": "0",
+  "author": "jworth",
+  "date": "2015-08-19 03:15:29",
+  "content": "<p>Oh my. You're definitely on to something. I like this idea that thinking of emptiness <em>as</em> something actually turns it into something. Just give it a name and you can start to track its behavior like a character in a story. The stuff of language and the stuff of physics are weirdly intertwined. Thanks for the enjoyable thoughts.</p>"
+ },
+ {
+  "id": "150",
+  "parent": "0",
+  "author": "Ben Leggiero",
+  "date": "2016-05-11 21:24:03",
+  "content": "<p>Gorgeous. Absolutely beautiful scale map of the solar system.</p>"
+ },
+ {
+  "id": "151",
+  "parent": "0",
+  "author": "Janae Vandeventer",
+  "date": "2016-06-22 07:35:52",
+  "content": "<p>I love you for this. Thank you! Now, I need a Cosmos inspired version for my Gear VR with the entire known universe! From quarks to quasars! Muahhahaha! I would pay sooooooo much money.</p>"
+ },
+ {
+  "id": "153",
+  "parent": "40",
+  "author": "Davey",
+  "date": "2016-07-13 21:21:19",
+  "content": "<p>The best way is to click the middle mouse button.  Then the scroll speed is variable based on the distqance of your mouse to that anchor point.</p>"
+ },
+ {
+  "id": "154",
+  "parent": "0",
+  "author": "Martin Moser",
+  "date": "2016-08-13 10:45:17",
+  "content": "<p>Thank you (indeed, very much, endelss etc.) for this mental yoga lesson. I enjoyed myself very much, observing my brain thinking.</p>"
+ },
+ {
+  "id": "155",
+  "parent": "0",
+  "author": "RadarRecon",
+  "date": "2016-08-21 21:44:39",
+  "content": "<p>If a proton were the size of the sun, how large would its electron be, those light-years distant from it?</p>"
+ },
+ {
+  "id": "156",
+  "parent": "40",
+  "author": "Waxing Zone",
+  "date": "2016-10-17 09:09:41",
+  "content": "<p>haha great! Good job you make us feel very very small</p>"
+ },
+ {
+  "id": "157",
+  "parent": "0",
+  "author": "James",
+  "date": "2016-12-18 02:48:49",
+  "content": "<p>Awesome map!</p>\n<p>Now do one in AU of the distance from Sol to Proxima Centauri (about 268,331 AU).</p>"
+ },
+ {
+  "id": "159",
+  "parent": "0",
+  "author": "Ronnie Akena",
+  "date": "2017-01-18 15:34:48",
+  "content": "<p>Wow. I salute you. I am tired already yet I just passed Saturn. Great work</p>"
+ },
+ {
+  "id": "160",
+  "parent": "0",
+  "author": "Courtney Schumacher",
+  "date": "2017-01-19 21:10:51",
+  "content": "<p>Why'd you stop being so philosophical after Neptune?  'Cause Pluto isn't a planet, anymore?</p>"
+ },
+ {
+  "id": "161",
+  "parent": "99",
+  "author": "David Thomas",
+  "date": "2017-03-23 12:12:09",
+  "content": "<p>Hey Matt I just had a look and your site's really good too - in its own way it gets the message across very clearly -  great work. And I like the info boxes.</p>"
+ },
+ {
+  "id": "165",
+  "parent": "0",
+  "author": "d.",
+  "date": "2017-03-25 03:56:12",
+  "content": "<p>genius. thanks for the effort. i started trying to do this myself, but didn't have the tech skills. just beautiful.</p>"
+ },
+ {
+  "id": "166",
+  "parent": "0",
+  "author": "Web",
+  "date": "2017-03-27 12:45:12",
+  "content": "<p>Dude, This is Amazing!! The distances are mind blowing.. Features like traveling at the speed of light just make this excellent work. Thanks!</p>"
+ },
+ {
+  "id": "167",
+  "parent": "0",
+  "author": "Ryan",
+  "date": "2018-02-07 14:23:24",
+  "content": "<p>Absolutely amazing. I can't believe I haven't heard of this before!!!</p>\n<p>Thank you for this, and congratulations for the award you deservedly won for it!</p>"
+ },
+ {
+  "id": "168",
+  "parent": "0",
+  "author": "Savan",
+  "date": "2018-03-04 17:41:03",
+  "content": "<p>Great job guys<br />\nIt made me feel a great universe is there to be explored.<br />\nThank you for makeing this page</p>"
+ },
+ {
+  "id": "169",
+  "parent": "0",
+  "author": "Johny Radio",
+  "date": "2018-10-17 04:18:50",
+  "content": "<p>Phenomenal! Any way to zoom out?</p>"
+ },
+ {
+  "id": "171",
+  "parent": "0",
+  "author": "cecil",
+  "date": "2018-10-24 14:58:57",
+  "content": "<p>Great job what a wonderful page im only 8 years old and i like sicence</p>"
+ },
+ {
+  "id": "174",
+  "parent": "0",
+  "author": "Hom",
+  "date": "2018-11-10 07:29:55",
+  "content": "<p>this is so amazing....I'm so glad that I am a human who lives in this era on the planet earth.</p>"
+ },
+ {
+  "id": "175",
+  "parent": "0",
+  "author": "Angela Surfield",
+  "date": "2018-12-01 11:58:24",
+  "content": "<p>This is brilliant! I had no idea the distances were so vast. Comment from my 10 year old daughter after scrolling through 'I just learnt more than I ever learn at school' Slight exaggeration, but I know what she means....<br />\nWe have bookmarked it as she plans to show all of her friends.</p>"
+ },
+ {
+  "id": "176",
+  "parent": "0",
+  "author": "Edd",
+  "date": "2019-03-11 14:21:20",
+  "content": "<p>After reading through the comments that go before this one - I can only echo the same feeling - Amazing..! and well done on the work involved. There are some truly amazing intellectual people on this little planet that have been able to help us to see the perspective of what we are a part of, may we all - present and future come to realise there is more to this life than we presently do.<br />\nWhat that is - is for each of us to find, and it is more than intellectual knowledge..!!</p>"
+ },
+ {
+  "id": "177",
+  "parent": "0",
+  "author": "Daniel and my dog Turk",
+  "date": "2019-03-23 22:14:15",
+  "content": "<p>Great job! I hope we someday create a way to explore space and all it\u2019s vastness. Hopefully we will be better humans when this happens. I\u2019d hate to see what we would do to space if who we are now would be the ones to make these voyages. It\u2019s funny, I\u2019m sitting in my small apartment in my little apartment complex in a medium size city a couple hours to the ocean thinking how small the United States is and how small the planet is. Especially now that we can see it, open google maps and we can see how small it is. Then to use your map and see how tiny we are compared to distances out there. We are such a small thing. Our worries seem so big, it\u2019s funny.</p>"
+ },
+ {
+  "id": "178",
+  "parent": "0",
+  "author": "Daniel and my dog Turk",
+  "date": "2019-03-23 22:39:02",
+  "content": "<p>Also, I tend to picture these images ina kind of straight trajectory instead of in every direction. This is also hard for my mind to see. I\u2019m used to roads and land distances from point a to b. Space is in every direction, crazy!</p>"
+ },
+ {
+  "id": "578",
+  "parent": "0",
+  "author": "Jonathan",
+  "date": "2015-06-20 03:00:11",
+  "content": "<p>This is absolutely awesome.  I use the middle button in the mouse to scroll until I reached Saturn. It took me quite a while. I am amazed. The distance. The space. And the gravitation that holds them together!</p>"
+ },
+ {
+  "id": "580",
+  "parent": "54",
+  "author": "Marlon",
+  "date": "2015-06-25 02:12:55",
+  "content": "<p>Totally agree!! Totally!</p>"
+ },
+ {
+  "id": "581",
+  "parent": "0",
+  "author": "Francisco",
+  "date": "2015-06-30 05:52:17",
+  "content": "<p>Such a great work, mate. Thank you very much for the passion you show and the time you spent in the wonderful, interactive, mind-blowing page.</p>"
+ },
+ {
+  "id": "582",
+  "parent": "0",
+  "author": "bunnyhero",
+  "date": "2015-07-04 16:42:42",
+  "content": "<p>have you seen http://omgspace.net ? similar project from 2012</p>"
+ },
+ {
+  "id": "587",
+  "parent": "0",
+  "author": "Richard",
+  "date": "2015-07-13 23:12:32",
+  "content": "<p>I think what amazes MY primitive mind so much is that you have to go way past Saturn to even get half way across the solar system.  I would instinctively think it  was the asteroid belt or even Jupiter.  I would have easily understood Saturn as the midway point.  But you have to almost reach Uranus to get midway to your destination.</p>\n<p>Unbelievable.</p>"
+ },
+ {
+  "id": "588",
+  "parent": "0",
+  "author": "Ric",
+  "date": "2015-07-14 02:58:36",
+  "content": "<p>Excellent work. Thanks for making it!</p>"
+ },
+ {
+  "id": "590",
+  "parent": "0",
+  "author": "Elle Dayton",
+  "date": "2015-08-17 21:18:14",
+  "content": "<p>I took the time and scrolled all the way through to Pluto, and although I got impatient and tried to move through faster, it did help me somewhat understand the vastness of space.<br />\nI did also enjoy the text comments throughout, but something bothered me. The ending text says that the universe \"seems to value\" the little blips (including us) along with the big empty spaces. However the universe is expanding, meaning the empty space is getting bigger- which includes the space in our solar system. Yes, this expansion is slow, relative to our sense of time, and not as significant on a smaller scale like our solar system (as compared to galaxy clusters), but over time everything in space is moving away from everything else. I didn't see anyone else mention this and I thought it should be taken into consideration.<br />\nOtherwise, I throughly enjoyed the project and appreciate all the work that went into it.</p>"
+ },
+ {
+  "id": "591",
+  "parent": "0",
+  "author": "Stephen Fish",
+  "date": "2015-08-18 23:48:17",
+  "content": "<p>Empty Space? - I prefer to think of it as Solid Dark, if you start to think of the nothing as something then it changes the way we think (and see). The only thing faster than the speed of light is the speed of Dark. Dark always beats light in the race. Dark is filling my quantum cat's box before it switches on it's tiny torch. Dark fills the box instantly when the battery has gone. Dark isn't bothered or interested in time either, and it probably doesn't reflect on things much. I guess it was there at the beginning before light even set off? If there is so much of it though - how can we even see any light?. The weirdest thing is, you can easily look through a massive portion of Dark (as your excellent site shows) and still see Jupiter with the naked eye: so I wonder, is light going through Dark cleanly in this scenario and moving Dark to one side (making the dark either side even DARKER?!), or is Dark just chasing the light like a rabid Pacman eating photons, or is it simply accommodating where the light will be across the entire universe, like an electron accommodating a change in excitement? (temperature). Maybe that's what dark energy is?</p>\n<p>Hmm, I think I am on to something...</p>\n<p>Lights not all it's cracked up to be either, we seem overly obsessed with it. If these weird photon~wavey doofers hit my eye at different wavelengths to make an image, where does the photon~wavey doofer go? and don't say it reflects, because if that was the case - could someone else see what I was looking at, then look at someone else over and over and send it back ad-infinitum - or would they see the back of my eye. I tried this whilst looking at Jupiter, and the missus said she could only see the darkness.It was night time, but I guess the Dark could also have chased it and sucked it up like my pacman-esque theory above. Oh, and - the damn cat in the box wants to know why dark won over all the photon~wavey doofers it emitted from his torch. I know he's purely observational, but that's part of his problem right now...If I pass him new batteries through a light-proof hatch, will he still be alive?</p>\n<p>So scientists and problem solvers alike, stop trying to work out how far away something is and how we get there faster, and work out instead how to use Dark to our advantage. Dark drives, FTD, and anti-lasers. The future is not so bright after all...</p>\n<p>Brilliant piece of design and code BTW &lt;3</p>\n<p>Will you ever do an 8x8 pixel version, or one where you can change the Solid Dark to blue or a rainbow gradient? Just to see if it makes it easier to comprehend? I mean if there was ever a call for a rainbow gradient, this would be it. I can&#039;t think of any other reason for a rainbow gradients existence...Do you think dark has a spectrum? Oh god what have I done....</p>"
+ },
+ {
+  "id": "594",
+  "parent": "0",
+  "author": "John",
+  "date": "2015-10-08 00:09:23",
+  "content": "<p>Wow, I love this &amp; all the comments. I'd love to see a 2D depiction of the solar system in motion.  It would show much more emptiness.  It could also show the speeds if the planets.</p>"
+ },
+ {
+  "id": "595",
+  "parent": "0",
+  "author": "taylor",
+  "date": "2015-11-06 17:16:29",
+  "content": "<p>\"We walk around with miniature, emotional versions of the universe inside of us.\"</p>\n<p>Thank you for this</p>"
+ },
+ {
+  "id": "596",
+  "parent": "0",
+  "author": "Sebastion Young",
+  "date": "2015-11-09 23:43:55",
+  "content": "<p>I loved this map. I have always wanted to have a scale map of the solar system, i have an idea for you and that is to make the solar system a pixel and to compare it to other galaxy's, nebula and stars</p>"
+ },
+ {
+  "id": "597",
+  "parent": "0",
+  "author": "RadarRecon",
+  "date": "2016-01-01 22:24:03",
+  "content": "<p>\"The Brain isn't build to handle empty.\"<br />\nAnd man's finite mind cannot imagine the infinity of space.  We must conjure up some way for it to have an end, and devise mathematics to prove that, if we go far enough, we'll return to where we started.</p>\n<p>This MUST be the widest page on the Internet.</p>"
+ },
+ {
+  "id": "598",
+  "parent": "0",
+  "author": "larryw",
+  "date": "2016-02-06 23:28:32",
+  "content": "<p>Awesome page. Really helps fram the solar system.</p>\n<p>Boggling to think this type of page would be almost impossible for the galaxy let alone the univere. One would be scrolling for years just to get to the next \"object\"</p>"
+ },
+ {
+  "id": "602",
+  "parent": "0",
+  "author": "Josh Beckett",
+  "date": "2016-03-24 14:46:30",
+  "content": "<p>Wow ... and that's only the solar system! ...not even a galaxy! ...never mind the universe!</p>\n<p>If only a pixel were half the size...  ;op</p>\n<p>I love it!</p>\n<p>Now ... if the Sun were only a pixel versus the other stars ... or maybe the Solar System versus our Galaxy ... or maybe......<br />\n(and I thought ants were small!)<br />\n...I wonder what an atom or molecule is versus an eyeball......</p>"
+ },
+ {
+  "id": "603",
+  "parent": "0",
+  "author": "Cd",
+  "date": "2016-04-15 21:49:03",
+  "content": "<p>Unless we can figure out how to travel much faster than the speed of light, we aren't going nowhere. Blows my mind when I see what God has created.</p>"
+ },
+ {
+  "id": "606",
+  "parent": "0",
+  "author": "Imran Khan",
+  "date": "2016-06-22 22:47:50",
+  "content": "<p>Amazing</p>"
+ },
+ {
+  "id": "612",
+  "parent": "0",
+  "author": "Matt McEwan",
+  "date": "2017-01-16 10:18:23",
+  "content": "<p>We are indeed a very small stage in a vast cosmic arena as Carl Sagan put it. Our Sun is just another speck. I like the Light Speed option. This is a great attempt and should be used to teach kids just how insignificant we are yet so eager to destroy ourselves.</p>"
+ },
+ {
+  "id": "616",
+  "parent": "94",
+  "author": "David Thomas",
+  "date": "2017-03-23 12:15:49",
+  "content": "<p>Hi Carrie, there's a little icon bottom right that does that for you.</p>"
+ },
+ {
+  "id": "617",
+  "parent": "3025",
+  "author": "David Thomas",
+  "date": "2017-03-23 12:26:36",
+  "content": "<p>Whatever it is, can I have some please...</p>"
+ },
+ {
+  "id": "618",
+  "parent": "0",
+  "author": "David Thomas",
+  "date": "2017-03-23 12:52:24",
+  "content": "<p>Everyone else has already covered the appreciation I feel for this site. But a couple of things happened as my wife and I scrolled right that I thought I'd throw into the pool.</p>\n<p>First I looked at dot Earth, then scrolled to dot Mars, and I thought of thus nano-subpixel vehicles, starting with Mariner, then Viking, Pathfinder, etc that attempted to, and, finally, did find their way across that vast emptiness to their land on their target. Unbelievable. And then there's Voyager - now out there in interstellar space. Somehow this site brings into focus the enormity of man's achievement, the incredible power of the biological phenomenon called intelligence. It would be interesting to somehow include the size of the human brain in this perspective exercise. What fraction of a pixel would a brain be? Your insightful comments on our incapacity to handle the concept of emptiness need to be balanced by a treatise on the extraordinary capacity of the human brain, well some of them anyway, to figure so much of the universe out. I don't think I have ever seen this quite so clearly till tonight.</p>\n<p>The second thing that happened: about when we got to Saturn, my wife got up and left the room. \"I can't take any more - this terrifies me\", she said.</p>"
+ },
+ {
+  "id": "624",
+  "parent": "26",
+  "author": "emily",
+  "date": "2018-10-23 13:43:17",
+  "content": "<p>that is so amazing</p>"
+ },
+ {
+  "id": "626",
+  "parent": "0",
+  "author": "james",
+  "date": "2018-10-24 15:00:24",
+  "content": "<p>blah blah blah</p>"
+ },
+ {
+  "id": "627",
+  "parent": "0",
+  "author": "phaedris",
+  "date": "2018-11-09 04:32:40",
+  "content": "<p>This is amazing. Thank you for making this.</p>"
+ },
+ {
+  "id": "633",
+  "parent": "0",
+  "author": "Holly",
+  "date": "2019-04-01 15:57:20",
+  "content": "<p>Fantastic!!!!!!! Thank you for making this. It's awesome. I can't wait to show my daughter tonight.  I will definitely use this in teaching.</p>"
+ },
+ {
+  "id": "634",
+  "parent": "0",
+  "author": "Mike Hughes",
+  "date": "2019-04-09 13:56:50",
+  "content": "<p>All we are is a speck of dust in the  wind.  So what's on the other side of the sun, our alternate universe?</p>"
+ },
+ {
+  "id": "635",
+  "parent": "0",
+  "author": "Pawel",
+  "date": "2019-04-09 21:41:55",
+  "content": "<p>Great work Man! I'd call it necessary appendix to famous photo \"blue pale dot\"!</p>"
+ },
+ {
+  "id": "637",
+  "parent": "0",
+  "author": "Tej",
+  "date": "2019-07-21 20:01:52",
+  "content": "<p>Amazing representation of the scale of the solar system.</p>\n<p>Surely, the widest HTML page on the entire Internet!</p>\n<p>A belated thank you, given this is 6 years old now.</p>"
+ },
+ {
+  "id": "638",
+  "parent": "0",
+  "author": "Nilesh Mehta",
+  "date": "2019-09-11 13:44:34",
+  "content": "<p>Very very nice, thanks a lot Josh</p>"
+ },
+ {
+  "id": "639",
+  "parent": "0",
+  "author": "Scope",
+  "date": "2019-09-17 01:38:51",
+  "content": "<p>I am really surprised by the quality in the images observed! You have magnificent lenses! Congratulations Josh</p>"
+ },
+ {
+  "id": "640",
+  "parent": "53",
+  "author": "Vicky",
+  "date": "2019-09-18 18:23:13",
+  "content": "<p>This is amazing, mind blown ?</p>"
+ },
+ {
+  "id": "652",
+  "parent": "0",
+  "author": "Maria Rezende",
+  "date": "2020-01-19 05:18:25",
+  "content": "<p>Loved, thanks, I went back and forth a couple of times, then slowly... then really fast ;) Thanks Josh, you made my day. This is totally amazing!</p>"
+ },
+ {
+  "id": "665",
+  "parent": "580",
+  "author": "Sri",
+  "date": "2020-02-03 09:49:49",
+  "content": "<p>Beautiful !! Thanks for this amazing work, gratefull for having stumbled across this</p>"
+ },
+ {
+  "id": "1966",
+  "parent": "0",
+  "author": "Victoria (New Zealand)",
+  "date": "2021-06-10 08:09:47",
+  "content": "<p>What an awesome way to give some perspective on how unimaginably huge the universe really is. Thank you for taking the time to create this map truly amazing.</p>"
+ },
+ {
+  "id": "2070",
+  "parent": "0",
+  "author": "John Little",
+  "date": "2021-07-13 16:55:03",
+  "content": "<p>Using the idea of time-in-transit to get the sense of the vast spaces in space is brilliant.  I used to love the idea of traveling the solar system; now, not so much (just kidding!). Fascinating!</p>"
+ },
+ {
+  "id": "1636",
+  "parent": "0",
+  "author": "Preme",
+  "date": "2021-02-24 03:37:55",
+  "content": "<p>I was trying to figure out the space between each planet to draw the right scale on my son\u2019s bedroom wall. That was what led me here. And wow!!! This should be included in the curriculum when they talk about space. I\u2019m serious. No kid understands truly what light year is. Never have I been able to really fathom how it actually is. Amazing. Thank you so much.</p>"
+ },
+ {
+  "id": "983",
+  "parent": "50",
+  "author": "Rob",
+  "date": "2020-05-24 20:10:32",
+  "content": "<p>That would be an awesome project and mind blowing to put space into perspective</p>"
+ },
+ {
+  "id": "1005",
+  "parent": "0",
+  "author": "Christa Buckland",
+  "date": "2020-06-20 11:06:49",
+  "content": "<p>Ever since I saw the old solar system model with the planets (our moon) and sun (with a light bulb in it) made of metal on long bars and all orbiting around 42 years ago, in Gr.5 science, I have wanted to see one that really brought the vast amounts of space home. Even though I didn't know at the time how vast that meant. Well this is the best representation of that, that makes it \"graspable\", I have ever seen. Well done!! \ud83d\udc4d I hope as many school children as possible get to see this. It will make their understanding of the  solar system light years ahead of where ours was. Which then makes everything that follows ever faster and farther than that!! (Yes I know \"not possible\") At least as far as we can grasp!! \ud83d\ude31            Again GREAT JOB \ud83d\udc4f</p>"
+ },
+ {
+  "id": "972",
+  "parent": "0",
+  "author": "Bella",
+  "date": "2020-05-15 02:59:35",
+  "content": "<p>Its pretty, its so so pretty. thank u for making something so pretty.</p>"
+ },
+ {
+  "id": "2073",
+  "parent": "0",
+  "author": "John Little",
+  "date": "2021-07-13 17:25:11",
+  "content": "<p>Neptune ... Well. Like other animals, we derive most of our sensory information from our eyes, our sense of space. We are all aware of the Solar System model where the Sun is a basketball at one end of a football field and the Earth is blah blah blah. But we experience life as a passage of time, of events linked by causality. Yeah. This trip is sublimely beautiful, and terrifying. But I WILL get to Pluto, hell or high water!</p>"
+ },
+ {
+  "id": "1637",
+  "parent": "1636",
+  "author": "jworth",
+  "date": "2021-02-24 03:41:52",
+  "content": "<p>Glad I could help. Just wish I could help you get a big enough wall for your kids' bedroom.</p>"
+ },
+ {
+  "id": "2995",
+  "parent": "0",
+  "author": "James",
+  "date": "2021-12-21 18:15:50",
+  "content": "<p>I think a nice addition, if practical, would be to show the locations of the Sun-planet L1 and L2 points for the various planets.</p>\n<p>There is special interest in the Sun-Earth L1 and L2  points because the James Webb Space Telescope is about to be launched. If all goes well, it will be in an orbit around the L2 point. There is also a Solar observatory orbiting the L1 point.</p>\n<p>I don't necessarily want the umbras drawn. I just want to see how far out they go.  If it isn't practical to add them to the map, I have another suggestion: Add a table to this page, showing the distance from the Sun to the L1, L2, points, and the distance to the end of the umbra for each planet.</p>"
+ },
+ {
+  "id": "2099",
+  "parent": "0",
+  "author": "Walter",
+  "date": "2021-07-22 20:25:37",
+  "content": "<p>simply brilliant, thanks!!</p>"
+ },
+ {
+  "id": "2071",
+  "parent": "0",
+  "author": "John Little",
+  "date": "2021-07-13 17:00:02",
+  "content": "<p>Whoo-Hoo! I made it to Saturn! (omg. do I really want to see Pluto?)</p>"
+ },
+ {
+  "id": "2072",
+  "parent": "0",
+  "author": "John Little",
+  "date": "2021-07-13 17:12:38",
+  "content": "<p>Uranus!! The speed of the RAID (Right Arrow Interplanetary Drive) is perfectly tedious. - or is that tediously perfect? Do not change one iota, not one single parameter in your script.</p>"
+ },
+ {
+  "id": "2075",
+  "parent": "0",
+  "author": "John Little",
+  "date": "2021-07-13 18:11:39",
+  "content": "<p>MADE IT! Pluto! I would have gotten here sooner, but I took the off-ramp just past Uranus, about 37 AU out. Douglas Adams, Glen Cook and Joe Haldeman got together and built a way station for weary interplanetary tourists. It was quite the place. I hear George Lucas is thinking of booking his Cantina Band there sometime (Truth in advertising: Not. I had to get up and make me a sweet Cuban Ham Sandwich.)</p>"
+ },
+ {
+  "id": "2076",
+  "parent": "2075",
+  "author": "jworth",
+  "date": "2021-07-13 18:56:48",
+  "content": "<p>Congratulations! You definitely win for most entertaining planet-by-planet scrolling commentary \ud83d\ude0e</p>"
+ },
+ {
+  "id": "29201",
+  "parent": "0",
+  "author": "Seifu",
+  "date": "2025-12-22 11:49:20",
+  "content": "<p>Am just an astrophysics starter from ETHIOPIA and was provided a link to this page by my instructor in his observational course reference. previously, I really had some clues about those inner and rocky ones; but, hardly any about the gaseous giants, even had no idea about asteroid-,kuiper-,oort- belts and like stuffs at all.</p>\n<p>To this map, I really liked the program and its educational design in line with some refreshing short notes in between these compact and so distant objects. the more I go far, the more scarier the space looked (like barely swimming at the center of MARIANA trench, at least,  given there is no single isle in PACIFIC).</p>\n<p>I've been comparing the numbers both in km and AU. and finally found out that : except for our HOME, every NEXT planet is nearly TWICE as far the distance from SUN as that of the FORMER one. I'm surprised by this; but, am also wondering why our EARTH is pretty out of this pattern!</p>\n<p>Finally, my thanks be to you - JW &amp; Dr. Shime!</p>"
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "id": "32",
+  "parent": "0",
+  "author": "Krzysztof Kosi\u0144ski",
+  "date": "2014-03-07 15:46:59",
+  "content": "<p>This quote is actually from Antoine de Saint-Exupery, not Albert Einstein.</p>"
+ },
+ {
+  "id": "33",
+  "parent": "32",
+  "author": "Krzysztof Kosi\u0144ski",
+  "date": "2014-03-07 15:47:32",
+  "content": "<p>Oops wrong, disregard that - I had a different quote in mind</p>"
+ },
+ {
+  "id": "34",
+  "parent": "33",
+  "author": "jWorth",
+  "date": "2014-03-07 16:31:25",
+  "content": "<p>\"The problem with internet quotes is that you can't always depend on their accuracy\" -Abraham Lincoln, 1864</p>"
+ },
+ {
+  "id": "3014",
+  "parent": "0",
+  "author": "Lance Lee Cormier",
+  "date": "2021-12-30 14:42:18",
+  "content": "<p>\"Thor, you've got the lightning. Light them up! And Hulk... Smash!!!\" - Captain Rodgers</p>"
+ }
+]

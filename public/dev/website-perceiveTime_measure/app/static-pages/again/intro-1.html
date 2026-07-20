@@ -1,0 +1,75 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <!--        jQueryUI-->
+  <link rel="stylesheet" href="./bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+  <script src="./snapsvganimator/js/SnapSVGAnimator.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+  <script src="./bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="sliders.js"></script>
+</head>
+
+<body>
+  <style type="text/css">
+  svg:nth-last-child(1) {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+  }
+  
+  #menusvg,
+  #sharesvg {
+    display: block;
+  }
+  
+  #slider-range-min {
+    display: block;
+  }
+  
+  p.ques {
+    font-size: 40px;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  </style>
+  <p class="ques">How long is a minute exactly?</p>
+  <script type="text/javascript">
+  $(document).ready(function(){
+  	$("#slider-range-min").slider({
+  	  value: 1
+  	});
+  	$.getJSON("SvgJsons/clock.json", function(json) {
+  	  comp_speedrings = new SVGAnim(json, 135, 135, 24);
+  	  $('svg:last-child').css({
+  	    'display': 'none'
+  	  });
+  	  $('.ques').fadeIn('slow', function() {
+  	    $('svg:last-child').fadeIn('slow');
+  	  });
+  	  setTimeout(function() {
+  	    $('.ques').fadeOut('slow', function() {
+  	      $(this).text('Can you guess?');
+  	    }).fadeIn('slow', function() {
+  	      setTimeout(function() {
+  	        window.location.pathname = pathPrefix + "intro-2.html"
+  	      }, 2000);
+  	    });
+  	  }, 2000);
+  	});  	
+  });
+
+  </script>
+<script src="after.js"></script></body>
+
+</html>

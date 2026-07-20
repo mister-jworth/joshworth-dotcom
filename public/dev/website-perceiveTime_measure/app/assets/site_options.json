@@ -1,0 +1,6 @@
+{
+  "loginForm": {
+    "announcement": "We're having some problems with our servers!<br /> Follow the progress on our <a href='https://twitter.com/toggl'>twitter feed</a>",
+    "showAnnouncement": false
+  }
+}

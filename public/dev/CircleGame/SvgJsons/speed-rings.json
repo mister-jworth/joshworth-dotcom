@@ -1,0 +1,8529 @@
+{
+	"DOMDocument" : {
+		"Shape" : [
+			{
+				"charid" : "1",
+				"path" : [
+					{
+						"color" : "#000000",
+						"colorOpacity" : "1",
+						"d" : "M 19.1 -19.15 q -7.9 -7.9 -19.1 -7.9 q -11.2 0 -19.15 7.9 q -7.9 7.95 -7.9 19.15 q 0 11.2 7.9 19.1 q 7.95 7.95 19.15 7.95 q 11.2 0 19.1 -7.95 q 7.95 -7.9 7.95 -19.1 q 0 -11.2 -7.95 -19.15 ",
+						"pathType" : "Fill",
+						"stroke" : "none"
+					},
+					{
+						"color" : "#00d1ff",
+						"colorOpacity" : "1",
+						"d" : "M 27.05 0 q 0 11.2 -7.95 19.1 q -7.9 7.95 -19.1 7.95 q -11.2 0 -19.15 -7.95 q -7.9 -7.9 -7.9 -19.1 q 0 -11.2 7.9 -19.15 q 7.95 -7.9 19.15 -7.9 q 11.2 0 19.1 7.9 q 7.95 7.95 7.95 19.15 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "9",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "1",
+						"d" : "M 2 0 q 0 0.85 -0.55 1.4 q -0.6 0.6 -1.45 0.6 q -0.8 0 -1.4 -0.6 q -0.6 -0.55 -0.6 -1.4 q 0 -0.85 0.6 -1.4 q 0.6 -0.6 1.4 -0.6 q 0.85 0 1.45 0.6 q 0.55 0.55 0.55 1.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "10",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.996",
+						"d" : "M -4.5 0 q 0 -1.9 1.35 -3.15 q 1.35 -1.35 3.15 -1.35 q 1.9 0 3.25 1.35 q 1.25 1.25 1.25 3.15 q 0 1.9 -1.25 3.15 q -1.35 1.35 -3.25 1.35 q -1.8 0 -3.15 -1.35 q -1.35 -1.25 -1.35 -3.15 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "11",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.996",
+						"d" : "M -7 0 q 0 -3 2.1 -4.9 q 2.1 -2.1 4.9 -2.1 q 3 0 5.1 2.1 q 1.9 1.9 1.9 4.9 q 0 3 -1.9 4.9 q -2.1 2.1 -5.1 2.1 q -2.8 0 -4.9 -2.1 q -2.1 -1.9 -2.1 -4.9 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "12",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.992",
+						"d" : "M -9.5 0 q 0 -4.05 2.85 -6.65 q 2.85 -2.85 6.65 -2.85 q 4.05 0 6.9 2.85 q 2.6 2.6 2.6 6.65 q 0 4.05 -2.6 6.65 q -2.85 2.85 -6.9 2.85 q -3.8 0 -6.65 -2.85 q -2.85 -2.6 -2.85 -6.65 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "13",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.988",
+						"d" : "M -12 0 q 0 -5.1 3.6 -8.4 q 3.6 -3.6 8.4 -3.6 q 5.1 0 8.7 3.6 q 3.3 3.3 3.3 8.4 q 0 5.1 -3.3 8.4 q -3.6 3.6 -8.7 3.6 q -4.8 0 -8.4 -3.6 q -3.6 -3.3 -3.6 -8.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "14",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.988",
+						"d" : "M -14.55 0 q 0 -6.2 4.35 -10.2 q 4.4 -4.35 10.2 -4.35 q 6.2 0 10.55 4.35 q 4 4 4 10.2 q 0 6.2 -4 10.2 q -4.35 4.35 -10.55 4.35 q -5.8 0 -10.2 -4.35 q -4.35 -4 -4.35 -10.2 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "15",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.984",
+						"d" : "M -17.05 0 q 0 -7.25 5.1 -11.95 q 5.15 -5.1 11.95 -5.1 q 7.25 0 12.35 5.1 q 4.7 4.7 4.7 11.95 q 0 7.25 -4.7 11.95 q -5.1 5.1 -12.35 5.1 q -6.8 0 -11.95 -5.1 q -5.1 -4.7 -5.1 -11.95 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "16",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.98",
+						"d" : "M -19.55 0 q 0 -8.3 5.85 -13.7 q 5.9 -5.85 13.7 -5.85 q 8.3 0 14.15 5.85 q 5.4 5.4 5.4 13.7 q 0 8.3 -5.4 13.7 q -5.85 5.85 -14.15 5.85 q -7.8 0 -13.7 -5.85 q -5.85 -5.4 -5.85 -13.7 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "17",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.98",
+						"d" : "M -22.05 0 q 0 -9.4 6.6 -15.45 q 6.65 -6.6 15.45 -6.6 q 9.4 0 16 6.6 q 6.05 6.05 6.05 15.45 q 0 9.4 -6.05 15.45 q -6.6 6.6 -16 6.6 q -8.8 0 -15.45 -6.6 q -6.6 -6.05 -6.6 -15.45 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "18",
+				"path" : [
+					{
+						"color" : "#ffffff",
+						"colorOpacity" : "0.976",
+						"d" : "M 24.55 0 q 0 10.45 -6.75 17.2 q -7.35 7.35 -17.8 7.35 q -9.8 0 -17.2 -7.35 q -7.35 -6.75 -7.35 -17.2 q 0 -10.45 7.35 -17.2 q 7.4 -7.35 17.2 -7.35 q 10.45 0 17.8 7.35 q 6.75 6.75 6.75 17.2 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "20",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.408",
+						"d" : "M -709.4 0 q 0 -293.65 207.9 -501.5 q 49.15 -49.15 103.05 -86.65 q 174.25 -121.25 398.45 -121.25 q 224.25 0 398.5 121.25 q 53.9 37.5 103 86.65 q 207.9 207.85 207.9 501.5 q 0 293.65 -207.9 501.5 q -38.95 39 -80.95 70.65 q -181.95 137.25 -420.55 137.25 q -238.55 0 -420.5 -137.25 q -42 -31.65 -81 -70.65 q -207.9 -207.85 -207.9 -501.5 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "21",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.384",
+						"d" : "M -737.1 0 q 0 -305.1 216 -521.1 q 51.1 -51.05 107.1 -90.05 q 181.05 -125.95 414 -125.95 q 233 0 414.05 125.95 q 56 39 107.05 90.05 q 216 216 216 521.1 q 0 305.1 -216 521.1 q -40.5 40.5 -84.1 73.4 q -189.1 142.6 -437 142.6 q -247.85 0 -436.95 -142.6 q -43.6 -32.9 -84.15 -73.4 q -216 -216 -216 -521.1 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "22",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.361",
+						"d" : "M -764.8 0 q 0 -316.6 224.1 -540.7 q 53 -52.95 111.1 -93.4 q 187.9 -130.7 429.6 -130.7 q 241.75 0 429.65 130.7 q 58.1 40.45 111.05 93.4 q 224.1 224.1 224.1 540.7 q 0 316.6 -224.1 540.7 q -42 42.05 -87.3 76.15 q -196.15 147.95 -453.4 147.95 q -257.2 0 -453.35 -147.95 q -45.3 -34.1 -87.35 -76.15 q -224.1 -224.1 -224.1 -540.7 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "23",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.337",
+						"d" : "M -792.55 0 q 0 -328.05 232.3 -560.25 q 54.9 -54.95 115.1 -96.85 q 194.65 -135.45 445.15 -135.45 q 250.55 0 445.2 135.45 q 60.2 41.9 115.05 96.85 q 232.3 232.2 232.3 560.25 q 0 328.05 -232.3 560.25 q -43.5 43.6 -90.4 78.95 q -203.3 153.35 -469.85 153.35 q -266.5 0 -469.8 -153.35 q -46.9 -35.35 -90.45 -78.95 q -232.3 -232.2 -232.3 -560.25 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "24",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.314",
+						"d" : "M -820.25 0 q 0 -339.55 240.4 -579.85 q 56.8 -56.85 119.15 -100.2 q 201.45 -140.2 460.7 -140.2 q 259.3 0 460.75 140.2 q 62.35 43.35 119.1 100.2 q 240.4 240.3 240.4 579.85 q 0 339.55 -240.4 579.85 q -45 45.1 -93.6 81.7 q -210.35 158.7 -486.25 158.7 q -275.8 0 -486.2 -158.7 q -48.55 -36.6 -93.65 -81.7 q -240.4 -240.3 -240.4 -579.85 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "25",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.294",
+						"d" : "M -847.95 0 q 0 -351 248.5 -599.45 q 58.75 -58.75 123.15 -103.6 q 208.3 -144.9 476.3 -144.9 q 268.05 0 476.35 144.9 q 64.4 44.85 123.1 103.6 q 248.5 248.45 248.5 599.45 q 0 351 -248.5 599.45 q -46.55 46.65 -96.75 84.45 q -217.5 164.05 -502.7 164.05 q -285.15 0 -502.65 -164.05 q -50.2 -37.8 -96.8 -84.45 q -248.5 -248.45 -248.5 -599.45 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "26",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.271",
+						"d" : "M -875.65 0 q 0 -362.5 256.6 -619.05 q 60.65 -60.65 127.2 -106.95 q 215.1 -149.65 491.85 -149.65 q 276.8 0 491.9 149.65 q 66.55 46.3 127.15 106.95 q 256.6 256.55 256.6 619.05 q 0 362.5 -256.6 619.05 q -48.05 48.15 -99.95 87.2 q -224.55 169.4 -519.1 169.4 q -294.45 0 -519.05 -169.4 q -51.85 -39.05 -100 -87.2 q -256.6 -256.55 -256.6 -619.05 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "27",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.247",
+						"d" : "M -903.4 0 q 0 -373.95 264.8 -638.6 q 62.55 -62.65 131.2 -110.4 q 221.85 -154.4 507.4 -154.4 q 285.6 0 507.45 154.4 q 68.65 47.75 131.15 110.4 q 264.8 264.65 264.8 638.6 q 0 373.95 -264.8 638.6 q -49.55 49.7 -103.05 90 q -231.7 174.8 -535.55 174.8 q -303.75 0 -535.5 -174.8 q -53.45 -40.3 -103.1 -90 q -264.8 -264.65 -264.8 -638.6 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "28",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.224",
+						"d" : "M -931.1 0 q 0 -385.45 272.9 -658.2 q 64.45 -64.55 135.2 -113.75 q 228.7 -159.15 523 -159.15 q 294.35 0 523.05 159.15 q 70.75 49.2 135.15 113.75 q 272.9 272.75 272.9 658.2 q 0 385.45 -272.9 658.2 q -51.05 51.25 -106.25 92.75 q -238.75 180.15 -551.95 180.15 q -313.1 0 -551.9 -180.15 q -55.15 -41.5 -106.3 -92.75 q -272.9 -272.75 -272.9 -658.2 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "29",
+				"path" : [
+					{
+						"color" : "#a58787",
+						"colorOpacity" : "0.2",
+						"d" : "M -958.8 0 q 0 -396.9 281 -677.8 q 66.4 -66.45 139.25 -117.15 q 235.5 -163.85 538.55 -163.85 q 303.1 0 538.6 163.85 q 72.85 50.7 139.2 117.15 q 281 280.9 281 677.8 q 0 396.9 -281 677.8 q -52.6 52.75 -109.4 95.5 q -245.9 185.5 -568.4 185.5 q -322.4 0 -568.35 -185.5 q -56.75 -42.75 -109.45 -95.5 q -281 -280.9 -281 -677.8 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "31",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.588",
+						"d" : "M -495.95 0 q 0 -205.3 145.35 -350.6 q 145.35 -145.35 350.6 -145.35 q 205.3 0 350.6 145.35 q 145.35 145.3 145.35 350.6 q 0 205.3 -145.35 350.6 q -145.3 145.35 -350.6 145.35 q -205.25 0 -350.6 -145.35 q -145.35 -145.3 -145.35 -350.6 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "32",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.569",
+						"d" : "M -519.75 0 q 0 -215.15 152.35 -367.4 q 152.3 -152.35 367.4 -152.35 q 215.15 0 367.4 152.35 q 152.35 152.25 152.35 367.4 q 0 215.15 -152.35 367.4 q -152.25 152.35 -367.4 152.35 q -215.1 0 -367.4 -152.35 q -152.35 -152.25 -152.35 -367.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "33",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.549",
+						"d" : "M -543.55 0 q 0 -225 159.3 -384.25 q 159.3 -159.3 384.25 -159.3 q 225 0 384.25 159.3 q 159.3 159.25 159.3 384.25 q 0 225 -159.3 384.25 q -159.25 159.3 -384.25 159.3 q -224.95 0 -384.25 -159.3 q -159.3 -159.25 -159.3 -384.25 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "34",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.529",
+						"d" : "M -567.35 0 q 0 -234.85 166.3 -401.05 q 166.25 -166.3 401.05 -166.3 q 234.85 0 401.05 166.3 q 166.3 166.2 166.3 401.05 q 0 234.85 -166.3 401.05 q -166.2 166.3 -401.05 166.3 q -234.8 0 -401.05 -166.3 q -166.3 -166.2 -166.3 -401.05 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "35",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.51",
+						"d" : "M -591.15 0 q 0 -244.7 173.25 -417.9 q 173.25 -173.25 417.9 -173.25 q 244.7 0 417.9 173.25 q 173.25 173.2 173.25 417.9 q 0 244.7 -173.25 417.9 q -173.2 173.25 -417.9 173.25 q -244.65 0 -417.9 -173.25 q -173.25 -173.2 -173.25 -417.9 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "36",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.486",
+						"d" : "M -614.95 0 q 0 -254.55 180.25 -434.7 q 180.2 -180.25 434.7 -180.25 q 254.55 0 434.7 180.25 q 180.25 180.15 180.25 434.7 q 0 254.55 -180.25 434.7 q -180.15 180.25 -434.7 180.25 q -254.5 0 -434.7 -180.25 q -180.25 -180.15 -180.25 -434.7 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "37",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.467",
+						"d" : "M -638.75 0 q 0 -264.4 187.2 -451.55 q 187.2 -187.2 451.55 -187.2 q 264.4 0 451.55 187.2 q 187.2 187.15 187.2 451.55 q 0 264.4 -187.2 451.55 q -187.15 187.2 -451.55 187.2 q -264.35 0 -451.55 -187.2 q -187.2 -187.15 -187.2 -451.55 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "38",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.447",
+						"d" : "M -662.55 0 q 0 -274.25 194.2 -468.35 q 194.15 -194.2 468.35 -194.2 q 274.25 0 468.35 194.2 q 194.2 194.1 194.2 468.35 q 0 274.25 -194.2 468.35 q -194.1 194.2 -468.35 194.2 q -274.2 0 -468.35 -194.2 q -194.2 -194.1 -194.2 -468.35 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "39",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.427",
+						"d" : "M -686.35 0 q 0 -284.1 201.15 -485.2 q 201.15 -201.15 485.2 -201.15 q 284.1 0 485.2 201.15 q 201.15 201.1 201.15 485.2 q 0 284.1 -201.15 485.2 q -201.1 201.15 -485.2 201.15 q -284.05 0 -485.2 -201.15 q -201.15 -201.1 -201.15 -485.2 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "40",
+				"path" : [
+					{
+						"color" : "#c0abab",
+						"colorOpacity" : "0.408",
+						"d" : "M -495.95 0 q 0 -205.3 145.35 -350.6 q 145.35 -145.35 350.6 -145.35 q 205.3 0 350.6 145.35 q 145.35 145.3 145.35 350.6 q 0 205.3 -145.35 350.6 q -145.3 145.35 -350.6 145.35 q -205.25 0 -350.6 -145.35 q -145.35 -145.3 -145.35 -350.6 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "42",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.733",
+						"d" : "M -320.7 0 q 0 -132.8 94 -226.7 q 93.95 -94 226.7 -94 q 132.75 0 226.75 94 q 93.95 93.9 93.95 226.7 q 0 132.75 -93.95 226.7 q -94 94 -226.75 94 q -132.75 0 -226.7 -94 q -94 -93.95 -94 -226.7 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "43",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.718",
+						"d" : "M -340.05 0 q 0 -140.8 99.65 -240.4 q 99.65 -99.65 240.4 -99.65 q 140.75 0 240.45 99.65 q 99.6 99.6 99.6 240.4 q 0 140.75 -99.6 240.4 q -99.7 99.65 -240.45 99.65 q -140.75 0 -240.4 -99.65 q -99.65 -99.65 -99.65 -240.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "44",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.702",
+						"d" : "M -359.4 0 q 0 -148.8 105.35 -254.05 q 105.3 -105.35 254.05 -105.35 q 148.75 0 254.1 105.35 q 105.3 105.25 105.3 254.05 q 0 148.75 -105.3 254.05 q -105.35 105.35 -254.1 105.35 q -148.75 0 -254.05 -105.35 q -105.35 -105.3 -105.35 -254.05 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "45",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.686",
+						"d" : "M -378.75 0 q 0 -156.85 111 -267.75 q 110.95 -111 267.75 -111 q 156.8 0 267.8 111 q 110.95 110.9 110.95 267.75 q 0 156.8 -110.95 267.75 q -111 111 -267.8 111 q -156.8 0 -267.75 -111 q -111 -110.95 -111 -267.75 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "46",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.671",
+						"d" : "M -398.1 0 q 0 -164.85 116.7 -281.4 q 116.6 -116.7 281.4 -116.7 q 164.8 0 281.45 116.7 q 116.65 116.55 116.65 281.4 q 0 164.8 -116.65 281.4 q -116.65 116.7 -281.45 116.7 q -164.8 0 -281.4 -116.7 q -116.7 -116.6 -116.7 -281.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "47",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.651",
+						"d" : "M -417.45 0 q 0 -172.85 122.35 -295.1 q 122.3 -122.35 295.1 -122.35 q 172.8 0 295.15 122.35 q 122.3 122.25 122.3 295.1 q 0 172.8 -122.3 295.1 q -122.35 122.35 -295.15 122.35 q -172.8 0 -295.1 -122.35 q -122.35 -122.3 -122.35 -295.1 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "48",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.635",
+						"d" : "M -436.8 0 q 0 -180.85 128.05 -308.75 q 127.95 -128.05 308.75 -128.05 q 180.8 0 308.8 128.05 q 128 127.9 128 308.75 q 0 180.8 -128 308.75 q -128 128.05 -308.8 128.05 q -180.8 0 -308.75 -128.05 q -128.05 -127.95 -128.05 -308.75 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "49",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.62",
+						"d" : "M -456.15 0 q 0 -188.9 133.7 -322.45 q 133.6 -133.7 322.45 -133.7 q 188.85 0 322.5 133.7 q 133.65 133.55 133.65 322.45 q 0 188.85 -133.65 322.45 q -133.65 133.7 -322.5 133.7 q -188.85 0 -322.45 -133.7 q -133.7 -133.6 -133.7 -322.45 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "50",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.604",
+						"d" : "M -475.5 0 q 0 -196.9 139.4 -336.1 q 139.25 -139.4 336.1 -139.4 q 196.85 0 336.15 139.4 q 139.35 139.2 139.35 336.1 q 0 196.85 -139.35 336.1 q -139.3 139.4 -336.15 139.4 q -196.85 0 -336.1 -139.4 q -139.4 -139.25 -139.4 -336.1 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "51",
+				"path" : [
+					{
+						"color" : "#d6c9c9",
+						"colorOpacity" : "0.588",
+						"d" : "M -320.7 0 q 0 -132.8 94 -226.7 q 93.95 -94 226.7 -94 q 132.75 0 226.75 94 q 93.95 93.9 93.95 226.7 q 0 132.75 -93.95 226.7 q -94 94 -226.75 94 q -132.75 0 -226.7 -94 q -94 -93.95 -94 -226.7 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "53",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.847",
+						"d" : "M -183.7 0 q 0 -76.05 53.85 -129.85 q 53.85 -53.85 129.85 -53.85 q 76.05 0 129.9 53.85 q 53.8 53.8 53.8 129.85 q 0 76.05 -53.8 129.85 q -53.85 53.85 -129.9 53.85 q -76 0 -129.85 -53.85 q -53.85 -53.8 -53.85 -129.85 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "54",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.835",
+						"d" : "M -198.95 0 q 0 -82.35 58.3 -140.65 q 58.35 -58.3 140.65 -58.3 q 82.35 0 140.7 58.3 q 58.25 58.3 58.25 140.65 q 0 82.35 -58.25 140.65 q -58.35 58.3 -140.7 58.3 q -82.3 0 -140.65 -58.3 q -58.3 -58.3 -58.3 -140.65 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "55",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.82",
+						"d" : "M -214.2 0 q 0 -88.65 62.8 -151.4 q 62.8 -62.8 151.4 -62.8 q 88.65 0 151.45 62.8 q 62.75 62.75 62.75 151.4 q 0 88.65 -62.75 151.4 q -62.8 62.8 -151.45 62.8 q -88.6 0 -151.4 -62.8 q -62.8 -62.75 -62.8 -151.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "56",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.808",
+						"d" : "M -229.45 0 q 0 -95 67.25 -162.2 q 67.3 -67.25 162.2 -67.25 q 95 0 162.25 67.25 q 67.2 67.2 67.2 162.2 q 0 95 -67.2 162.2 q -67.25 67.25 -162.25 67.25 q -94.9 0 -162.2 -67.25 q -67.25 -67.2 -67.25 -162.2 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "57",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.796",
+						"d" : "M -244.7 0 q 0 -101.3 71.75 -172.95 q 71.75 -71.75 172.95 -71.75 q 101.3 0 173.05 71.75 q 71.65 71.65 71.65 172.95 q 0 101.3 -71.65 172.95 q -71.75 71.75 -173.05 71.75 q -101.2 0 -172.95 -71.75 q -71.75 -71.65 -71.75 -172.95 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "58",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.78",
+						"d" : "M -259.95 0 q 0 -107.6 76.2 -183.75 q 76.2 -76.2 183.75 -76.2 q 107.6 0 183.8 76.2 q 76.15 76.15 76.15 183.75 q 0 107.6 -76.15 183.75 q -76.2 76.2 -183.8 76.2 q -107.55 0 -183.75 -76.2 q -76.2 -76.15 -76.2 -183.75 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "59",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.769",
+						"d" : "M -275.2 0 q 0 -113.9 80.7 -194.5 q 80.65 -80.7 194.5 -80.7 q 113.9 0 194.6 80.7 q 80.6 80.6 80.6 194.5 q 0 113.9 -80.6 194.5 q -80.7 80.7 -194.6 80.7 q -113.85 0 -194.5 -80.7 q -80.7 -80.6 -80.7 -194.5 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "60",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.757",
+						"d" : "M -290.45 0 q 0 -120.25 85.15 -205.3 q 85.15 -85.15 205.3 -85.15 q 120.25 0 205.4 85.15 q 85.05 85.05 85.05 205.3 q 0 120.25 -85.05 205.3 q -85.15 85.15 -205.4 85.15 q -120.15 0 -205.3 -85.15 q -85.15 -85.05 -85.15 -205.3 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "61",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.741",
+						"d" : "M -305.7 0 q 0 -126.55 89.65 -216.05 q 89.6 -89.65 216.05 -89.65 q 126.55 0 216.15 89.65 q 89.55 89.5 89.55 216.05 q 0 126.55 -89.55 216.05 q -89.6 89.65 -216.15 89.65 q -126.45 0 -216.05 -89.65 q -89.65 -89.5 -89.65 -216.05 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "62",
+				"path" : [
+					{
+						"color" : "#e8e0e0",
+						"colorOpacity" : "0.729",
+						"d" : "M -320.95 0 q 0 -132.85 94.1 -226.85 q 94.1 -94.1 226.85 -94.1 q 132.85 0 226.95 94.1 q 94 94 94 226.85 q 0 132.85 -94 226.85 q -94.1 94.1 -226.95 94.1 q -132.75 0 -226.85 -94.1 q -94.1 -94 -94.1 -226.85 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "64",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.929",
+						"d" : "M -84.95 0 q 0 -35.2 24.9 -60.05 q 24.9 -24.9 60.05 -24.9 q 35.2 0 60.1 24.9 q 24.85 24.85 24.85 60.05 q 0 35.2 -24.85 60.05 q -24.9 24.9 -60.1 24.9 q -35.15 0 -60.05 -24.9 q -24.9 -24.85 -24.9 -60.05 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "65",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.922",
+						"d" : "M -95.9 0 q 0 -39.75 28.1 -67.8 q 28.1 -28.1 67.8 -28.1 q 39.75 0 67.85 28.1 q 28.05 28.05 28.05 67.8 q 0 39.75 -28.05 67.8 q -28.1 28.1 -67.85 28.1 q -39.7 0 -67.8 -28.1 q -28.1 -28.05 -28.1 -67.8 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "66",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.91",
+						"d" : "M -106.85 0 q 0 -44.3 31.3 -75.55 q 31.35 -31.3 75.55 -31.3 q 44.3 0 75.6 31.3 q 31.25 31.25 31.25 75.55 q 0 44.3 -31.25 75.55 q -31.3 31.3 -75.6 31.3 q -44.2 0 -75.55 -31.3 q -31.3 -31.25 -31.3 -75.55 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "67",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.902",
+						"d" : "M -117.8 0 q 0 -48.8 34.5 -83.3 q 34.55 -34.5 83.3 -34.5 q 48.8 0 83.35 34.5 q 34.45 34.5 34.45 83.3 q 0 48.8 -34.45 83.3 q -34.55 34.5 -83.35 34.5 q -48.75 0 -83.3 -34.5 q -34.5 -34.5 -34.5 -83.3 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "68",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.894",
+						"d" : "M -128.75 0 q 0 -53.35 37.7 -91.05 q 37.75 -37.7 91.05 -37.7 q 53.35 0 91.1 37.7 q 37.65 37.7 37.65 91.05 q 0 53.35 -37.65 91.05 q -37.75 37.7 -91.1 37.7 q -53.3 0 -91.05 -37.7 q -37.7 -37.7 -37.7 -91.05 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "69",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.882",
+						"d" : "M -139.75 0 q 0 -57.9 41 -98.75 q 40.95 -41 98.75 -41 q 57.9 0 98.85 41 q 40.9 40.85 40.9 98.75 q 0 57.9 -40.9 98.75 q -40.95 41 -98.85 41 q -57.8 0 -98.75 -41 q -41 -40.85 -41 -98.75 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "70",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.875",
+						"d" : "M -150.7 0 q 0 -62.45 44.2 -106.5 q 44.15 -44.2 106.5 -44.2 q 62.45 0 106.6 44.2 q 44.1 44.05 44.1 106.5 q 0 62.45 -44.1 106.5 q -44.15 44.2 -106.6 44.2 q -62.35 0 -106.5 -44.2 q -44.2 -44.05 -44.2 -106.5 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "71",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.867",
+						"d" : "M -161.65 0 q 0 -66.95 47.4 -114.25 q 47.35 -47.4 114.25 -47.4 q 66.95 0 114.35 47.4 q 47.3 47.3 47.3 114.25 q 0 66.95 -47.3 114.25 q -47.4 47.4 -114.35 47.4 q -66.9 0 -114.25 -47.4 q -47.4 -47.3 -47.4 -114.25 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "72",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.855",
+						"d" : "M -172.6 0 q 0 -71.5 50.6 -122 q 50.6 -50.6 122 -50.6 q 71.5 0 122.1 50.6 q 50.5 50.5 50.5 122 q 0 71.5 -50.5 122 q -50.6 50.6 -122.1 50.6 q -71.4 0 -122 -50.6 q -50.6 -50.5 -50.6 -122 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "73",
+				"path" : [
+					{
+						"color" : "#f4f1f1",
+						"colorOpacity" : "0.847",
+						"d" : "M -183.55 0 q 0 -76.05 53.8 -129.75 q 53.8 -53.8 129.75 -53.8 q 76.05 0 129.85 53.8 q 53.7 53.7 53.7 129.75 q 0 76.05 -53.7 129.75 q -53.8 53.8 -129.85 53.8 q -75.95 0 -129.75 -53.8 q -53.8 -53.7 -53.8 -129.75 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "75",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.98",
+						"d" : "M -24.45 0 q 0 -10.15 7.2 -17.25 q 7.15 -7.2 17.25 -7.2 q 10.15 0 17.3 7.2 q 7.15 7.1 7.15 17.25 q 0 10.15 -7.15 17.25 q -7.15 7.2 -17.3 7.2 q -10.1 0 -17.25 -7.2 q -7.2 -7.1 -7.2 -17.25 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "76",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.976",
+						"d" : "M -31.15 0 q 0 -12.95 9.15 -22 q 9.15 -9.15 22 -9.15 q 12.95 0 22.05 9.15 q 9.1 9.05 9.1 22 q 0 12.95 -9.1 22 q -9.1 9.15 -22.05 9.15 q -12.85 0 -22 -9.15 q -9.15 -9.05 -9.15 -22 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "77",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.969",
+						"d" : "M -37.85 0 q 0 -15.7 11.15 -26.7 q 11.05 -11.15 26.7 -11.15 q 15.7 0 26.8 11.15 q 11.05 11 11.05 26.7 q 0 15.7 -11.05 26.7 q -11.1 11.15 -26.8 11.15 q -15.65 0 -26.7 -11.15 q -11.15 -11 -11.15 -26.7 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "78",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.965",
+						"d" : "M -44.55 0 q 0 -18.5 13.1 -31.45 q 13.05 -13.1 31.45 -13.1 q 18.5 0 31.55 13.1 q 13 12.95 13 31.45 q 0 18.5 -13 31.45 q -13.05 13.1 -31.55 13.1 q -18.4 0 -31.45 -13.1 q -13.1 -12.95 -13.1 -31.45 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "79",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.957",
+						"d" : "M -51.25 0 q 0 -21.3 15.05 -36.2 q 15 -15.05 36.2 -15.05 q 21.3 0 36.3 15.05 q 14.95 14.9 14.95 36.2 q 0 21.3 -14.95 36.2 q -15 15.05 -36.3 15.05 q -21.2 0 -36.2 -15.05 q -15.05 -14.9 -15.05 -36.2 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "80",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.953",
+						"d" : "M -58 0 q 0 -24.05 17.1 -40.9 q 16.95 -17.1 40.9 -17.1 q 24.05 0 41 17.1 q 17 16.85 17 40.9 q 0 24.05 -17 40.9 q -16.95 17.1 -41 17.1 q -23.95 0 -40.9 -17.1 q -17.1 -16.85 -17.1 -40.9 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "81",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.945",
+						"d" : "M -64.7 0 q 0 -26.85 19.05 -45.65 q 18.9 -19.05 45.65 -19.05 q 26.85 0 45.75 19.05 q 18.95 18.8 18.95 45.65 q 0 26.85 -18.95 45.65 q -18.9 19.05 -45.75 19.05 q -26.75 0 -45.65 -19.05 q -19.05 -18.8 -19.05 -45.65 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "82",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.941",
+						"d" : "M -71.4 0 q 0 -29.65 21 -50.4 q 20.9 -21 50.4 -21 q 29.65 0 50.5 21 q 20.9 20.75 20.9 50.4 q 0 29.65 -20.9 50.4 q -20.85 21 -50.5 21 q -29.5 0 -50.4 -21 q -21 -20.75 -21 -50.4 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "83",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.933",
+						"d" : "M -78.1 0 q 0 -32.4 23 -55.1 q 22.8 -23 55.1 -23 q 32.4 0 55.25 23 q 22.85 22.7 22.85 55.1 q 0 32.4 -22.85 55.1 q -22.85 23 -55.25 23 q -32.3 0 -55.1 -23 q -23 -22.7 -23 -55.1 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "84",
+				"path" : [
+					{
+						"color" : "#fcfbfb",
+						"colorOpacity" : "0.929",
+						"d" : "M -84.8 0 q 0 -35.2 24.95 -59.85 q 24.8 -24.95 59.85 -24.95 q 35.2 0 60 24.95 q 24.8 24.65 24.8 59.85 q 0 35.2 -24.8 59.85 q -24.8 24.95 -60 24.95 q -35.05 0 -59.85 -24.95 q -24.95 -24.65 -24.95 -59.85 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			},
+			{
+				"charid" : "86",
+				"path" : [
+					{
+						"color" : "#855c5c",
+						"colorOpacity" : "0.2",
+						"d" : "M -961.05 0 q 0 -256.25 116.85 -464.25 q 36.1 -64.25 83.35 -123.9 q 37.25 -47.05 81.45 -91.25 q 281.6 -281.65 679.4 -281.65 q 397.8 0 679.4 281.65 q 44.2 44.2 81.5 91.25 q 14.15 17.9 27.3 36.2 q 172.85 240.3 172.85 551.95 q 0 311.65 -172.85 551.95 q -7.3 10.15 -14.9 20.2 q -42.2 55.6 -93.9 107.25 q -281.6 281.65 -679.4 281.65 q -397.8 0 -679.4 -281.65 q -51.7 -51.65 -93.85 -107.25 q -39.65 -52.2 -70.95 -107.9 q -116.85 -208.05 -116.85 -464.25 ",
+						"strokeWidth" : "1",
+						"fill" : "none",
+						"strokeLinecap" : "round",
+						"strokeLinejoin" : "round",
+						"pathType" : "Stroke"
+					}
+				]
+			}
+		],
+		"Bitmaps" : [],
+		"Sounds" : [],
+		"Text" : [],
+		"Timeline" : [
+			{
+				"charid" : "2",
+				"frameCount" : "1",
+				"name" : "sphere",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "1",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "3",
+				"frameCount" : "50",
+				"name" : "spherezoom4",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "2",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "0.074,0,0,0.074,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.159,0,0,0.159,0,-30.45"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.244,0,0,0.244,-0.05,-60.95"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.329,0,0,0.329,-0.05,-91.45"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.414,0,0,0.414,-0.1,-121.95"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.499,0,0,0.499,-0.15,-152.45"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.583,0,0,0.583,-0.15,-182.9"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.668,0,0,0.668,-0.2,-213.4"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.753,0,0,0.753,-0.3,-243.9"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.838,0,0,0.838,-0.35,-274.4"
+							}
+						]
+					},
+					{
+						"num" : "10",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.923,0,0,0.923,-0.45,-304.9"
+							}
+						]
+					},
+					{
+						"num" : "11",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.008,0,0,1.008,-0.45,-335.3"
+							}
+						]
+					},
+					{
+						"num" : "12",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.093,0,0,1.093,-0.55,-365.8"
+							}
+						]
+					},
+					{
+						"num" : "13",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.178,0,0,1.178,-0.65,-396.3"
+							}
+						]
+					},
+					{
+						"num" : "14",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.263,0,0,1.263,-0.75,-426.8"
+							}
+						]
+					},
+					{
+						"num" : "15",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.348,0,0,1.348,-0.9,-457.3"
+							}
+						]
+					},
+					{
+						"num" : "16",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.433,0,0,1.433,-0.95,-487.75"
+							}
+						]
+					},
+					{
+						"num" : "17",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.518,0,0,1.518,-1.05,-518.25"
+							}
+						]
+					},
+					{
+						"num" : "18",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.603,0,0,1.603,-1.2,-548.75"
+							}
+						]
+					},
+					{
+						"num" : "19",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.688,0,0,1.688,-1.35,-579.25"
+							}
+						]
+					},
+					{
+						"num" : "20",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.773,0,0,1.773,-1.5,-609.75"
+							}
+						]
+					},
+					{
+						"num" : "21",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.858,0,0,1.858,-1.6,-640.2"
+							}
+						]
+					},
+					{
+						"num" : "22",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.943,0,0,1.943,-1.75,-670.65"
+							}
+						]
+					},
+					{
+						"num" : "23",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.027,0,0,2.027,-1.9,-701.15"
+							}
+						]
+					},
+					{
+						"num" : "24",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.112,0,0,2.112,-2.1,-731.65"
+							}
+						]
+					},
+					{
+						"num" : "25",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.197,0,0,2.197,-2.25,-762.15"
+							}
+						]
+					},
+					{
+						"num" : "26",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.282,0,0,2.282,-2.45,-792.65"
+							}
+						]
+					},
+					{
+						"num" : "27",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.367,0,0,2.367,-2.6,-823.1"
+							}
+						]
+					},
+					{
+						"num" : "28",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.452,0,0,2.452,-2.8,-853.6"
+							}
+						]
+					},
+					{
+						"num" : "29",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.537,0,0,2.537,-3,-884.1"
+							}
+						]
+					},
+					{
+						"num" : "30",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.622,0,0,2.622,-3.2,-914.6"
+							}
+						]
+					},
+					{
+						"num" : "31",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.707,0,0,2.707,-3.4,-945.1"
+							}
+						]
+					},
+					{
+						"num" : "32",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.792,0,0,2.792,-3.6,-975.55"
+							}
+						]
+					},
+					{
+						"num" : "33",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "4",
+				"frameCount" : "66",
+				"name" : "spherezoom3",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "2",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "0.074,0,0,0.074,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.173,0,0,0.173,-12.4,0.45"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.273,0,0,0.273,-25.85,0.95"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.373,0,0,0.373,-40.2,1.5"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.473,0,0,0.473,-55.65,2"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.572,0,0,0.572,-72.05,2.55"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.672,0,0,0.672,-89.5,3.05"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.772,0,0,0.772,-107.9,3.55"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.871,0,0,0.871,-127.3,4.1"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.971,0,0,0.971,-147.75,4.6"
+							}
+						]
+					},
+					{
+						"num" : "10",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.071,0,0,1.071,-169.15,5.05"
+							}
+						]
+					},
+					{
+						"num" : "11",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.171,0,0,1.171,-191.55,5.6"
+							}
+						]
+					},
+					{
+						"num" : "12",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.27,0,0,1.27,-215,6.1"
+							}
+						]
+					},
+					{
+						"num" : "13",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.37,0,0,1.37,-239.35,6.65"
+							}
+						]
+					},
+					{
+						"num" : "14",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.47,0,0,1.47,-264.75,7.15"
+							}
+						]
+					},
+					{
+						"num" : "15",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.569,0,0,1.569,-291.2,7.65"
+							}
+						]
+					},
+					{
+						"num" : "16",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.669,0,0,1.669,-318.55,8.2"
+							}
+						]
+					},
+					{
+						"num" : "17",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.769,0,0,1.769,-347,8.7"
+							}
+						]
+					},
+					{
+						"num" : "18",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.868,0,0,1.868,-376.35,9.25"
+							}
+						]
+					},
+					{
+						"num" : "19",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.968,0,0,1.968,-406.8,9.7"
+							}
+						]
+					},
+					{
+						"num" : "20",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.068,0,0,2.068,-438.2,10.2"
+							}
+						]
+					},
+					{
+						"num" : "21",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.168,0,0,2.168,-470.6,10.75"
+							}
+						]
+					},
+					{
+						"num" : "22",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.267,0,0,2.267,-504,11.25"
+							}
+						]
+					},
+					{
+						"num" : "23",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.367,0,0,2.367,-538.4,11.8"
+							}
+						]
+					},
+					{
+						"num" : "24",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.467,0,0,2.467,-573.8,12.3"
+							}
+						]
+					},
+					{
+						"num" : "25",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.566,0,0,2.566,-610.2,12.8"
+							}
+						]
+					},
+					{
+						"num" : "26",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.666,0,0,2.666,-647.6,13.35"
+							}
+						]
+					},
+					{
+						"num" : "27",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.766,0,0,2.766,-686,13.85"
+							}
+						]
+					},
+					{
+						"num" : "28",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.866,0,0,2.866,-725.35,14.35"
+							}
+						]
+					},
+					{
+						"num" : "29",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.965,0,0,2.965,-765.8,14.85"
+							}
+						]
+					},
+					{
+						"num" : "30",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "3.065,0,0,3.065,-807.2,15.35"
+							}
+						]
+					},
+					{
+						"num" : "31",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "3.165,0,0,3.165,-849.55,15.9"
+							}
+						]
+					},
+					{
+						"num" : "32",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "3.264,0,0,3.264,-892.95,16.4"
+							}
+						]
+					},
+					{
+						"num" : "33",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "3.364,0,0,3.364,-937.3,16.95"
+							}
+						]
+					},
+					{
+						"num" : "34",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "3.464,0,0,3.464,-982.75,17.45"
+							}
+						]
+					},
+					{
+						"num" : "35",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "3.564,0,0,3.564,-1029.15,17.95"
+							}
+						]
+					},
+					{
+						"num" : "36",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "3.663,0,0,3.663,-1076.55,18.5"
+							}
+						]
+					},
+					{
+						"num" : "37",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "5",
+				"frameCount" : "57",
+				"name" : "spherezoom2",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "2",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "0.074,0,0,0.074,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.154,0,0,0.154,12.2,0.5"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.234,0,0,0.234,25.45,1"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.314,0,0,0.314,39.75,1.55"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.394,0,0,0.394,55.1,2.05"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.474,0,0,0.474,71.45,2.6"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.554,0,0,0.554,88.85,3.1"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.634,0,0,0.634,107.25,3.6"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.714,0,0,0.714,126.75,4.2"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.795,0,0,0.795,147.2,4.7"
+							}
+						]
+					},
+					{
+						"num" : "10",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.875,0,0,0.875,168.7,5.25"
+							}
+						]
+					},
+					{
+						"num" : "11",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.955,0,0,0.955,191.25,5.75"
+							}
+						]
+					},
+					{
+						"num" : "12",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.035,0,0,1.035,214.8,6.25"
+							}
+						]
+					},
+					{
+						"num" : "13",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.115,0,0,1.115,239.4,6.8"
+							}
+						]
+					},
+					{
+						"num" : "14",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.195,0,0,1.195,265,7.3"
+							}
+						]
+					},
+					{
+						"num" : "15",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.275,0,0,1.275,291.65,7.85"
+							}
+						]
+					},
+					{
+						"num" : "16",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.355,0,0,1.355,319.35,8.35"
+							}
+						]
+					},
+					{
+						"num" : "17",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.435,0,0,1.435,348.15,8.95"
+							}
+						]
+					},
+					{
+						"num" : "18",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.515,0,0,1.515,377.85,9.45"
+							}
+						]
+					},
+					{
+						"num" : "19",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.595,0,0,1.595,408.6,9.95"
+							}
+						]
+					},
+					{
+						"num" : "20",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.675,0,0,1.675,440.4,10.5"
+							}
+						]
+					},
+					{
+						"num" : "21",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.756,0,0,1.756,473.25,11"
+							}
+						]
+					},
+					{
+						"num" : "22",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.836,0,0,1.836,507.1,11.55"
+							}
+						]
+					},
+					{
+						"num" : "23",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.916,0,0,1.916,542,12.05"
+							}
+						]
+					},
+					{
+						"num" : "24",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.996,0,0,1.996,577.9,12.55"
+							}
+						]
+					},
+					{
+						"num" : "25",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.076,0,0,2.076,614.95,13.15"
+							}
+						]
+					},
+					{
+						"num" : "26",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.156,0,0,2.156,652.9,13.65"
+							}
+						]
+					},
+					{
+						"num" : "27",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.236,0,0,2.236,691.9,14.2"
+							}
+						]
+					},
+					{
+						"num" : "28",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.316,0,0,2.316,731.95,14.7"
+							}
+						]
+					},
+					{
+						"num" : "29",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.396,0,0,2.396,773.05,15.2"
+							}
+						]
+					},
+					{
+						"num" : "30",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.476,0,0,2.476,815.1,15.75"
+							}
+						]
+					},
+					{
+						"num" : "31",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.556,0,0,2.556,858.25,16.25"
+							}
+						]
+					},
+					{
+						"num" : "32",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.636,0,0,2.636,902.4,16.8"
+							}
+						]
+					},
+					{
+						"num" : "33",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.717,0,0,2.717,947.65,17.35"
+							}
+						]
+					},
+					{
+						"num" : "34",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.797,0,0,2.797,993.9,17.9"
+							}
+						]
+					},
+					{
+						"num" : "35",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "6",
+				"frameCount" : "43",
+				"name" : "spherezoom1",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "2",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "0.074,0,0,0.074,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.145,0,0,0.145,-0.15,29.3"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.217,0,0,0.217,-0.35,58.65"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.288,0,0,0.288,-0.55,88"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.36,0,0,0.36,-0.8,117.35"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.432,0,0,0.432,-1.05,146.7"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.503,0,0,0.503,-1.35,176.05"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.575,0,0,0.575,-1.65,205.35"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.646,0,0,0.646,-1.95,234.7"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.718,0,0,0.718,-2.3,264.05"
+							}
+						]
+					},
+					{
+						"num" : "10",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.789,0,0,0.789,-2.7,293.4"
+							}
+						]
+					},
+					{
+						"num" : "11",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.861,0,0,0.861,-3.05,322.75"
+							}
+						]
+					},
+					{
+						"num" : "12",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.932,0,0,0.932,-3.45,352.1"
+							}
+						]
+					},
+					{
+						"num" : "13",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.004,0,0,1.004,-3.9,381.4"
+							}
+						]
+					},
+					{
+						"num" : "14",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.075,0,0,1.075,-4.35,410.75"
+							}
+						]
+					},
+					{
+						"num" : "15",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.147,0,0,1.147,-4.8,440.1"
+							}
+						]
+					},
+					{
+						"num" : "16",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.219,0,0,1.219,-5.3,469.45"
+							}
+						]
+					},
+					{
+						"num" : "17",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.29,0,0,1.29,-5.8,498.8"
+							}
+						]
+					},
+					{
+						"num" : "18",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.362,0,0,1.362,-6.3,528.15"
+							}
+						]
+					},
+					{
+						"num" : "19",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.433,0,0,1.433,-6.85,557.5"
+							}
+						]
+					},
+					{
+						"num" : "20",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.505,0,0,1.505,-7.45,586.8"
+							}
+						]
+					},
+					{
+						"num" : "21",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.576,0,0,1.576,-8,616.15"
+							}
+						]
+					},
+					{
+						"num" : "22",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.648,0,0,1.648,-8.6,645.5"
+							}
+						]
+					},
+					{
+						"num" : "23",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.719,0,0,1.719,-9.25,674.85"
+							}
+						]
+					},
+					{
+						"num" : "24",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.791,0,0,1.791,-9.9,704.2"
+							}
+						]
+					},
+					{
+						"num" : "25",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.862,0,0,1.862,-10.55,733.55"
+							}
+						]
+					},
+					{
+						"num" : "26",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1.934,0,0,1.934,-11.25,762.85"
+							}
+						]
+					},
+					{
+						"num" : "27",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.006,0,0,2.006,-11.95,792.2"
+							}
+						]
+					},
+					{
+						"num" : "28",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.077,0,0,2.077,-12.7,821.55"
+							}
+						]
+					},
+					{
+						"num" : "29",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.149,0,0,2.149,-13.45,850.9"
+							}
+						]
+					},
+					{
+						"num" : "30",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.22,0,0,2.22,-14.2,880.25"
+							}
+						]
+					},
+					{
+						"num" : "31",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.292,0,0,2.292,-15,909.6"
+							}
+						]
+					},
+					{
+						"num" : "32",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "2.363,0,0,2.363,-15.85,938.95"
+							}
+						]
+					},
+					{
+						"num" : "33",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "7",
+				"frameCount" : "211",
+				"name" : "sphereMultiZoom",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "4",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "32",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "5",
+								"objectId" : "2",
+								"placeAfter" : "1",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "2",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "2",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "44",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							}
+						]
+					},
+					{
+						"num" : "64",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "6",
+								"objectId" : "3",
+								"placeAfter" : "2",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "3",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "3",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "73",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "3",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "4",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "4",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "77",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							}
+						]
+					},
+					{
+						"num" : "108",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							}
+						]
+					},
+					{
+						"num" : "111",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "6",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "5",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "5",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "5",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "117",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							}
+						]
+					},
+					{
+						"num" : "130",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "4",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "6",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "6",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "6",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "147",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "5",
+								"objectId" : "7",
+								"placeAfter" : "6",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "7",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "7",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "7",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "155",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							}
+						]
+					},
+					{
+						"num" : "167",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "3",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "8",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "8",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "8",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "174",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							}
+						]
+					},
+					{
+						"num" : "191",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "8",
+				"frameCount" : "422",
+				"name" : "sphereMultiZoomSpin",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "7",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0",
+								"name" : "sphereMultiZoom"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.996,0.088,-0.088,0.996,0.2,0.5"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.983,0.178,-0.178,0.983,0.4,1.05"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.964,0.264,-0.264,0.964,0.55,1.55"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.935,0.35,-0.35,0.935,0.65,2.1"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.901,0.431,-0.431,0.901,0.7,2.6"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.858,0.511,-0.511,0.858,0.7,3.15"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.809,0.585,-0.585,0.809,0.7,3.65"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.752,0.656,-0.656,0.752,0.6,4.2"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.692,0.72,-0.72,0.692,0.45,4.75"
+							}
+						]
+					},
+					{
+						"num" : "10",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.623,0.78,-0.78,0.623,0.25,5.25"
+							}
+						]
+					},
+					{
+						"num" : "11",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.552,0.832,-0.832,0.552,0.05,5.75"
+							}
+						]
+					},
+					{
+						"num" : "12",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.474,0.879,-0.879,0.474,-0.25,6.25"
+							}
+						]
+					},
+					{
+						"num" : "13",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.395,0.917,-0.917,0.395,-0.55,6.65"
+							}
+						]
+					},
+					{
+						"num" : "14",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.31,0.95,-0.95,0.31,-0.9,7.1"
+							}
+						]
+					},
+					{
+						"num" : "15",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.225,0.974,-0.974,0.225,-1.3,7.45"
+							}
+						]
+					},
+					{
+						"num" : "16",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.136,0.99,-0.99,0.136,-1.75,7.8"
+							}
+						]
+					},
+					{
+						"num" : "17",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.048,0.999,-0.999,0.048,-2.15,8.15"
+							}
+						]
+					},
+					{
+						"num" : "18",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.04,0.999,-0.999,-0.04,-2.65,8.4"
+							}
+						]
+					},
+					{
+						"num" : "19",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.127,0.991,-0.991,-0.127,-3.15,8.6"
+							}
+						]
+					},
+					{
+						"num" : "20",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.217,0.975,-0.975,-0.217,-3.65,8.8"
+							}
+						]
+					},
+					{
+						"num" : "21",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.302,0.952,-0.952,-0.302,-4.2,8.9"
+							}
+						]
+					},
+					{
+						"num" : "22",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.387,0.921,-0.921,-0.387,-4.75,9"
+							}
+						]
+					},
+					{
+						"num" : "23",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.469,0.883,-0.883,-0.469,-5.3,9.05"
+							}
+						]
+					},
+					{
+						"num" : "24",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.545,0.837,-0.837,-0.545,-5.75,9"
+							}
+						]
+					},
+					{
+						"num" : "25",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.619,0.783,-0.783,-0.619,-6.35,8.95"
+							}
+						]
+					},
+					{
+						"num" : "26",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.686,0.726,-0.726,-0.686,-6.85,8.85"
+							}
+						]
+					},
+					{
+						"num" : "27",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.749,0.66,-0.66,-0.749,-7.4,8.65"
+							}
+						]
+					},
+					{
+						"num" : "28",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.804,0.592,-0.592,-0.804,-7.9,8.45"
+							}
+						]
+					},
+					{
+						"num" : "29",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.855,0.516,-0.516,-0.855,-8.4,8.2"
+							}
+						]
+					},
+					{
+						"num" : "30",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.897,0.439,-0.439,-0.897,-8.85,7.9"
+							}
+						]
+					},
+					{
+						"num" : "31",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.934,0.355,-0.355,-0.934,-9.25,7.6"
+							}
+						]
+					},
+					{
+						"num" : "32",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.961,0.272,-0.272,-0.961,-9.65,7.2"
+							}
+						]
+					},
+					{
+						"num" : "33",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.982,0.183,-0.183,-0.982,-10.05,6.8"
+							}
+						]
+					},
+					{
+						"num" : "34",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.995,0.096,-0.096,-0.995,-10.35,6.35"
+							}
+						]
+					},
+					{
+						"num" : "35",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-1,0.005,-0.005,-1,-10.65,5.9"
+							}
+						]
+					},
+					{
+						"num" : "36",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.997,-0.079,0.079,-0.997,-10.9,5.45"
+							}
+						]
+					},
+					{
+						"num" : "37",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.985,-0.17,0.17,-0.985,-11.1,4.9"
+							}
+						]
+					},
+					{
+						"num" : "38",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.966,-0.255,0.255,-0.966,-11.25,4.4"
+							}
+						]
+					},
+					{
+						"num" : "39",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.938,-0.342,0.342,-0.938,-11.35,3.85"
+							}
+						]
+					},
+					{
+						"num" : "40",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.905,-0.423,0.423,-0.905,-11.4,3.35"
+							}
+						]
+					},
+					{
+						"num" : "41",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.862,-0.504,0.504,-0.862,-11.4,2.8"
+							}
+						]
+					},
+					{
+						"num" : "42",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.814,-0.578,0.578,-0.814,-11.4,2.3"
+							}
+						]
+					},
+					{
+						"num" : "43",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.758,-0.65,0.65,-0.758,-11.3,1.75"
+							}
+						]
+					},
+					{
+						"num" : "44",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.698,-0.714,0.714,-0.698,-11.15,1.2"
+							}
+						]
+					},
+					{
+						"num" : "45",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.63,-0.775,0.775,-0.63,-11,0.7"
+							}
+						]
+					},
+					{
+						"num" : "46",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.559,-0.829,0.829,-0.559,-10.75,0.2"
+							}
+						]
+					},
+					{
+						"num" : "47",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.481,-0.875,0.875,-0.481,-10.5,-0.3"
+							}
+						]
+					},
+					{
+						"num" : "48",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.4,-0.915,0.915,-0.4,-10.15,-0.75"
+							}
+						]
+					},
+					{
+						"num" : "49",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.318,-0.947,0.947,-0.318,-9.8,-1.15"
+							}
+						]
+					},
+					{
+						"num" : "50",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.23,-0.972,0.972,-0.23,-9.4,-1.55"
+							}
+						]
+					},
+					{
+						"num" : "51",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.144,-0.989,0.989,-0.144,-9,-1.9"
+							}
+						]
+					},
+					{
+						"num" : "52",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.053,-0.998,0.998,-0.053,-8.55,-2.2"
+							}
+						]
+					},
+					{
+						"num" : "53",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.031,-0.999,0.999,0.031,-8.1,-2.45"
+							}
+						]
+					},
+					{
+						"num" : "54",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.122,-0.992,0.992,0.122,-7.6,-2.7"
+							}
+						]
+					},
+					{
+						"num" : "55",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.209,-0.977,0.977,0.209,-7.1,-2.85"
+							}
+						]
+					},
+					{
+						"num" : "56",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.297,-0.954,0.954,0.297,-6.55,-3"
+							}
+						]
+					},
+					{
+						"num" : "57",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.379,-0.924,0.924,0.379,-6,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "58",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.462,-0.885,0.885,0.462,-5.45,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "59",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.538,-0.841,0.841,0.538,-5,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "60",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.612,-0.788,0.788,0.612,-4.4,-3.05"
+							}
+						]
+					},
+					{
+						"num" : "61",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.679,-0.731,0.731,0.679,-3.9,-2.95"
+							}
+						]
+					},
+					{
+						"num" : "62",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.743,-0.666,0.666,0.743,-3.35,-2.8"
+							}
+						]
+					},
+					{
+						"num" : "63",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.799,-0.598,0.598,0.799,-2.85,-2.6"
+							}
+						]
+					},
+					{
+						"num" : "64",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.851,-0.523,0.523,0.851,-2.35,-2.35"
+							}
+						]
+					},
+					{
+						"num" : "65",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.893,-0.446,0.446,0.893,-1.9,-2.05"
+							}
+						]
+					},
+					{
+						"num" : "66",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.931,-0.363,0.363,0.931,-1.45,-1.7"
+							}
+						]
+					},
+					{
+						"num" : "67",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.96,-0.28,0.28,0.96,-1.05,-1.35"
+							}
+						]
+					},
+					{
+						"num" : "68",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.981,-0.191,0.191,0.981,-0.7,-0.95"
+							}
+						]
+					},
+					{
+						"num" : "69",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.995,-0.101,0.101,0.995,-0.35,-0.5"
+							}
+						]
+					},
+					{
+						"num" : "70",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1,-0.014,0.014,1,-0.05,-0.05"
+							}
+						]
+					},
+					{
+						"num" : "71",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.997,0.074,-0.074,0.997,0.2,0.45"
+							}
+						]
+					},
+					{
+						"num" : "72",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.986,0.161,-0.161,0.986,0.4,0.95"
+							}
+						]
+					},
+					{
+						"num" : "73",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.967,0.251,-0.251,0.967,0.55,1.45"
+							}
+						]
+					},
+					{
+						"num" : "74",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.941,0.334,-0.334,0.941,0.65,2"
+							}
+						]
+					},
+					{
+						"num" : "75",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.907,0.419,-0.419,0.907,0.7,2.55"
+							}
+						]
+					},
+					{
+						"num" : "76",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.866,0.497,-0.497,0.866,0.7,3.05"
+							}
+						]
+					},
+					{
+						"num" : "77",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.817,0.574,-0.574,0.817,0.7,3.6"
+							}
+						]
+					},
+					{
+						"num" : "78",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.763,0.643,-0.643,0.763,0.6,4.1"
+							}
+						]
+					},
+					{
+						"num" : "79",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.701,0.71,-0.71,0.701,0.45,4.65"
+							}
+						]
+					},
+					{
+						"num" : "80",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.636,0.769,-0.769,0.636,0.3,5.15"
+							}
+						]
+					},
+					{
+						"num" : "81",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.563,0.824,-0.824,0.563,0.05,5.65"
+							}
+						]
+					},
+					{
+						"num" : "82",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.489,0.871,-0.871,0.489,-0.2,6.15"
+							}
+						]
+					},
+					{
+						"num" : "83",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.407,0.912,-0.912,0.407,-0.5,6.6"
+							}
+						]
+					},
+					{
+						"num" : "84",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.326,0.944,-0.944,0.326,-0.85,7"
+							}
+						]
+					},
+					{
+						"num" : "85",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.238,0.97,-0.97,0.238,-1.25,7.4"
+							}
+						]
+					},
+					{
+						"num" : "86",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.152,0.988,-0.988,0.152,-1.65,7.75"
+							}
+						]
+					},
+					{
+						"num" : "87",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.062,0.998,-0.998,0.062,-2.1,8.1"
+							}
+						]
+					},
+					{
+						"num" : "88",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.023,1,-1,-0.023,-2.55,8.35"
+							}
+						]
+					},
+					{
+						"num" : "89",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.114,0.993,-0.993,-0.114,-3.05,8.55"
+							}
+						]
+					},
+					{
+						"num" : "90",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.204,0.979,-0.979,-0.204,-3.6,8.75"
+							}
+						]
+					},
+					{
+						"num" : "91",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.289,0.956,-0.956,-0.289,-4.1,8.9"
+							}
+						]
+					},
+					{
+						"num" : "92",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.375,0.926,-0.926,-0.375,-4.65,9"
+							}
+						]
+					},
+					{
+						"num" : "93",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.455,0.889,-0.889,-0.455,-5.2,9"
+							}
+						]
+					},
+					{
+						"num" : "94",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.534,0.844,-0.844,-0.534,-5.7,9"
+							}
+						]
+					},
+					{
+						"num" : "95",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.606,0.794,-0.794,-0.606,-6.25,8.95"
+							}
+						]
+					},
+					{
+						"num" : "96",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.676,0.735,-0.735,-0.676,-6.75,8.85"
+							}
+						]
+					},
+					{
+						"num" : "97",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.738,0.673,-0.673,-0.738,-7.3,8.7"
+							}
+						]
+					},
+					{
+						"num" : "98",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.796,0.603,-0.603,-0.796,-7.8,8.5"
+							}
+						]
+					},
+					{
+						"num" : "99",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.846,0.53,-0.53,-0.846,-8.3,8.25"
+							}
+						]
+					},
+					{
+						"num" : "100",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.891,0.451,-0.451,-0.891,-8.75,7.95"
+							}
+						]
+					},
+					{
+						"num" : "101",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.927,0.371,-0.371,-0.927,-9.2,7.65"
+							}
+						]
+					},
+					{
+						"num" : "102",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.958,0.285,-0.285,-0.958,-9.6,7.25"
+							}
+						]
+					},
+					{
+						"num" : "103",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.979,0.2,-0.2,-0.979,-10,6.9"
+							}
+						]
+					},
+					{
+						"num" : "104",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.994,0.11,-0.11,-0.994,-10.3,6.45"
+							}
+						]
+					},
+					{
+						"num" : "105",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-1,0.022,-0.022,-1,-10.6,6"
+							}
+						]
+					},
+					{
+						"num" : "106",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.998,-0.066,0.066,-0.998,-10.85,5.5"
+							}
+						]
+					},
+					{
+						"num" : "107",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.988,-0.153,0.153,-0.988,-11.05,5"
+							}
+						]
+					},
+					{
+						"num" : "108",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.969,-0.242,0.242,-0.969,-11.25,4.5"
+							}
+						]
+					},
+					{
+						"num" : "109",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.944,-0.327,0.327,-0.944,-11.35,3.95"
+							}
+						]
+					},
+					{
+						"num" : "110",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.91,-0.411,0.411,-0.91,-11.4,3.4"
+							}
+						]
+					},
+					{
+						"num" : "111",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.87,-0.492,0.492,-0.87,-11.45,2.9"
+							}
+						]
+					},
+					{
+						"num" : "112",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.822,-0.567,0.567,-0.822,-11.4,2.35"
+							}
+						]
+					},
+					{
+						"num" : "113",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.767,-0.639,0.639,-0.767,-11.3,1.8"
+							}
+						]
+					},
+					{
+						"num" : "114",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.707,-0.704,0.704,-0.707,-11.2,1.3"
+							}
+						]
+					},
+					{
+						"num" : "115",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.64,-0.766,0.766,-0.64,-11,0.75"
+							}
+						]
+					},
+					{
+						"num" : "116",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.57,-0.82,0.82,-0.57,-10.8,0.25"
+							}
+						]
+					},
+					{
+						"num" : "117",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.493,-0.868,0.868,-0.493,-10.55,-0.2"
+							}
+						]
+					},
+					{
+						"num" : "118",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.415,-0.908,0.908,-0.415,-10.25,-0.65"
+							}
+						]
+					},
+					{
+						"num" : "119",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.331,-0.943,0.943,-0.331,-9.85,-1.1"
+							}
+						]
+					},
+					{
+						"num" : "120",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.246,-0.968,0.968,-0.246,-9.5,-1.5"
+							}
+						]
+					},
+					{
+						"num" : "121",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.157,-0.987,0.987,-0.157,-9.1,-1.85"
+							}
+						]
+					},
+					{
+						"num" : "122",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.07,-0.997,0.997,-0.07,-8.65,-2.15"
+							}
+						]
+					},
+					{
+						"num" : "123",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.018,-1,1,0.018,-8.2,-2.45"
+							}
+						]
+					},
+					{
+						"num" : "124",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.105,-0.994,0.994,0.105,-7.7,-2.65"
+							}
+						]
+					},
+					{
+						"num" : "125",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.195,-0.98,0.98,0.195,-7.15,-2.85"
+							}
+						]
+					},
+					{
+						"num" : "126",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.281,-0.959,0.959,0.281,-6.65,-3"
+							}
+						]
+					},
+					{
+						"num" : "127",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.367,-0.929,0.929,0.367,-6.1,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "128",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.447,-0.893,0.893,0.447,-5.55,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "129",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.527,-0.848,0.848,0.527,-5.05,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "130",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.599,-0.799,0.799,0.599,-4.55,-3.05"
+							}
+						]
+					},
+					{
+						"num" : "131",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.669,-0.741,0.741,0.669,-4,-2.95"
+							}
+						]
+					},
+					{
+						"num" : "132",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.732,-0.679,0.679,0.732,-3.45,-2.8"
+							}
+						]
+					},
+					{
+						"num" : "133",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.791,-0.609,0.609,0.791,-2.95,-2.6"
+							}
+						]
+					},
+					{
+						"num" : "134",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.843,-0.537,0.537,0.843,-2.45,-2.4"
+							}
+						]
+					},
+					{
+						"num" : "135",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.887,-0.458,0.458,0.887,-2,-2.1"
+							}
+						]
+					},
+					{
+						"num" : "136",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.926,-0.376,0.376,0.926,-1.55,-1.75"
+							}
+						]
+					},
+					{
+						"num" : "137",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.955,-0.293,0.293,0.955,-1.15,-1.4"
+							}
+						]
+					},
+					{
+						"num" : "138",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.978,-0.205,0.205,0.978,-0.75,-1"
+							}
+						]
+					},
+					{
+						"num" : "139",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.993,-0.118,0.118,0.993,-0.4,-0.6"
+							}
+						]
+					},
+					{
+						"num" : "140",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1,-0.027,0.027,1,-0.1,-0.1"
+							}
+						]
+					},
+					{
+						"num" : "141",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.998,0.057,-0.057,0.998,0.15,0.35"
+							}
+						]
+					},
+					{
+						"num" : "142",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.988,0.148,-0.148,0.988,0.35,0.85"
+							}
+						]
+					},
+					{
+						"num" : "143",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.971,0.234,-0.234,0.971,0.5,1.35"
+							}
+						]
+					},
+					{
+						"num" : "144",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.946,0.322,-0.322,0.946,0.65,1.9"
+							}
+						]
+					},
+					{
+						"num" : "145",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.914,0.404,-0.404,0.914,0.7,2.45"
+							}
+						]
+					},
+					{
+						"num" : "146",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.873,0.485,-0.485,0.873,0.75,2.95"
+							}
+						]
+					},
+					{
+						"num" : "147",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.827,0.56,-0.56,0.827,0.7,3.5"
+							}
+						]
+					},
+					{
+						"num" : "148",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.772,0.633,-0.633,0.772,0.6,4.05"
+							}
+						]
+					},
+					{
+						"num" : "149",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.713,0.698,-0.698,0.713,0.5,4.55"
+							}
+						]
+					},
+					{
+						"num" : "150",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.647,0.761,-0.761,0.647,0.35,5.1"
+							}
+						]
+					},
+					{
+						"num" : "151",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.577,0.815,-0.815,0.577,0.1,5.6"
+							}
+						]
+					},
+					{
+						"num" : "152",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.501,0.864,-0.864,0.501,-0.15,6.05"
+							}
+						]
+					},
+					{
+						"num" : "153",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.423,0.905,-0.905,0.423,-0.45,6.5"
+							}
+						]
+					},
+					{
+						"num" : "154",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.338,0.94,-0.94,0.338,-0.8,6.95"
+							}
+						]
+					},
+					{
+						"num" : "155",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.255,0.966,-0.966,0.255,-1.15,7.35"
+							}
+						]
+					},
+					{
+						"num" : "156",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.166,0.986,-0.986,0.166,-1.6,7.7"
+							}
+						]
+					},
+					{
+						"num" : "157",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.075,0.997,-0.997,0.075,-2.05,8.05"
+							}
+						]
+					},
+					{
+						"num" : "158",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.009,1,-1,-0.009,-2.5,8.3"
+							}
+						]
+					},
+					{
+						"num" : "159",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.1,0.995,-0.995,-0.1,-3,8.55"
+							}
+						]
+					},
+					{
+						"num" : "160",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.187,0.982,-0.982,-0.187,-3.5,8.75"
+							}
+						]
+					},
+					{
+						"num" : "161",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.276,0.96,-0.96,-0.276,-4,8.9"
+							}
+						]
+					},
+					{
+						"num" : "162",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.359,0.932,-0.932,-0.359,-4.55,8.95"
+							}
+						]
+					},
+					{
+						"num" : "163",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.442,0.895,-0.895,-0.442,-5.1,9"
+							}
+						]
+					},
+					{
+						"num" : "164",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.519,0.853,-0.853,-0.519,-5.6,9"
+							}
+						]
+					},
+					{
+						"num" : "165",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.595,0.802,-0.802,-0.595,-6.15,8.95"
+							}
+						]
+					},
+					{
+						"num" : "166",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.663,0.746,-0.746,-0.663,-6.65,8.85"
+							}
+						]
+					},
+					{
+						"num" : "167",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.729,0.683,-0.683,-0.729,-7.2,8.75"
+							}
+						]
+					},
+					{
+						"num" : "168",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.786,0.616,-0.616,-0.786,-7.7,8.55"
+							}
+						]
+					},
+					{
+						"num" : "169",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.839,0.542,-0.542,-0.839,-8.2,8.3"
+							}
+						]
+					},
+					{
+						"num" : "170",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.883,0.466,-0.466,-0.883,-8.7,8"
+							}
+						]
+					},
+					{
+						"num" : "171",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.922,0.383,-0.383,-0.922,-9.15,7.7"
+							}
+						]
+					},
+					{
+						"num" : "172",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.953,0.301,-0.301,-0.953,-9.55,7.35"
+							}
+						]
+					},
+					{
+						"num" : "173",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.976,0.213,-0.213,-0.976,-9.9,6.95"
+							}
+						]
+					},
+					{
+						"num" : "174",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.992,0.126,-0.126,-0.992,-10.25,6.55"
+							}
+						]
+					},
+					{
+						"num" : "175",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.999,0.036,-0.036,-0.999,-10.55,6.05"
+							}
+						]
+					},
+					{
+						"num" : "176",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.999,-0.049,0.049,-0.999,-10.8,5.6"
+							}
+						]
+					},
+					{
+						"num" : "177",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.99,-0.14,0.14,-0.99,-11.05,5.1"
+							}
+						]
+					},
+					{
+						"num" : "178",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.973,-0.229,0.229,-0.973,-11.2,4.55"
+							}
+						]
+					},
+					{
+						"num" : "179",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.948,-0.314,0.314,-0.948,-11.3,4.05"
+							}
+						]
+					},
+					{
+						"num" : "180",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.916,-0.399,0.399,-0.916,-11.4,3.5"
+							}
+						]
+					},
+					{
+						"num" : "181",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.877,-0.478,0.478,-0.877,-11.45,2.95"
+							}
+						]
+					},
+					{
+						"num" : "182",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.83,-0.556,0.556,-0.83,-11.4,2.45"
+							}
+						]
+					},
+					{
+						"num" : "183",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.777,-0.626,0.626,-0.777,-11.35,1.9"
+							}
+						]
+					},
+					{
+						"num" : "184",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.717,-0.695,0.695,-0.717,-11.2,1.35"
+							}
+						]
+					},
+					{
+						"num" : "185",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.653,-0.755,0.755,-0.653,-11.05,0.85"
+							}
+						]
+					},
+					{
+						"num" : "186",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.581,-0.812,0.812,-0.581,-10.85,0.35"
+							}
+						]
+					},
+					{
+						"num" : "187",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.508,-0.86,0.86,-0.508,-10.6,-0.15"
+							}
+						]
+					},
+					{
+						"num" : "188",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.427,-0.903,0.903,-0.427,-10.25,-0.6"
+							}
+						]
+					},
+					{
+						"num" : "189",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.346,-0.937,0.937,-0.346,-9.95,-1"
+							}
+						]
+					},
+					{
+						"num" : "190",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.26,-0.965,0.965,-0.26,-9.55,-1.4"
+							}
+						]
+					},
+					{
+						"num" : "191",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.174,-0.984,0.984,-0.174,-9.15,-1.8"
+							}
+						]
+					},
+					{
+						"num" : "192",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.084,-0.996,0.996,-0.084,-8.7,-2.1"
+							}
+						]
+					},
+					{
+						"num" : "193",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.001,-1,1,0.001,-8.25,-2.4"
+							}
+						]
+					},
+					{
+						"num" : "194",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.092,-0.995,0.995,0.092,-7.75,-2.6"
+							}
+						]
+					},
+					{
+						"num" : "195",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.179,-0.983,0.983,0.179,-7.25,-2.8"
+							}
+						]
+					},
+					{
+						"num" : "196",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.268,-0.963,0.963,0.268,-6.75,-2.95"
+							}
+						]
+					},
+					{
+						"num" : "197",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.351,-0.935,0.935,0.351,-6.2,-3.05"
+							}
+						]
+					},
+					{
+						"num" : "198",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.435,-0.899,0.899,0.435,-5.65,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "199",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.512,-0.857,0.857,0.512,-5.15,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "200",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.588,-0.807,0.807,0.588,-4.6,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "201",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.659,-0.752,0.752,0.659,-4.05,-3"
+							}
+						]
+					},
+					{
+						"num" : "202",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.723,-0.689,0.689,0.723,-3.55,-2.85"
+							}
+						]
+					},
+					{
+						"num" : "203",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.783,-0.62,0.62,0.783,-3,-2.65"
+							}
+						]
+					},
+					{
+						"num" : "204",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.834,-0.549,0.549,0.834,-2.55,-2.4"
+							}
+						]
+					},
+					{
+						"num" : "205",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.881,-0.47,0.47,0.881,-2.05,-2.15"
+							}
+						]
+					},
+					{
+						"num" : "206",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.919,-0.391,0.391,0.919,-1.6,-1.85"
+							}
+						]
+					},
+					{
+						"num" : "207",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.951,-0.306,0.306,0.951,-1.2,-1.45"
+							}
+						]
+					},
+					{
+						"num" : "208",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.975,-0.221,0.221,0.975,-0.8,-1.1"
+							}
+						]
+					},
+					{
+						"num" : "209",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.991,-0.131,0.131,0.991,-0.45,-0.65"
+							}
+						]
+					},
+					{
+						"num" : "210",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.999,-0.044,0.044,0.999,-0.15,-0.2"
+							}
+						]
+					},
+					{
+						"num" : "211",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.999,0.044,-0.044,0.999,0.1,0.25"
+							}
+						]
+					},
+					{
+						"num" : "212",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.991,0.131,-0.131,0.991,0.3,0.75"
+							}
+						]
+					},
+					{
+						"num" : "213",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.975,0.221,-0.221,0.975,0.5,1.3"
+							}
+						]
+					},
+					{
+						"num" : "214",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.951,0.306,-0.306,0.951,0.6,1.8"
+							}
+						]
+					},
+					{
+						"num" : "215",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.919,0.391,-0.391,0.919,0.7,2.35"
+							}
+						]
+					},
+					{
+						"num" : "216",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.881,0.47,-0.47,0.881,0.75,2.9"
+							}
+						]
+					},
+					{
+						"num" : "217",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.834,0.549,-0.549,0.834,0.7,3.4"
+							}
+						]
+					},
+					{
+						"num" : "218",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.783,0.62,-0.62,0.783,0.65,3.95"
+							}
+						]
+					},
+					{
+						"num" : "219",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.723,0.689,-0.689,0.723,0.5,4.5"
+							}
+						]
+					},
+					{
+						"num" : "220",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.659,0.75,-0.75,0.659,0.35,5"
+							}
+						]
+					},
+					{
+						"num" : "221",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.588,0.807,-0.807,0.588,0.15,5.5"
+							}
+						]
+					},
+					{
+						"num" : "222",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.515,0.857,-0.857,0.515,-0.1,6"
+							}
+						]
+					},
+					{
+						"num" : "223",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.435,0.899,-0.899,0.435,-0.4,6.45"
+							}
+						]
+					},
+					{
+						"num" : "224",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.351,0.935,-0.935,0.351,-0.75,6.9"
+							}
+						]
+					},
+					{
+						"num" : "225",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.268,0.963,-0.963,0.268,-1.1,7.3"
+							}
+						]
+					},
+					{
+						"num" : "226",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.179,0.983,-0.983,0.179,-1.5,7.65"
+							}
+						]
+					},
+					{
+						"num" : "227",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.092,0.995,-0.995,0.092,-1.95,8"
+							}
+						]
+					},
+					{
+						"num" : "228",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.001,1,-1,0.001,-2.4,8.25"
+							}
+						]
+					},
+					{
+						"num" : "229",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.084,0.996,-0.996,-0.084,-2.9,8.5"
+							}
+						]
+					},
+					{
+						"num" : "230",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.174,0.984,-0.984,-0.174,-3.4,8.7"
+							}
+						]
+					},
+					{
+						"num" : "231",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.26,0.965,-0.965,-0.26,-3.9,8.85"
+							}
+						]
+					},
+					{
+						"num" : "232",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.346,0.937,-0.937,-0.346,-4.45,8.95"
+							}
+						]
+					},
+					{
+						"num" : "233",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.427,0.903,-0.903,-0.427,-5,9"
+							}
+						]
+					},
+					{
+						"num" : "234",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.508,0.86,-0.86,-0.508,-5.5,9"
+							}
+						]
+					},
+					{
+						"num" : "235",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.581,0.812,-0.812,-0.581,-6.05,9"
+							}
+						]
+					},
+					{
+						"num" : "236",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.653,0.755,-0.755,-0.653,-6.6,8.9"
+							}
+						]
+					},
+					{
+						"num" : "237",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.717,0.695,-0.695,-0.717,-7.1,8.75"
+							}
+						]
+					},
+					{
+						"num" : "238",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.777,0.626,-0.626,-0.777,-7.65,8.55"
+							}
+						]
+					},
+					{
+						"num" : "239",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.83,0.556,-0.556,-0.83,-8.1,8.35"
+							}
+						]
+					},
+					{
+						"num" : "240",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.877,0.478,-0.478,-0.877,-8.6,8.05"
+							}
+						]
+					},
+					{
+						"num" : "241",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.916,0.399,-0.399,-0.916,-9.05,7.75"
+							}
+						]
+					},
+					{
+						"num" : "242",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.948,0.314,-0.314,-0.948,-9.45,7.4"
+							}
+						]
+					},
+					{
+						"num" : "243",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.973,0.229,-0.229,-0.973,-9.85,7"
+							}
+						]
+					},
+					{
+						"num" : "244",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.99,0.14,-0.14,-0.99,-10.2,6.6"
+							}
+						]
+					},
+					{
+						"num" : "245",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.999,0.052,-0.052,-0.999,-10.5,6.15"
+							}
+						]
+					},
+					{
+						"num" : "246",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.999,-0.035,0.035,-0.999,-10.8,5.7"
+							}
+						]
+					},
+					{
+						"num" : "247",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.992,-0.126,0.126,-0.992,-11,5.15"
+							}
+						]
+					},
+					{
+						"num" : "248",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.976,-0.213,0.213,-0.976,-11.2,4.65"
+							}
+						]
+					},
+					{
+						"num" : "249",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.953,-0.301,0.301,-0.953,-11.3,4.15"
+							}
+						]
+					},
+					{
+						"num" : "250",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.922,-0.383,0.383,-0.922,-11.4,3.6"
+							}
+						]
+					},
+					{
+						"num" : "251",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.883,-0.466,0.466,-0.883,-11.45,3.05"
+							}
+						]
+					},
+					{
+						"num" : "252",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.839,-0.542,0.542,-0.839,-11.4,2.55"
+							}
+						]
+					},
+					{
+						"num" : "253",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.786,-0.616,0.616,-0.786,-11.35,2"
+							}
+						]
+					},
+					{
+						"num" : "254",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.729,-0.683,0.683,-0.729,-11.25,1.45"
+							}
+						]
+					},
+					{
+						"num" : "255",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.663,-0.746,0.746,-0.663,-11.05,0.95"
+							}
+						]
+					},
+					{
+						"num" : "256",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.595,-0.802,0.802,-0.595,-10.85,0.45"
+							}
+						]
+					},
+					{
+						"num" : "257",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.519,-0.853,0.853,-0.519,-10.6,-0.05"
+							}
+						]
+					},
+					{
+						"num" : "258",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.442,-0.895,0.895,-0.442,-10.35,-0.5"
+							}
+						]
+					},
+					{
+						"num" : "259",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.359,-0.932,0.932,-0.359,-10,-0.95"
+							}
+						]
+					},
+					{
+						"num" : "260",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.276,-0.96,0.96,-0.276,-9.65,-1.35"
+							}
+						]
+					},
+					{
+						"num" : "261",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.187,-0.982,0.982,-0.187,-9.2,-1.7"
+							}
+						]
+					},
+					{
+						"num" : "262",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.1,-0.995,0.995,-0.1,-8.8,-2.05"
+							}
+						]
+					},
+					{
+						"num" : "263",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.009,-1,1,-0.009,-8.3,-2.35"
+							}
+						]
+					},
+					{
+						"num" : "264",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.075,-0.997,0.997,0.075,-7.85,-2.6"
+							}
+						]
+					},
+					{
+						"num" : "265",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.166,-0.986,0.986,0.166,-7.35,-2.8"
+							}
+						]
+					},
+					{
+						"num" : "266",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.255,-0.967,0.967,0.255,-6.8,-2.95"
+							}
+						]
+					},
+					{
+						"num" : "267",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.338,-0.94,0.94,0.338,-6.3,-3.05"
+							}
+						]
+					},
+					{
+						"num" : "268",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.423,-0.905,0.905,0.423,-5.75,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "269",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.501,-0.864,0.864,0.501,-5.25,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "270",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.577,-0.815,0.815,0.577,-4.7,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "271",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.647,-0.761,0.761,0.647,-4.15,-3"
+							}
+						]
+					},
+					{
+						"num" : "272",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.713,-0.698,0.698,0.713,-3.6,-2.85"
+							}
+						]
+					},
+					{
+						"num" : "273",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.772,-0.633,0.633,0.772,-3.1,-2.7"
+							}
+						]
+					},
+					{
+						"num" : "274",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.827,-0.56,0.56,0.827,-2.6,-2.45"
+							}
+						]
+					},
+					{
+						"num" : "275",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.873,-0.485,0.485,0.873,-2.15,-2.2"
+							}
+						]
+					},
+					{
+						"num" : "276",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.914,-0.404,0.404,0.914,-1.7,-1.9"
+							}
+						]
+					},
+					{
+						"num" : "277",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.946,-0.322,0.322,0.946,-1.25,-1.55"
+							}
+						]
+					},
+					{
+						"num" : "278",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.971,-0.234,0.234,0.971,-0.85,-1.15"
+							}
+						]
+					},
+					{
+						"num" : "279",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.988,-0.148,0.148,0.988,-0.5,-0.75"
+							}
+						]
+					},
+					{
+						"num" : "280",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.998,-0.057,0.057,0.998,-0.2,-0.3"
+							}
+						]
+					},
+					{
+						"num" : "281",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1,0.027,-0.027,1,0.05,0.15"
+							}
+						]
+					},
+					{
+						"num" : "282",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.993,0.118,-0.118,0.993,0.3,0.7"
+							}
+						]
+					},
+					{
+						"num" : "283",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.978,0.205,-0.205,0.978,0.45,1.2"
+							}
+						]
+					},
+					{
+						"num" : "284",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.955,0.293,-0.293,0.955,0.6,1.7"
+							}
+						]
+					},
+					{
+						"num" : "285",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.926,0.376,-0.376,0.926,0.7,2.25"
+							}
+						]
+					},
+					{
+						"num" : "286",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.887,0.458,-0.458,0.887,0.7,2.8"
+							}
+						]
+					},
+					{
+						"num" : "287",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.843,0.535,-0.535,0.843,0.7,3.3"
+							}
+						]
+					},
+					{
+						"num" : "288",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.791,0.609,-0.609,0.791,0.65,3.85"
+							}
+						]
+					},
+					{
+						"num" : "289",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.734,0.679,-0.679,0.734,0.55,4.4"
+							}
+						]
+					},
+					{
+						"num" : "290",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.67,0.741,-0.741,0.67,0.4,4.9"
+							}
+						]
+					},
+					{
+						"num" : "291",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.599,0.799,-0.799,0.599,0.2,5.45"
+							}
+						]
+					},
+					{
+						"num" : "292",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.527,0.848,-0.848,0.527,-0.05,5.9"
+							}
+						]
+					},
+					{
+						"num" : "293",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.447,0.893,-0.893,0.447,-0.35,6.4"
+							}
+						]
+					},
+					{
+						"num" : "294",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.367,0.929,-0.929,0.367,-0.65,6.8"
+							}
+						]
+					},
+					{
+						"num" : "295",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.281,0.959,-0.959,0.281,-1.05,7.25"
+							}
+						]
+					},
+					{
+						"num" : "296",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.195,0.98,-0.98,0.195,-1.45,7.6"
+							}
+						]
+					},
+					{
+						"num" : "297",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.105,0.994,-0.994,0.105,-1.9,7.95"
+							}
+						]
+					},
+					{
+						"num" : "298",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.018,1,-1,0.018,-2.35,8.2"
+							}
+						]
+					},
+					{
+						"num" : "299",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.07,0.997,-0.997,-0.07,-2.8,8.45"
+							}
+						]
+					},
+					{
+						"num" : "300",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.157,0.987,-0.987,-0.157,-3.3,8.65"
+							}
+						]
+					},
+					{
+						"num" : "301",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.246,0.968,-0.968,-0.246,-3.85,8.85"
+							}
+						]
+					},
+					{
+						"num" : "302",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.331,0.943,-0.943,-0.331,-4.35,8.95"
+							}
+						]
+					},
+					{
+						"num" : "303",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.415,0.908,-0.908,-0.415,-4.9,9"
+							}
+						]
+					},
+					{
+						"num" : "304",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.493,0.868,-0.868,-0.493,-5.4,9.05"
+							}
+						]
+					},
+					{
+						"num" : "305",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.57,0.82,-0.82,-0.57,-5.95,9"
+							}
+						]
+					},
+					{
+						"num" : "306",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.64,0.766,-0.766,-0.64,-6.5,8.9"
+							}
+						]
+					},
+					{
+						"num" : "307",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.707,0.704,-0.704,-0.707,-7.05,8.8"
+							}
+						]
+					},
+					{
+						"num" : "308",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.767,0.64,-0.64,-0.767,-7.55,8.6"
+							}
+						]
+					},
+					{
+						"num" : "309",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.822,0.567,-0.567,-0.822,-8.05,8.4"
+							}
+						]
+					},
+					{
+						"num" : "310",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.869,0.492,-0.492,-0.869,-8.5,8.1"
+							}
+						]
+					},
+					{
+						"num" : "311",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.91,0.411,-0.411,-0.91,-9,7.8"
+							}
+						]
+					},
+					{
+						"num" : "312",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.944,0.327,-0.327,-0.944,-9.4,7.45"
+							}
+						]
+					},
+					{
+						"num" : "313",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.969,0.242,-0.242,-0.969,-9.8,7.1"
+							}
+						]
+					},
+					{
+						"num" : "314",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.988,0.153,-0.153,-0.988,-10.15,6.65"
+							}
+						]
+					},
+					{
+						"num" : "315",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.998,0.066,-0.066,-0.998,-10.45,6.2"
+							}
+						]
+					},
+					{
+						"num" : "316",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-1,-0.022,0.022,-1,-10.75,5.75"
+							}
+						]
+					},
+					{
+						"num" : "317",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.994,-0.11,0.11,-0.994,-10.95,5.25"
+							}
+						]
+					},
+					{
+						"num" : "318",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.979,-0.2,0.2,-0.979,-11.15,4.75"
+							}
+						]
+					},
+					{
+						"num" : "319",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.958,-0.285,0.285,-0.958,-11.3,4.25"
+							}
+						]
+					},
+					{
+						"num" : "320",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.928,-0.371,0.371,-0.928,-11.4,3.7"
+							}
+						]
+					},
+					{
+						"num" : "321",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.891,-0.451,0.451,-0.891,-11.4,3.15"
+							}
+						]
+					},
+					{
+						"num" : "322",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.846,-0.53,0.53,-0.846,-11.4,2.65"
+							}
+						]
+					},
+					{
+						"num" : "323",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.796,-0.602,0.602,-0.796,-11.35,2.1"
+							}
+						]
+					},
+					{
+						"num" : "324",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.738,-0.673,0.673,-0.738,-11.25,1.55"
+							}
+						]
+					},
+					{
+						"num" : "325",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.676,-0.735,0.735,-0.676,-11.1,1.05"
+							}
+						]
+					},
+					{
+						"num" : "326",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.606,-0.794,0.794,-0.606,-10.9,0.5"
+							}
+						]
+					},
+					{
+						"num" : "327",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.534,-0.844,0.844,-0.534,-10.65,0.05"
+							}
+						]
+					},
+					{
+						"num" : "328",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.455,-0.889,0.889,-0.455,-10.4,-0.45"
+							}
+						]
+					},
+					{
+						"num" : "329",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.375,-0.926,0.926,-0.375,-10.05,-0.85"
+							}
+						]
+					},
+					{
+						"num" : "330",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.289,-0.956,0.956,-0.289,-9.7,-1.3"
+							}
+						]
+					},
+					{
+						"num" : "331",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.204,-0.978,0.978,-0.204,-9.3,-1.65"
+							}
+						]
+					},
+					{
+						"num" : "332",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.114,-0.993,0.993,-0.114,-8.85,-2"
+							}
+						]
+					},
+					{
+						"num" : "333",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.026,-1,1,-0.026,-8.4,-2.3"
+							}
+						]
+					},
+					{
+						"num" : "334",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.062,-0.998,0.998,0.062,-7.95,-2.55"
+							}
+						]
+					},
+					{
+						"num" : "335",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.152,-0.988,0.988,0.152,-7.45,-2.75"
+							}
+						]
+					},
+					{
+						"num" : "336",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.238,-0.97,0.97,0.238,-6.9,-2.9"
+							}
+						]
+					},
+					{
+						"num" : "337",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.326,-0.944,0.944,0.326,-6.35,-3.05"
+							}
+						]
+					},
+					{
+						"num" : "338",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.407,-0.912,0.912,0.407,-5.85,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "339",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.489,-0.871,0.871,0.489,-5.35,-3.15"
+							}
+						]
+					},
+					{
+						"num" : "340",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.563,-0.824,0.824,0.563,-4.8,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "341",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.636,-0.769,0.769,0.636,-4.25,-3"
+							}
+						]
+					},
+					{
+						"num" : "342",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.701,-0.71,0.71,0.701,-3.7,-2.9"
+							}
+						]
+					},
+					{
+						"num" : "343",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.763,-0.643,0.643,0.763,-3.2,-2.7"
+							}
+						]
+					},
+					{
+						"num" : "344",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.817,-0.574,0.574,0.817,-2.7,-2.5"
+							}
+						]
+					},
+					{
+						"num" : "345",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.866,-0.497,0.497,0.866,-2.2,-2.25"
+							}
+						]
+					},
+					{
+						"num" : "346",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.907,-0.419,0.419,0.907,-1.75,-1.95"
+							}
+						]
+					},
+					{
+						"num" : "347",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.941,-0.335,0.335,0.941,-1.35,-1.6"
+							}
+						]
+					},
+					{
+						"num" : "348",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.967,-0.251,0.251,0.967,-0.95,-1.2"
+							}
+						]
+					},
+					{
+						"num" : "349",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.986,-0.161,0.161,0.986,-0.55,-0.8"
+							}
+						]
+					},
+					{
+						"num" : "350",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.997,-0.074,0.074,0.997,-0.25,-0.35"
+							}
+						]
+					},
+					{
+						"num" : "351",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1,0.014,-0.014,1,0,0.1"
+							}
+						]
+					},
+					{
+						"num" : "352",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.995,0.101,-0.101,0.995,0.25,0.6"
+							}
+						]
+					},
+					{
+						"num" : "353",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.981,0.191,-0.191,0.981,0.45,1.1"
+							}
+						]
+					},
+					{
+						"num" : "354",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.96,0.277,-0.277,0.96,0.6,1.6"
+							}
+						]
+					},
+					{
+						"num" : "355",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.931,0.363,-0.363,0.931,0.65,2.15"
+							}
+						]
+					},
+					{
+						"num" : "356",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.895,0.446,-0.446,0.895,0.75,2.7"
+							}
+						]
+					},
+					{
+						"num" : "357",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.851,0.523,-0.523,0.851,0.7,3.2"
+							}
+						]
+					},
+					{
+						"num" : "358",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.799,0.598,-0.598,0.799,0.65,3.75"
+							}
+						]
+					},
+					{
+						"num" : "359",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.743,0.666,-0.666,0.743,0.55,4.3"
+							}
+						]
+					},
+					{
+						"num" : "360",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.68,0.731,-0.731,0.68,0.4,4.85"
+							}
+						]
+					},
+					{
+						"num" : "361",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.613,0.788,-0.788,0.613,0.25,5.35"
+							}
+						]
+					},
+					{
+						"num" : "362",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.538,0.841,-0.841,0.538,0,5.85"
+							}
+						]
+					},
+					{
+						"num" : "363",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.462,0.885,-0.885,0.462,-0.3,6.3"
+							}
+						]
+					},
+					{
+						"num" : "364",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.379,0.924,-0.924,0.379,-0.6,6.75"
+							}
+						]
+					},
+					{
+						"num" : "365",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.297,0.954,-0.954,0.297,-0.95,7.15"
+							}
+						]
+					},
+					{
+						"num" : "366",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.209,0.977,-0.977,0.209,-1.4,7.55"
+							}
+						]
+					},
+					{
+						"num" : "367",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.122,0.992,-0.992,0.122,-1.8,7.85"
+							}
+						]
+					},
+					{
+						"num" : "368",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.031,0.999,-0.999,0.031,-2.25,8.2"
+							}
+						]
+					},
+					{
+						"num" : "369",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.053,0.998,-0.998,-0.053,-2.7,8.4"
+							}
+						]
+					},
+					{
+						"num" : "370",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.144,0.989,-0.989,-0.144,-3.25,8.65"
+							}
+						]
+					},
+					{
+						"num" : "371",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.23,0.972,-0.972,-0.23,-3.75,8.8"
+							}
+						]
+					},
+					{
+						"num" : "372",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.318,0.947,-0.947,-0.318,-4.3,8.95"
+							}
+						]
+					},
+					{
+						"num" : "373",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.4,0.915,-0.915,-0.4,-4.8,9"
+							}
+						]
+					},
+					{
+						"num" : "374",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.481,0.875,-0.875,-0.481,-5.35,9.05"
+							}
+						]
+					},
+					{
+						"num" : "375",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.556,0.829,-0.829,-0.556,-5.85,9"
+							}
+						]
+					},
+					{
+						"num" : "376",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.63,0.775,-0.775,-0.63,-6.4,8.95"
+							}
+						]
+					},
+					{
+						"num" : "377",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.698,0.716,-0.716,-0.698,-6.95,8.8"
+							}
+						]
+					},
+					{
+						"num" : "378",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.758,0.65,-0.65,-0.758,-7.45,8.65"
+							}
+						]
+					},
+					{
+						"num" : "379",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.814,0.578,-0.578,-0.814,-8,8.4"
+							}
+						]
+					},
+					{
+						"num" : "380",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.862,0.504,-0.504,-0.862,-8.45,8.15"
+							}
+						]
+					},
+					{
+						"num" : "381",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.904,0.424,-0.424,-0.904,-8.9,7.85"
+							}
+						]
+					},
+					{
+						"num" : "382",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.938,0.342,-0.342,-0.938,-9.35,7.55"
+							}
+						]
+					},
+					{
+						"num" : "383",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.966,0.256,-0.256,-0.966,-9.75,7.15"
+							}
+						]
+					},
+					{
+						"num" : "384",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.985,0.17,-0.17,-0.985,-10.1,6.75"
+							}
+						]
+					},
+					{
+						"num" : "385",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.997,0.079,-0.079,-0.997,-10.4,6.3"
+							}
+						]
+					},
+					{
+						"num" : "386",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-1,-0.005,0.005,-1,-10.7,5.85"
+							}
+						]
+					},
+					{
+						"num" : "387",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.995,-0.096,0.096,-0.995,-10.95,5.35"
+							}
+						]
+					},
+					{
+						"num" : "388",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.983,-0.183,0.183,-0.983,-11.1,4.85"
+							}
+						]
+					},
+					{
+						"num" : "389",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.961,-0.272,0.272,-0.961,-11.25,4.3"
+							}
+						]
+					},
+					{
+						"num" : "390",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.934,-0.355,0.355,-0.934,-11.35,3.8"
+							}
+						]
+					},
+					{
+						"num" : "391",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.897,-0.439,0.439,-0.897,-11.4,3.2"
+							}
+						]
+					},
+					{
+						"num" : "392",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.855,-0.516,0.516,-0.855,-11.4,2.75"
+							}
+						]
+					},
+					{
+						"num" : "393",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.804,-0.592,0.592,-0.804,-11.35,2.2"
+							}
+						]
+					},
+					{
+						"num" : "394",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.749,-0.66,0.66,-0.749,-11.3,1.65"
+							}
+						]
+					},
+					{
+						"num" : "395",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.686,-0.726,0.726,-0.686,-11.15,1.1"
+							}
+						]
+					},
+					{
+						"num" : "396",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.619,-0.783,0.783,-0.619,-10.95,0.6"
+							}
+						]
+					},
+					{
+						"num" : "397",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.545,-0.837,0.837,-0.545,-10.7,0.1"
+							}
+						]
+					},
+					{
+						"num" : "398",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.47,-0.881,0.881,-0.47,-10.45,-0.35"
+							}
+						]
+					},
+					{
+						"num" : "399",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.387,-0.921,0.921,-0.387,-10.1,-0.8"
+							}
+						]
+					},
+					{
+						"num" : "400",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.305,-0.952,0.952,-0.305,-9.75,-1.2"
+							}
+						]
+					},
+					{
+						"num" : "401",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.217,-0.975,0.975,-0.217,-9.35,-1.6"
+							}
+						]
+					},
+					{
+						"num" : "402",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.127,-0.991,0.991,-0.127,-8.95,-1.95"
+							}
+						]
+					},
+					{
+						"num" : "403",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "-0.04,-0.999,0.999,-0.04,-8.5,-2.25"
+							}
+						]
+					},
+					{
+						"num" : "404",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.048,-0.999,0.999,0.048,-8,-2.5"
+							}
+						]
+					},
+					{
+						"num" : "405",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.135,-0.99,0.99,0.135,-7.5,-2.7"
+							}
+						]
+					},
+					{
+						"num" : "406",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.225,-0.974,0.974,0.225,-7,-2.9"
+							}
+						]
+					},
+					{
+						"num" : "407",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.31,-0.95,0.95,0.31,-6.45,-3"
+							}
+						]
+					},
+					{
+						"num" : "408",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.395,-0.917,0.917,0.395,-5.9,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "409",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.474,-0.879,0.879,0.474,-5.4,-3.15"
+							}
+						]
+					},
+					{
+						"num" : "410",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.552,-0.832,0.832,0.552,-4.9,-3.1"
+							}
+						]
+					},
+					{
+						"num" : "411",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.623,-0.78,0.78,0.623,-4.35,-3.05"
+							}
+						]
+					},
+					{
+						"num" : "412",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.692,-0.72,0.72,0.692,-3.8,-2.9"
+							}
+						]
+					},
+					{
+						"num" : "413",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.752,-0.656,0.656,0.752,-3.3,-2.75"
+							}
+						]
+					},
+					{
+						"num" : "414",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.809,-0.585,0.585,0.809,-2.75,-2.55"
+							}
+						]
+					},
+					{
+						"num" : "415",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.858,-0.511,0.511,0.858,-2.3,-2.3"
+							}
+						]
+					},
+					{
+						"num" : "416",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.901,-0.431,0.431,0.901,-1.85,-2"
+							}
+						]
+					},
+					{
+						"num" : "417",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.935,-0.35,0.35,0.935,-1.4,-1.65"
+							}
+						]
+					},
+					{
+						"num" : "418",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.964,-0.264,0.264,0.964,-1,-1.3"
+							}
+						]
+					},
+					{
+						"num" : "419",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.983,-0.178,0.178,0.983,-0.65,-0.9"
+							}
+						]
+					},
+					{
+						"num" : "420",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "0.996,-0.088,0.088,0.996,-0.3,-0.45"
+							}
+						]
+					},
+					{
+						"num" : "421",
+						"Command" : [
+							{
+								"cmdType" : "Move",
+								"objectId" : "1",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "19",
+				"frameCount" : "10",
+				"name" : "ring0",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "9",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "10",
+								"objectId" : "2",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "11",
+								"objectId" : "3",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "12",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "13",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "14",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "15",
+								"objectId" : "7",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "16",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "8"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "17",
+								"objectId" : "9",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "9"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "18",
+								"objectId" : "10",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "30",
+				"frameCount" : "10",
+				"name" : "ring6",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "20",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "21",
+								"objectId" : "2",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "22",
+								"objectId" : "3",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "23",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "24",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "25",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "26",
+								"objectId" : "7",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "27",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "8"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "28",
+								"objectId" : "9",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "9"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "29",
+								"objectId" : "10",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "41",
+				"frameCount" : "10",
+				"name" : "ring5",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "31",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "32",
+								"objectId" : "2",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "33",
+								"objectId" : "3",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "34",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "35",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "36",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "37",
+								"objectId" : "7",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "38",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "8"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "39",
+								"objectId" : "9",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "9"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "40",
+								"objectId" : "10",
+								"placeAfter" : "0",
+								"transformMatrix" : "1.432,0,0,1.432,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "52",
+				"frameCount" : "10",
+				"name" : "ring4",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "42",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "43",
+								"objectId" : "2",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "44",
+								"objectId" : "3",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "45",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "46",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "47",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "48",
+								"objectId" : "7",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "49",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "8"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "50",
+								"objectId" : "9",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "9"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "51",
+								"objectId" : "10",
+								"placeAfter" : "0",
+								"transformMatrix" : "1.543,0,0,1.543,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "63",
+				"frameCount" : "10",
+				"name" : "ring3",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "53",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "54",
+								"objectId" : "2",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "55",
+								"objectId" : "3",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "56",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "57",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "58",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "59",
+								"objectId" : "7",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "60",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "8"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "61",
+								"objectId" : "9",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "9"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "62",
+								"objectId" : "10",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "74",
+				"frameCount" : "10",
+				"name" : "ring2",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "64",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "65",
+								"objectId" : "2",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "66",
+								"objectId" : "3",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "67",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "68",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "69",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "70",
+								"objectId" : "7",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "71",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "8"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "72",
+								"objectId" : "9",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "9"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "73",
+								"objectId" : "10",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "85",
+				"frameCount" : "10",
+				"name" : "ring1",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "75",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "1",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "1"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "76",
+								"objectId" : "2",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "2",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "2"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "77",
+								"objectId" : "3",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "3",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "3"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "78",
+								"objectId" : "4",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "4",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "4"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "79",
+								"objectId" : "5",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "5",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "5"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "80",
+								"objectId" : "6",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "6",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "6"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "81",
+								"objectId" : "7",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "7",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "7"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "82",
+								"objectId" : "8",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "8",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "8"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "83",
+								"objectId" : "9",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					},
+					{
+						"num" : "9",
+						"Command" : [
+							{
+								"cmdType" : "Remove",
+								"objectId" : "9"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "84",
+								"objectId" : "10",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"charid" : "87",
+				"frameCount" : "1",
+				"name" : "speedRings",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "19",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "30",
+								"objectId" : "2",
+								"placeAfter" : "1",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "2",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "2",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "41",
+								"objectId" : "3",
+								"placeAfter" : "2",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "3",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "3",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "3",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "52",
+								"objectId" : "4",
+								"placeAfter" : "3",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "4",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "4",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "4",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "63",
+								"objectId" : "5",
+								"placeAfter" : "4",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "5",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "5",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "5",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "74",
+								"objectId" : "6",
+								"placeAfter" : "5",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "6",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "6",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "6",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "85",
+								"objectId" : "7",
+								"placeAfter" : "6",
+								"transformMatrix" : "1,0,0,1,0,0"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "7",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "7",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "7",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "86",
+								"objectId" : "8",
+								"placeAfter" : "7",
+								"transformMatrix" : "1,0,0,1,0,0"
+							}
+						]
+					}
+				]
+			},
+			{
+				"frameCount" : "1",
+				"Frame" : [
+					{
+						"num" : "0",
+						"Command" : [
+							{
+								"cmdType" : "Place",
+								"charid" : "8",
+								"objectId" : "1",
+								"placeAfter" : "0",
+								"transformMatrix" : "1,0,0,1,876.8,869.55"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "1",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "1",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "1",
+								"blendMode" : "Normal"
+							},
+							{
+								"cmdType" : "Place",
+								"charid" : "87",
+								"objectId" : "2",
+								"placeAfter" : "1",
+								"transformMatrix" : "1,0,0,1,874.15,874.15",
+								"name" : "ringZoom"
+							},
+							{
+								"cmdType" : "UpdateColorTransform",
+								"objectId" : "2",
+								"colorMatrix" : "1,0,1,0,1,0,1,0,"
+							},
+							{
+								"cmdType" : "UpdateVisibility",
+								"objectId" : "2",
+								"visibility" : "true"
+							},
+							{
+								"cmdType" : "UpdateBlendMode",
+								"objectId" : "2",
+								"blendMode" : "Normal"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
