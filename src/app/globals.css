@@ -248,7 +248,10 @@ blockquote {
 --------------------------------------------------------------------------- */
 .hero-anim {
   position: relative;
-  height: clamp(360px, 60vh, 680px);
+  /* height tracks --sun (width-driven) rather than vh, so the sun/moon/title
+     composition keeps the same proportions at every viewport aspect ratio
+     instead of stretching into empty space on tall/narrow screens */
+  height: clamp(320px, calc(var(--sun) * 0.56), 620px);
   background: #fff;
   overflow: hidden;
 }
@@ -289,13 +292,19 @@ blockquote {
 .scene-1 h1 {
   position: absolute;
   top: 26%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  width: 100%;
+  /* centered via text-align on a full-width box, not a translateX(-50%) —
+     that kept the animated transform (which also drives the rise-in) fully
+     responsible for horizontal position, and could render one frame off-
+     center around a font swap/layout pass on first load. text-align never
+     has that failure mode. */
+  text-align: center;
   font-family: var(--font-label);
-  font-size: clamp(16px, 2vw, 29px);
+  font-size: clamp(11px, 4.5vw, 29px);
   font-weight: 600;
   letter-spacing: 0.3em;
-  text-indent: 0.3em;
+  text-indent: 0.15em;
   text-transform: uppercase;
   color: #000;
   margin: 0;
@@ -305,15 +314,20 @@ blockquote {
   animation: hero-title 20s linear infinite;
 }
 @keyframes hero-title {
-  0%, 12.49% { transform: translate(-50%, 60vh); opacity: 0; }
-  12.5% { transform: translate(-50%, 60vh); opacity: 1; animation-timing-function: cubic-bezier(0.25, 0, 0.25, 1); }
-  19% { transform: translate(-50%, 0); opacity: 1; }
-  36% { transform: translate(-50%, 0); opacity: 1; }
-  39.5% { transform: translate(-50%, 0); opacity: 0; }
-  100% { transform: translate(-50%, 0); opacity: 0; }
+  0%, 12.49% { transform: translateY(60vh); opacity: 0; }
+  12.5% { transform: translateY(60vh); opacity: 1; animation-timing-function: cubic-bezier(0.25, 0, 0.25, 1); }
+  19% { transform: translateY(0); opacity: 1; }
+  36% { transform: translateY(0); opacity: 1; }
+  39.5% { transform: translateY(0); opacity: 0; }
+  100% { transform: translateY(0); opacity: 0; }
 }
 
-.hero-anim { --sun: min(60vw, 880px); }
+.hero-anim {
+  --sun: min(60vw, 880px);
+  /* moon diameter as a fixed fraction of the hill, so the two stay in the
+     same proportion at every viewport size instead of drifting apart */
+  --moon: clamp(40px, calc(var(--sun) * 0.12), 108px);
+}
 .scene-1 .sunhill {
   position: absolute;
   left: 50%;
@@ -327,7 +341,10 @@ blockquote {
   z-index: 2;
 }
 /* one sphere: rises up (soft, translucent), then drops and rests cropped by
-   the bottom of the frame — the visible cap IS the hill */
+   the bottom of the frame — the visible cap IS the hill. It resets back to
+   its hidden, off-screen position at 41% (well inside scene-1's already-
+   invisible window per hero-s1 below, not at the 100%/0% loop seam) so a
+   loop restart can never show a stray frame of the resting hill. */
 @keyframes hero-sunhill {
   0%, 1.5% {
     bottom: 100%;
@@ -335,19 +352,28 @@ blockquote {
     opacity: 0.85;
     animation-timing-function: cubic-bezier(0.4, 0, 0.35, 1);
   }
-  9.5%, 100% {
+  9.5%, 41% {
     bottom: calc(-0.85 * var(--sun));
     filter: saturate(1) brightness(1);
     opacity: 1;
+  }
+  41.5%, 100% {
+    bottom: 100%;
+    filter: saturate(0.55) brightness(1.18);
+    opacity: 0.85;
   }
 }
 
 .scene-1 .moon {
   position: absolute;
   left: 50%;
-  bottom: calc(0.19 * var(--sun) + clamp(56px, 6.5vw, 92px) * 0.5);
-  width: clamp(56px, 6.5vw, 92px);
-  height: clamp(56px, 6.5vw, 92px);
+  /* hill's visible cap tops out at 0.15 * --sun (1 - 0.85 above); hold the
+     gap to it at 0.4 * --moon so the two circles stay proportionally close
+     the way they are on the live site, instead of drifting apart on wide
+     viewports */
+  bottom: calc(0.15 * var(--sun) + 0.4 * var(--moon));
+  width: var(--moon);
+  height: var(--moon);
   border-radius: 50%;
   background: linear-gradient(90deg, #15d3f5 50%, #0b65f1 50%);
   transform: translate(-50%, 500%);
@@ -358,8 +384,8 @@ blockquote {
 @keyframes hero-moon {
   0%, 10.99% { transform: translate(-50%, 500%); opacity: 0; }
   11% { transform: translate(-50%, 500%); opacity: 1; animation-timing-function: cubic-bezier(0.25, 0, 0.25, 1); }
-  16.5% { transform: translate(-50%, 0); opacity: 1; }
-  100% { transform: translate(-50%, 0); opacity: 1; }
+  16.5%, 41% { transform: translate(-50%, 0); opacity: 1; }
+  41.5%, 100% { transform: translate(-50%, 500%); opacity: 0; }
 }
 
 /* scene 2 */
@@ -431,10 +457,13 @@ blockquote {
 @media (prefers-reduced-motion: reduce) {
   .hero-anim .scene, .scene-1 h1, .scene-1 .sunhill, .scene-1 .moon,
   .scene-2 .waves, .scene-2 .tagline { animation: none !important; }
-  .scene-1 { opacity: 1; }
-  .scene-1 h1 { opacity: 1; transform: translate(-50%, 0); }
+  /* !important: `.hero-anim .scene` (two classes) otherwise outranks this
+     single-class selector and pins opacity at 0, leaving the whole scene
+     invisible even with its animation stopped */
+  .scene-1 { opacity: 1 !important; }
+  .scene-1 h1 { opacity: 1; transform: translateY(0); }
   .scene-1 .moon { opacity: 1; }
-  .scene-1 .sunhill { bottom: calc(-0.79 * var(--sun)); filter: none; opacity: 1; }
+  .scene-1 .sunhill { bottom: calc(-0.85 * var(--sun)); filter: none; opacity: 1; }
   .scene-1 .moon { transform: translate(-50%, 0); }
   .scene-2, .scene-3 { display: none; }
 }

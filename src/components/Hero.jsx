@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="scene scene-3" aria-hidden="true">
         <div className="lockup">
           <img
-            src="/uploads/2019/09/logomark19-web.png"
+            src="/uploads/2019/09/logomark19-web-hero.png"
             alt=""
             className="lockup-mark"
           />
