@@ -14,8 +14,8 @@ let dir = {
     ymove : -2,
     cwAngle : 180,
     ccAngle : 360,
-    crsrCW: "cursor-cw-r.png",
-    crsrCCW: "cursor-ccw-l.png",
+    crsrCW: "/dev/stripeytime/cursor-cw-r.png",
+    crsrCCW: "/dev/stripeytime/cursor-ccw-l.png",
     steer: "v"
   },
   "down": {
@@ -23,8 +23,8 @@ let dir = {
     ymove : +2,
     cwAngle : 0,
     ccAngle : 180,
-    crsrCW: "cursor-cw-l.png",
-    crsrCCW: "cursor-ccw-r.png",
+    crsrCW: "/dev/stripeytime/cursor-cw-l.png",
+    crsrCCW: "/dev/stripeytime/cursor-ccw-r.png",
     steer: "v"
   },
   "left": {
@@ -32,8 +32,8 @@ let dir = {
     ymove : 0,
     cwAngle : 90,
     ccAngle : 270,
-    crsrCW: "cursor-cw-u.png",
-    crsrCCW: "cursor-ccw-d.png",
+    crsrCW: "/dev/stripeytime/cursor-cw-u.png",
+    crsrCCW: "/dev/stripeytime/cursor-ccw-d.png",
     steer: "h"
   },
   "right": {
@@ -41,8 +41,8 @@ let dir = {
     ymove : 0,
     cwAngle : 270,
     ccAngle : 90,
-    crsrCW: "cursor-cw-d.png",
-    crsrCCW: "cursor-ccw-u.png",
+    crsrCW: "/dev/stripeytime/cursor-cw-d.png",
+    crsrCCW: "/dev/stripeytime/cursor-ccw-u.png",
     steer: "h"
   }
 } 

@@ -777,10 +777,10 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_93.png?1543556626177", id:"CachedTexturedBitmap_93"},
-		{src:"images/CachedTexturedBitmap_96.png?1543556626177", id:"CachedTexturedBitmap_96"},
-		{src:"images/Homeanimationsetup2x.jpg?1543556626177", id:"Homeanimationsetup2x"},
-		{src:"images/kmp_homeanimation02_atlas_.png?1543556626055", id:"kmp_homeanimation02_atlas_"}
+		{src:"/dev/kmp/images/CachedTexturedBitmap_93.png?1543556626177", id:"CachedTexturedBitmap_93"},
+		{src:"/dev/kmp/images/CachedTexturedBitmap_96.png?1543556626177", id:"CachedTexturedBitmap_96"},
+		{src:"/dev/kmp/images/Homeanimationsetup2x.jpg?1543556626177", id:"Homeanimationsetup2x"},
+		{src:"/dev/kmp/images/kmp_homeanimation02_atlas_.png?1543556626055", id:"kmp_homeanimation02_atlas_"}
 	],
 	preloads: []
 };

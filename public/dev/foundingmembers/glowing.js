@@ -2,7 +2,7 @@ console.clear();
 
 // Function to fetch and parse the CSV file - courtesy of chatGPT
 function fetchCSVFile() {
-    fetch('donorlist.csv') // path to your CSV file
+    fetch('/dev/foundingmembers/donorlist.csv') // path to your CSV file
         .then(response => response.text())
         .then(data => {
             const names = data.split('\n'); // Split CSV data into an array of names

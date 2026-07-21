@@ -37,6 +37,15 @@ const nextConfig = {
       },
     ];
   },
+  // public/dev/<project>/ sketches are static index.html files, but Next's
+  // public-folder serving matches exact paths only — it won't resolve a
+  // directory URL to that directory's index.html the way a plain static
+  // host does. This runs only when no real file/page matched the path.
+  async rewrites() {
+    return [
+      { source: '/dev/:project', destination: '/dev/:project/index.html' },
+    ];
+  },
 };
 
 export default nextConfig;

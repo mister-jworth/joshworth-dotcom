@@ -18,7 +18,7 @@ const detection_options = {
 }
 
 function preload(){
-  pew = loadSound('lazer.mp3');
+  pew = loadSound('/dev/lazereyezer/lazer.mp3');
 }
 
 function setup() {
