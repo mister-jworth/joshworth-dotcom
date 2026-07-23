@@ -25,7 +25,8 @@ var translations = {
 		'zt': "如果月亮的大小只有1個像素 - 因為精確導致過份冗長的太陽系地圖",
 		'kr': "만약 달이 1픽셀이라면 - 지독히 정확한 비율의 태양계 모델",
 		'ro': "Dacă Luna ar ocupa doar 1 Pixel - O hartă minuțios de precisă a sistemului solar",
-		'uz': "AGARDA OY ATIGI 1 PIKSEL BO‘LGANIDA – ZERIKTIRADIGAN DARAJADA ANIQ BO‘LGAN QUYOSH TIZIMI XARITASI"
+		'uz': "AGARDA OY ATIGI 1 PIKSEL BO‘LGANIDA – ZERIKTIRADIGAN DARAJADA ANIQ BO‘LGAN QUYOSH TIZIMI XARITASI",
+		'sl': "Če bi bila luna velika le 1 piksel - Utrudljivo natančen zemljevid sončnega sistema"
 
 	},
 	'suntxt': {
@@ -53,7 +54,8 @@ var translations = {
 		'zt': "太陽",
 		'kr': "해",
 		'ro': "Soarele",
-		'uz': "QUYOSH"
+		'uz': "QUYOSH",
+		'sl': "Sonce"
 		
 	},
 	'ten-million-km': {
@@ -81,7 +83,8 @@ var translations = {
 		'zt': "現在差不多是一千萬公里（6,213,710 英里）。",
 		'kr': "이제 10,000,000 킬로미터 (6,213,710 마일) 정도 왔어요.",
 		'ro': "Până acum sunt 10 milioane km",
-		'uz': "Hozirning o‘zida taxminan 10 million km masofani bosib o‘tdik."
+		'uz': "Hozirning o‘zida taxminan 10 million km masofani bosib o‘tdik.",
+		'sl': "Naredili smo že približno 10 milijonov kilometrov."
     },
      'pretty-empty': {
 		 'en': "Pretty empty out here.",
@@ -108,7 +111,8 @@ var translations = {
 		'zt': "這裡真的是挺空曠的。",
 		'kr': "꽤나 텅 비었군요.",
 		'ro': "E destul de gol pe-aici.",
-		'uz': "Bu yerda shunchaki bo‘shliq bor."
+		'uz': "Bu yerda shunchaki bo‘shliq bor.",
+		'sl': "Precej prazno je tukaj."
     },
 	'here-comes-our': {
 		'en': "Here comes our first planet",
@@ -135,7 +139,8 @@ var translations = {
 		'zt': "我們的第一顆行星即將登場。",
 		'kr': "자 첫 번째 행성을 소개할게요…",
 		'ro': "Iată și prima planetă.",
-		'uz': "Nihoyat, birinchi sayyoraga ham yetib keldik."
+		'uz': "Nihoyat, birinchi sayyoraga ham yetib keldik.",
+		'sl': "Približujemo se našemu prvemu planetu."
 	},
 	'merclabel': {
 		'en': "Mercury",
@@ -162,7 +167,8 @@ var translations = {
 		'zt': "水星",
 		'kr': "수성",
 		'ro': "Mercur",
-		'uz': "MERKURIY"
+		'uz': "MERKURIY",
+		'sl': "Merkur"
 	},
      'as-it-turns': {
 		 'en': "As it turns out, things are pretty far apart.",
@@ -189,7 +195,8 @@ var translations = {
 		'zt': "你會發現，星體間的距離其實相當遙遠。",
 		'kr': "알고 보니, 천체 사이가 아주 멀지요.",
 		'ro': "După cum se vede, lucrurile sunt destul de îndepărtate unele de altele.",
-		'uz': "Bu jismlar bir-biridan ancha uzoqda joylashgan."  
+		'uz': "Bu jismlar bir-biridan ancha uzoqda joylashgan.",
+		'sl': "Očitno so stvari kar daleč narazen."
     },
      'well-be-coming': {
 		 'en': "We’ll be coming up on a new planet soon. Sit tight.",
@@ -216,7 +223,8 @@ var translations = {
 		'zt': "坐穩囉，我們要迎接第二顆行星啦。",
 		'kr': "곧이어 또 다른 행성이 나와요. 지켜보세요.",
 		'ro': "Curând vom ajunge la o nouă planetă. Țineți-vă bine." ,
-		'uz': "Hozir yana bir sayyora bilan yuzlashamiz. Chidang."  
+		'uz': "Hozir yana bir sayyora bilan yuzlashamiz. Chidang.",
+		'sl': "Kmalu bomo prišli do naslednjega planeta. Kar potrpežljivo."
     },
 	 'venuslabel': {
 		 'en': "Venus",
@@ -243,7 +251,8 @@ var translations = {
 		'zt': "金星",
 		'kr': "금성",
 		'ro': "Venus",
-		'uz': "VENERA"  
+		'uz': "VENERA",
+		'sl': "Venera"
 	 },
      'most-of-space': {
 		 'en': "Most of space is just space.",
@@ -270,7 +279,8 @@ var translations = {
 		'zt': "太空基本上真的就是個太過空曠的地方。",
 		'kr': "우주의 대부분은 그저 빈칸이에요.",
 		'ro': "Cea mai mare parte a spațiului este doar spațiu.",
-		'uz': "Koinotning asosiy qismi bo‘shliqdan iborat."   
+		'uz': "Koinotning asosiy qismi bo‘shliqdan iborat.",
+		'sl': "Večina vesolja je le prazen prostor."
 		 
     },
      'halfway-home': {
@@ -298,7 +308,8 @@ var translations = {
 		'zt': "快到家啦～",
 		'kr': "직전 역에서 고향까지 절반 왔어요.",
 		'ro': "Jumătatea drumului spre casă.",
-		'uz': "Uyga yarim yo‘l qoldi."  
+		'uz': "Uyga yarim yo‘l qoldi.",
+		'sl': "Smo že na pol poti domov."
     },
     'earthlabel': {
 		 'en': "Earth",
@@ -325,7 +336,8 @@ var translations = {
 		'zt': "地球",
 		'kr': "지구",
 		'ro': "Pământul",
-		'uz': "YER"  
+		'uz': "YER",
+		'sl': "Zemlja"
     },
      'you-are-here': {
        	'en': "(You are here)",
@@ -352,7 +364,8 @@ var translations = {
 		'zt': "(您的現在位置)",
 		'kr': "당신은 여기에 있어요",
 		'ro': "(Vă aflați aici)",
-		'uz': "(SIZ SHU YERDASIZ)"  
+		'uz': "(SIZ SHU YERDASIZ)",
+		'sl': "(Nahajate se tukaj.)"
     }, 
 	  'moonlabel': {
        	'en': "Moon",
@@ -379,7 +392,8 @@ var translations = {
 		'zt': "月球",
 		'kr': "달",
 		'ro': "Luna",
-		'uz': "OY"    
+		'uz': "OY",
+		'sl': "Luna"
     },
 	 'destination-mars': {
 		 'en': "Destination: Mars!",
@@ -406,7 +420,8 @@ var translations = {
 		'zt': "下個目的地：火星！",
 		'kr': "다음 역: 화성!",
 		'ro': "Destinația: Marte!",
-		'uz': "Keyingi bekat: Mars!"  
+		'uz': "Keyingi bekat: Mars!",
+		'sl': "Naš cilj: Mars!"
     },
      'it-would-take': {
        	'en': "It would take about seven months to travel this distance in a spaceship.",
@@ -433,7 +448,8 @@ var translations = {
 		'zt': "這航程若是搭乘太空船需要耗費七個月的時間。",
 		'kr': "우주선으로 이만큼 오려면 거의 7 개월이 걸려요. ",
 		'ro': "Durează cam șapte luni să parcurgi această distanță cu o navă spațială.",
-		'uz': "Bu masofani kosmik kemada bosib o‘tish uchun taxminan yetti oy kerak bo‘ladi."  
+		'uz': "Bu masofani kosmik kemada bosib o‘tish uchun taxminan yetti oy kerak bo‘ladi.",
+		'sl': "Približno sedem mesecev bi trajalo, da bi prepotovali to razdaljo z vesoljsko ladjo."
 		
     },
 	'better-be-some': {
@@ -461,7 +477,8 @@ var translations = {
 		'zt': "請祈禱機上的電影又新又多。",
 		'kr': "선내에서 즐길 흥밋거리를 잘 마련해야겠지요.",
 		'ro': "Ar fi bine să aibă niște filme bune pe durata zborului.",
-		'uz': "Parvoz vaqtida zerikib qolmaysiz deb umid qilamiz."   
+		'uz': "Parvoz vaqtida zerikib qolmaysiz deb umid qilamiz.",
+		'sl': "Vsekakor bi bilo nujno poskrbeti za dobro razvedrilo med letom."
 	},
 	
 	'in-case-youre': {
@@ -489,7 +506,8 @@ var translations = {
 		'zt': "如果你想知道的話，您大概會需要 2000 部電影才能消磨掉這些處於清醒的時候。",
 		'kr': "참고로, 그 시간 동안 줄곧 깨어 있다면 2000 편 정도의 영화를 볼 수 있어요.",
 		'ro': "În caz că v-ați pus întrebarea, ar fi nevoie cam de 2000 de filme de lung-metraj pentru a umple atâtea ore de veghe.",
-		'uz': "Oldindan aytib qo‘yaylik, buncha vaqtni o‘tkazish uchun sizga taxminan 2000 ta film kerak bo‘ladi."  
+		'uz': "Oldindan aytib qo‘yaylik, buncha vaqtni o‘tkazish uchun sizga taxminan 2000 ta film kerak bo‘ladi.",
+		'sl': "Če vas slučajno zanima, potrebnih bi bilo kakih 2000 celovečernih filmov, da bi se zamotili v vseh teh urah budnosti."
 	},
 	'marslabel': {
 		'en': "Mars",
@@ -516,7 +534,8 @@ var translations = {
 		'zt': "火星",
 		'kr': "화성",
 		'ro': "Marte",
-		'uz': "MARS"  
+		'uz': "MARS",
+		'sl': "Mars"
 	},
 	'sit-back-and': {
 		'en': "Sit back and relax. Jupiter is more than 3 times as far as we just traveled.",
@@ -543,7 +562,8 @@ var translations = {
 		'zt': "調整一下坐姿吧，從這裡到木星是我們目前路途的三倍遠呢。",
 		'kr': "편히 앉아서 쉬세요. 목성까지는 여태 온 것보다 3 배 더 멀어요.",
 		'ro': "Relaxați-vă. Până la Jupiter e o distanță de 3 ori mai mare decât cea pe care ați parcurs-o până acum.",
-		'uz': "Yaxshilab joylashib oling, chunki Yupiter hozirgacha bosib o‘tgan yo‘limizdan 3 baravardan ko‘proq masofada joylashgan."  
+		'uz': "Yaxshilab joylashib oling, chunki Yupiter hozirgacha bosib o‘tgan yo‘limizdan 3 baravardan ko‘proq masofada joylashgan.",
+		'sl': "Kar udobno se namestite. Jupiter je več kot 3-krat bolj oddaljen kot razdalja, ki smo jo že prepotovali."
 	},
 	
 	'when-are-we': {
@@ -571,7 +591,8 @@ var translations = {
 		'zt': "啊是要到了沒？",
 		'kr': "언제쯤 도착할까요?",
 		'ro': "Mai e mult?",
-		'uz': "Uff, qachon yetib boramiz?"  
+		'uz': "Uff, qachon yetib boramiz?",
+		'sl': "Kdaj bomo prispeli?"
 	},
 	'seriously-when-are': {
 		'en': "Seriously. When are we gonna be there?",
@@ -598,7 +619,8 @@ var translations = {
 		'zt': "到底～～是要到了沒啊？",
 		'kr': "아 글쎄. 도대체 언제 도착할까요?",
 		'ro': "Serios. Când ajungem?",
-		'uz': "Behazil. Bugun yetib boramizmi o‘zi?!"  
+		'uz': "Behazil. Bugun yetib boramizmi o‘zi?!",
+		'sl': "Resno vprašam. Kdaj bomo prispeli?"
 	},
 	'this-is-where': {
 		'en': "This is where we might at least see some asteroids to wake us up.",
@@ -625,7 +647,8 @@ var translations = {
 		'zt': "這裡本來有一些可以讓我們稍微清醒一點的小行星們。",
 		'kr': "이쯤 오면 여행할 때 졸다가 부딪혀 깰 법한 소행성들이 있을 거예요.",
 		'ro': "Cam pe aici ar trebui să vedem ceva asteroizi care să ne trezească.",
-		'uz': "Bu yerda asteroidlarni ko‘rib zavqlanishimiz mumkin edi."  
+		'uz': "Bu yerda asteroidlarni ko‘rib zavqlanishimiz mumkin edi.",
+		'sl': "Tukaj bi morda lahko uzrli vsaj kakšen asteroid, da nas malo predrami."
 	},
 	'too-bad-theyre': {
 		'en': "Too bad they're all too small to appear on this map.",
@@ -652,7 +675,8 @@ var translations = {
 		'zt': "但可惜，它們小到沒辦法顯示在這張地圖上。",
 		'kr': "나타내기엔 비율 상 너무 작아서 아쉽네요.",
 		'ro': "Păcat că sunt prea mici pentru a apărea pe această hartă.",
-		'uz': "Afsuski, ular bu xaritada ko‘rinish uchun juda kichiklik qiladi."  
+		'uz': "Afsuski, ular bu xaritada ko‘rinish uchun juda kichiklik qiladi.",
+		'sl': "Škoda le, da so vsi premajhni za naš zemljevid."
 	},
 	'i-spy-with': {
 		'en': "I spy, with my little eye... something black.",
@@ -679,7 +703,8 @@ var translations = {
 		'zt': "我望向你的臉~~卻只能看見一片虛無~~（♫）",
 		'kr': "제 작은 눈에는 보여요... 시커먼 것이.",
 		'ro': "Parcă se începe să se vadă… ceva negru.",
-		'uz': "Biz hozir nimaga qarayotganimizni toping-chi (yordam: u qora rangda)."  
+		'uz': "Biz hozir nimaga qarayotganimizni toping-chi (yordam: u qora rangda).",
+		'sl': "Če dam oči na peclje vidim ... nekaj črnega."
 	},
 	'if-you-were': {
 		'en': "If you were on a road trip, driving at 75mi/hr, it would have taken you over 500 years to get here from earth.",
@@ -706,7 +731,8 @@ var translations = {
 		'zt': "假設你以 120 公里的時速來趟瀟灑的公路旅行，從地球到達現在這個位置也是 500 年之後的事情了。",
 		'kr': "시속 75 마일로 내내 운전한다고 가정했을 때, 지구에서 여기까지 오려면 500년 넘게 걸려요.",
 		'ro': "Dacă ați goni pe o șosea cu 120 km/h, v-ar lua peste 500 ani ca să ajungeți de la Pământ până aici.",
-		'uz': "Agar soatiga 120 kilometr tezlikda harakatlansangiz, Yerdan shu joygacha 500 yilda yetib kelgan bo‘lar edingiz."  
+		'uz': "Agar soatiga 120 kilometr tezlikda harakatlansangiz, Yerdan shu joygacha 500 yilda yetib kelgan bo‘lar edingiz.",
+		'sl': "Če bi se odpeljali na izlet po našem osončju, bi, če bi potovali s hitrostjo 120 km/h, potrebovali več kot 500 let, da bi prišli od zemlje do tukaj."
 	},
 	
 	'all-these-distances': {
@@ -734,7 +760,8 @@ var translations = {
 		'zt': "溫馨提醒：這些距離都只是平均而言。",
 		'kr': "주의할 점은, 이렇게 표현한 거리도 평균일 뿐이라는 거예요.",
 		'ro': "Nu uitați că toate acestea sunt distanțe medii." ,
-		'uz': "Aytgancha, bu masofalarning barchasi faqat o‘rtacha ko‘rsatkichlardir." 
+		'uz': "Aytgancha, bu masofalarning barchasi faqat o‘rtacha ko‘rsatkichlardir.",
+		'sl': "Vendar pa tukaj govorimo o povprečnih razdaljah."
 	},
 	'the-distance-between': {
 		'en': "The distance between planets really depends on where the two planets are in their orbits around the sun. ",
@@ -761,7 +788,8 @@ var translations = {
 		'zt': "兩顆行星的實際距離取決於它們各自公轉軌道上的相對位置。",
 		'kr': "행성 사이의 거리는 해를 따라 도는 각각의 궤도에서 서로 어디에 위치하는지에 따라 달라져요.",
 		'ro': "Distanțele dintre planete depind de poziția acestora pe orbitele din jurul Soarelui.",
-		'uz': "Sayyoralar orasidagi masofa ularning Quyoshga nisbatan orbitaning qaysi nuqtasida joylashganiga bog‘liq."  
+		'uz': "Sayyoralar orasidagi masofa ularning Quyoshga nisbatan orbitaning qaysi nuqtasida joylashganiga bog‘liq.",
+		'sl': "Razdalja med dvema planetoma je v resnici odvisna od tega, kje na svoji orbiti se posamezen planet v danem trenutku nahaja."
 	},
 	
 	'so-if-youre': {
@@ -789,7 +817,8 @@ var translations = {
 		'zt': "所以今天如果你是想去木星觀光，那可能要拿另一張地圖了。",
 		'kr': "목성으로 여행할 계획이라면, 이것과는 다른 지도를 봐야겠지요.",
 		'ro': "Așa că dacă plănuiți să faceți o excursie până la Jupiter, ar trebui să alegeți o altă hartă.",
-		'uz': "Shunday ekan, agar Yupiterga “surmoqchi” bo‘lsangiz, boshqa xaritadan foydalanganingiz ma’qul."  
+		'uz': "Shunday ekan, agar Yupiterga “surmoqchi” bo‘lsangiz, boshqa xaritadan foydalanganingiz ma’qul.",
+		'sl': "Če torej načrtujete izlet na Jupiter, bo mogoče bolje uporabiti drug zemljevid."
 	},
 	'if-you-plan': {
 		'en': "If you plan it right, you can actually move relatively quickly between planets.",
@@ -816,7 +845,8 @@ var translations = {
 		'zt': "如果規劃得好，你於星際間的飛行時間會加快許多。",
 		'kr': "잘만 설계한다면, 행성 사이를 보다 빠르게 이동할 수 있어요. ",
 		'ro': "Dacă vă plănuiți bine excursia, vă puteți mișca destul de repede între planete." ,
-		'uz': "Agar barchasini oldindan rejalashtirsangiz, boshqa sayyoralarga nisbatan tezroq yetib borishingiz mumkin." 
+		'uz': "Agar barchasini oldindan rejalashtirsangiz, boshqa sayyoralarga nisbatan tezroq yetib borishingiz mumkin.",
+		'sl': "Če si boste vse natančno splanirali, boste lahko razmeroma hitro potovali med planeti."
 	},
 	'the-new-horizons': {
 		'en': "The New Horizons spacecraft that launched in 2006 only took 13 months to get to Jupiter.",
@@ -843,7 +873,8 @@ var translations = {
 		'zt': "比如 2006 年發射的新視野號探測器就只花了 13 個月到達木星。",
 		'kr': "2006 년에 출발한 뉴 호라이즌스 우주선은 목성까지 13 개월 만에 갔어요.",
 		'ro': "Sondei New Horizons, lansată în 2006, i-au luat numai 13 luni pentru a ajunge la Jupiter.",
-		'uz': "2006-yilda uchirilgan New Horizons kosmik kemasi Yupiterga yetib borishi uchun 13 oy ketgan."  
+		'uz': "2006-yilda uchirilgan New Horizons kosmik kemasi Yupiterga yetib borishi uchun 13 oy ketgan.",
+		'sl': "Vesoljsko plovilo New Horizons, ki ga je NASA izstrelila leta 2006, je do Jupitra potrebovalo le 13 mesecev."
 	},
 	
 	'dont-worry-itll': {
@@ -871,7 +902,8 @@ var translations = {
 		'zt': "別擔心，在這裡滑到木星絕對不用你 13 個月。",
 		'kr': "여기서는 걱정하지 마세요. 목성까지 스크롤 하는 시간은 13 개월보다 훨씬 짧으니까요.",
 		'ro': "Nu vă faceți griji. O să dureze mult mai puțin de 13 luni pentru a derula până acolo.",
-		'uz': "Xavotir olmang. Bu xaritaning oxiriga yetishingiz uchun 13 oydan ancha kamroq vaqtingiz ketadi."  
+		'uz': "Xavotir olmang. Bu xaritaning oxiriga yetishingiz uchun 13 oydan ancha kamroq vaqtingiz ketadi.",
+		'sl': "Brez skrbi. Precej manj kot 13 mesecev bo trajalo, da boste prišli do Jupitra na tem zemljevidu."
 	},
 	'pretty-close-to': {
 		'en': "Pretty close to Jupiter now.",
@@ -898,7 +930,8 @@ var translations = {
 		'zt': "就快到木星囉。",
 		'kr': "목성에 꽤 가까워졌어요.",
 		'ro': "Acum suntem destul de aproape de Jupiter.",
-		'uz': "Yupiterga yetay deb qoldik."  
+		'uz': "Yupiterga yetay deb qoldik.",
+		'sl': "Zdaj smo že kar blizu Jupitra."
 	},
 	'sorry-that-was': {
 		'en': "Sorry. That was a lie before. Now we really are pretty close.",
@@ -925,7 +958,8 @@ var translations = {
 		'zt': "歹勢，剛剛是騙你的。現在才是真的要到啦。",
 		'kr': "미안해요. 아까는 농담이었어요. 이제 정말 거의 다 왔어요.",
 		'ro': "Scuze. V-am păcălit. Abia acum suntem destul de aproape.",
-		'uz': "Uzr, hazillashgandik. Mana, endi haqiqatan ham yaqin qoldi."  
+		'uz': "Uzr, hazillashgandik. Mana, endi haqiqatan ham yaqin qoldi.",
+		'sl': "Se opravičujem. Prejle sem se malce zlagal. Zdaj smo pa res blizu."
 	},
 	'jupiterlabel': {
 		'en': "Jupiter",
@@ -952,7 +986,8 @@ var translations = {
 		'zt': "木星",
 		'kr': "목성",
 		'ro': "Jupiter",
-		'uz': "YUPITER"  
+		'uz': "YUPITER",
+		'sl': "Jupiter"
 	},
 	'iolabel': {
 		'en': "Io",
@@ -979,7 +1014,8 @@ var translations = {
 		'zt': " 木 衛 一 | 埃 歐",
 		'kr': "이오",
 		'ro': "Io",
-		'uz': "IO"  
+		'uz': "IO",
+		'sl': "Io"
 	},
 	'europalabel': {
 		'en': "Europa",
@@ -1006,7 +1042,8 @@ var translations = {
 		'zt': " 木 衛 二 | 歐 羅 巴",
 		'kr': "유로파",
 		'ro': "Europa",
-		'uz': "YEVROPA"  
+		'uz': "YEVROPA",
+		'sl': "Evropa"
 	},
 	'ganymedelabel': {
 		'en': "Ganymede",
@@ -1033,7 +1070,8 @@ var translations = {
 		'zt': " 木 衛 三 | 蓋 尼 米 德",
 		'kr': "가니메데",
 		'ro': "Ganimede",
-		'uz': "GANIMED"  
+		'uz': "GANIMED",
+		'sl': "Ganimed"
 	},
 	'callistolabel': {
 		'en': "Callisto",
@@ -1060,7 +1098,8 @@ var translations = {
 		'zt': " 木 衛 四 | 卡 利 斯 多",
 		'kr': "칼리스토",
 		'ro': "Calisto",
-		'uz': "KALLISTO"  
+		'uz': "KALLISTO",
+		'sl': "Kalisto"
 	},
 	'lots-of-time': {
 		'en': "Lots of time to think out here...",
@@ -1087,7 +1126,8 @@ var translations = {
 		'zt': "在這有超多時間可以胡思亂想的...",
 		'kr': "생각할 시간이 많아요...",
 		'ro': "Aici e destul timp pentru a cădea pe gânduri…",
-		'uz': "Bu yerda istagancha xayol surishingiz mumkin, vaqt serob…"  
+		'uz': "Bu yerda istagancha xayol surishingiz mumkin, vaqt serob…",
+		'sl': "Tukaj je časa za razmišljanje na pretek..."
 	},
 	'pop-the-champagne': {
 		'en': "Pop the champagne! We just passed 1 billion km.",
@@ -1114,7 +1154,8 @@ var translations = {
 		'zt': "開香檳囉！我們剛剛通過 10 億公里啦！",
 		'kr': "축배를 들어요! 방금 1,000,000,000 킬로미터를 지났어요.",
 		'ro': "Să deschidem șampania! Am depășit 1 miliard km.",
-		'uz': "Suyunchi bering! Biz 1 milliard km masofani bosib o‘tdik."  
+		'uz': "Suyunchi bering! Biz 1 milliard km masofani bosib o‘tdik.",
+		'sl': "Odprite šampanjec! Pravkar smo naredili 1 milijardo km."
 	},
 	
 	'i-guess-this': {
@@ -1142,7 +1183,8 @@ var translations = {
 		'zt': "我想這也是為什麼大部分的太陽系模型都是不按比例的。",
 		'kr': "여러 그림들이 태양계를 왜 정확한 비율로 묘사하지 않았는지 이제 알겠네요.",
 		'ro': "Cred că de aceea majoritatea hărților sistemului solar nu sunt desenate la scară.",
-		'uz': "Nega Quyosh tizimi xaritalari odatda masshtabsiz tasvirlanishini tushungandek boʻlyapman."  
+		'uz': "Nega Quyosh tizimi xaritalari odatda masshtabsiz tasvirlanishini tushungandek boʻlyapman.",
+		'sl': "Najbrž zato večina zemljevidov sončnega sistema ne odraža pravih razmerij."
 	},
 	
 	'its-not-hard': {
@@ -1170,7 +1212,8 @@ var translations = {
 		'zt': "按比例畫出行星還算小事。",
 		'kr': "행성의 모습 자체는 그릴만해요. ",
 		'ro': "Nu e greu să desenezi planetele.",
-		'uz': "Sayyoralarni chizish qiyin emas."  
+		'uz': "Sayyoralarni chizish qiyin emas.",
+		'sl': "Ni težko narisati planetov."
 	},
 	
 	'its-the-empty': {
@@ -1198,7 +1241,8 @@ var translations = {
 		'zt': "真正困難的是它們之間遠得要命的距離。",
 		'kr': "거대한 빈 공간을 담아내는 게 문제지요.",
 		'ro': "Problema o reprezintă spațiul gol dintre ele.",
-		'uz': "Ammo ular orasidagi bo‘shliqni aks ettirish mushkullik tug‘diradi."  
+		'uz': "Ammo ular orasidagi bo‘shliqni aks ettirish mushkullik tug‘diradi.",
+		'sl': "Težava je v vsem tem praznem prostoru med njimi."
 	},
 	
 	'most-space-charts': {
@@ -1226,7 +1270,8 @@ var translations = {
 		'zt': "這也是絕大部分天文圖表都會遺漏的一個重要元素 — 太「空」本身。",
 		'kr': "많은 우주 도표들은 가장 중대한 부분을 빼놓아요 - 이 방대한 공간 말이지요.",
 		'ro': "Majoritatea hărților spațiale exclud tocmai partea cea mai semnificativă – spațiul.",
-		'uz': "Aksariyat kosmik xaritalar butun boshli bo‘shliqni, ya’ni eng muhim narsani qoldirib ketadi."  
+		'uz': "Aksariyat kosmik xaritalar butun boshli bo‘shliqni, ya’ni eng muhim narsani qoldirib ketadi.",
+		'sl': "Večina kart medzvezdnega prostora izpusti najpomembnejši del – ves prostor."
 	},
 	
 	'were-used-to': {
@@ -1254,7 +1299,8 @@ var translations = {
 		'zt': "我們通常在遠比這些尺度小得多的世界裡打滾闖蕩。",
 		'kr': "우리는 이보다 아주 작은 규모를 다루는 데에만 익숙해져 있지요.",
 		'ro': "Suntem obișnuiți cu lucruri la o scară mult mai mică decât aceasta.",
-		'uz': "Bunga sabab biz bundan kichikroq masshtabdagi narsalar bilan shug‘ullanishga o‘rganib qolganmiz."  
+		'uz': "Bunga sabab biz bundan kichikroq masshtabdagi narsalar bilan shug‘ullanishga o‘rganib qolganmiz.",
+		'sl': "V našem vsakdanjem življenju imamo opravka s precej manjšimi številkami."
 	},
 	
 	'when-it-comes': {
@@ -1282,7 +1328,8 @@ var translations = {
 		'zt': "但當我們研究起地球的年齡、雪花的數量，或是國家債務的時候...",
 		'kr': "지구의 나이나, 시베리아의 눈송이 개수나, 국가의 부채에 대해서 가늠해보자면... ",
 		'ro': "Când vine vorba despre lucruri precum vârsta Pământului, numărul fulgilor de zăpadă din Siberia, datoria publică…",
-		'uz': "Mayda-chuyda narsalar deganda paypoqning uzun yoki kaltaligi, qaysi viloyat oshi zo‘rligi haqidagi bahslarni nazarda tutyapman…"  
+		'uz': "Mayda-chuyda narsalar deganda paypoqning uzun yoki kaltaligi, qaysi viloyat oshi zo‘rligi haqidagi bahslarni nazarda tutyapman…",
+		'sl': "Ko naletimo na številke kot so starost zemlje, število snežink v Sibiriji, državni dolg ...,"
 	},
 	'those-things-are': {
 		'en': "Those things are too much for our brains to handle. ",
@@ -1309,7 +1356,8 @@ var translations = {
 		'zt': "這些數字的龐大就不是我們小小的腦袋瓜可以應付得來的。",
 		'kr': "이런 것들을 우리의 뇌가 능숙하게 처리하기에는 버거울 거예요.",
 		'ro': "Creierul nu poate procesa așa ceva.",
-		'uz': "Bularning bari miyaga sig‘dirish uchun juda kattalik qiladi."  
+		'uz': "Bularning bari miyaga sig‘dirish uchun juda kattalik qiladi.",
+		'sl': "jim naši možgani enostavno niso kos."
 	},
 	'saturnlabel': {
 		'en': "Saturn",
@@ -1336,7 +1384,8 @@ var translations = {
 		'zt': "土星",
 		'kr': "토성",
 		'ro': "Saturn",
-		'uz': "SATURN"  
+		'uz': "SATURN",
+		'sl': "Saturn"
 	},
 		'titanlabel': {
 		'en': "Titan",
@@ -1363,7 +1412,8 @@ var translations = {
 		'zt': "土 衛 六（泰 坦）",
 		'kr': "타이탄",
 		'ro': "Titan",
-		'uz': "TITAN"  
+		'uz': "TITAN",
+		'sl': "Titan"
 	},
 	'we-need-to': {
 		'en': "We need to reduce things down to something we can see or experience directly in order to understand them.",
@@ -1390,7 +1440,8 @@ var translations = {
 		'zt': "為了好好理解這些天文數字，我們需要把這些傢伙拆解成可以實際看到或體驗的事物。",
 		'kr': "우리가 무언가를 이해하려면 직접 보거나 느낄 수 있는 수준으로 환산해봐야 해요.",
 		'ro': "Pentru a înțelege lucrurile, trebuie să le reducem la lucruri pe care le putem vedea sau simți direct.",
-		'uz': "Bunday narsalarni tushunish uchun ularni ko‘rish yoki his qilish mumkin bo‘lgan holatga keltirish kerak."  
+		'uz': "Bunday narsalarni tushunish uchun ularni ko‘rish yoki his qilish mumkin bo‘lgan holatga keltirish kerak.",
+		'sl': "Te reči moramo pomanjšati na takšno merilo, ki ga lahko vidimo ali doživimo neposredno, da jih lahko razumemo."
 	},
 	'were-always-trying': {
 		'en': "We're always trying to come up with metaphors for big numbers. Even so, they never seem to work.",
@@ -1417,7 +1468,8 @@ var translations = {
 		'zt': "然後再試著用打個比方來翻譯翻譯（雖然未必有用）。",
 		'kr': "으레 큰 숫자에 어울릴만한 비유를 떠올려서 표현하지요. 그래도 실감 나지는 않아요.",
 		'ro': "Încercăm mereu să găsim metafore pentru numele mari. Dar chiar și așa, nu prea funcționează." ,
-		'uz': "Biz odatda katta raqamlar uchun istiora o‘ylab topishga harakat qilamiz. Biroq bu umuman ish bermaydi." 
+		'uz': "Biz odatda katta raqamlar uchun istiora o‘ylab topishga harakat qilamiz. Biroq bu umuman ish bermaydi.",
+		'sl': "Ves čas iščemo ustrezne prispodobe za velike številke. Pa se kljub temu zdi, da nam ne uspeva najbolje."
 	},
 	'lets-try-a': {
 		'en': "Let's try a few metaphors anyway...",
@@ -1444,7 +1496,8 @@ var translations = {
 		'zt': "嗯...總之讓我們來打個比方吧。",
 		'kr': "어쨌든 비유를 해볼게요…",
 		'ro': "Să încercăm totuși câteva metafore…" ,
-		'uz': "Shunga qaramay, keling, bir nechtasini sinab ko‘ramiz…" 
+		'uz': "Shunga qaramay, keling, bir nechtasini sinab ko‘ramiz…",
+		'sl': "Pa dajmo vseeno preizkusiti še nekaj prispodob ..."
 	},
 	'you-would-need': {
 		'en': "You would need ",
@@ -1471,7 +1524,8 @@ var translations = {
 		'zt': "假設你今天想要一口氣看完這張地圖，那你還得再買 ",
 		'kr': "이 약도를 한꺼번에 내보이려면 지금 보는 화면을 나란히 ",
 		'ro': "Veți avea nevoie de ",
-		'uz': "Xaritani bir butun holatda ko‘rish uchun hozirgi ekraningizdan taxminan "  
+		'uz': "Xaritani bir butun holatda ko‘rish uchun hozirgi ekraningizdan taxminan ",
+		'sl': "Da bi prikazali ta zemljevid v celoti, bi potrebovali "
 	},
 	'of-these-screens': {
 		'en': " of these screens lined up side-by-side to show this whole map at once.",
@@ -1498,7 +1552,8 @@ var translations = {
 		'zt': " 個現在顯示著這段文字的螢幕或設備。",
 		'kr': " 개 나열해야 해요.",
 		'ro': " ecrane aliniate unul lângă celălalt pentru a afișa întreaga hartă.",
-		'uz': " tasini yonma-yon qo‘yishingiz kerak bo‘ladi."  
+		'uz': " tasini yonma-yon qo‘yishingiz kerak bo‘ladi.",
+		'sl': " takšnih zaslonov, postavljenih drug ob drugega."
 	},
 	'if-this-map': {
 		'en': "If this map was printed from a quality printer (300 pixels per inch) the earth would be almost invisible, and the width of the paper would need to be 475 feet.",
@@ -1525,7 +1580,8 @@ var translations = {
 		'zt': "又如果我們試著把地圖以 300 ppi 的解析度列印出來的話，除了地球會小到無法辨識以外，成品還會長達 145 公尺（475 英尺）。",
 		'kr': "정교한 프린터(인치 당 300 픽셀)로 이 약도를 인쇄한들 지구는 작게 나와서 알아볼 수도 없고, 인쇄물의 너비는 475 피트에 달해요. ",
 		'ro': "Dacă această hartă ar fi tipărită pe o imprimantă de calitate (300 dpi), Pământul nu s-ar vedea deloc, iar lungimea totală a hârtiei ar fi de aproape 145 metri.",
-		'uz': "Agar bu xarita sifatli printerda (1 dyuymga 300 piksel) chop etilsa, Yerni ilg‘ab bo‘lmasdi, varaqning kengligi esa 145 metrga yetardi."   
+		'uz': "Agar bu xarita sifatli printerda (1 dyuymga 300 piksel) chop etilsa, Yerni ilg‘ab bo‘lmasdi, varaqning kengligi esa 145 metrga yetardi.",
+		'sl': "Če bi ta zemljevid natisnili s kakovostnim tiskalnikom (300 ppi), bi bila zemlja nevidna, širina papirja pa bi bila kar 145 metrov."
 	},
 	'475-feet-is': {
 		'en': "475 feet is about 1 and 1/2 football fields.",
@@ -1552,7 +1608,8 @@ var translations = {
 		'zt': "145 公尺呢，大概是 1.5 個足球場那麼長。",
 		'kr': "475 피트는 얼추 풋볼 경기장 1.5 배의 길이에요.",
 		'ro': "145 metri înseamnă aproape un teren de fotbal și jumătate.",
-		'uz': "145 metr bu — salkam bir yarimta futbol maydoni degani."  
+		'uz': "145 metr bu — salkam bir yarimta futbol maydoni degani.",
+		'sl': "145 metrov je približno 1,5 dolžine nogometnega igrišča."
 	},
 	'even-though-we': {
 		'en': "Even though we don’t really understand them, a lot can happen within these massive lengths of time and space.",
@@ -1579,7 +1636,8 @@ var translations = {
 		'zt': "儘管我們無法完全參透，宇宙仍然能在這碩大的時空中成就許多事情。",
 		'kr': "우리가 진정 이해하지는 못할지라도, 이렇게 막대한 시간과 공간 속에서는 많은 일이 일어날 수 있어요. ",
 		'ro': "Chiar dacă încă nu înțelegem complet, o mulțime de lucruri se pot întâmpla cu aceste întinderi imense de timp și spațiu." ,
-		'uz': "Garchi buni yetarlicha tushunmasak-da, bu kabi ulkan vaqt va zamon bo‘lagi o‘ziga ko‘p narsalarni sig‘dira oladi." 
+		'uz': "Garchi buni yetarlicha tushunmasak-da, bu kabi ulkan vaqt va zamon bo‘lagi o‘ziga ko‘p narsalarni sig‘dira oladi.",
+		'sl': "Čeprav v resnici ne razumemo teh gromozanskih časovnih in prostorskih razdalj, se lahko znotraj teh razdalj zgodi marsikaj."
 	},
 	
 	'a-drop-of': {
@@ -1607,7 +1665,8 @@ var translations = {
 		'zt': "滴水涓涓足以穿石成谷。",
 		'kr': "물방울이 땅을 깎아 협곡을 만들고요.",
 		'ro': "Puțină apă poate săpa un canion.",
-		'uz': "Masalan, bir tomchi suv kanyon hosil qilishi mumkin."  
+		'uz': "Masalan, bir tomchi suv kanyon hosil qilishi mumkin.",
+		'sl': "Kapljica vode lahko izdolbe kanjon."
 	},
 	'an-amoeba-can': {
 		'en': "An amoeba can become a dolphin.",
@@ -1634,7 +1693,8 @@ var translations = {
 		'zt': "細胞悠悠能夠躍成海豚。",
 		'kr': " 단세포 생물의 계보에서 다세포 생물이 나오기도 하지요.",
 		'ro': "O amibă se poate transforma într-un delfin.",
-		'uz': "Amyoba delfinga aylanishi mumkin."  
+		'uz': "Amyoba delfinga aylanishi mumkin.",
+		'sl': "Ameba se lahko spremeni v delfina."
 	},
 	'a-star-can': {
 		'en': "A star can collapse on itself. ",
@@ -1661,7 +1721,8 @@ var translations = {
 		'zt': "就連群星閃閃都得殞落崩塌。",
 		'kr': "별이 스스로의 중력으로 붕괴되기도 해요.",
 		'ro': "O stea poate face implozie.",
-		'uz': "Yulduz gravitatsion kollaj hosil qilishi mumkin."  
+		'uz': "Yulduz gravitatsion kollaj hosil qilishi mumkin.",
+		'sl': "Zvezda se lahko sesuje sama vase."
 	},
 	'its-easy-to': {
 		'en': "It’s easy to disregard nothingness because there’s no thought available to encapsulate it. There’s no metaphor that fits because, by definition, once the nothingness becomes tangible, it ceases to exist.",
@@ -1688,7 +1749,8 @@ var translations = {
 		'zt': "因為虛無是這麼難以理解的概念，以至於我們太容易就忽略它了，有時就連打個比方都顯得無力，因為如果虛無可以被描述出來，它便又不是虛無了。",
 		'kr': "무(無)를 적절히 담아낼 수 있는 관념이 없기 때문에 간과하곤 하지요. 사실상 알맞은 비유는 없는데, 의미상으로 무(無)를 형용하는 순간 더 이상 무(無)가 아니기 때문이에요.",
 		'ro': "Este ușor să ignorăm nimicul pentru că nu există niciun concept pentru a-l cuprinde. Nu e nicio metaforă care să se potrivească deoarece, prin definiție, odată ce nimicul devine tangibil, el încetează să mai existe.",
-		'uz': "Bo‘shliqni e’tiborsiz qoldirish oson, chunki unga mos keladigan fikrning o‘zi yo‘q. Bu yerda istiora topa olmaysiz. Bo‘shliq aniqlashganda, u endi mohiyatan o‘zgaradi, ya’ni mavjud bo‘lishdan to‘xtaydi."  
+		'uz': "Bo‘shliqni e’tiborsiz qoldirish oson, chunki unga mos keladigan fikrning o‘zi yo‘q. Bu yerda istiora topa olmaysiz. Bo‘shliq aniqlashganda, u endi mohiyatan o‘zgaradi, ya’ni mavjud bo‘lishdan to‘xtaydi.",
+		'sl': "'Nič' zlahka prezremo, ker ga ne moremo zaobjeti z nobeno mislijo. Nobena prispodoba ne ustreza, ker 'nič' že po sami definiciji preneha obstajati, ko enkrat postane oprijemljiv."
 	},
 	
 	'its-a-good': {
@@ -1716,7 +1778,8 @@ var translations = {
 		'zt': "所以有這些星星的陪伴真是蠻不賴的，不然我們就沒有任何能夠當作參考的依據了",
 		'kr': "조그맣게나마 항성과 행성이 있어서 다행이에요.",
 		'ro': "E bine că avem aceste stele și planete, altfel nu am avea niciun punct de referință.",
-		'uz': "Xayriyatki, shu mayda yulduz va sayyoralar bor ekan, aks holda bizda umuman sanoq nuqtasi bo‘lmas edi."  
+		'uz': "Xayriyatki, shu mayda yulduz va sayyoralar bor ekan, aks holda bizda umuman sanoq nuqtasi bo‘lmas edi.",
+		'sl': "Še dobro, da imamo vse te drobne zvezde in planete, sicer sploh ne bi imeli nobene referenčne točke."
 	},
 	
 	'wed-be-surrounded': {
@@ -1744,7 +1807,8 @@ var translations = {
 		'zt': "特別是當我們被大腦難以理解的東西包圍著的時候。",
 		'kr': "그들이 없었다면 아무런 지형지물도 참조하지 못한 채로, 우리가 결코 이해할 수 없는 막막한 공간에 둘러싸였을 거예요.",
 		'ro': "Am fi înconjurați doar de acest lucru pe care mințile noastre nu îl pot înțelege." ,
-		'uz': "Ongimiz tushunishga qodir bo‘lmagan narsalar bizni o‘rab olgan bo‘lar edi." 
+		'uz': "Ongimiz tushunishga qodir bo‘lmagan narsalar bizni o‘rab olgan bo‘lar edi.",
+		'sl': "Obkroženi bi bili z nečim, kar naš um ni sposoben razumeti."
 	},
 	'all-this-emptiness': {
 		'en': "All this emptiness really could drive you nuts. For instance, if you’re in a sensory deprivation tank for too long, your brain starts to make things up. You see and hear things that aren’t there.",
@@ -1771,7 +1835,8 @@ var translations = {
 		'zt': "「太過空蕩蕩」的太空是真的可以把你逼瘋。假設人在一個五感被隔絕的小房間裡待久了，大腦就會開始拼湊不存在的聲音或影像，讓你產生幻覺。",
 		'kr': "텅 빈 공간에서 여러분은 미쳐버릴 수도 있어요. 예컨대, 감각 박탈 수조에 오랫동안 있으면, 뇌가 감각을 지어내기 시작해요. 헛것을 보거나 헛소리가 들리지요.",
 		'ro': "Tot acest gol te poate face să o iei razna. De exemplu, dacă stăm prea mult timp singuri într-un loc izolat, creierul nostru va începe să-și imagineze lucruri. Începem să vedem și să auzim lucruri care nu se află acolo.",
-		'uz': "Butun boshli bo‘shliq sizni aqldan ozdirishi mumkin. Agar uzoq vaqt davomida mutlaq zulmat va sukunat ichida qolsangiz, miyangiz nimalarnidir to‘qib chiqara boshlaydi. Natijada mavjud bo‘lmagan narsalarni ko‘rishni va eshitishni boshlaysiz."  
+		'uz': "Butun boshli bo‘shliq sizni aqldan ozdirishi mumkin. Agar uzoq vaqt davomida mutlaq zulmat va sukunat ichida qolsangiz, miyangiz nimalarnidir to‘qib chiqara boshlaydi. Natijada mavjud bo‘lmagan narsalarni ko‘rishni va eshitishni boshlaysiz.",
+		'sl': "Vsa ta praznina človeka res lahko spravi ob pamet. Če boste na primer predolgo v senzorični komori, si bodo začeli vaši možgani izmišljati stvari. Videli in slišali boste stvari, ki jih v resnici ni."
 	},
 	'the-brain-isnt': {
 		'en': "The brain isn't built to handle \"empty.\" ",
@@ -1798,7 +1863,8 @@ var translations = {
 		'zt': "只能說大腦不是生來理解「沒有」的。",
 		'kr': "뇌는 \"빔\"을 인지하게끔 이뤄지지는 않았어요.",
 		'ro': "Creierul nu este construit pentru a funcționa \"în gol\". ",
-		'uz': "Miya bo‘shliqqa moslashmagan."  
+		'uz': "Miya bo‘shliqqa moslashmagan.",
+		'sl': "Možgani niso ustrezno zgrajeni, da bi prenesli 'praznino'."
 	},
 	'sorry-humanity-says': {
 		'en': "\"Sorry, Humanity,\" says Evolution. \"What with all the jaguars trying to eat you, the parasites in your fur, and the never-ending need for a decent steak, I was a little busy. I didn’t exactly have time to come up with a way to conceive of vast stretches of nothingness.\" ",
@@ -1825,7 +1891,8 @@ var translations = {
 		'zt': "就像演化對著我們說道：「不好意思唷，由於要處理虎視眈眈的野獸、吃裡扒外的寄生蟲還有永無止盡的飢腸轆轆，我實在沒有時間讓你們理解『虛無』是什麼。」",
 		'kr': "\"인류에게, 미안해요\"라고 진화가 말하네요. \"여러분을 먹으려 하는 재규어, 여러분의 털에 있는 기생충, 그리고 질 좋은 고기를 향한 여러분의 끝없는 갈망, 이런 것들을 지어내느라 조금 바빴어요. 광활한 공허를 인식하게 하는 방법을 만들어낼 시간은 없었어요.\" ",
 		'ro': "„Îmi pare rău, Umanitate”, spune Evoluția. „Cu toți jaguarii care încercau să te mănânce, paraziții din blană și interminabila alergătură pentru o friptură bună, am fost cam ocupată. Nu prea am avut timp pentru a găsi o metodă de a te face să înțelegi marile întinderi de nimic.\”",
-		'uz':  "\"Ma’zur tut, insoniyat! Men band edim: seni doim yirtqich yaguarlar yemoqchi bo‘lardi, teringda parazitlar ko‘paya boshlagan, har kuni yaxshi taom haqida orzu qilarding. Sen uchun cheksiz bo‘shliqdan boxabar bo‘ladigan a’zoni o‘ylab topishga vaqtim bo‘lmadi”, — deydi evolyutsiya.\"" 
+		'uz': "\"Ma’zur tut, insoniyat! Men band edim: seni doim yirtqich yaguarlar yemoqchi bo‘lardi, teringda parazitlar ko‘paya boshlagan, har kuni yaxshi taom haqida orzu qilarding. Sen uchun cheksiz bo‘shliqdan boxabar bo‘ladigan a’zoni o‘ylab topishga vaqtim bo‘lmadi”, — deydi evolyutsiya.\"",
+		'sl': "»Žal mi je Človeštvo,« pravi Evolucija. »Pri vseh teh zvereh, ki so vas poskušale požreti, parazitih v vaših kožuhih ter nenehni potrebi po solidnem zrezku sem imela preveč dela. Nisem imela ravno časa, da bi se ukvarjala z načinom, kako doumeti prostrane razdalje niča.«"
 	},
 	'neurologically-speaking-we': {
 		'en': "Neurologically speaking, we really only deal with matter of a certain size, and energy of a few select wavelengths. For everything else, we have to make up mental models and see if they match up to the tiny shreds of hard evidence that actually feel real. ",
@@ -1852,7 +1919,8 @@ var translations = {
 		'zt': "從神經學的角度來說，我們只能應付特定範圍內的尺度、特定能量的波長，除此之外的，我們也只能做一些抽象的模型，然後盡可能地把它推向認知中真實存在的經驗。",
 		'kr': "신경학적으로 우리는 특정 크기 범위의 물질과 특정 파장 범위의 에너지만 대할 수 있어요. 그 외에 있어서는, 머릿속으로 모형을 세우고 실제로 느껴지는 구체적인 증거의 파편들과 들어맞는지 헤아려봐야 해요.",
 		'ro': "Neurologic vorbind, avem de-a face numai cu materie de o anumită mărime, și cu energie de câteva lungimi de undă. Pentru toate celelalte, trebuie să ne construim modele mentale și să vedem dacă se potrivesc puținelor dovezi sigure pe care le putem simți ca fiind reale.",
-		'uz': "Fiziologik nuqtayi nazardan, biz faqat ma’lum bir o‘lchamdagi materiya va spektrning bir juft tor qismlaridagi energiyani idrok qilamiz. Qolgan hamma narsa uchun aqliy modellarni yaratishimizga va ularni xuddi haqiqiydek ko‘rinadigan mitti namunalarning asli bilan moslashtirishimizga to‘g‘ri keladi."  
+		'uz': "Fiziologik nuqtayi nazardan, biz faqat ma’lum bir o‘lchamdagi materiya va spektrning bir juft tor qismlaridagi energiyani idrok qilamiz. Qolgan hamma narsa uchun aqliy modellarni yaratishimizga va ularni xuddi haqiqiydek ko‘rinadigan mitti namunalarning asli bilan moslashtirishimizga to‘g‘ri keladi.",
+		'sl': "Nevrološko gledano se ljudje dejansko ukvarjamo samo s snovjo določene velikosti in z energijo peščice valovnih dolžin. Za vse ostalo si moramo ustvariti določeno miselno predstavo, potem pa preverimo, ali se ta ujema z drobnimi koščki trdnih dokazov, ki jih dejansko občutimo kot resnične."
 	},
 	
 	'the-mental-models': {
@@ -1880,7 +1948,8 @@ var translations = {
 		'zt': "數學中的抽象模型就十分有助於描述這麼長的距離，但怎麼說呢...",
 		'kr': "수학으로 마련된 사고의 틀은 어마어마한 거리를 짐작하고자 할 때 매우 도움이 되기는 한데... ",
 		'ro': "Modelele mentale furnizate de matematică ne sunt foarte de ajutor când încercăm să înțelegem aceste distanțe vaste, dar totuși…",
-		'uz': "Matematika tomonidan taqdim etilgan aqliy modellar bu ulkan masofalarni tushunishimiz uchun juda foydali, ammo…"  
+		'uz': "Matematika tomonidan taqdim etilgan aqliy modellar bu ulkan masofalarni tushunishimiz uchun juda foydali, ammo…",
+		'sl': "Miselni modeli, ki jih ponuja matematika, so nam v veliko pomoč, ko poskušamo razumeti te velike razdalje, a vseeno ..."
 	},
 	
 	'abstraction-is-pretty': {
@@ -1908,7 +1977,8 @@ var translations = {
 		'zt': "抽象本身就是讓人覺得有點不踏實吧。",
 		'kr': "추상적인 방법이라 와닿지는 않아요.",
 		'ro': "Abstractizarea este destul de nesatisfăcătoare.",
-		'uz': "Mavhumlik bizning savollarga javob bo‘la olmaydi."  
+		'uz': "Mavhumlik bizning savollarga javob bo‘la olmaydi.",
+		'sl': "Abstraktnost je precej nezadovoljiva."
 	},
 	
 	'when-you-hear': {
@@ -1936,7 +2006,8 @@ var translations = {
 		'zt': "當別人跟你提起：「世界上有比宇宙更廣大的事物」的時候，他們往往只是希望說服你相信某個 B 級科幻片裡的弔詭劇情。",
 		'kr': "사람들이 \"우주에는 우리의 정신이 감지하는 것을 넘어서는 뭔가가 있다\" 라는 식으로 말할 때는, 늦은 밤에 잠이 안 올 때 보는 공상 과학 연재물 속 UFO나 초능력 따위의 어설픈 이야기를 늘어놓으려는 흔한 수작이에요.",
 		'ro': "Când îi auzim pe oameni vorbind despre cum „există mai multe lucruri în acest univers decât ne putem noi imagina”, de obicei e vorba despre o încercare de a ne convinge de niște teorii improvizate despre OZN-uri sau superputeri dintr-un serial SF pe care-l vedem în nopțile fără somn.",
-		'uz': "Odamlarning: \“Bu koinot o‘ziga biz tasavvur qilganimizdan ko‘proq narsani sig‘dira oladi\”, — degan gapini eshitganimizda, xayolimizga o‘zga sayyoraliklar, ekstrasenslar haqidagi nazariyalar yoki yarim tunda uxlay olmaganimizda ko‘radigan ilmiy-fantastik filmlar haqidagi o‘ylar keladi."  
+		'uz': "Odamlarning: \“Bu koinot o‘ziga biz tasavvur qilganimizdan ko‘proq narsani sig‘dira oladi\”, — degan gapini eshitganimizda, xayolimizga o‘zga sayyoraliklar, ekstrasenslar haqidagi nazariyalar yoki yarim tunda uxlay olmaganimizda ko‘radigan ilmiy-fantastik filmlar haqidagi o‘ylar keladi.",
+		'sl': "Ko ljudje govorijo o tem »da se v tem vesolju skriva več, kot lahko naš um dojame«, vas po navadi poskušajo prepričati, da zgodba o NLP-jih ali nadnaravni moči v znanstvenofantastični seriji, ki jo gledate pozno zvečer, ko ne morete zaspati, ni tako za lase privlečena kot se zdi."
 	},
 	
 	'even-when-shakespeare': {
@@ -1964,7 +2035,8 @@ var translations = {
 		'zt': "連莎士比亞都說過：「世界如此遼闊啊赫雷修，以你的哲學來思考，仍然有想不透的事情。」但當然，他也可能只是試著讓故事中的鬼魂更有那麼一回事啦。",
 		'kr': "셰익스피어마저도 그랬어요: \"이 세상에는 당신이 미처 생각조차 못 했을 법한 것들도 있다네, 호라티오\" - 극 중에 나오는 유령을 그럴싸하게 여기게끔 만들기 위한 대사를 썼지요.",
 		'ro': "Chiar și când Shakespeare spune, „Sunt mai multe lucruri în cer și pe pământ, Horațiu, decât cele visate de propria ta filosofie” – acesta încearcă de fapt să ne convingă să înghițim povestea cu fantoma.",
-		'uz': "Shekspir \“do‘stim Goratsio, bu dunyoda donishmandlarning tushiga ham kirmagan juda ko‘p narsalar bor\”, — deb yozar ekan, aslida tomoshaning boshlanishida arvohni bizga yanada ishonarliroq qilib ko‘rsatishga harakat qilgan edi."  
+		'uz': "Shekspir \“do‘stim Goratsio, bu dunyoda donishmandlarning tushiga ham kirmagan juda ko‘p narsalar bor\”, — deb yozar ekan, aslida tomoshaning boshlanishida arvohni bizga yanada ishonarliroq qilib ko‘rsatishga harakat qilgan edi.",
+		'sl': "Tudi ko je Shakespeare zapisal: »Več je stvari v nebesih in na Zemlji, kot si jih sanja vaše modrijanstvo.« – nam je v bistvu hotel dati nekakšen izgovor, da bi duh v njegovi zgodbi izpadel bolj verjeten."
 	},
 	
 	'uranuslabel': {
@@ -1992,7 +2064,8 @@ var translations = {
 		'zt': "天王星",
 		'kr': "천왕성",
 		'ro': "Uranus",
-		'uz': "URAN"  
+		'uz': "URAN",
+		'sl': "Uran"
 	},
 	
 	'but-all-this': {
@@ -2020,7 +2093,8 @@ var translations = {
 		'zt': "言而總之，這空曠深邃的太空、這無邊無盡的尺度，真的是超乎我們的認知所能理解的，不管是這張地圖還是以上所有的舉例說明，其實都不足以完整詮釋。",
 		'kr': "하지만 이처럼 빈 공간을 비롯해 엄청난 규모의 것들은, 정말로 우리의 상상을 넘어선다고 말해야겠어요. 그림과 비유로는 제대로 드러내지 못해요.",
 		'ro': "Tot acest spațiu gol, toate aceste lucruri la o scară atât de mare, sunt într-adevăr mai mult decât poate mintea noastră să conceapă. Hărțile și metaforele nu-l pot cuprinde.",
-		'uz': "Ammo bu bo‘shliq va katta hajmdagi jismlar chindan ham ongimiz tasavvur qila olmaydigan narsalardir. Xarita va istioralar ularni chinakamiga tasvirlab bera olmaydi."  
+		'uz': "Ammo bu bo‘shliq va katta hajmdagi jismlar chindan ham ongimiz tasavvur qila olmaydigan narsalardir. Xarita va istioralar ularni chinakamiga tasvirlab bera olmaydi.",
+		'sl': "Ves ta prazen prostor, te ogromne stvari resnično presegajo meje našega uma. Zemljevidi in prispodobe jih ne morejo zares ustrezno zajeti."
 	},
 	
 	'you-look-at': {
@@ -2048,7 +2122,8 @@ var translations = {
 		'zt': "我們在看得到的點上尋覓另一個看得到的點，好像這中間所有的空白都無關緊要，甚至還顯得有點無聊。",
 		'kr': "작은 천체를 보고 나면 또 다른 천체를 찾아보려고 하겠지요. 그 사이의 모든 것들은 하찮고 따분하다고 느끼겠지요.",
 		'ro': "Privim un punct minuscul, apoi căutăm următorul punct. Tot ce este între acestea este nesemnificativ și plicticos.",
-		'uz': "Avvaliga bir kichik nuqtaga qaraysiz, keyin boshqa kichik nuqtani qidirasiz. Ularning orasidagi istalgan narsa ahamiyatsiz va juda zerikarli tuyuladi."  
+		'uz': "Avvaliga bir kichik nuqtaga qaraysiz, keyin boshqa kichik nuqtani qidirasiz. Ularning orasidagi istalgan narsa ahamiyatsiz va juda zerikarli tuyuladi.",
+		'sl': "Zagledaš eno drobno piko, nato iščeš naslednjo drobno piko. Vse kar je vmes je nepomembno in precej dolgočasno."
 	},
 	
 	'emptiness-is-actually': {
@@ -2076,7 +2151,8 @@ var translations = {
 		'zt': "但事實是，空白無所不在，它實實在在地佔據了 99.9999999999999999999958% 的已知宇宙。",
 		'kr': "사실은 빈틈투성이에요. 지금까지 밝혀진 바로 우주는 어림잡아 99.9999999999999999999958% 정도 비어 있어요.",
 		'ro': "Nimicul este, de fapt, peste tot. Reprezintă cam 99,9999999999999999999958% din universul cunoscut.",
-		'uz': "Bo‘shliq aslida hamma joyda bor. Bizga ma’lum bo‘lgan koinotning 99,9999999999999999999958 foizi bo‘shliqdir."  
+		'uz': "Bo‘shliq aslida hamma joyda bor. Bizga ma’lum bo‘lgan koinotning 99,9999999999999999999958 foizi bo‘shliqdir.",
+		'sl': "Praznina je pravzaprav povsod. Približno 99,9999999999999999999958% znanega vesolja je praznega."
 	},
 	
 	'even-an-atom': {
@@ -2104,7 +2180,8 @@ var translations = {
 		'zt': "即便在一個小小的原子裡頭，絕大部分也是空空如也。",
 		'kr': "심지어 원자조차도 대부분 빈칸이에요.",
 		'ro': "Chiar și atomul este mai mult spațiu gol.",
-		'uz': "Hatto atom ham asosan bo‘shliqdan iborat."  
+		'uz': "Hatto atom ham asosan bo‘shliqdan iborat.",
+		'sl': "Celo atom je po večini prazen prostor."
 	},
 	
 	'if-the-proton': {
@@ -2132,7 +2209,8 @@ var translations = {
 		'zt': "假設現在把氫原子裡的質子放大到跟這張地圖上的太陽一樣的話，那以平均距離而言，我們必須把地圖的總長延長整整 11 倍，才有機會看到環繞在外面的電子。",
 		'kr': "수소 원자의 양자를 이 약도의 해와 같은 크기라고 가정할 때, 전자의 평균 거리를 표시하려면 이 약도의 11 배 길이가 필요해요.",
 		'ro': "Dacă protonul atomului de hidrogen ar fi de mărimea Soarelui de pe această hartă, ne-ar trebui încă 11 asemenea hărți pentru a arăta distanța medie până la electron.",
-		'uz': "Agar vodorod atomining protoni ushbu xaritadagi Quyosh kattaligicha bo‘lganda, uning elektronigacha bo‘lgan o‘rtacha masofani ko‘rsatish uchun bizga yana 11 ta xarita kerak bo‘lardi."  
+		'uz': "Agar vodorod atomining protoni ushbu xaritadagi Quyosh kattaligicha bo‘lganda, uning elektronigacha bo‘lgan o‘rtacha masofani ko‘rsatish uchun bizga yana 11 ta xarita kerak bo‘lardi.",
+		'sl': "Če bi bil proton v vodikovem atomu velik kot sonce kot je prikazano na tem zemljevidu, bi za prikaz povprečne razdalje do elektrona potrebovali še 11 takšnih zemljevidov."
 	},
 	
 	'some-theories-say': {
@@ -2160,7 +2238,8 @@ var translations = {
 		'zt': "雖然有些理論主張：這片空白可能滿是無法偵測的能量或所謂的暗物質；沒有一個狀態是真的可以「什麼都沒有」的...。",
 		'kr': "어떤 이론들은 빈 공간이 원래는 에너지나 암흑 물질로 가득하며 사실상 빈 곳은 없다고 말하기도 해요..." ,
 		'ro': "Unele teorii susțin că tot acest spațiu gol ar fi de fapt plin de energie sau materie întunecată, și că nimic nu poate fi de fapt gol cu adevărat…",
-		'uz': "Ba’zi nazariyalarga ko‘ra, bu bo‘shliq energiya yoki qorong‘i materiya bilan to‘la. Shu sababli hech narsa hech qachon bo‘sh bo‘lishi mumkin emas…"  
+		'uz': "Ba’zi nazariyalarga ko‘ra, bu bo‘shliq energiya yoki qorong‘i materiya bilan to‘la. Shu sababli hech narsa hech qachon bo‘sh bo‘lishi mumkin emas…",
+		'sl': "Nekatere teorije sicer pravijo, da je vsa ta praznina dejansko polna energije oziroma tako imenovane temne snovi in da nič ne more biti resnično prazno ..."
 	},
 	
 	'but-come-on': {
@@ -2188,7 +2267,8 @@ var translations = {
 		'zt': "但，能確實被感知存在的東西對我們來說才不至於淪為空談啊。",
 		'kr': "그런데 우리에게 의미 있는 것은 일반적인 물질이잖아요.",
 		'ro': "dar să fim serioși, doar materia obișnuită are sens pentru noi.",
-		'uz': "Lekin tan olaylik: biz faqat oddiy materiyani tasavvur qila olamiz xolos."  
+		'uz': "Lekin tan olaylik: biz faqat oddiy materiyani tasavvur qila olamiz xolos.",
+		'sl': "ampak lepo vas prosim, za nas šteje samo navadna snov."
 	},
 	'you-could-safely': {
 		'en': "You could safely say the universe is a \"whole lotta nothing.\"",
@@ -2215,7 +2295,8 @@ var translations = {
 		'zt': "依著剛剛的比例，其實你也可以說：「整個宇宙根本空無一物」。",
 		'kr': "우주에 대해 \"온통 아무것도 아니네\"라고 말해도 될 정도에요.",
 		'ro': "Am putea spune că universul este „un mare nimic”.",
-		'uz': "Demak, koinot shunchaki \“kulcha o‘rtasidagi teshik\” deyishimiz mumkin."  
+		'uz': "Demak, koinot shunchaki \“kulcha o‘rtasidagi teshik\” deyishimiz mumkin.",
+		'sl': "Brez težav bi lahko rekli, da je celotno vesolje »en sam prazen nič.«"
 	},
 	'if-so-much': {
 		'en': "If so much of the universe is made up of emptiness, what does that mean to people like us, living on a tiny speck in the middle of all of it? ",
@@ -2242,7 +2323,8 @@ var translations = {
 		'zt': "但這樣一來，像我們這樣，活在浩瀚無垠中、塵埃小點上的存在，又代表著什麼意義呢？",
 		'kr': "우주가 그렇게 많이 빈 상태라면, 그러한 사실 자체는 그 안의 티끌에 살고 있는 우리에게 무엇을 의미할까요?",
 		'ro': "Dacă o parte atât de mare din univers este doar gol, ce înseamnă acest lucru pentru noi, care trăim pe un fir de praf în mijlocul acestui gol?",
-		'uz': "Agar koinotning asosiy qismi bo‘shliqdan iborat bo‘lsa, bu o‘rtada, mayda zarradek sayyorada yashayotgan biz kabi odamlar uchun nimani anglatadi?"  
+		'uz': "Agar koinotning asosiy qismi bo‘shliqdan iborat bo‘lsa, bu o‘rtada, mayda zarradek sayyorada yashayotgan biz kabi odamlar uchun nimani anglatadi?",
+		'sl': "Če je toliko vesolja sestavljenega iz praznine, kaj to pomeni za nas, ki živimo na drobni piki sredi vse te praznine?"
 	},
 	
 	'is-the-known': {
@@ -2270,7 +2352,8 @@ var translations = {
 		'zt': "我們所知的宇宙到底是 99.9999999999999999999958% 的無？",
 		'kr': "알려진 우주는 99.9999999999999999999958%만큼 빈 걸까요? ",
 		'ro': "Este Universul cunoscut 99,9999999999999999999958% gol?",
-		'uz': "Shunda biz bilgan koinotning 99,9999999999999999999958 foizi bo‘shmi?"  
+		'uz': "Shunda biz bilgan koinotning 99,9999999999999999999958 foizi bo‘shmi?",
+		'sl': "Ali je vesolje 99,9999999999999999999958% prazno?"
 	},
 	
 	'or-is-it': {
@@ -2298,7 +2381,8 @@ var translations = {
 		'zt': "還是 0.0000000000000000000042% 的有呢？",
 		'kr': "아니면 0.0000000000000000000042%만큼 찬 걸까요?",
 		'ro': "Sau este 0,0000000000000000000042% plin?",
-		'uz': "Boshqacharoq aytganda, koinotning 0,0000000000000000000042 foizigina to‘lgan xolosmi?"  
+		'uz': "Boshqacharoq aytganda, koinotning 0,0000000000000000000042 foizigina to‘lgan xolosmi?",
+		'sl': "Ali je 0,0000000000000000000042% polno?"
 	},
 	
 	'with-so-much': {
@@ -2326,7 +2410,8 @@ var translations = {
 		'zt': "會不會某種層面來說，這些天體、星塵以及我們人類，就像黑色毛衣上沾染的頭皮屑，才是這片井然有序的虛無中，使人皺眉的小小錯誤呢？",
 		'kr': "이렇게 큰 허공을 놓고 보면, 항성과 행성과 인간은 우아하고 한결같은 무(無)에 어긋나는 일종의 흠이 아닐까요, 마치 검은 스웨터의 보풀처럼?",
 		'ro': "Cu atât de mult gol, sunt oare stelele, planetele și oamenii doar niște accidente într-un nimic elegant și uniform, precum niște scame pe o bluză neagră?",
-		'uz': "Agar bo‘shliq shu darajada ko‘p bo‘lsa, u holda yulduz, sayyora va odamlar to‘kislikdagi kamchilikmi? Hech narsa — qora ko‘ylakdagi chang kabi..."  
+		'uz': "Agar bo‘shliq shu darajada ko‘p bo‘lsa, u holda yulduz, sayyora va odamlar to‘kislikdagi kamchilikmi? Hech narsa — qora ko‘ylakdagi chang kabi...",
+		'sl': "Ali niso zvezde, planeti in ljudje pri vsej tej praznini kot nekakšne napake v sistemu sicer elegantnega in enotnega niča, kot kosmi blaga na črnem puloverju?"
 	},
 	
 	'but-without-the': {
@@ -2354,7 +2439,8 @@ var translations = {
 		'zt': "可是如果沒有這些小小的錯誤，也就沒有可以被相對度量出來的虛無了，或者是說，根本就也沒有人來度量了。",
 		'kr': "하지만 그러한 작은 점들까지 모두 존재하지 않았다면, 있음과 없음을 견줄 수도 없어서 빈 공간이라는 개념이 무색하고, 애초에 이를 견줄 그 누구도 존재하지 않았겠지요.",
 		'ro': "Dar fără aceste punctișoare, n-am avea ce gol să măsurăm, și de fapt, nici n-ar avea cine să fie acolo pentru a-l măsura.",
-		'uz': "Ammo aynan mana shu mitti zarralar orasidagi masofani o‘lchab, bo‘shliqning ulkanligini oz bo‘lsa-da tushunyapmiz. Aks holda buning iloji bo‘lmasdi."  
+		'uz': "Ammo aynan mana shu mitti zarralar orasidagi masofani o‘lchab, bo‘shliqning ulkanligini oz bo‘lsa-da tushunyapmiz. Aks holda buning iloji bo‘lmasdi.",
+		'sl': "Toda brez drobnih pik, med katerimi bi se lahko nič raztezal, ne bi bilo merljive praznine, in pravzaprav tudi nikogar, ki bi jo lahko meril."
 	},
 	
 	'you-might-say': {
@@ -2382,7 +2468,8 @@ var translations = {
 		'zt': "或許反過來說，也是這片虛無讓這些小如針尖的點點們有了意義。我們甚至可以獨排眾議地說：「它並不是『空的』」。",
 		'kr': "막대하게 빈 공간으로 인해 미미한 물체의 의미가 더욱 두드러진다고 말할 수 있어요 - 이것저것 떠나서, 말 그대로 물체는 빈 상태와 대조되기 때문이지요. ",
 		'ro': "S-ar putea spune că atât de mult gol face ca bucățelele de materie să fie cu atât mai semnificative – pur și simplu pentru că, în ciuda statisticii, acestea nu sunt goale.",
-		'uz': "Tan olish kerak, aynan shu hadsiz bo‘shliq mitti zarralarga ma’no beryapti, chunki ular mittiligiga qaramasdan bo‘sh emas, aksincha o‘zida nimanidir saqlaydi."  
+		'uz': "Tan olish kerak, aynan shu hadsiz bo‘shliq mitti zarralarga ma’no beryapti, chunki ular mittiligiga qaramasdan bo‘sh emas, aksincha o‘zida nimanidir saqlaydi.",
+		'sl': "Lahko bi celo rekli, da so zaradi tolikšne praznine drobni delci snovi še toliko bolj pomembni – preprosto zato, ker vsemu navkljub niso prazni."
 	},
 	
 	'if-youre-drowning': {
@@ -2410,7 +2497,8 @@ var translations = {
 		'zt': "就像在汪洋大海中溺水時，一塊小小的浮木對我們來說也有如三世福份那麼珍貴。",
 		'kr': "바다 한가운데에서 헤매고 있다면, 떠다니는 나뭇조각이라도 대수롭지요.",
 		'ro': "Dacă te îneci în mijlocul oceanului, o bucată de lemn plutitor devine un lucru foarte important.",
-		'uz': "Agar okean o‘rtasida cho‘kib ketayotgan bo‘lsangiz, suvda qalqib turgan yog‘och bo‘lagi siz uchun juda ko‘p narsani anglatadi."  
+		'uz': "Agar okean o‘rtasida cho‘kib ketayotgan bo‘lsangiz, suvda qalqib turgan yog‘och bo‘lagi siz uchun juda ko‘p narsani anglatadi.",
+		'sl': "Če se utapljate sredi oceana, je kos plavnega lesa precej pomembna stvar."
 	},
 	
 	'what-if-trillions': {
@@ -2438,7 +2526,8 @@ var translations = {
 		'zt': "如果哪天億兆顆的星球通通黏在一起又會如何呢？那似乎就沒有哪一顆星球會是特別的了。",
 		'kr': "수 조 개의 천체들이 바글바글 이웃해 있다면 어떨까요? 흔하게 접할 수 있다면 이처럼 각별하게 여기지는 않겠지요.",
 		'ro': "Cum ar fi dacă trilioane de stele și de planete ar fi înghesuite unele lângă altele? Atunci n-ar mai fi atât de speciale.",
-		'uz': "Agar trillionlab yulduz va sayyoralar bir-birining yonida joylashgan bo‘lganda-chi? U holda ularning hech qanday o‘ziga xosligi qolmasdi."  
+		'uz': "Agar trillionlab yulduz va sayyoralar bir-birining yonida joylashgan bo‘lganda-chi? U holda ularning hech qanday o‘ziga xosligi qolmasdi.",
+		'sl': "Kaj če bi bilo bilijon zvezd in planetov stlačenih na kupu? Potem sploh ne bi bili tako posebni."
 	},
 	
 	'it-seems-like': {
@@ -2466,7 +2555,8 @@ var translations = {
 		'zt': "這樣說來，我們雖然卑微地渺小，但也奇蹟般偉大。",
 		'kr': "우리는 안쓰러울 정도로 보잘것없기도 하고, 놀라우리만치 귀중하기도 하네요.",
 		'ro': "Se pare că suntem, în același timp, jalnic de nesemnificativi și miraculos de importanți.",
-		'uz': "Aftidan, biz bir paytning o‘zida ham g‘arib, ham mo‘jizaviy ahamiyatga ega obyektlarmiz."  
+		'uz': "Aftidan, biz bir paytning o‘zida ham g‘arib, ham mo‘jizaviy ahamiyatga ega obyektlarmiz.",
+		'sl': "Zdi se, da smo patetično nepomembni in čudežno pomembni hkrati."
 	},
 	
 	'whether-you-more': {
@@ -2494,7 +2584,8 @@ var translations = {
 		'zt': "至於要選擇感受正向的希望還是更多負面的自卑，取決你是一個怎麼樣的人以及你的大腦在這樣的特殊時刻是如何平衡認知的。",
 		'kr': "아주 작은 형체들과 그들 사이의 광대한 진공 중에서 어느 쪽을 더 인상적으로 느낄지는 사람마다 다르고, 느끼는 사람의 뇌의 화학적 균형 상태가 그 순간 어떠한지에 따라서 다르기도 해요. ",
 		'ro': "Dacă sesizăm mai degrabă semnificația monumentală a lucrurilor mici, sau imensul gol dintre ele, depinde de cine suntem și cum funcționează chimia creierului nostru la un moment dat.",
-		'uz': "Qay biri muhimroq ko‘rinadi: mayda narsalar yoki ular orasidagi dahshatli bo‘shliq? Albatta, bu shu haqida kim o‘ylayotgani va hozirda uning miyasi qanday tuzilganiga bog‘liq."  
+		'uz': "Qay biri muhimroq ko‘rinadi: mayda narsalar yoki ular orasidagi dahshatli bo‘shliq? Albatta, bu shu haqida kim o‘ylayotgani va hozirda uning miyasi qanday tuzilganiga bog‘liq.",
+		'sl': "Ali močneje čutite ogromen pomen drobnih stvari ali veliko praznino med njimi je odvisno od tega, kdo ste in od tega, kakšno je trenutno ravnovesje vaše možganske kemije."
 	},
 	
 	'we-walk-around': {
@@ -2522,7 +2613,8 @@ var translations = {
 		'zt': "我們的內心其實一直帶著感性的小小宇宙在往前邁進呢。",
 		'kr': "우리는 우주의 정서적인 축소판을 지니고 다니는 셈이지요.",
 		'ro': "Umblăm având în noi niște versiuni miniaturale și emoționale ale universului.",
-		'uz': "Har bir insonda mittigina hissiy koinot yashirin."  
+		'uz': "Har bir insonda mittigina hissiy koinot yashirin.",
+		'sl': "V sebi nosimo pomanjšane, čustvene različice vesolja."
 	},
 	
 	'its-reassuring-to': {
@@ -2550,7 +2642,8 @@ var translations = {
 		'zt': "最後，請放下心來，不管決定是要妄自菲薄還是自視甚高，以目前的結構來說，面對這兩個極端，宇宙都能輕易地包容我們。",
 		'kr': "얼마나 괴롭도록 울적하든, 터무니없이 대단하다는 마음을 갖든, 현재 구조로 보아 우주는 그러한 양 극단에 익숙한 것으로 보이며, 이는 꽤나 안도감을 주지요.",
 		'ro': "Este reconfortant să știm că, indiferent cât de depresivi sau de plini de vervă ne simțim, universul, judecând după structura lui actuală, este conștient de ambele extreme.",
-		'uz': "Biz o‘zimizni qanchalik oddiy yoki taqdirga bardoshli deb bilishimizdan qat’i nazar — koinot har ikkala holat bilan ham yaxshi tanishligi haqida o‘ylash yoqimli."  
+		'uz': "Biz o‘zimizni qanchalik oddiy yoki taqdirga bardoshli deb bilishimizdan qat’i nazar — koinot har ikkala holat bilan ham yaxshi tanishligi haqida o‘ylash yoqimli.",
+		'sl': "Pomirjujoče je vedeti, da ne glede na to, kako turobno ali pomembno se počutimo, se vesolje, sodeč po njegovi trenutni strukturi, dobro zaveda obeh skrajnosti."
 	},
 	
 	'neptunelabel': {
@@ -2578,7 +2671,8 @@ var translations = {
 		'zt': "海王星",
 		'kr': "해왕성",
 		'ro': "Neptun",
-		'uz': "NEPTUN"  
+		'uz': "NEPTUN",
+		'sl': "Neptun"
 	},
 	
 	'the-fact-that': {
@@ -2606,7 +2700,8 @@ var translations = {
 		'zt': "靜下來想想，在這片無垠的黑暗裡面，我們此時此刻能夠存在其中，真的真的，是一件很神奇的事情。",
 		'kr': "아무것도 없는 가운데, 여러분이 여기 있다는 것은, 가만히 곱씹어 보면 참 경이로워요.",
 		'ro': "Faptul că am ajuns până aici, în mijlocul acestei pustietăți, este fascinant dacă stăm să ne gândim la asta.",
-		'uz': "To‘xtab, bu ulkan bo‘shliqning o‘rtasida mavjudligimiz haqida o‘ylashning o‘zi ham hayrat uyg‘otadi."  
+		'uz': "To‘xtab, bu ulkan bo‘shliqning o‘rtasida mavjudligimiz haqida o‘ylashning o‘zi ham hayrat uyg‘otadi.",
+		'sl': "Dejstvo, da smo tukaj, sredi vsega tega niča, je zares neverjetno."
 	},
 	
 	'congratulations-on-making': {
@@ -2634,7 +2729,8 @@ var translations = {
 		'zt': "恭喜你走了這麼遠。",
 		'kr': "이렇게 먼 여행을 해내다니 축하해요.",
 		'ro': "Felicitări pentru că ați ajuns atât de departe. ",
-		'uz': "Uzoq yo‘lni ortda qoldirganingiz bilan tabriklayman."  
+		'uz': "Uzoq yo‘lni ortda qoldirganingiz bilan tabriklayman.",
+		'sl': "Čestitam, da ste prišli tako daleč."
 	},
 	
 	'plutolabel': {
@@ -2662,7 +2758,8 @@ var translations = {
 		'zt': "冥王星",
 		'kr': "명왕성",
 		'ro': "Pluton",
-		'uz': "PLUTON"  
+		'uz': "PLUTON",
+		'sl': "Pluton"
 	},
 	
 	'we-still-love': {
@@ -2690,7 +2787,8 @@ var translations = {
 		'zt': "(我們依然愛你)",
 		'kr': "(태양계에서 빠졌어도 우리는 아직 너를 사랑해)",
 		'ro': "(Încă te iubim)",
-		'uz': "(Seni baribir yaxshi ko‘ramiz)"  
+		'uz': "(Seni baribir yaxshi ko‘ramiz)",
+		'sl': "(Še vedno te imamo radi)"
 	},
 	
 	'might-as-well': {
@@ -2718,7 +2816,8 @@ var translations = {
 		'zt': "那就先這樣吧，畢竟，在你看到下一個東西之前，我們還得再滑過 6,771 張地圖呢。",
 		'kr': "여기서 멈춰야겠어요. 이 밖에서 뭔가라도 보려면 방금 온 길의 6,771 배를 더 가야 하거든요.",
 		'ro': "Putem să ne oprim aici. Ar trebui să derulăm încă 6.771 hărți precum aceasta pentru a mai vedea încă ceva.",
-		'uz': "Shu bilan to‘xtasak ham bo‘ladi, chunki keyingi bekatga yetish uchun shunga o‘xshash yana 6771 ta xaritani bosib o‘tish kerak bo‘ladi."  
+		'uz': "Shu bilan to‘xtasak ham bo‘ladi, chunki keyingi bekatga yetish uchun shunga o‘xshash yana 6771 ta xaritani bosib o‘tish kerak bo‘ladi.",
+		'sl': "Najbolje, da tukaj zaključimo. Preden bi prišli do naslednje omembe vredne stvari, bi se morali pomakniti še po 6.771 zemljevidih kot so tile."
 	},
 	
 	'back-to-josh': {
@@ -2746,7 +2845,8 @@ var translations = {
 		'zt': "回到 JoshWorth.com",
 		'kr': "홈페이지로 돌아가기",
 		'ro': "Înapoi la JoshWorth.com",
-		'uz': "JoshWorth.com saytiga qaytish"  
+		'uz': "JoshWorth.com saytiga qaytish",
+		'sl': "Nazaj na spletno stran JoshWorth.com"
 	},
 	
 	'follow-me-on': {
@@ -2774,7 +2874,8 @@ var translations = {
 		'zt': "在推特上追蹤我",
 		'kr': "트위터 팔로우하기",
 		'ro': "Urmăriți-mă pe Twitter",
-		'uz': "Muallifning Twitter sahifasiga obuna bo‘lish"  
+		'uz': "Muallifning Twitter sahifasiga obuna bo‘lish",
+		'sl': "Sledite mi na Twitterju"
 	},
 	'translation-by': {
 		'en': "",
@@ -2801,7 +2902,8 @@ var translations = {
 		'zt': "  |  ",
 		'kr': "  |  옮긴이: ",
 		'ro': "  |  Tradus de ",
-		'uz': "  |  Sinaps jamoasi tomonidan tarjima qilindi "  
+		'uz': "  |  Sinaps jamoasi tomonidan tarjima qilindi ",
+		'sl': " | Prevedel Tomaž Šteh"
 	},
 	'translation-link2': {
 		'en':"",
@@ -2828,7 +2930,8 @@ var translations = {
 		'zt': "",
 		'kr': "",
 		'ro': "",
-		'uz': ""  
+		'uz': "",
+		'sl': ""
 	},
 	'translation-link1': {
 		'en':"",
@@ -2855,7 +2958,8 @@ var translations = {
 		'zt': "",
 		'kr': "",
 		'ro': "",
-		'uz': ""  
+		'uz': "",
+		'sl': ""
 	},
 		'translation-link3': {
 		'en':"",
@@ -2882,7 +2986,8 @@ var translations = {
 		'zt': "",
 		'kr': "",
 		'ro': "",
-		'uz': ""  
+		'uz': "",
+		'sl': ""
 	},
 		'translation-link4': {
 		'en':"",
@@ -2909,7 +3014,8 @@ var translations = {
 		'zt': "此版本由 Loso Kao, 高嘉宏 翻譯",
 		'kr': "",
 		'ro': "",
-		'uz': ""  
+		'uz': "",
+		'sl': ""
 	},
 	
 'translation-link5': {
@@ -2937,7 +3043,8 @@ var translations = {
 		'zt': "",
 		'kr': "",
 		'ro': "Răzvan NEAGOE",
-		'uz': ""  
+		'uz': "",
+		'sl': ""
 	},
 	
 	'translation-link6': {
@@ -2965,7 +3072,8 @@ var translations = {
 		'zt': "",
 		'kr': "김동겸",
 		'ro': "",
-		'uz': ""  
+		'uz': "",
+		'sl': ""
 	},
 
 	
@@ -2994,7 +3102,8 @@ var translations = {
 		'zt': "光前進的速度就這麼快...",
 		'kr': "비율 상 빛은 이 정도 빠르기로 나아가요...",
 		'ro': "Atât de repede călătorește lumina…",
-		'uz': "Yorug‘lik shunday tezlikda tarqaladi..."  
+		'uz': "Yorug‘lik shunday tezlikda tarqaladi...",
+		'sl': "Takole hitro potuje svetloba ..."
 	},
 	'msg2': {
 		'en':"It's the fastest speed allowed by the universe...",
@@ -3021,7 +3130,8 @@ var translations = {
 		'zt': "這是宇宙所能允許最快的速度了...",
 		'kr': "우주에서 허용된 가장 빠른 속력이지요…",
 		'ro': "Este cea mai mare viteză permisă de univers…",
-		'uz': "Koinotda bundan tez harakatlanish taqiqlanadi, qoidani buzganingiz uchun radarga tushishingiz mumkin..."  
+		'uz': "Koinotda bundan tez harakatlanish taqiqlanadi, qoidani buzganingiz uchun radarga tushishingiz mumkin...",
+		'sl': "To je najhitrejša dovoljena hitrost v vesolju ..."
 	},
 	'msg3': {
 		'en':"Seriously.",
@@ -3048,7 +3158,8 @@ var translations = {
 		'zt': "沒騙你。",
 		'kr': "정말이에요.",
 		'ro': "Serios.",
-		'uz': "Bu hazil emas."  
+		'uz': "Bu hazil emas.",
+		'sl': "Čisto zares."
 	},
 	'msg4': {
 		'en':"If you're in a hurry to get somewhere in space...",
@@ -3075,7 +3186,8 @@ var translations = {
 		'zt': "那如果你還是趕時間的話...",
 		'kr': "우주에서 어딘가로 급하게 가야 한다면…",
 		'ro': "Dacă vă grăbiți să ajungeți undeva în spațiu…",
-		'uz': "Agar biror yerga shoshilayotgan bo‘lsangiz..."  
+		'uz': "Agar biror yerga shoshilayotgan bo‘lsangiz...",
+		'sl': "Če se vam hudo mudi nekam v vesolju ..."
 	},
 	'msg5': {
 		'en':"you'll need to take it up with Dr. Einstein.",
@@ -3102,7 +3214,8 @@ var translations = {
 		'zt': "可能得請你自己去跟愛因斯坦商量商量了。 ",
 		'kr': "아인슈타인 씨와 얘기해봐야 할걸요.",
 		'ro': "Va trebui să aranjați cu dl. Einstein.",
-		'uz': "Barcha e’tirozlaringizni janob Eynshteynga yo‘llashingiz mumkin."  
+		'uz': "Barcha e’tirozlaringizni janob Eynshteynga yo‘llashingiz mumkin.",
+		'sl': "boste morali pritožbo nasloviti na gospoda Einsteina."
 	},	
 	'km': {
 		'en':"km",
@@ -3129,7 +3242,8 @@ var translations = {
 		'zt': "公里",
 		'kr': "킬로미터",
 		'ro': "km",
-		'uz': "km"  
+		'uz': "km",
+		'sl': "km"
 	},
 	'mi': {
 		'en':"mi",
@@ -3156,7 +3270,8 @@ var translations = {
 		'zt': "英里",
 		'kr': "마일",
 		'ro': "mi",
-		'uz': "mil"  
+		'uz': "mil",
+		'sl': "milj"
 	},
 	'au': {
 		'en':"AU",
@@ -3183,7 +3298,8 @@ var translations = {
 		'zt': "天文單位",
 		'kr': "천문단위(해에서 지구까지의 거리)",
 		'ro': "UA",
-		'uz': "a.b."  
+		'uz': "a.b.",
+		'sl': "astronomskih enot"
 	},
 	'lightminutes': {
 		'en':"Light Minutes",
@@ -3210,7 +3326,8 @@ var translations = {
 		'zt': "光分",
 		'kr': "광분(光分)",
 		'ro': "Minute-lumină",
-		'uz': "yorug‘lik daqiqasi"  
+		'uz': "yorug‘lik daqiqasi",
+		'sl': "svetlobnih minut"
 	},
 	'earths': {
 		'en':"Earths",
@@ -3237,7 +3354,8 @@ var translations = {
 		'zt': "地球直徑",
 		'kr': "지구",
 		'ro': "Planete Pământ",
-		'uz': "Yer diametri"  
+		'uz': "Yer diametri",
+		'sl': "Zemelj"
 	},
 	'pixels': {
 		'en':"Pixels",
@@ -3264,7 +3382,8 @@ var translations = {
 		'zt': "像素",
 		'kr': "픽셀",
 		'ro': "Pixeli",
-		'uz': "piksel"  
+		'uz': "piksel",
+		'sl': "pikslov"
 	},
 	'buses': {
 		'en':"Buses",
@@ -3291,7 +3410,8 @@ var translations = {
 		'zt': "公車",
 		'kr': "버스",
 		'ro': "Autobuze",
-		'uz': "avtobus"  
+		'uz': "avtobus",
+		'sl': "avtobusov"
 	},
 	'bluewhales': {
 		'en':"Blue Whales",
@@ -3318,7 +3438,8 @@ var translations = {
 		'zt': "藍鯨",
 		'kr': "흰긴수염고래",
 		'ro': "Balene albastre",
-		'uz': "ko‘k kit"  
+		'uz': "ko‘k kit",
+		'sl': "sinjih kitov"
 	},
 	'greatwalls': {
 		'en':"Great Walls of China",
@@ -3345,7 +3466,8 @@ var translations = {
 		'zt': "長城",
 		'kr': "만리장성",
 		'ro': "Marile Ziduri Chinezești",
-		'uz': "Buyuk Xitoy devori"  
+		'uz': "Buyuk Xitoy devori",
+		'sl': "Kitajskih zidov"
 	},
 }
 	
@@ -3374,7 +3496,8 @@ var languages = {
 	正體中文: 'zt',
 	한국어: 'kr',
 	Română: 'ro',
-	Uzbek: 'uz'
+	Uzbek: 'uz',
+	Slovenščina: 'sl'
 }
 
 var delimeters = {
@@ -3402,7 +3525,8 @@ var delimeters = {
 	正體中文: ',',
 	한국어: ',',
 	Română: '.',
-	Uzbek: ' '
+	Uzbek: ' ',
+	Slovenščina: '.'
 }
 
 var decimalmarks = {
@@ -3431,5 +3555,6 @@ var decimalmarks = {
 	한국어: '.',
 	Română: ',',
 	Uzbek: ','
-	
+	,
+	Slovenščina: ','
 }
