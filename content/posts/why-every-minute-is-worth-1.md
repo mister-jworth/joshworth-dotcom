@@ -4,6 +4,7 @@ slug: "why-every-minute-is-worth-1"
 date: "2026-02-19T14:33:22Z"
 excerpt: "Time really is money. I figured out the exchange rate."
 featuredImage: "/uploads/2026/01/time-is-money.jpg"
+hideFeaturedImage: true
 categories:
   - "featured"
   - "resources"
