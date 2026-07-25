@@ -34,7 +34,7 @@ export default async function PostPage({ params }) {
     <>
       <article className="prose narrow">
         <h1 className="page-title">{post.title}</h1>
-        {post.featuredImage && !post.body.slice(0, 600).includes(post.featuredImage) && (
+        {post.featuredImage && !post.hideFeaturedImage && !post.body.slice(0, 600).includes(post.featuredImage) && (
           <p>
             <img src={post.featuredImage} alt="" style={{ width: '100%' }} />
           </p>

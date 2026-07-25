@@ -883,6 +883,17 @@ input, textarea {
   text-decoration: underline;
 }
 
+.editor-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #6c727a;
+  margin: -6px 0 16px;
+  cursor: pointer;
+}
+.editor-checkbox input { cursor: pointer; }
+
 .editor-body {
   width: 100%;
   min-height: 480px;

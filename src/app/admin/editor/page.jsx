@@ -14,6 +14,7 @@ const emptyPost = () => ({
   excerpt: '',
   categories: '',
   featuredImage: '',
+  hideFeaturedImage: false,
   date: '',
   body: '',
   sha: null,
@@ -86,6 +87,7 @@ export default function EditorPage() {
       excerpt: f.excerpt || '',
       categories: (f.categories || []).join(', '),
       featuredImage: f.featuredImage || '',
+      hideFeaturedImage: !!f.hideFeaturedImage,
       date: f.date || '',
       body: out.body || '',
       sha: out.sha,
@@ -113,6 +115,7 @@ export default function EditorPage() {
         excerpt: post.excerpt,
         categories: post.categories,
         featuredImage: post.featuredImage,
+        hideFeaturedImage: post.hideFeaturedImage,
         date: post.date || undefined,
         body: post.body,
         sha: post.sha,
@@ -324,6 +327,17 @@ export default function EditorPage() {
               )}
             </div>
 
+            {post.featuredImage && (
+              <label className="editor-checkbox">
+                <input
+                  type="checkbox"
+                  checked={post.hideFeaturedImage}
+                  onChange={(e) => setPost((p) => ({ ...p, hideFeaturedImage: e.target.checked }))}
+                />
+                Don&rsquo;t show the featured image at the top of the post
+              </label>
+            )}
+
             <textarea
               className="editor-body"
               placeholder={'Write in markdown…\n\n# Heading\n\nParagraphs, **bold**, *italic*, [links](https://…), images, plain HTML — all welcome.'}
@@ -334,7 +348,7 @@ export default function EditorPage() {
         ) : (
           <article className="prose editor-preview">
             <h1 className="page-title">{post.title || 'Untitled'}</h1>
-            {post.featuredImage && <p><img src={post.featuredImage} alt="" style={{ width: '100%' }} /></p>}
+            {post.featuredImage && !post.hideFeaturedImage && <p><img src={post.featuredImage} alt="" style={{ width: '100%' }} /></p>}
             <div
               dangerouslySetInnerHTML={{
                 __html:

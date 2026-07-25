@@ -39,13 +39,14 @@ function yamlEscape(s) {
   return String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
-function buildFile({ title, slug, date, excerpt, featuredImage, categories, draft, format, body }) {
+function buildFile({ title, slug, date, excerpt, featuredImage, hideFeaturedImage, categories, draft, format, body }) {
   const lines = ['---'];
   lines.push(`title: "${yamlEscape(title)}"`);
   lines.push(`slug: "${yamlEscape(slug)}"`);
   lines.push(`date: "${date}"`);
   if (excerpt) lines.push(`excerpt: "${yamlEscape(excerpt)}"`);
   if (featuredImage) lines.push(`featuredImage: "${yamlEscape(featuredImage)}"`);
+  if (hideFeaturedImage) lines.push('hideFeaturedImage: true');
   if (categories?.length) {
     lines.push('categories:');
     for (const c of categories) lines.push(`  - "${yamlEscape(c)}"`);
@@ -65,7 +66,7 @@ export async function PUT(req) {
   } catch {
     return Response.json({ error: 'Bad request' }, { status: 400 });
   }
-  const { title, slug, excerpt, featuredImage, categories, draft, body, sha, format } = b || {};
+  const { title, slug, excerpt, featuredImage, hideFeaturedImage, categories, draft, body, sha, format } = b || {};
   if (!title?.trim() || !slug?.trim()) {
     return Response.json({ error: 'Title and slug are required.' }, { status: 400 });
   }
@@ -83,6 +84,7 @@ export async function PUT(req) {
     date,
     excerpt: excerpt?.trim(),
     featuredImage: featuredImage?.trim(),
+    hideFeaturedImage: !!hideFeaturedImage,
     categories: cats,
     draft: !!draft,
     format: format || 'markdown',

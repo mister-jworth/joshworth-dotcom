@@ -8,6 +8,7 @@ categories:
   - "featured"
   - "resources"
   - "videos"
+format: "markdown"
 ---
 
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/2QQ2CNNQdY8" title="YouTube video" allowfullscreen loading="lazy"></iframe></div>
@@ -60,6 +61,7 @@ Figuring out a standardized time-to-money conversion rate may sound like a compl
 
 Since it seemed like no one else was eager to provide this number, I did the math myself. Here's what I came up with:
 <h3>For an average American, spending an average amount of money to live up to 100 years of an average life, each hour of time has a value of $60, which works out nicely to $1 per minute.</h3>
+
 I wasn’t looking for it to come out to such a nice round, easy-to-grasp number, but I was quite happy when it did. To show how I came up with this number, I made <a href="https://youtu.be/2QQ2CNNQdY8?si=ABJYc3h6HiPUvaXY" target="_blank" rel="noopener">this two minute video</a> (which, rest-assured, cost me much more time to make than the $2 of time it will cost you to watch it.)
 
 Keep in mind, this number isn’t permanent. It changes as the average annual spending in America changes. But given the margin of error in how that number is calculated, and the wiggle-room in the assumption of a 100 year lifespan, it’s a number that can serve as a reliable baseline for the time being.
