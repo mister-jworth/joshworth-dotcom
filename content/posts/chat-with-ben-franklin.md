@@ -1,7 +1,7 @@
 ---
 title: "Chat with Ben Franklin"
 slug: "chat-with-ben-franklin"
-date: "2026-08-11T14:39:19Z"
+date: "2026-08-11T14:40:11Z"
 excerpt: "Here he is, straight from the Age of Reason"
 draft: true
 format: "markdown"
