@@ -4,9 +4,11 @@ slug: "zero-to-fancy-in-three-steps"
 date: "2022-02-11T17:58:01Z"
 excerpt: "The joy of geometry in action"
 featuredImage: "/uploads/2022/02/geometwirl.png"
+hideFeaturedImage: true
 categories:
   - "art"
   - "curious"
+format: "markdown"
 ---
 
 <section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-100"><figure class="imageframe"><a href="/dev/geometwirl"><img src="/uploads/2022/02/geometwirl.gif" alt="" loading="lazy" /></a></figure>
