@@ -1,5 +1,5 @@
 ---
-title: "IMJF?"
+title: "Is My Job F*cked"
 slug: "imjf"
 date: "2025-06-14T17:12:47Z"
 excerpt: "An AI assistant to answer a nagging question..."
@@ -10,6 +10,7 @@ categories:
   - "interactive"
   - "technology"
   - "thefuture"
+format: "markdown"
 ---
 
 &nbsp;
