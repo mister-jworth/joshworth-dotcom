@@ -47,6 +47,16 @@ export async function getFile(path) {
   return { text, sha: data.sha };
 }
 
+/** Fetch just a file's blob sha (no content decode). Returns sha or null. */
+export async function getFileSha(path) {
+  const c = cfg();
+  const res = await gh(`/repos/${c.repo}/contents/${encodeURI(path)}?ref=${c.branch}`);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`GitHub read failed (${res.status})`);
+  const data = await res.json();
+  return data.sha || null;
+}
+
 /** List filenames in a directory. Returns [] if the directory doesn't exist. */
 export async function listDir(path) {
   const c = cfg();
