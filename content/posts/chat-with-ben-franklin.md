@@ -3,6 +3,7 @@ title: "Chat with Ben Franklin"
 slug: "chat-with-ben-franklin"
 date: "2026-08-11T14:40:11Z"
 excerpt: "Here he is, straight from the Age of Reason"
+featuredImage: "/uploads/2026/08/benbot-e7b38795.png"
 draft: true
 format: "markdown"
 ---
