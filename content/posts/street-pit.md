@@ -4,6 +4,9 @@ slug: "street-pit"
 date: "2026-07-19T23:40:47Z"
 excerpt: "A new play"
 featuredImage: "/uploads/2026/08/street-pit-cover-d311617e.png"
+categories:
+  - "plays"
+  - "featured"
 draft: true
 format: "markdown"
 ---
