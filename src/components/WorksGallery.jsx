@@ -92,6 +92,18 @@ export default function WorksGallery({ works, initialSlug = null }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [open, go]);
 
+  // The detail view is a fixed, full-viewport layer (so it can center
+  // itself regardless of scroll — see .work-detail) — lock background
+  // scroll while it's up, same as the header's nav/search overlays.
+  useEffect(() => {
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [open]);
+
   // iOS gates deviceorientation behind a permission prompt that can only be
   // triggered by a user gesture — ask on the first tap anywhere on the page.
   useEffect(() => {

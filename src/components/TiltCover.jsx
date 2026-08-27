@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 
 // Max rotation in degrees — kept small so the effect reads as a subtle,
 // physical response rather than a literal "3D book" gimmick.
-const MAX_TILT = { grid: 9, detail: 6 };
+const MAX_TILT = { grid: 13, detail: 9 };
 
 /**
  * A book/PDF cover that tilts toward the pointer (or the device's
@@ -35,22 +35,15 @@ export default function TiltCover({ src, alt, name, variant = 'grid' }) {
       c.y += (t.y - c.y) * 0.14;
       el.style.setProperty('--rx', `${c.x.toFixed(3)}deg`);
       el.style.setProperty('--ry', `${c.y.toFixed(3)}deg`);
-      // Sheen (light) and shade (dark) sit on opposite corners of the cover,
-      // like one raking light source — together the specular effect reads
-      // on both light and dark covers, instead of a highlight that only
-      // shows up against dark art. Both fade in with tilt magnitude, so a
-      // resting, untouched cover stays flat instead of showing a permanent
-      // centered smudge.
-      const sx = 50 - c.y * 2.75;
-      const sy = 50 + c.x * 2.75;
-      const glow = Math.min(1, Math.sqrt(c.x * c.x + c.y * c.y) / max);
-      el.style.setProperty('--sx', `${sx.toFixed(2)}%`);
-      el.style.setProperty('--sy', `${sy.toFixed(2)}%`);
-      el.style.setProperty('--shdx', `${(100 - sx).toFixed(2)}%`);
-      el.style.setProperty('--shdy', `${(100 - sy).toFixed(2)}%`);
+      // A highlight (upper-right) and a shadow (lower-right) — one fixed
+      // light source, positioned in CSS — flare in and out with tilt
+      // magnitude. Fixing their position (rather than chasing the pointer
+      // around the cover) is what makes them read clearly instead of
+      // landing in an unpredictable corner; only their strength reacts.
+      const glow = Math.min(1, (Math.sqrt(c.x * c.x + c.y * c.y) / max) * 1.6);
       el.style.setProperty('--glow', glow.toFixed(3));
-      el.style.setProperty('--shx', `${(-c.y * 2).toFixed(2)}px`);
-      el.style.setProperty('--shy', `${(12 - c.x * 2).toFixed(2)}px`);
+      el.style.setProperty('--shx', `${(4 - c.y * 2.5).toFixed(2)}px`);
+      el.style.setProperty('--shy', `${(14 - c.x * 2.5).toFixed(2)}px`);
       raf.current = requestAnimationFrame(paint);
     }
     if (!reduceMotion) raf.current = requestAnimationFrame(paint);
