@@ -713,6 +713,135 @@ details.toggle summary {
 .lightbox-prev { left: 6px; }
 .lightbox-next { right: 6px; }
 
+/* ------------------------------------------------------------------ writing
+   The /writing gallery: a grid of covers that morphs (via the View
+   Transition API — see WorksGallery.jsx) into a single-work close-up.
+   A soft warm wash instead of pure white gives the drop-shadowed covers
+   something to sit on without straying from the site's light backgrounds. */
+.works-page {
+  background: radial-gradient(ellipse 1200px 600px at 50% 0%, #fbfaf8 0%, #f4f2ee 60%, #efece6 100%);
+  padding-bottom: 5em;
+  min-height: 60vh;
+}
+.works-intro { padding-top: 2.2em; }
+
+.works-grid {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 2.2em 40px 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 48px 32px;
+  justify-items: center;
+}
+@media (max-width: 640px) {
+  .works-grid { grid-template-columns: repeat(2, 1fr); padding: 1.6em 20px 2em; gap: 36px 20px; }
+}
+
+.work-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 220px;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.work-tile-title {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--heading);
+  text-align: center;
+  transition: color 0.15s;
+}
+.work-tile:hover .work-tile-title { color: var(--blue); }
+
+/* the cover itself: a perspective box housing the tilting image + sheen */
+.tilt-cover {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1304 / 2140;
+  perspective: 900px;
+}
+.tilt-cover-detail { perspective: 1400px; }
+.tilt-cover-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+  transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  box-shadow:
+    var(--shx, 0px) var(--shy, 10px) 22px -6px rgba(30, 24, 18, 0.38),
+    0 20px 40px -26px rgba(20, 16, 12, 0.45);
+  transition: box-shadow 0.2s ease, transform 0.12s ease-out;
+  user-select: none;
+}
+.work-tile:active .tilt-cover-img { transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) scale(0.97); }
+.tilt-cover-sheen {
+  position: absolute;
+  inset: 0;
+  border-radius: 3px;
+  background: radial-gradient(circle at var(--sx, 50%) var(--sy, 50%), rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0) 55%);
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+}
+
+/* single-work close-up */
+.work-detail {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 2.6em 40px 4em;
+}
+.work-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2.6em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--font-label);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--slate);
+}
+.work-back:hover { color: var(--blue); }
+.work-detail-inner {
+  display: grid;
+  grid-template-columns: minmax(220px, 340px) 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.work-copy h1 { margin-top: 0; font-size: 32px; }
+.work-byline { font-family: var(--font-body); font-style: italic; color: var(--muted); margin: -0.4em 0 1.6em; }
+.work-synopsis { font-size: 16px; line-height: 1.85; max-width: 46ch; }
+.work-download { margin-top: 1.6em; }
+.work-wip { font-style: italic; color: var(--muted); margin-top: 1.6em; font-size: 14px; }
+@media (max-width: 720px) {
+  .work-detail-inner { grid-template-columns: 1fr; gap: 32px; }
+  .work-detail-cover { max-width: 260px; margin: 0 auto; }
+}
+
+/* the grid↔detail morph */
+::view-transition-group(*) {
+  animation-duration: 0.55s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}
+
 /* ---------------------------------------------------------------- comments */
 .comments { padding-top: 1em; margin: 3em auto 4em; }
 .comments .comments-label {

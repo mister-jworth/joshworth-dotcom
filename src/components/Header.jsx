@@ -7,6 +7,7 @@ const NAV = [
   ['Home', '/'],
   ['Posts', '/posts'],
   ['Projects', '/projects'],
+  ['Writing', '/writing'],
   ['About', '/about'],
   ['Contact', '/contact'],
 ];

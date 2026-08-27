@@ -52,6 +52,22 @@ export function getPage(slug) {
   return getPages().find((p) => p.slug === slug);
 }
 
+/**
+ * "Works" — plays and other written pieces with cover art, shown on the
+ * /writing gallery. Any post can opt in by adding a `coverArt` field; this
+ * intentionally ignores `draft`, since a piece can have a finished cover and
+ * PDF before its blog post announcement goes out.
+ */
+export function getWorks() {
+  return getPosts({ includeDrafts: true })
+    .filter((p) => p.coverArt)
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+export function getWork(slug) {
+  return getWorks().find((w) => w.slug === slug);
+}
+
 export function postsByCategory(cat) {
   return getPosts().filter((p) => (p.categories || []).includes(cat));
 }

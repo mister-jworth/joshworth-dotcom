@@ -7,6 +7,10 @@ featuredImage: "/uploads/2015/10/subscription-webimg.jpg"
 categories:
   - "media"
   - "plays"
+workType: "play"
+coverArt: "/assets/cover-art/subscription-cover.png"
+pdfUrl: "/uploads/2015/10/Subscription-web.pdf"
+synopsis: "A contemporary satire in which a marketing expert is sent to \"put a face\" to a sprawling consumer conglomerate — and lands in the home of a young couple whose lives are slowly consumed by the brand they've subscribed to."
 ---
 
 <p><a href="/uploads/2015/10/subscription-webimg.jpg"><img class="alignnone wp-image-2620 size-full" src="/uploads/2015/10/subscription-webimg.jpg" alt="subscription-webimg" width="1038" height="590" /></a></p>

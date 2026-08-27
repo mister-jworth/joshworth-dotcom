@@ -7,6 +7,10 @@ featuredImage: "/uploads/2015/05/mobilemonologues_webimg3.jpg"
 categories:
   - "plays"
   - "technology"
+workType: "play"
+coverArt: "/assets/cover-art/mobilemonologues-cover.png"
+pdfUrl: "/uploads/2015/05/mobilemonologues.pdf"
+synopsis: "Five monologues built for a phone screen: one actor, no stage, and an audience that's just whoever happens to be standing around. Read the lines straight off your device, or drop them into your earbuds and deliver them live."
 ---
 
 <p><a href="/uploads/2015/05/mobilemonologues_webimg3.jpg"><img class="alignnone size-full wp-image-2602" src="/uploads/2015/05/mobilemonologues_webimg3.jpg" alt="mobilemonologues_webimg3" width="1038" height="590" /></a></p>
