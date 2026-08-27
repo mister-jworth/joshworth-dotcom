@@ -792,26 +792,24 @@ details.toggle summary {
   user-select: none;
 }
 .work-tile:active .tilt-cover-img { transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) scale(0.97); }
-/* A highlight (upper-right) and a shadow (lower-right) — one fixed light
-   source. Their position is set once, here, rather than chased around the
-   cover by the pointer, so the effect reads clearly in a consistent spot;
-   only their strength (--glow) reacts to tilt. Together they read as a
-   specular flare on both light and dark cover art, not just a highlight
-   that vanishes on pale covers. */
+/* One fixed light source, one gradient: white core sitting just outside the
+   cover's upper-left corner, fading through a transparent middle band to a
+   soft black falloff at the farthest (lower-right) corner. Its position is
+   set once, here, rather than chased around the cover by the pointer, so it
+   reads as a coherent sheen rather than two competing effects; only its
+   strength (--glow) reacts to tilt. soft-light lightens the white end and
+   darkens the black end alike, so it reads on light and dark cover art. */
 .tilt-cover-sheen {
   position: absolute;
   inset: 0;
   border-radius: 3px;
-  background: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, calc(0.85 * var(--glow, 0))), rgba(255, 255, 255, 0) 62%);
+  background: radial-gradient(
+    circle at -20% -20%,
+    rgba(255, 255, 255, calc(0.85 * var(--glow, 0))) 0%,
+    rgba(255, 255, 255, 0) 45%,
+    rgba(0, 0, 0, calc(0.2 * var(--glow, 0))) 100%
+  );
   mix-blend-mode: soft-light;
-  pointer-events: none;
-}
-.tilt-cover-shade {
-  position: absolute;
-  inset: 0;
-  border-radius: 3px;
-  background: radial-gradient(circle at 82% 84%, rgba(0, 0, 0, calc(0.4 * var(--glow, 0))), rgba(0, 0, 0, 0) 60%);
-  mix-blend-mode: multiply;
   pointer-events: none;
 }
 

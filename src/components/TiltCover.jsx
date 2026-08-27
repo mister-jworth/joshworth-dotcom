@@ -35,11 +35,8 @@ export default function TiltCover({ src, alt, name, variant = 'grid' }) {
       c.y += (t.y - c.y) * 0.14;
       el.style.setProperty('--rx', `${c.x.toFixed(3)}deg`);
       el.style.setProperty('--ry', `${c.y.toFixed(3)}deg`);
-      // A highlight (upper-right) and a shadow (lower-right) — one fixed
-      // light source, positioned in CSS — flare in and out with tilt
-      // magnitude. Fixing their position (rather than chasing the pointer
-      // around the cover) is what makes them read clearly instead of
-      // landing in an unpredictable corner; only their strength reacts.
+      // The sheen (see .tilt-cover-sheen) is one fixed gradient, positioned
+      // in CSS — only its strength flares in and out with tilt magnitude.
       const glow = Math.min(1, (Math.sqrt(c.x * c.x + c.y * c.y) / max) * 1.6);
       el.style.setProperty('--glow', glow.toFixed(3));
       el.style.setProperty('--shx', `${(4 - c.y * 2.5).toFixed(2)}px`);
@@ -97,7 +94,6 @@ export default function TiltCover({ src, alt, name, variant = 'grid' }) {
     >
       <img className="tilt-cover-img" src={src} alt={alt} draggable={false} loading="lazy" />
       <span className="tilt-cover-sheen" aria-hidden="true" />
-      <span className="tilt-cover-shade" aria-hidden="true" />
     </span>
   );
 }
