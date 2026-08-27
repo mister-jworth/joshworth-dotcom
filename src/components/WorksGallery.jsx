@@ -6,6 +6,28 @@ function pathFor(slug) {
   return slug ? `/writing/${slug}` : '/writing';
 }
 
+// The widest column count the grid allows at this viewport — mirrors the
+// .works-grid media queries in globals.css (980px, 640px), which cover the
+// pre-hydration/no-JS case.
+function maxColsForWidth(width) {
+  if (width > 980) return 6;
+  if (width > 640) return 3;
+  return 2;
+}
+
+// Rather than always filling every row up to maxCols and leaving whatever
+// remainder in a straggly last row (e.g. 8 items at 3-per-row → 3, 3, 2),
+// step the column count down until the split is either even or leaves a
+// single, clearly-intentional trailing item (e.g. 8 → 4, 4; 7 → 3, 3, 1).
+function balancedColumns(count, maxCols) {
+  if (count <= 1) return 1;
+  for (let c = Math.min(maxCols, count); c >= 1; c--) {
+    const remainder = count % c;
+    if (remainder === 0 || remainder === 1) return c;
+  }
+  return 1;
+}
+
 /**
  * The /writing gallery: a grid of covers that morphs into a single-work
  * close-up on click. Grid and detail are two states of one client
@@ -21,7 +43,22 @@ function pathFor(slug) {
 export default function WorksGallery({ works, initialSlug = null }) {
   const [openSlug, setOpenSlug] = useState(initialSlug);
   const requestedMotion = useRef(false);
+  const gridRef = useRef(null);
   const open = works.find((w) => w.slug === openSlug) || null;
+
+  // Balance the column count against the current item count and viewport,
+  // instead of just auto-filling and leaving an awkward remainder.
+  useEffect(() => {
+    const el = gridRef.current;
+    if (!el) return;
+    function update() {
+      const cols = balancedColumns(works.length, maxColsForWidth(window.innerWidth));
+      el.style.setProperty('--work-cols', cols);
+    }
+    update();
+    window.addEventListener('resize', update);
+    return () => window.removeEventListener('resize', update);
+  }, [works.length, open]);
 
   const go = useCallback((slug) => {
     const run = () => {
@@ -110,7 +147,7 @@ export default function WorksGallery({ works, initialSlug = null }) {
         <p className="page-meta">Plays and other written work — click a cover to read more</p>
       </div>
       {works.length > 0 ? (
-        <div className="works-grid">
+        <div className="works-grid" ref={gridRef}>
           {works.map((w) => (
             <button key={w.slug} className="work-tile" onClick={() => go(w.slug)}>
               <TiltCover
