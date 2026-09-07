@@ -10,7 +10,9 @@ format: "markdown"
 workType: "play"
 coverArt: "/assets/cover-art/Quain-cover.jpg"
 pdfUrl: "/uploads/2026/09/Quain-and-Company.pdf"
-synopsis: "A new play, currently in development. Check back soon for more."
+synopsis: "The owner of a branding agency assigns his team the task of naming his love child."
 ---
 
-A new play, currently in development.
+The owner of a branding agency assigns his team the task of naming his love child.
+
+<a href="/uploads/2026/09/Quain-and-Company.pdf"><img src="/assets/cover-art/Quain-cover.jpg"></a>
