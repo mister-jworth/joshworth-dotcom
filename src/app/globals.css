@@ -729,7 +729,7 @@ details.toggle summary {
    just the pre-JS/no-JS fallback, so they track the same breakpoints the
    JS uses (980px, 640px). */
 .works-grid {
-  --work-cols: 6;
+  --work-cols: 5;
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 2.2em 40px 3em;

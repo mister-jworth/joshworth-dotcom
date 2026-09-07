@@ -10,22 +10,22 @@ function pathFor(slug) {
 // .works-grid media queries in globals.css (980px, 640px), which cover the
 // pre-hydration/no-JS case.
 function maxColsForWidth(width) {
-  if (width > 980) return 6;
+  if (width > 980) return 5;
   if (width > 640) return 3;
   return 2;
 }
 
 // Rather than always filling every row up to maxCols and leaving whatever
-// remainder in a straggly last row (e.g. 8 items at 3-per-row → 3, 3, 2),
-// step the column count down until the split is either even or leaves a
-// single, clearly-intentional trailing item (e.g. 8 → 4, 4; 7 → 3, 3, 1).
+// remainder dangling in a straggly last row (e.g. 7 items at 5-per-row →
+// 5, 2, or worse, a lone item on its own row), use the fewest rows that fit
+// within maxCols, then spread the items across those rows as evenly as
+// possible. The last row comes up short rather than the column count
+// dropping to force an even fit — e.g. 7 at a 5-wide max becomes two rows
+// of 4, 3 (one empty slot trailing the second row) instead of 5, 2.
 function balancedColumns(count, maxCols) {
   if (count <= 1) return 1;
-  for (let c = Math.min(maxCols, count); c >= 1; c--) {
-    const remainder = count % c;
-    if (remainder === 0 || remainder === 1) return c;
-  }
-  return 1;
+  const rows = Math.ceil(count / maxCols);
+  return Math.ceil(count / rows);
 }
 
 /**
