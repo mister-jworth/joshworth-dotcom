@@ -19,8 +19,24 @@ function loadDir(dir) {
       if (data.format === 'markdown') {
         body = marked.parse(body);
       }
+      body = upgradeGalleryImages(body);
       return { ...data, body };
     });
+}
+
+/**
+ * Migrated WordPress galleries point their <img src> at a small WP-generated
+ * thumbnail (e.g. foo-300x198.jpg) while the parent <a class="gallery-item">
+ * links to the full-size original. Single-column galleries then render that
+ * 300px thumb at full content width, so it looks blurry. Swap the <img src>
+ * to the anchor's href (the full-res original, which is already on disk) and
+ * let the browser scale it down.
+ */
+function upgradeGalleryImages(html) {
+  return html.replace(
+    /(<a\b[^>]*\bclass="gallery-item"[^>]*\bhref="([^"]+\.(?:jpe?g|png|gif|webp))"[^>]*>\s*<img\b[^>]*\bsrc=")[^"]*(")/gi,
+    '$1$2$3'
+  );
 }
 
 let _posts, _projects, _pages;

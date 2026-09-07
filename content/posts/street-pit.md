@@ -10,7 +10,7 @@ categories:
 draft: true
 format: "markdown"
 workType: "play"
-coverArt: "/assets/cover-art/StreetPit.png"
+coverArt: "/assets/cover-art/street-pit-cover.jpg"
 pdfUrl: "/uploads/2026/08/Street_Pit.pdf"
 synopsis: "A stranger arrives in a courtyard searching for an address that may not exist, only to find a group of people caught in a pattern they can’t escape. When a long-sealed rupture in the street is reopened, the players are forced to confront what they’ve buried, forgotten, or chosen to ignore."
 ---

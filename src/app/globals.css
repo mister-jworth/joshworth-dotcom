@@ -758,9 +758,9 @@ details.toggle summary {
   cursor: pointer;
 }
 .work-tile-title {
-  font-family: var(--font-heading);
-  font-size: 13px;
-  font-weight: 500;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
   line-height: 1.25;
   color: var(--heading);
   text-align: center;
