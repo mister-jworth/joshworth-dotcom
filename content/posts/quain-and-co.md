@@ -2,7 +2,7 @@
 title: "Quain & Company"
 slug: "quain-and-co"
 date: "2026-08-27T00:00:00Z"
-excerpt: "A new play, currently in development."
+excerpt: "A play for the stage"
 categories:
   - "plays"
 draft: true
