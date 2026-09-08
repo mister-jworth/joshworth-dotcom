@@ -2,7 +2,7 @@
 title: "For a Song"
 slug: "for-a-song"
 date: "2026-09-06T00:00:00Z"
-excerpt: "A script for a stage play, or maybe a catroon or puppet show"
+excerpt: "A script for a stage play, or maybe a puppet show"
 categories:
   - "plays"
 draft: true

@@ -5,6 +5,7 @@ date: "2019-09-20T16:34:40Z"
 featuredImage: "/uploads/2019/09/group-plays.png"
 projectCategories:
   - "group"
+draft: true
 ---
 
 <section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-100"><h4>Plays</h4>
