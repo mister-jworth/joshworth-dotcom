@@ -4,37 +4,38 @@ slug: "about"
 date: "2009-08-12T02:32:18Z"
 ---
 
-<section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-66"><h4 style="text-align: center">About me</h4>
+<section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-66"><h2 style="text-align: center">About Me</h2>
 <figure class="imageframe"><img src="/uploads/2019/05/selfie-portrait.gif" alt="" style="max-width: 500px" loading="lazy" /></figure>
 <p style="color: #ffffff">Hello</p><p>I've been busy working in the world of interactive media since the early 90s. Before that, I was a cartoonist, a student, a rebellious teenager, a kid, an infant and an embryo. Before that, I can't really say for sure, but I'd be happy to discuss the question at a later time.</p>
 <p>I've worked as an interactive art director, interface designer, user experience designer, creative consultant, web strategist, graphic artist, illustrator, and animator on projects for clients like Sony Pictures, Marvel Comics, the American Museum of Natural History, and the Max Planck Institute. If you catch me at the right time, I'm available to design websites, prototypes, mobile apps, branding packages, or just about anything else that requires a creative touch. Take a look at the <a title="Portfolio" href="/projects">portfolio</a> to see some samples.</p>
 <p>Besides computer-related things, I'm also a writer, playwright, curator and generally curious person. In 1997, I started a non-profit arts organization called <a title="Visit the Trade City website" href="http://www.trade-city.org" target="_blank" rel="noopener noreferrer">Trade City Productions</a> as a way to unite my various pursuits and also help other artists present their work. Our most recent project was a mobile art and performance space called <a href="http://www.trade-city.org/the-popwagon/" target="_blank" rel="noopener noreferrer">The Popwagon</a>.</p>
 <p>Lately I've been leading up a project called <a href="/projects/comingle">Comingle</a> which addresses economic instability by letting people share money to generate a basic income for each other.</p>
-<p>I currently reside in the pre-apocalyptic wonderland known as Los Angeles. I'm often accompanied by a fascinating <a href="http://mweissdesign.com">wife</a>, a fancy 16 year-old daughter, a charming 11 year-old son, a cat, and a <a href="http://www.youtube.com/watch?v=njKqAlJa8yY" target="_blank" rel="noopener noreferrer">tortoise</a>.</p><hr class="separator" />
+<p>I currently reside in the pre-apocalyptic wonderland known as Los Angeles. I'm often accompanied by a fascinating <a href="http://mweissdesign.com">wife</a>, a fancy 18 year-old daughter, a charming 12 year-old son, a cat, and a <a href="http://www.youtube.com/watch?v=njKqAlJa8yY" target="_blank" rel="noopener noreferrer">tortoise</a>.</p><hr class="separator" />
 </div>
 </div>
 </section>
-<section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-100"><h2 style="text-align: center">i like my clients</h2>
+<section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-100"><h2 style="text-align: center">I like my clients</h2>
 <p style="text-align: center">I've had the pleasure of working with a lot of great people and companies. Many of them have recognizable logos...</p></div>
 <div class="fb-col fb-col-100"><hr class="separator" />
-<div class="gallery gallery-cols-6"><a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0012_pbs.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0012_pbs.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0000_nbc.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0000_nbc.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0001_msft.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0001_msft.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0002_oracle.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0002_oracle.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0003_kantar.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0003_kantar.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0005_disney.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0005_disney.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0006_mattel.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0006_mattel.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0007_marvel.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0007_marvel.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0008_sony.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0008_sony.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0009_capgroup.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0009_capgroup.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0010_amnh.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0010_amnh.png" alt="" loading="lazy" /></a>
-<a class="gallery-item" href="/uploads/2019/09/clientlogo_0000s_0011_focus.png" data-lightbox><img src="/uploads/2019/09/clientlogo_0000s_0011_focus.png" alt="" loading="lazy" /></a>
+<div class="gallery gallery-cols-6 gallery-noframe"><span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0012_pbs.png" alt="PBS" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0000_nbc.png" alt="NBC" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0001_msft.png" alt="Microsoft" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0002_oracle.png" alt="Oracle" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0003_kantar.png" alt="Kantar" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0005_disney.png" alt="Disney" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0006_mattel.png" alt="Mattel" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0007_marvel.png" alt="Marvel" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0008_sony.png" alt="Sony" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0009_capgroup.png" alt="Capital Group" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0010_amnh.png" alt="American Museum of Natural History" loading="lazy" /></span>
+<span class="gallery-item"><img src="/uploads/2019/09/clientlogo_0000s_0011_focus.png" alt="Focus Features" loading="lazy" /></span>
 </div>
 </div>
 </div>
 </section>
 <section class="fb-section"><div class="fb-row"><div class="fb-col fb-col-66"><p style="text-align: center">...the others are just as great. Why not <a title="Contact" href="/contact">add your name to the list</a>?</p>
-<p style="text-align: center"> </p><p>45 RPM</p>
+<p style="text-align: center"> </p><div class="client-list">
+<p>45 RPM</p>
 <p>Agfa</p>
 <p>Alex George Landscape Design</p>
 <p>Alice March &amp; Associates</p>
@@ -106,6 +107,7 @@ date: "2009-08-12T02:32:18Z"
 <p>Insightful Science</p>
 <p>Instant.ly</p>
 <p>Intergrate</p>
+<p>IO Capital</p>
 <p>IPK</p>
 <p>Jamdat</p>
 <p>Jel Sert Corporation</p>
@@ -187,6 +189,7 @@ date: "2009-08-12T02:32:18Z"
 <p>Vertical Air</p>
 <p>Vertical Effects</p>
 <p>Virtual Escrow</p>
+<p>VisualLogix</p>
 <p>Warner Bros. Pictures</p>
 <p>Webedia</p>
 <p>WebVenture Group</p>
@@ -196,5 +199,6 @@ date: "2009-08-12T02:32:18Z"
 <p>YouthSpeaks</p>
 <p>ZDS Communications</p>
 <p>Zia Entertainment</p></div>
+</div>
 </div>
 </section>

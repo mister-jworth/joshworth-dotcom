@@ -7,7 +7,7 @@ export default function AboutPage() {
   const page = getPage('about');
   return (
     <>
-      <article className="prose container">
+      <article className="prose container about-page">
         <div dangerouslySetInnerHTML={{ __html: page.body }} />
       </article>
       <Lightbox />

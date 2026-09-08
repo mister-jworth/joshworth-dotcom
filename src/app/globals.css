@@ -677,6 +677,29 @@ details.toggle summary {
 }
 .gallery-item:hover img { opacity: 0.85; }
 
+/* frameless variant — no border, no hover dim (e.g. client logos) */
+.gallery-noframe .gallery-item img { border: 0; }
+.gallery-noframe .gallery-item:hover img { opacity: 1; }
+
+/* --------------------------------------------------------------- about page */
+.about-page .fb-row { justify-content: center; }
+
+/* the running list of client names: responsive multi-column, tight leading */
+.about-page .client-list {
+  columns: 4 150px;
+  column-gap: 40px;
+  max-width: 860px;
+  margin: 1.25em auto 0;
+  text-align: left;
+}
+.about-page .client-list p {
+  /* single-spaced within a wrapped name; the margin restores the gap
+     between separate entries that the tighter leading would otherwise eat */
+  line-height: 1.15;
+  margin: 0 0 15px;
+  break-inside: avoid;
+}
+
 /* lightbox */
 .lightbox-overlay {
   position: fixed;
