@@ -7,6 +7,10 @@ featuredImage: "/uploads/2015/05/robotplays_webimg2.jpg"
 categories:
   - "plays"
   - "thefuture"
+workType: "play"
+coverArt: "/assets/cover-art/robotplays_cover.png"
+pdfUrl: "/uploads/2015/05/robotscenes.pdf"
+synopsis: "Four comedic scenes exploring the uncanny moments when the line between humanity and technology begins to fade. Written to be freely performed — if you stage a production, let me know and I'll help promote it."
 ---
 
 <p><a href="/uploads/2015/05/robotplays_webimg2.jpg"><img class="alignnone size-full wp-image-2604" src="/uploads/2015/05/robotplays_webimg2.jpg" alt="robotplays_webimg2" width="1038" height="590" /></a></p>

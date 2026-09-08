@@ -6,6 +6,10 @@ excerpt: "A full-length play based on mysterious events which transpired when a 
 featuredImage: "/uploads/2015/10/hacienda-webimg.jpg"
 categories:
   - "plays"
+workType: "play"
+coverArt: "/assets/cover-art/hacienda-cover.png"
+pdfUrl: "/uploads/2015/10/HaciendaParadiso-web.pdf"
+synopsis: "A full-length play based on the true, mysterious story of a group of eccentric Germans who abandoned civilization for a utopian life on Floreana, a remote island in the Galápagos, in the 1930s."
 ---
 
 <p><a href="/uploads/2015/10/hacienda-webimg.jpg"><img class="alignnone size-full wp-image-2609" src="/uploads/2015/10/hacienda-webimg.jpg" alt="Hacienda Paradiso" width="1038" height="590" /></a></p>
