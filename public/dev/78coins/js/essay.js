@@ -1,9 +1,9 @@
 // JavaScript Document
 
 var essayText = [
-"<img src=\"img/martianmark.svg\" width=180px height=180px><div class=\"maintitle\">78 COINS</div><div class=\"subtitle\">Why We\'re Probably Not Alone in the Universe</div>",
+"<img src=\"/dev/78coins/img/martianmark.svg\" width=180px height=180px><div class=\"maintitle\">78 COINS</div><div class=\"subtitle\">Why We\'re Probably Not Alone in the Universe</div>",
 
-"Try to get all tails. <br/> <img src=\"img/arrow.svg\" width=35px height=50px>",
+"Try to get all tails. <br/> <img src=\"/dev/78coins/img/arrow.svg\" width=35px height=50px>",
 
 "Go ahead, try again.",
 
@@ -13,7 +13,7 @@ var essayText = [
 
 "300 sextillion is a 3 followed by 23 zeroes which looks like this: 300,000,000,000,000,000,000,000.",
 
-"300 sextillion would also look good as a tattoo like this: <br/> <img src=\"img/tattoo1.svg\" width=200px height=45px>",
+"300 sextillion would also look good as a tattoo like this: <br/> <img src=\"/dev/78coins/img/tattoo1.svg\" width=200px height=45px>",
 
 "Besides being a really awesome-sounding number, 300 sextillion is also a pretty good guesstimate of how many stars are in the observable universe.",
 
