@@ -16,7 +16,7 @@ projectCategories:
 </div>
 </div>
 <div class="fb-col fb-col-33"><h2>78 Coins</h2>
-<p><font color="rgba(0, 0, 0, 0)">The sheer number of <a href="/posts/andromeda" target="_blank" rel="noopener noreferrer">stars in the universe</a> is </font>completely mind-boggling. If you sat and counted each one out loud, you would be dead long before you were even 100 trillionth of the way through. So the idea that our sun is the only location, among some 300 sextillion stars, that has produced living creatures, begins to feel pretty darn unlikely. In an effort to fathom the extreme improbability of such an occurrence, I built an interactive essay that uses a series of virtual coin flips as the context for considering the question of whether or not we're alone in the universe.</p>
+<p>The sheer number of <a href="/posts/andromeda" target="_blank" rel="noopener noreferrer">stars in the universe</a> is completely mind-boggling. If you sat and counted each one out loud, you would be dead long before you were even 100 trillionth of the way through. So the idea that our sun is the only location, among some 300 sextillion stars, that has produced living creatures, begins to feel pretty darn unlikely. In an effort to fathom the extreme improbability of such an occurrence, I built an interactive essay that uses a series of virtual coin flips as the context for considering the question of whether or not we're alone in the universe.</p>
 <p>Besides being a fun programming project, <i>78 Coins</i> has inspired plenty of online debates, a couple science classes, and even a live theatrical version. What are the chances?</p>
 <p><a href="/dev/78coins" target="_blank" rel="noopener noreferrer">Visit the site</a></p></div>
 </div>
