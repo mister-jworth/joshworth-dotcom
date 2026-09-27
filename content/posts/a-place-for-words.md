@@ -1,7 +1,7 @@
 ---
 title: "A Place for Words"
 slug: "a-place-for-words"
-date: "2026-09-27T16:01:47Z"
+date: "2026-09-27T16:01:52Z"
 categories:
   - "featured"
 draft: true
