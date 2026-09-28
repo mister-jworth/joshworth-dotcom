@@ -1,12 +1,12 @@
 ---
 title: "A Place for Words"
 slug: "a-place-for-words"
-date: "2026-09-28T17:21:52Z"
+date: "2026-09-28T17:23:07Z"
 excerpt: "Human expression is alive and well (courtesy of AI)"
 featuredImage: "/uploads/2026/09/cover-gallery-thumb-1b600f1a.png"
 categories:
   - "featured"
-draft: true
+  - "plays"
 format: "markdown"
 ---
 
