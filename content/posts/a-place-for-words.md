@@ -1,7 +1,7 @@
 ---
 title: "A Place for Words"
 slug: "a-place-for-words"
-date: "2026-09-28T17:23:07Z"
+date: "2026-09-28T17:32:19Z"
 excerpt: "Human expression is alive and well (courtesy of AI)"
 featuredImage: "/uploads/2026/09/cover-gallery-thumb-1b600f1a.png"
 categories:
@@ -34,4 +34,4 @@ All this is to assure you that, whatever you think of these works, they were cre
 
 If you’re short on time and you’d like a recommendation on which one to read, let me know in the comments and I’ll point you in the right direction.
 
-<a href="/dev/declutter">Go read something</a>
+<a href="/writing">Go read something</a>
