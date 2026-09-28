@@ -1,28 +1,37 @@
 ---
 title: "A Place for Words"
 slug: "a-place-for-words"
-date: "2026-09-27T16:01:52Z"
+date: "2026-09-28T17:21:52Z"
+excerpt: "Human expression is alive and well (courtesy of AI)"
+featuredImage: "/uploads/2026/09/cover-gallery-thumb-1b600f1a.png"
 categories:
   - "featured"
 draft: true
 format: "markdown"
 ---
 
-I finally got around to posting some more plays on the blog.
+So I finally got around to posting some more plays on the blog. I even gave them a <a href="/writing">special page</a>, complete with custom-designed covers so you can pretend you’re reading a real, legitimate piece of literature.
 
-I spend a lot of time in front of a laptop, messing around with digital tools, trying to get stuff done. It's pretty fun, for the most part, especially when everything on the screen is so colorful and blinky.
+I spend a lot of time in front of a laptop, messing around with digital tools, trying to be productive. It's usually pretty satisfying and rewarding, and I also like that the thingies on the screen are colorful and blinky. 
 
-I studied English in college, and fancy myself as a student of the "humanities." I always thought that was an odd term for a whole department of a university. It made me wonder what isn't part of the humanities? Were there other people studying the inhumanities?
+But lately, while exploring the disturbingly wondrous capabilities of the new AI tools that have taken over my Mac Book, I’ve been spending a lot more time trying to tell the difference between what’s coming from the depths of the human heart and what’s the product of a $20/month Claude Pro plan.
 
-What is the difference between the ideas that come from a machine that's extremely good at consolidating ideas that have been thrown out into the culture, and a person who's brain is essentially doing the same thing? Is it just a question of scope? Is only the fact that we're limited by the constraints of time and physicality that makes us different from our newborn non-human colleagues?
+I studied English in college and fancy myself a student of the “humanities” (was everyone else studying the “inhumanities”?). It turns out that understanding how we express our humanity is proving more useful than my high school counselor expected. 
 
-Anyway, that's why I took the time to put those on here. Maybe someone out there actually likes to read something.
+Regardless of how good our computers get at imitating artistic output, creating things out of arts and letters, and appreciating how those creations came about is still the best way to wrap one’s head around the experience of being a human being.
 
+Any act of creative expression comes from a state of effortless effort – a thinking beyond thinking, that’s more than just tapping into patterns of words and images and reassembling them in a way that we hope will connect with someone else. AI is getting pretty darn good at making work that *seems* like it came from a human, but it doesn’t have access to the original spark of mystery that sets the creation in motion. It still relies on us to provide it, even if that spark is means typing “Write an amazing story” into a text field. AI itself originated from a bunch of people (myself included) thinking it would be a cool project to reverse engineer what goes on in the brain to see if that might give us a better understanding of ourselves.
 
-It's time to start focusing on what makes us human. There's actually a whole world known as the humanities, which is a term that's starting to become more relevant. When I studied the humanities in school, I always thought that was an odd term for a whole department of a university. What isn't part of the humanities? The inhumanities?
-But now that we find ourselves proving our humanity on a regular basis, it might be time to re-assert the importance of the non-digital. To figure out the things the non-digital things that make us distinctly human. 
+The impact that project is having on our ability to generate a livelihood from creative expression is a different story. But the challenge of making a living as an artist has always been at odds with the challenge of actually making art. Now we’re all being forced to reckon with the question of why we’re even doing it in the first place.
 
+For me, when I wake up in the morning, before I have a chance to start making sense of the day, I like to write plays, just to find out what the voices in my head have to say. I’ve found that the less I care about how this activity affects my finances, the happier it makes me.
 
-Whatever the difference, I know of no better way to explore and assert one's humanity than through the act of writing, and reading. Even if no one can tell the difference between a story that came from the human heart, and one that came from a computer brain, I
+So in the interest of just sharing a few things that are definitely not the product of computer-aided thinking, I’m putting them here on this little corner of the internet. If you find them interesting, you’re free to do whatever you like with them, on the condition that you tell me about it. 
 
-I also moved my entire blog onto a server that lets me prevent scraping,  Weirdly, I used Claude to make this go faster, so I also had to set my privacy settings to "don't train the model." Not sure if any of that even does anything, but I can at least pretend like these bits of writing, though free for anyone to read, are not feeding the brain.
+I also moved this entire blog off my old Wordpress set-up onto a home-made blogging system that cuts down on content scraper-bots, so these thoughts that at least feel original won’t immediately be sucked into a giant disembodied computer brain. Weirdly, I used Claude Code to make this process go faster, so I also had to make sure the option to “Help improve our AI models” was turned off.
+
+All this is to assure you that, whatever you think of these works, they were created by a fellow human and can only be read by fellow humans.
+
+If you’re short on time and you’d like a recommendation on which one to read, let me know in the comments and I’ll point you in the right direction.
+
+<a href="/dev/declutter">Go read something</a>
