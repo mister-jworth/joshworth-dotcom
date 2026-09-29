@@ -7,7 +7,6 @@ featuredImage: "/uploads/2026/09/cover-gallery-thumb-1b600f1a.png"
 categories:
   - "featured"
   - "plays"
-draft: true
 format: "markdown"
 ---
 
