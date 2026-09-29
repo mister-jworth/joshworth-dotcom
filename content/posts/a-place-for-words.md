@@ -7,6 +7,7 @@ featuredImage: "/uploads/2026/09/cover-gallery-thumb-1b600f1a.png"
 categories:
   - "featured"
   - "plays"
+draft: true
 format: "markdown"
 ---
 
@@ -20,7 +21,7 @@ I studied English in college and fancy myself a student of the “humanities” 
 
 Regardless of how good our computers get at imitating artistic output, creating things out of arts and letters, and appreciating how those creations came about is still the best way to wrap one’s head around the experience of being a human being.
 
-Any act of creative expression comes from a state of effortless effort – a thinking beyond thinking, that’s more than just tapping into patterns of words and images and reassembling them in a way that we hope will connect with someone else. AI is getting pretty darn good at making work that *seems* like it came from a human, but it doesn’t have access to the original spark of mystery that sets the creation in motion. It still relies on us to provide it, even if that spark is means typing “Write an amazing story” into a text field. AI itself originated from a bunch of people (myself included) thinking it would be a cool project to reverse engineer what goes on in the brain to see if that might give us a better understanding of ourselves.
+Any act of creative expression comes from a state of effortless effort – a thinking beyond thinking, that’s more than just tapping into patterns of words and images and reassembling them in a way that we hope will connect with someone else. AI is getting pretty darn good at making work that *seems* like it came from a human, but it doesn’t have access to the original spark of mystery that sets the creation in motion. It still relies on us to provide it, even if that spark means typing something into a text field, like: “Write an amazing story that reveals the secrets of the human soul." AI itself originated from a bunch of people (myself included) thinking it would be a cool project to reverse engineer what goes on in the brain to see if that might give us a better understanding of ourselves.
 
 The impact that project is having on our ability to generate a livelihood from creative expression is a different story. But the challenge of making a living as an artist has always been at odds with the challenge of actually making art. Now we’re all being forced to reckon with the question of why we’re even doing it in the first place.
 
