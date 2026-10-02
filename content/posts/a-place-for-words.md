@@ -16,7 +16,7 @@ I spend a lot of time in front of a laptop, messing around with digital tools, t
 
 But lately, while exploring the disturbingly wondrous capabilities of the new AI tools that have taken over my Mac Book, I’ve been spending a lot more time trying to tell the difference between what’s coming from the depths of the human heart and what’s the product of a $20/month Claude Pro plan.
 
-I studied English in college and fancy myself a student of the “humanities” (was everyone else studying the “inhumanities”?). It turns out that understanding how we express our humanity is proving more useful than my high school counselor expected. 
+I studied English in college and fancy myself a student of the “humanities” (was everyone else studying the “inhumanities”?). It turns out that understanding how we express our humanity is proving to be more useful than my guidance counselor expected. 
 
 Regardless of how good our computers get at imitating artistic output, creating things out of arts and letters, and appreciating how those creations came about is still the best way to wrap one’s head around the experience of being a human being.
 
