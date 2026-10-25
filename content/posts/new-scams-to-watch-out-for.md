@@ -1,15 +1,15 @@
 ---
 title: "New Scams to Watch Out for"
 slug: "new-scams-to-watch-out-for"
-date: "2026-10-25T14:51:35Z"
+date: "2026-10-25T14:53:22Z"
 excerpt: "Don't fall for these ones."
 draft: true
 format: "markdown"
 ---
 
-These days, seems like you can’t go anywhere without someone trying to scam you out of your money. Here are some of the latest tricks and cons to watch out for.
+<i>These days, seems like you can’t go anywhere without someone trying to scam you out of your money. Here are some of the latest tricks and cons to watch out for.</I>
 
-**The phony teller**
+<h3>The phony teller</h3>
 
 You pull up to the drive-through ATM at the bank, but your debit card gets stuck in the machine. When you press the button for help, a recorded voice informs you that this is no longer the bank and asks whether you’d like to try the spicy six piece combo meal. 
 
