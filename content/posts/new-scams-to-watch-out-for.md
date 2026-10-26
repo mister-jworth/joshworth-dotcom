@@ -1,7 +1,7 @@
 ---
 title: "New Scams to Watch Out for"
 slug: "new-scams-to-watch-out-for"
-date: "2026-10-25T14:54:27Z"
+date: "2026-10-26T05:05:34Z"
 excerpt: "Don't fall for these ones."
 draft: true
 format: "markdown"
@@ -15,7 +15,7 @@ You pull up to the drive-through ATM at the bank, but your debit card gets stuck
 
 <h3>The grandchild in trouble</h3>
 
-Your phone rings and there’s a voice on the other claiming to be your grandson Rodney. He’s asking for money because he’s stuck in Cabo San Lucas. Bandits stole his wallet and he needs you to wire him cash for a ticket home. Except, of course, it’s not Rodney. It’s his brother Robert, and he’s sick of the way you’re always sending money to Rodney when *he’s* the one who visits you on Sundays instead of partying with bandits in Cabo. 
+Your phone rings and there’s a voice on the line claiming to be your grandson Rodney. He’s asking for money because he’s stuck in Cabo San Lucas. Bandits stole his wallet and he needs you to wire him cash for a ticket home. Except, of course, it’s not Rodney. It’s his brother Robert, and he’s sick of the way you’re always sending money to Rodney when *he’s* the one who visits you on Sundays, not like Rodney who's always off partying with bandits in Cabo. 
 
 <h3>Romantic advances from strangers</h3>
 
@@ -23,7 +23,7 @@ A man you meet on vacation sweeps you off your feet and gives you a diamond neck
 
 <h3>Mystery text messages</h3>
 
-You get a text from an unknown number that reads, “Have you any porridge?” You go check your cupboard, but the cupboard is bare. So you text back, “Sorry, I haven’t any porridge.” Then when you go to sit back in your chair, there’s a fuckin’ bear sitting in it. 
+You get a text from an unknown number that reads, “Have you any porridge?” You go check your cupboard, but the cupboard is bare. So you text back, “Sorry, I haven’t any porridge.” Then when you go back to your chair, there’s a fuckin’ bear sitting in it. 
 
 <h3>“Handwritten” notes</h3>
 
