@@ -31,11 +31,11 @@ You get a text from an unknown number that reads, “Have you any porridge?” Y
 
 <h3>The “Handwritten” Note</h3>
 
-The mail carrier delivers an envelope that appears to have been addressed by hand, as if it’s a personal letter from a friend. Upon closer inspection it becomes clear that it’s a promotional mailer from the veterinarian’s office, probably reminding you that it’s time for a check up. So you shred the letter to tiny bits with your teeth and when Mister Dougie gets home he’s very very mad and worries that the paper damaged your digestive tract. The scam is that you end up at the vet’s anyways.
+The mail carrier delivers an envelope that appears to have been addressed by hand, as if it’s a personal letter from a friend. Upon closer inspection it becomes clear that it’s a promotional mailer from the veterinarian’s office, probably reminding you that it’s time for a check up. So you shred the letter to tiny bits with your teeth and when Mister Dougie gets home he’s very very mad and worries that the paper damaged your digestive tract. The scam is that you wind up at the vet’s anyways.
 
-<h3>Offers That's Too Good to be True</h3>
+<h3>Offer That's Too Good to be True</h3>
 
-A genie appears out of a bottle and grants you one wish. You think you can outsmart the genie by wishing for 100 wishes. But the genie says, “Sorry dumbass - doesn’t work that way. You just wasted your wish.” So you go home and cry. But really, it does work that way, and the genie kept your wish for himself and used it buy some body oil and a new fez.
+A genie appears out of a bottle and grants you one wish. You think you can outsmart the genie by wishing for 100 wishes. But the genie says, “Sorry dumbass - doesn’t work that way. You just wasted your wish.” So you go home and cry. But really, it does work that way, and the genie kept your wish for himself and used it on some body oil and a new fez.
 
 <h3>Gift Card Exchange</h3>
 
