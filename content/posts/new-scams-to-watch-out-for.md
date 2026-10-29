@@ -3,6 +3,11 @@ title: "New Scams to Watch Out for"
 slug: "new-scams-to-watch-out-for"
 date: "2026-10-26T05:05:34Z"
 excerpt: "Don't fall for these ones."
+featuredImage: "/uploads/2026/10/scams-830df81d.png"
+categories:
+  - "humor"
+  - "featured"
+  - "fiction"
 draft: true
 format: "markdown"
 ---
@@ -12,7 +17,7 @@ format: "markdown"
 <h3>The phony teller</h3>
 
 You pull up to the drive-through ATM at the bank, but your debit card gets stuck in the machine. When you press the button for help, a recorded voice informs you that this is no longer the bank and asks whether you’d like to try the spicy six piece combo meal. 
-
+<br>
 <h3>The grandchild in trouble</h3>
 
 Your phone rings and there’s a voice on the line claiming to be your grandson Rodney. He’s asking for money because he’s stuck in Cabo San Lucas. Bandits stole his wallet and he needs you to wire him cash for a ticket home. Except, of course, it’s not Rodney. It’s his brother Robert, and he’s sick of the way you’re always sending money to Rodney when *he’s* the one who visits you on Sundays, not like Rodney who's always off partying with bandits in Cabo. 
