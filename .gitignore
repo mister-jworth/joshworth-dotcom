@@ -3,3 +3,7 @@ node_modules/
 .vercel/
 data/image-download-failures.json
 .vercel
+
+# macOS / local tooling
+.DS_Store
+.claude/
