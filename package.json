@@ -11,6 +11,7 @@
     "download-images": "node scripts/download-images.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "@vercel/postgres": "^0.10.0",
     "gray-matter": "^4.0.3",
     "marked": "^18.0.6",
